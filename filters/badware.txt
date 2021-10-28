@@ -1,3 +1,4 @@
+[Adblock Plus 2.0]
 ! Title: uBlock filters – Badware risks
 ! Description: For sites documented to put users at risk of installing adware/crapware etc.
 !              The purpose is to at least ensure a user is warned of the risks ahead.
