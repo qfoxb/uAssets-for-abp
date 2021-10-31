@@ -1921,10 +1921,6 @@ twitter.com#@#article[role="article"]:has-text(Promoted)
 ! https://www.reddit.com/r/uBlockOrigin/comments/diaoj6/comments_no_longer_loading_on_masslivecom/f3umxm9/?context=8&depth=9
 @@||viafoura.co^$domain=masslive.com
 
-! from Peter Lowe's
-||viafoura.com^$badfilter
-||viafoura.com^$3p
-
 ! https://github.com/uBlockOrigin/uAssets/issues/6443
 @@||xtool.ru/js/analyze.js$script,1p
 
@@ -4222,3 +4218,6 @@ myair2.resmed.com##+js(no-xhr-if, cloudflare.com/cdn-cgi/trace)
 @@_advertisment.$image,domain=gorgeouspfeiffer.com
 @@/ad_campaigns/*$image,domain=alicia-vikander.com
 @@/adverts/*$image,domain=emily-blunt.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/10348
+@@||cloudflare.com/cdn-cgi/trace$xhr,domain=54647.io
