@@ -1,3 +1,4 @@
+[Adblock Plus 2.0]
 ! Title: uBlock filters -- Legacy
 ! Expires: 11 days
 ! Description: Filters to address issues specific to legacy versions of uBO.
