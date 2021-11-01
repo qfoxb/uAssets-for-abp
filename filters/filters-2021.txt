@@ -4213,8 +4213,15 @@ techpowerup.com##[id][class] > div[class]:has(label) + [class]:has(a):has(img)
 techpowerup.com##section[class] a[data-height] img
 techpowerup.com##.sidebar-item a[data-height] img
 techpowerup.com##+js(rc, mnnusjsddg)
-!techpowerup.com##[src]:upward([target]:not([href*="jpg"]):not([href*="png"]))
-!techpowerup.com##[src]:not([src^="https://tpucdn.com/forums/data/avatars/"][loading][class]):not([src^="/gpu-specs/images/b/"][alt][height][width]):upward([href*="."]:not([href*="jpg"]):not([href*="png"]))
+techpowerup.com##[src]:not([src^="https://tpucdn.com/forums/data/avatars/"][loading][class]):not([src^="/gpu-specs/images/b/"][alt][height][width]):upward([href*="."]:not([href*=".jpg"]):not([href*=".png"]):not([href*="jpeg"]):not([href*="attach"]))
+techpowerup.com##[src*=".jpg"]:not([src^="https://tpucdn.com/forums/data/avatars/"][loading][class]):not([src^="/gpu-specs/images/b/"][alt][height][width]):upward([href*="."][href*="jpeg"]:not([href*="attach"])
+techpowerup.com##[class][rel]:matches-css(position: /fixed/)
+techpowerup.com##[class][src]:matches-css(position: /fixed/)
+techpowerup.com##:not(:matches-path(/forums/)) [class]:matches-css(position: /absolute/):has([src])
+techpowerup.com##:not(:matches-path(/forums/)) [class][target]:matches-css(background-image: /none/)
+techpowerup.com##:not(:matches-path(/forums/)) [src]:upward([href*="."]:not([href*=".jpg"]):not([href*=".png"]))
+techpowerup.com##body:style(background-color: whitesmoke !important)
+techpowerup.com###viewport > div a[href][target]
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/oah30a/antiadblock_easymc/
 *$image,redirect-rule=1x1.gif,domain=easymc.io
@@ -5147,6 +5154,7 @@ bazavox.com##+js(disable-newtab-links)
 elahmad.com##+js(nostif, debugger)
 *$image,redirect-rule=1x1.gif,domain=elahmad.com
 *$redirect-rule=noopjs,script,domain=elahmad.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=elahmad.com
 elahmad.com###ad_asd
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9856
@@ -5740,8 +5748,11 @@ keybr.com##.Body-header > div[style="position:relative;min-width:970px;min-heigh
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10091
 freereceivesms.com##+js(nosiif, 0x)
-@@/wp-banners.js|$script,1p
+@@/wp-banners.js^$script,1p
 freereceivesms.com##a[href^="https://www.18sex.org/"]
+! non-bait wp-banners.js
+/wp-content/plugins/wp-banners/js/wp-banners.js$important
+||pobre.tv/wp-banners.js$important
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/93513
 coinsparty.com##+js(aopr, app_vars.force_disable_adblock)
@@ -6446,13 +6457,22 @@ ravenmanga.xyz##[href^="https://a-ads.com"]
 usagoals.*##+js(acis, JSON.parse, break;case $.)
 usagoals.*##+js(aopw, _pop)
 ||cdn777.net/site/usagoals/sitelinks/xpopme_in.js^
-||nbkaflrbqlkqx.com^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10356
 toxicwap.us##+js(aost, Math, https)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98494
-dvdgayporn.com##+js(nostif, showModal)
+! https://github.com/uBlockOrigin/uAssets/issues/10367
+dotadostube.com,dvdgayonline.com,dvdgayporn.com,hotxfans.com,taradinhos.com##+js(aeld, DOMContentLoaded, adsBlocked)
+dvdgayporn.com##+js(ra, href, #clickfakeplayer)
+dotadostube.com,hotxfans.com##.video-block-happy:upward(1)
+dotadostube.com##.happy-player-beside
+dvdgayporn.com,taradinhos.com##.widget_custom_html
+taradinhos.com##.under-player-ad
+||hotxfans.com^$3p
+||dvdgayonline.com^$3p
+||taradinhos.com^$3p
+
 
 ! live7v. com popups
 live7v.com##+js(acis, JSON.parse, break;case $.)
@@ -6476,3 +6496,21 @@ buffstream.*##+js(acis, JSON.parse, break;case $.)
 
 ! watchcartoononline.bz popup
 comedyshow.to##+js(acis, JSON.parse, break;case $.)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/98479
+ytmp3eu.com##+js(aopw, _pop)
+||gdufpjrhran.com^
+
+! cima-club. cc popups
+cima-club.cc##+js(acis, JSON.parse, break;case)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/qjxtzk/antiadblock_subedlc/
+subedlc.com##+js(acis, document.addEventListener, nextFunction)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/qk09p6/tauri_veins/
+@@||tauri-veins.tk^$ghide
+tauri-veins.tk##.adsbygoogle
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/98602
+avjamak01.com##+js(nostif, nextFunction, 250)
+avjamak01.com##.by_banner_image

@@ -533,7 +533,7 @@ smutty.com##+js(nowoif)
 ! https://github.com/NanoMeow/QuickReports/issues/3686
 123enjoy.net##+js(aopr, LieDetector)
 123enjoy.net##+js(noeval)
-*$3p,domain=123enjoy.net,denyallow=googleapis.com|gstatic.com|eplayvid.com
+*$3p,denyallow=google.com|googleapis.com|gstatic.com|eplayvid.com,domain=123enjoy.net
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54519
 coredp.com##+js(aopr, app_vars.force_disable_adblock)
@@ -4445,8 +4445,9 @@ darmowa-tv.ws##+js(nostif, innerHTML)
 darmowa-tv.ws##+js(aost, Promise, adb)
 darmowa-tv.ws##+js(aopw, _pop)
 
-! https://www.reddit.com/r/uBlockOrigin/comments/jfj9fg/wwwasianbookiecom_shows_please_disable_your/
-asianbookie.com##+js(nosiif, visibility, 1000)
+! https://github.com/uBlockOrigin/uAssets/issues/10366
+asianbookie.com##+js(acis, document.addEventListener, nextFunction)
+forums.asianbookie.com##.topics > table > tbody > tr > td > table > tbody > tr > .topicrowdate
 ||asianbookie.com/displaytable.cfm?tablename=cslodds$subdocument
 asianbookie.com##a[href^="/cgi-bin/to.cgi"]
 
@@ -5879,11 +5880,6 @@ mgkomik.com##.adsbygoogle
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69836
 tqanime.com##+js(aopr, absda)
 tqanime.com##+js(nosiif, visibility, 1000)
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/76347
-av-jamak.com##+js(nostif, displayMessage)
-av-jamak.com##div.col-sm-6 > .widget-img.widget-box
-av-jamak.com##[href^="http://stasset1.com"]
 
 ! popups animeindo .asia
 animeindo.asia##+js(aeld, , _0x)
