@@ -1673,7 +1673,7 @@ meganews.tech###custom_html-2
 bestshort.xyz##+js(nano-sib, timeleft)
 bestshort.xyz##[href^="http://bit.ly/"]
 @@||bestshort.xyz^$ghide
-*$frame,script,3p,denyallow=cloudflare.net|google.com|gstatic.com|jsdelivr.net,domain=bestshort.xyz
+*$frame,script,3p,denyallow=cloudflare.net|google.com|gstatic.com|jsdelivr.net|arc.io,domain=bestshort.xyz
 ||adsyou.pro^$3p
 ||fuqypaqu.xyz^$3p
 ||bestcripto.xyz^$3p
@@ -1701,11 +1701,11 @@ elitepvpers.com###aboveheader [src*=".gif"]
 elitepvpers.com##[rel="nofollow bypass"]
 elitepvpers.com##.cwcontent [target="_blank"]
 elitepvpers.com##p > [href^="https://playorigin.com/"]
-elitepvpers.com##[href="https://aimexcheats.com/"]
 elitepvpers.com##[href="https://skyredirect1.com/"]
 elitepvpers.com##[src^="https://f00f00.bar/"]
 ||playorigin.com^$3p
-||imgimg.xyz^$image,domain=elitepvpers.com
+||f00f00.bar^
+*$3p,image,domain=elitepvpers.com,denyallow=gstatic.com|ghostaim.com|imgur.com|imagebanana.com|imgbb.com|giphy.com|epvpimg.com|discord.com|discordapp.com|discordapp.net|postimages.org|directupload.net|imageupload.io
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8706
 send.cm##+js(aopw, decodeURIComponent)
@@ -2657,21 +2657,31 @@ aztecafaucet.space##div.text-white.active.transparent.col-md-3.col-xs-6
 ||clicksgenie.com^$3p
 ||i.imgur.com^$image,domain=aztecafaucet.space
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/80946
+! https://github.com/uBlockOrigin/uAssets/issues/10375
+dogeatm.com##+js(acis, String.fromCharCode, 'replace')
 dogeatm.com##+js(aopw, puShown)
 dogeatm.com##+js(nano-sib, seconds)
+||missionfed.com^$3p
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/80948
+! https://github.com/uBlockOrigin/uAssets/issues/10377
 faucet.cryptourl.net##+js(acis, document.querySelectorAll, popMagic)
 faucet.cryptourl.net##+js(nano-sib, seconds)
 cryptourl.net##+js(aopr, app_vars.force_disable_adblock)
+cryptourl.net##+js(set, blurred, false)
 cryptourl.net##.banner
+cryptourl.net##div[style="width:300px;height:250px;display: inline-block;margin: 0 auto"]
+||fuhykici.xyz^
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/80953
+! https://github.com/uBlockOrigin/uAssets/issues/10378
+yellowfaucet.ovh##+js(nowoif)
 yellowfaucet.ovh##+js(nano-sib, seconds)
 yellowfaucet.ovh##ins[class][style^="display:inline-block;width:"]
 yellowfaucet.ovh##div[class][style$="display: inline-block;margin: 0 auto"]
+*$3p,image,script,frame,domain=yellowfaucet.ovh,denyallow=arc.io|jsdelivr.net|cloudflare.net|cloudflare.com|hcaptcha.com
+yellowfaucet.ovh##div.row > .text-primary.bg-danger.col-xs-12
+||dgvdbdi.ru^
 ||webmonetiser.com^$3p
+||queersodadults.com^
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80954
 wildfaucets.ml##+js(aopw, absda)
@@ -2696,6 +2706,7 @@ promo-visits.site##+js(aopr, open)
 promo-visits.site##+js(nosiif, visibility, 1000)
 promo-visits.site##+js(aopw, _pop)
 promo-visits.site##+js(set, blurred, false)
+@@||promo-visits.site^$ghide
 promo-visits.site##.banner
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80960
@@ -4217,9 +4228,9 @@ techpowerup.com##[src]:not([src^="https://tpucdn.com/forums/data/avatars/"][load
 techpowerup.com##[src*=".jpg"]:not([src^="https://tpucdn.com/forums/data/avatars/"][loading][class]):not([src^="/gpu-specs/images/b/"][alt][height][width]):upward([href*="."][href*="jpeg"]:not([href*="attach"])
 techpowerup.com##[class][rel]:matches-css(position: /fixed/)
 techpowerup.com##[class][src]:matches-css(position: /fixed/)
-techpowerup.com##:not(:matches-path(/forums/)) [class]:matches-css(position: /absolute/):has([src])
+techpowerup.com##:not(:matches-path(/forums|gallery/)) [class]:matches-css(position: /absolute/):has([src])
 techpowerup.com##:not(:matches-path(/forums/)) [class][target]:matches-css(background-image: /none/)
-techpowerup.com##:not(:matches-path(/forums/)) [src]:upward([href*="."]:not([href*=".jpg"]):not([href*=".png"]))
+techpowerup.com##:not(:matches-path(/forums/)) [src]:not([loading]):upward([href^="https"])
 techpowerup.com##body:style(background-color: whitesmoke !important)
 techpowerup.com###viewport > div a[href][target]
 
@@ -6518,3 +6529,16 @@ avjamak01.com##.by_banner_image
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98703
 iimanga.com##+js(aeld, DOMContentLoaded, adsBlocked)
 iimanga.com##div[id^="teaser"]
+
+! olweb. tv popups
+olweb.tv##+js(aopw, _pop)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10372
+thevideome.com##+js(acis, JSON.parse, break;case $.)
+@@||thevideome.com^$ghide
+
+! https://www.reddit.com/r/uBlockOrigin/comments/pokdbp/antiadblock_update_list/hix5f5o/
+rontechtips.com##+js(acs, eval, replace, /^data:/)
+
+! chicksonright. com anti adb "interfering with this page"
+chicksonright.com##+js(aost, Math.random, inlineScript)
