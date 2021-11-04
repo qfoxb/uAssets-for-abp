@@ -5424,8 +5424,8 @@ tutcourse.com##.text-html
 videovard.sx##+js(nowoif)
 videovard.sx##+js(aeld, mouseup, catch)
 videovard.sx##+js(nosiif, 0x)
-videovard.sx##.video-container > div[class]:first-child
-videovard.sx##.video-container > div[class]:nth-child(2)
+videovard.sx##div[style="height: 100vh;"] > div[class]:first-child
+videovard.sx##div[style="height: 100vh;"] > div[class]:nth-child(2)
 videovard.sx##div[style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"] > div[class]:first-child
 videovard.sx##div[style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"] > div[class]:nth-child(2)
 videovard.sx##+js(no-xhr-if, advert)
@@ -6568,3 +6568,6 @@ kinas.tv##+js(nowoif)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/qlir5v/annoying_ad_on_stocktwits_no_longer_being_blocked/
 stocktwits.com###ad_header_leaderboard:upward(1)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10384
+thenerdstash.com##+js(acis, document.createElement, admiral)
