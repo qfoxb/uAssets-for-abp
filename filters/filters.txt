@@ -2034,6 +2034,8 @@ nytimes.com,nytimes3xbfgragh.onion##section[aria-labelledby="new-york-section"] 
 cooking.nytimes.com##.nytc---modal-window---isShown:not(:has(.nytc---largepicturemodal---contentBody > .nytc---x---x.nytc---largepicturemodal---xBtn[role="button"]))
 cooking.nytimes.com##body:style(height: auto !important; overflow: auto !important)
 cooking.nytimes.com##html:style(height: auto !important; overflow: auto !important)
+! https://github.com/easylist/easylist/commit/1509d85840e1245394ed7fb6cbbbedc9c0cda103
+@@||nytimes.com^*/adslot-$script,xhr,badfilter
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=32450
 ! https://github.com/uBlockOrigin/uAssets/issues/2973
@@ -3206,6 +3208,7 @@ flashx.*##+js(popads.net)
 flashx.*##+js(nowoif)
 flashx.*##+js(acis, Math, zfgloaded)
 flashx.*##+js(acis, String.fromCharCode, 'shift')
+flashx.*##^script:has-text(FingerprintJS)
 @@||flashx.*/counter.cgi$script
 flashx.*##A[href$=".html"][rel="nofollow norefferer noopener"]
 flashx.*###download_div2
@@ -3319,6 +3322,7 @@ ceesty.com,clkmein.com,cllkme.com,corneey.com,destyy.com,festyy.com,gestyy.com,s
 @@||gestyy.com^$ghide
 @@||sh.st^$ghide
 ceesty.com,corneey.com,destyy.com,festyy.com,gestyy.com,sh.st##.skip-advert
+ceesty.com,corneey.com,destyy.com,festyy.com,gestyy.com,sh.st##+js(set, globalThis, null)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1209
 imgcloud.pw##+js(popads-dummy)
@@ -11126,15 +11130,14 @@ ilinks.in##+js(set, blurred, false)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4636
 ||cloudvideo.tv/sw.js$script,1p
-cloudvideo.tv##^script:has-text(break;case $.)
-cloudvideo.tv##+js(acis, Math, break;case $.)
-cloudvideo.tv##+js(acis, String.fromCharCode, admvpopunder)
-cloudvideo.tv##+js(aopr, LieDetector)
+cloudvideotv.*,cloudvideo.tv##^script:has-text(break;case $.)
+cloudvideotv.*,cloudvideo.tv##+js(acis, JSON.parse, break;case $.)
+cloudvideo.tv##^script:has-text(FingerprintJS)
 cloudvideo.tv##+js(set, SubmitDownload1, noopFunc)
 cloudvideo.tv##+js(nowoif)
-cloudvideotv.stream##+js(aopw, Fingerprint2)
-cloudvideotv.stream##+js(acis, Math, break;case $.)
-cloudvideotv.stream##+js(aopr, localStorage)
+cloudvideotv.*##+js(aopr, localStorage)
+||edstylistepro.xyz^
+||expertistofficular.xyz^
 
 dospelis.net##[href^="https://www.dospelis.net/ver-"], [href^="https://www.dospelis.net/descargar-"]
 ! https://w.seehd.to/tv/the-falcon-and-the-winter-soldier-season-1/watching/?ep=36854&sv=5
