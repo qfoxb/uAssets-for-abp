@@ -303,6 +303,7 @@ tubsxxx.com##.videoAd
 536sdms.com###text-5
 pornez.net###cb00
 pornez.net###cb01
+cnnamador.com##.cards__item--videos span.flag--banner:upward(.cards__item--videos)
 
 *$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|jsdelivr.net|unpkg.com|zencdn.net,domain=xxxfiles.com
 *$script,domain=hoporno.net,3p,denyallow=googleapis.com
@@ -677,7 +678,6 @@ jetseotools.com##.adsbygoogle
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/kyg7zo/annoying_popups_everywhere/
 assia1.tv,emb.apl22.me,usagoals.*,var7.ru##+js(nowoif)
-usagoals.*##+js(acis, Math, break;case $.)
 ||cdn777.net/site/binance-banner.jpg$image
 ||assia1.tv/*.html$frame,1p
 assia1.tv##[class^="ban"]
@@ -1706,7 +1706,7 @@ elitepvpers.com##[src^="https://f00f00.bar/"]
 ||elitepvpers.com/i/$image
 ||playorigin.com^$3p
 ||f00f00.bar^
-*$3p,image,domain=elitepvpers.com,denyallow=gstatic.com|ghostaim.com|imgur.com|imagebanana.com|imgbb.com|giphy.com|epvpimg.com|discord.com|discordapp.com|discordapp.net|postimages.org|directupload.net|imageupload.io|ibb.co
+*$3p,image,domain=elitepvpers.com,denyallow=gstatic.com|ghostaim.com|imgur.com|imagebanana.com|imgbb.com|giphy.com|epvpimg.com|discord.com|discordapp.com|discordapp.net|postimages.org|directupload.net|imageupload.io|ibb.co|gyazo.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8706
 send.cm##+js(aopw, decodeURIComponent)
@@ -2718,8 +2718,9 @@ mcmfaucets.xyz##div[id^="random_300_"]
 mcmfaucets.xyz##div.BannerContainerScrapper
 mcmfaucets.xyz##a[href^="https://bicugesi.xyz/"]
 
-! ai_front anti adb
-safemodapk.com,threezly.com,truyenbanquyen.com,veganinja.hu##+js(aopw, ai_front)
+! https://github.com/uBlockOrigin/uAssets/issues/10397
+freeiphone.fr,freshiptv.com,mobiletrip.net,safemodapk.com,threezly.com,truyenbanquyen.com,veganinja.hu##+js(acis, decodeURIComponent, ai_)
+ibooks.to##+js(acis, String.fromCharCode, ai_)
 
 ! muztext.com auto redirect
 muztext.com##+js(nostif, reachGoal)
@@ -4236,6 +4237,7 @@ techpowerup.com##body:style(background-color: whitesmoke !important)
 techpowerup.com###viewport > div a[href][target]
 techpowerup.com##:not(:matches-path(/forums/)) [src*="tpucdn.com"]:not([src^="https://tpucdn.com/images/news_featured/"][loading][width][height]):upward([href*="."]):not(a[href^="http"]):not(a[href^="/review"])
 techpowerup.com##:not(:matches-path(/forums/)) [src*="techpowerup.com"]:upward(a[href^="/"]):not([href^="http"])
+techpowerup.com##[href^="http://www.techpowerup.com/images/3ff/"]
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/oah30a/antiadblock_easymc/
 *$image,redirect-rule=1x1.gif,domain=easymc.io
@@ -6488,12 +6490,14 @@ taradinhos.com##.under-player-ad
 ||dvdgayonline.com^$3p
 ||taradinhos.com^$3p
 
-
+! https://github.com/uBlockOrigin/uAssets/issues/10396
 ! live7v. com popups
 live7v.com##+js(acis, JSON.parse, break;case $.)
 live7v.com##+js(aopw, _pop)
 live7v.com##+js(nowoif)
 live7v.com##+js(acis, decodeURIComponent, atob)
+||sportkart.xyz^$csp=script-src *
+allfoot.info##+js(nostif, nextFunction)
 assia.org##[class^="ban"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10360
@@ -6581,3 +6585,14 @@ nini08.com##.banner
 
 ! genius.com PH
 genius.com##div[class^="TopContentdesktop__PromoContainer-"]:upward(1)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/98990
+xxxdl.net##.in_thumb > div > iframe[height="250"]:upward(2)
+xxxdl.net##.banners
+||xxxdl.net/nothing.aspx?
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/98991
+tinyurl.is##div[class=""][style]  .btn[href$="/NordVPN"]:upward(div[class=""][style])
+
+! https://github.com/uBlockOrigin/uAssets/issues/10399
+thienhatruyen.com##+js(nowoif)
