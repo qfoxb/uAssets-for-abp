@@ -1532,8 +1532,9 @@ hightqualityshop.com##+js(nosiif, visibility, 1000)
 z1.fm##+js(nowoif)
 m.z1.fm##div[style^="position: absolute; z-index: 9999999;"]
 
-! movies07. cc anti adb
+! movies07. cc / .live anti adb
 movies07.*##+js(aopr, absda)
+movies07.*##+js(aeld, , pop)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/gxud33/getting_pop_up_adds_on_this_website/
 hpaudiobooks.*##+js(acis, String.fromCharCode, 'shift')
@@ -3686,9 +3687,6 @@ cpomagazine.com##+js(aopr, advads_passive_groups)
 pholder.com##.AdInventory__overlay:upward(4)
 pholder.com##.AdSenseAboveFoldResponsive
 
-! https://github.com/NanoMeow/QuickReports/issues/4703
-uploads.mobi##+js(acis, $, adblock)
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63977
 tw-hkt.blogspot.com##+js(nosiif, visibility, 1000)
 
@@ -4828,9 +4826,11 @@ lite-link.*##.banner
 
 ! https://github.com/uBlockOrigin/uAssets/commit/6bc0de4a260c4653d1c1d91a1ae118d87a88f89e#commitcomment-43943548
 filerio.in,openloadmov.*,uploads.mobi,evoload.io,hulu.*,~hulu.com,yesmovies123.me,yt2mp3s.*##+js(acis, String.fromCharCode, /btoa|break/)
+uploads.mobi##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
 moviewr.com##+js(acis, JSON.parse, break;case $.)
 movies123.*,wifimovies.net##+js(acis, Math, break;case $.)
 openloadmov.*##+js(nowoif)
+uploads.mobi##+js(aopr, absda)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8169
 evoload.io##+js(aopr, absda)
@@ -5326,11 +5326,14 @@ wetpussy.sexy##.mansonry-item
 ||wetpussy.sexy/js/index-nb.js
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68575
+! https://github.com/uBlockOrigin/uAssets/issues/10428
 lootlinks.*,speedsatoshi.com##+js(set, canRunAds, true)
 lootlinks.*,speedsatoshi.com##+js(nano-sib)
+@@||speedsatoshi.com^$ghide
 @@||speedsatoshi.com/$script,1p
 speedsatoshi.com##ins[style="display:inline-block;width:300px;height:250px;"]
 speedsatoshi.com##.phx-hero > span
+speedsatoshi.com##.adsbyvli
 ||htagpa.tech^
 ||aghtag.tech^
 
