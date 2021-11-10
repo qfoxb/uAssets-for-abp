@@ -193,11 +193,11 @@ wetter.de##.outbrain-ad-slot
 mathebibel.de###banner-bottom
 
 ! Yavli ads
-*.jpg$script,domain=allthingsvegas.com|aupetitparieur.com|bestfunnyjokes4u.com|cheatsheet.com|clashdaily.com|craigjames.com|dailysurge.com|designbump.com|enstarz.com|evil.news|faithit.com|foreverymom.com|freedom.news|godfatherpolitics.com|grammarist.com|greatamericanrepublic.com|hackspirit.com|latinpost.com|madworldnews.com|menrec.com|moneyversed.com|musictimes.com|naturalblaze.com|newser.com|opednews.com|patriotoutdoornews.com|politicalcowboy.com|politicaloutcast.com|realmomsrealreviews.com|realtytoday.com|redmaryland.com|reviveusa.com|rightwingtribune.com|rollingout.com|sciencetimes.com|shark-tank.com|sonsoflibertymedia.com|stupid.news|telexplorer.com.ar|thealternativedaily.com|theblacksphere.net|thedesigninspiration.com|themattwalshblog.com|therealside.com|videogamesblogger.com
-*$script,redirect-rule=noopjs,domain=aupetitparieur.com|bestfunnyjokes4u.com|cancan.ro|cheatsheet.com|clashdaily.com|craigjames.com|dailysurge.com|designbump.com|enstarz.com|evil.news|faithit.com|foreverymom.com|freedom.news|gamersheroes.com|godfatherpolitics.com|grammarist.com|greatamericanrepublic.com|hackspirit.com|latinpost.com|madworldnews.com|moneyversed.com|musictimes.com|naturalblaze.com|newser.com|opednews.com|patriotoutdoornews.com|politicaloutcast.com|realmomsrealreviews.com|realtytoday.com|redmaryland.com|reviveusa.com|rightwingtribune.com|rollingout.com|sciencetimes.com|shark-tank.com|sonsoflibertymedia.com|stupid.news|telexplorer.com.ar|thealternativedaily.com|theblacksphere.net|thedesigninspiration.com|themattwalshblog.com|therealside.com|videogamesblogger.com|ciao.ro|newsweek.ro|prosport.ro
-@@*$image,3p,domain=aupetitparieur.com|cancan.ro|designbump.com|foreverymom.com|gamersheroes.com|telexplorer.com.ar|thedesigninspiration.com|ciao.ro|newsweek.ro|prosport.ro
-@@||rddywd.com^$script,image,domain=100percentfedup.com|aupetitparieur.com|bestfunnyjokes4u.com|cheatsheet.com|clashdaily.com|craigjames.com|dailysurge.com|designbump.com|enstarz.com|evil.news|faithit.com|foreverymom.com|freedom.news|godfatherpolitics.com|grammarist.com|greatamericanrepublic.com|hackspirit.com|latinpost.com|madworldnews.com|moneyversed.com|musictimes.com|naturalblaze.com|opednews.com|patriotoutdoornews.com|politicaloutcast.com|realmomsrealreviews.com|realtytoday.com|redmaryland.com|reviveusa.com|rightwingtribune.com|rollingout.com|sciencetimes.com|shark-tank.com|sonsoflibertymedia.com|steadfastherald.com|stupid.news|telexplorer.com.ar|thealternativedaily.com|theblacksphere.net|thedesigninspiration.com|themattwalshblog.com|therealside.com|videogamesblogger.com
-*$script,3p,denyallow=enetscores.com|jsdelivr.net|jwpcdn.com|fbcdn.net|facebook.net|fastly.net|fastlylb.net|jquery.com|hwcdn.net|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|consensu.org|agorahtag.tech|aghtag.tech|etop.ro|ziareromania.ro|brid.tv,domain=ziare.com|cancan.ro|ciao.ro|gandul.ro|prosport.ro|descopera.ro|csid.ro
+*.jpg$script,domain=allthingsvegas.com|aupetitparieur.com|bestfunnyjokes4u.com|cheatsheet.com|clashdaily.com|craigjames.com|dailysurge.com|designbump.com|enstarz.com|evil.news|faithit.com|foreverymom.com|freedom.news|godfatherpolitics.com|grammarist.com|greatamericanrepublic.com|hackspirit.com|latinpost.com|madworldnews.com|menrec.com|moneyversed.com|musictimes.com|naturalblaze.com|newser.com|opednews.com|politicalcowboy.com|politicaloutcast.com|realmomsrealreviews.com|realtytoday.com|redmaryland.com|reviveusa.com|rightwingtribune.com|sonsoflibertymedia.com|thedesigninspiration.com|themattwalshblog.com|videogamesblogger.com
+*$script,redirect-rule=noopjs,domain=aupetitparieur.com|bestfunnyjokes4u.com|cancan.ro|cheatsheet.com|clashdaily.com|craigjames.com|dailysurge.com|designbump.com|enstarz.com|evil.news|faithit.com|foreverymom.com|freedom.news|gamersheroes.com|godfatherpolitics.com|grammarist.com|greatamericanrepublic.com|hackspirit.com|latinpost.com|madworldnews.com|moneyversed.com|musictimes.com|naturalblaze.com|newser.com|opednews.com|politicaloutcast.com|realmomsrealreviews.com|realtytoday.com|redmaryland.com|reviveusa.com|rightwingtribune.com|sonsoflibertymedia.com|thedesigninspiration.com|themattwalshblog.com|videogamesblogger.com|ciao.ro|newsweek.ro|prosport.ro
+@@*$image,3p,domain=aupetitparieur.com|cancan.ro|designbump.com|foreverymom.com|gamersheroes.com|thedesigninspiration.com|ciao.ro|newsweek.ro|prosport.ro
+@@||rddywd.com^$script,image,domain=100percentfedup.com|aupetitparieur.com|bestfunnyjokes4u.com|cheatsheet.com|clashdaily.com|craigjames.com|dailysurge.com|designbump.com|enstarz.com|evil.news|faithit.com|foreverymom.com|freedom.news|godfatherpolitics.com|grammarist.com|greatamericanrepublic.com|hackspirit.com|latinpost.com|madworldnews.com|moneyversed.com|musictimes.com|naturalblaze.com|opednews.com|politicaloutcast.com|realmomsrealreviews.com|realtytoday.com|redmaryland.com|reviveusa.com|rightwingtribune.com|sonsoflibertymedia.com|steadfastherald.com|thedesigninspiration.com|themattwalshblog.com|videogamesblogger.com
+*$script,3p,denyallow=enetscores.com|jsdelivr.net|jwpcdn.com|fbcdn.net|facebook.net|fastly.net|fastlylb.net|jquery.com|hwcdn.net|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|consensu.org|agorahtag.tech|aghtag.tech|etop.ro|ziareromania.ro|brid.tv,domain=ziare.com|cancan.ro|ciao.ro|gandul.ro|prosport.ro|descopera.ro|csid.ro|raziculacrimi.ro
 *$script,3p,denyallow=sirdata.fr|anycast.me|mrf.io|priice.net|consentframework.com|twitter.com|jsdelivr.net|jwpcdn.com|fbcdn.net|facebook.net|fastly.net|fastlylb.net|jquery.com|hwcdn.net|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|consensu.org,domain=lebigdata.fr|montjeuturf.net
 *$script,3p,domain=fabricatinromania.info,denyallow=consensu.org
 *$script,3p,denyallow=twitter.com|jsdelivr.net|jwpcdn.com|fbcdn.net|facebook.net|fastly.net|fastlylb.net|jquery.com|hwcdn.net|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|consensu.org|sharethis.com,domain=beforeitsnews.com
@@ -206,13 +206,14 @@ mathebibel.de###banner-bottom
 
 canadafreepress.com##+js(aost, document.body.appendChild)
 dcdirtylaundry.com,ipatriot.com,politicalcowboy.com##+js(aost, Math, onerror)
-aidersonprochain.com,beforeitsnews.com,concomber.com,conservativebrief.com,conservativefiringline.com,dailylol.com,funnyand.com,letocard.fr,mamieastuce.com,meilleurpronostic.fr,patriotnationpress.com,toptenz.net,vitamiiin.com,writerscafe.org,populist.press,dailytruthreport.com,dot-n-dev.com,livinggospeldaily.com,first-names-meanings.com,welovetrump.com,thehayride.com,thelibertydaily.com,thepoke.co.uk,thepolitistick.com##+js(aost, Math.random, injectedScript)
+aidersonprochain.com,beforeitsnews.com,concomber.com,conservativebrief.com,conservativefiringline.com,dailylol.com,funnyand.com,letocard.fr,mamieastuce.com,meilleurpronostic.fr,patriotnationpress.com,toptenz.net,vitamiiin.com,writerscafe.org,populist.press,dailytruthreport.com,dot-n-dev.com,livinggospeldaily.com,first-names-meanings.com,welovetrump.com,thehayride.com,thelibertydaily.com,thepoke.co.uk,thepolitistick.com,theblacksphere.net,shark-tank.com##+js(aost, Math.random, injectedScript)
 beforeitsnews.com,concomber.com,dailylol.com,dcdirtylaundry.com,ipatriot.com,mamieastuce.com,meilleurpronostic.fr,patriotnationpress.com,steadfastherald.com,toptenz.net,vitamiiin.com,writerscafe.org##^script:has-text(debug:)
+telexplorer.com.ar##+js(aost, Math.random, /injectedScript.*inlineScript/)
 
 whatfinger.com##+js(set, oeo, noopFunc)
-@@*$ghide,domain=100percentfedup.com|bestfunnyjokes4u.com|cheatsheet.com|clashdaily.com|craigjames.com|dailysurge.com|designbump.com|enstarz.com|evil.news|faithit.com|foreverymom.com|freedom.news|godfatherpolitics.com|grammarist.com|greatamericanrepublic.com|hackspirit.com|latinpost.com|madworldnews.com|moneyversed.com|musictimes.com|naturalblaze.com|opednews.com|patriotoutdoornews.com|politicaloutcast.com|realmomsrealreviews.com|realtytoday.com|redmaryland.com|reviveusa.com|rightwingtribune.com|rollingout.com|sciencetimes.com|shark-tank.com|sonsoflibertymedia.com|stupid.news|telexplorer.com.ar|thealternativedaily.com|theblacksphere.net|thedesigninspiration.com|themattwalshblog.com|therealside.com|videogamesblogger.com
-100percentfedup.com,bestfunnyjokes4u.com,cheatsheet.com,clashdaily.com,craigjames.com,dailysurge.com,designbump.com,enstarz.com,evil.news,faithit.com,foreverymom.com,freedom.news,godfatherpolitics.com,grammarist.com,greatamericanrepublic.com,hackspirit.com,latinpost.com,madworldnews.com,moneyversed.com,musictimes.com,naturalblaze.com,newser.com,opednews.com,patriotoutdoornews.com,politicaloutcast.com,realmomsrealreviews.com,realtytoday.com,redmaryland.com,reviveusa.com,rightwingtribune.com,rollingout.com,sciencetimes.com,shark-tank.com,sonsoflibertymedia.com,stupid.news,telexplorer.com.ar,thealternativedaily.com,theblacksphere.net,thedesigninspiration.com,themattwalshblog.com,therealside.com,videogamesblogger.com##.adsbygoogle
-100percentfedup.com,bestfunnyjokes4u.com,cheatsheet.com,clashdaily.com,craigjames.com,dailysurge.com,designbump.com,enstarz.com,evil.news,faithit.com,foreverymom.com,freedom.news,godfatherpolitics.com,grammarist.com,greatamericanrepublic.com,hackspirit.com,latinpost.com,madworldnews.com,moneyversed.com,musictimes.com,naturalblaze.com,newser.com,opednews.com,patriotoutdoornews.com,politicaloutcast.com,realmomsrealreviews.com,realtytoday.com,redmaryland.com,reviveusa.com,rightwingtribune.com,rollingout.com,sciencetimes.com,shark-tank.com,sonsoflibertymedia.com,stupid.news,telexplorer.com.ar,thealternativedaily.com,theblacksphere.net,thedesigninspiration.com,themattwalshblog.com,therealside.com,videogamesblogger.com##[id*="box-ad"]
+@@*$ghide,domain=100percentfedup.com|bestfunnyjokes4u.com|cheatsheet.com|clashdaily.com|craigjames.com|dailysurge.com|designbump.com|enstarz.com|evil.news|faithit.com|foreverymom.com|freedom.news|godfatherpolitics.com|grammarist.com|greatamericanrepublic.com|hackspirit.com|latinpost.com|madworldnews.com|moneyversed.com|musictimes.com|naturalblaze.com|opednews.com|politicaloutcast.com|realmomsrealreviews.com|realtytoday.com|redmaryland.com|reviveusa.com|rightwingtribune.com|sonsoflibertymedia.com|thedesigninspiration.com|themattwalshblog.com|videogamesblogger.com
+100percentfedup.com,bestfunnyjokes4u.com,cheatsheet.com,clashdaily.com,craigjames.com,dailysurge.com,designbump.com,enstarz.com,evil.news,faithit.com,foreverymom.com,freedom.news,godfatherpolitics.com,grammarist.com,greatamericanrepublic.com,hackspirit.com,latinpost.com,madworldnews.com,moneyversed.com,musictimes.com,naturalblaze.com,newser.com,opednews.com,politicaloutcast.com,realmomsrealreviews.com,realtytoday.com,redmaryland.com,reviveusa.com,rightwingtribune.com,sonsoflibertymedia.com,thedesigninspiration.com,themattwalshblog.com,videogamesblogger.com##.adsbygoogle
+100percentfedup.com,bestfunnyjokes4u.com,cheatsheet.com,clashdaily.com,craigjames.com,dailysurge.com,designbump.com,enstarz.com,evil.news,faithit.com,foreverymom.com,freedom.news,godfatherpolitics.com,grammarist.com,greatamericanrepublic.com,hackspirit.com,latinpost.com,madworldnews.com,moneyversed.com,musictimes.com,naturalblaze.com,newser.com,opednews.com,politicaloutcast.com,realmomsrealreviews.com,realtytoday.com,redmaryland.com,reviveusa.com,rightwingtribune.com,sonsoflibertymedia.com,thedesigninspiration.com,themattwalshblog.com,videogamesblogger.com##[id*="box-ad"]
 newser.com###divNSS
 ! https://github.com/NanoMeow/QuickReports/issues/2493
 naturalblaze.com##[id^="div-gpt-ad"]
@@ -14776,48 +14777,6 @@ league-funny.com##[id^="div-gpt-ad-"]
 ! https://github.com/uBlockOrigin/uAssets/issues/5901
 hotgameplus.com##+js(aopw, downloadJSAtOnload)
 
-! https://github.com/NanoMeow/QuickReports/issues/1449
-! https://github.com/NanoMeow/QuickReports/issues/1455
-@@||azdailysun.com^$ghide
-@@||columbustelegram.com^$ghide
-@@||pantagraph.com^$ghide
-azdailysun.com,columbustelegram.com,pantagraph.com##.tnt-ads-container
-pantagraph.com##.amp-ads-container
-
-! https://github.com/NanoMeow/QuickReports/issues/1455#issuecomment-509214726
-@@||auburnpub.com^$ghide
-@@||billingsgazette.com^$ghide
-@@||bismarcktribune.com^$ghide
-@@||chippewa.com^$ghide
-@@||cumberlink.com^$ghide
-@@||dailyjournalonline.com^$ghide
-@@||democratherald.com^$ghide
-@@||elkodaily.com^$ghide
-@@||fremonttribune.com^$ghide
-@@||gazettetimes.com^$ghide
-@@||globegazette.com^$ghide
-@@||hanfordsentinel.com^$ghide
-@@||herald-review.com^$ghide
-@@||journaltimes.com^$ghide
-@@||lacrossetribune.com^$ghide
-@@||lompocrecord.com^$ghide
-@@||missoulian.com^$ghide
-@@||mtstandard.com^$ghide
-@@||muscatinejournal.com^$ghide
-@@||napavalleyregister.com^$ghide
-@@||qconline.com^$ghide
-@@||rapidcityjournal.com^$ghide
-@@||ravallirepublic.com^$ghide
-@@||santamariatimes.com^$ghide
-@@||tdn.com^$ghide
-@@||thesouthern.com^$ghide
-@@||thetandd.com^$ghide
-@@||theworldlink.com^$ghide
-@@||tucson.com^$ghide
-@@||winonadailynews.com^$ghide
-@@||wiscnews.com^$ghide
-auburnpub.com,billingsgazette.com,bismarcktribune.com,chippewa.com,cumberlink.com,dailyjournalonline.com,democratherald.com,elkodaily.com,fremonttribune.com,gazettetimes.com,globegazette.com,hanfordsentinel.com,herald-review.com,journaltimes.com,lacrossetribune.com,lompocrecord.com,missoulian.com,mtstandard.com,muscatinejournal.com,napavalleyregister.com,qconline.com,rapidcityjournal.com,ravallirepublic.com,santamariatimes.com,tdn.com,thesouthern.com,thetandd.com,theworldlink.com,tucson.com,winonadailynews.com,wiscnews.com##.tnt-ads-container
-
 ! https://github.com/NanoMeow/QuickReports/issues/1452
 boxwares.net##+js(acis, document.getElementById, adblockinfo)
 
@@ -16519,8 +16478,8 @@ checkz.net##.adsbygoogle
 ff14angler.com##+js(set, document.aswift_0, 1)
 ff14angler.com##+js(set, document._goog_efp_called_, 1)
 ff14angler.com###main > .adsbygoogle:style(height: 1px!important)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=ff14angler.com
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=ff14angler.com
-@@||pagead2.googlesyndication.com/pagead/managed/*/show_ads_impl_fy2019.js$script,domain=ff14angler.com
 @@||ff14angler.com^$ghide
 
 ! https://github.com/NanoMeow/QuickReports/issues/1901

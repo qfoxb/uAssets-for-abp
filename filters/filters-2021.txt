@@ -115,7 +115,8 @@ drosbraift.com##+js(acis, Math, break;case $.)
 drosbraift.com##+js(nano-sib)
 drosbraift.com###custom_html-3
 
-! https://toptechtalk.xyz/kb4euLC
+! https://github.com/uBlockOrigin/uAssets/issues/10438
+toptechtalk.xyz##+js(rc, is-hidden)
 toptechtalk.xyz##+js(aopr, app_vars.force_disable_adblock)
 toptechtalk.xyz##+js(acis, Math, break;case $.)
 toptechtalk.xyz##+js(set, blurred, false)
@@ -124,6 +125,7 @@ toptechtalk.xyz##+js(aopr, open)
 toptechtalk.xyz##+js(aopw, _pop)
 toptechtalk.xyz##+js(ra, onclick, div.box-main)
 toptechtalk.xyz##+js(no-fetch-if, method:HEAD)
+toptechtalk.xyz##+js(nano-sib, waitTime, 1200)
 toptechtalk.xyz##div[class][style$="display: inline-block;margin: 0 auto"]
 toptechtalk.xyz##div[style^="position: fixed; bottom: 0px; left: 33%; right: 0px;"]
 *$image,redirect-rule=1x1.gif,domain=toptechtalk.xyz
@@ -6685,3 +6687,21 @@ onionplay.*##+js(ra, href, a#clickfkplayer)
 
 ! iputitas. net popups
 iputitas.net##+js(aopw, afScript)
+
+! https://github.com/bogachenko/fuckfuckadblock/issues/237
+messitv.net##+js(acis, Math, /btoa|break/)
+messitv.net##+js(aopw, _pop)
+@@||messitv.net^$ghide
+
+! https://github.com/uBlockOrigin/uAssets/issues/10439
+||clk.asia/sw.js$script,1p
+||condolencespicturesquetracks.com^
+clk.asia,imperialstudy.com,skincarie.com##+js(nosiif, visibility, 1000)
+clk.asia##+js(nowoif)
+||clk.asia/ads/*$frame
+
+! https://github.com/uBlockOrigin/uAssets/issues/10440
+@@||rancah.com^$ghide
+rancah.com##+js(nowoif)
+rancah.com##+js(set, blurred, false)
+rancah.com##.separator
