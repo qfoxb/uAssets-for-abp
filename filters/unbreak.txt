@@ -3423,12 +3423,6 @@ beppegrillo.it#@#a[href^="https://www.amazon."][href*="tag="]
 ! babesxworld site blocked by french list
 *$script,domain=babesxworld.com,badfilter
 
-! https://www.reddit.com/r/uBlockOrigin/comments/kgwxh7/mediaitecom_videos_hidden_by_ubo_looks_like/
-@@||adthrive.com/$script,domain=mediaite.com
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=mediaite.com
-@@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=mediaite.com
-mediaite.com##.o-promo-unit
-
 ! https://github.com/uBlockOrigin/uAssets/issues/8408
 pioneer.eu##+js(ra, onclick, a[href][onclick^="trackOutboundLink"])
 
@@ -3952,6 +3946,8 @@ taiju-life.co.jp#@#.spLinks
 ! https://www.reddit.com/r/uBlockOrigin/comments/odbviy/svg_images_doesnt_load_when_ublock_enabled/
 @@||fundingchoicesmessages.google.com^$script,domain=soranews24.com
 @@||googletagmanager.com/gtm.js$script,redirect-rule,domain=soranews24.com
+! https://github.com/uBlockOrigin/uAssets/issues/10453
+||pagead2.googlesyndication.com/pagead/*$script,redirect-rule=noop.js,domain=soranews24.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9575
 @@||googletagmanager.com/gtm.js$script,redirect-rule,domain=lingvolive.com
@@ -4230,3 +4226,6 @@ travelerdoor.com##+js(no-xhr-if, cloudflare.com/cdn-cgi/trace)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10441
 pewresearch.org##+js(set, ga, noopFunc)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10444
+@@||asset.fwcdn2.com/js/storyblock.js$script,domain=narcity.com

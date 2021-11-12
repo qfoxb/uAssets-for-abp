@@ -649,6 +649,9 @@ thepiratebay3.com^$all
 ||secureleadsforever.com^$all
 ||welcomejohncena.pro^$all
 ||techgadgetsy.com^$all
+||sexualg.host^$all
+||wadiryphi.pro^$all
+/apop/redirect/zone/*$doc
 
 ||hyperwage.com^$all
 ||ricavato.com^
@@ -1106,7 +1109,7 @@ thepiratebay3.com^$all
 ||discordapp.cam^$all
 ||discordap.$all
 ||airdrop-discord.ru^$all
-||discord*.gift^$all
+||discord*.gift^$all,domain=~discord.gift
 ||discord*.gifts^$all
 ||discord-app.net^$all
 ||discord-give.$all
