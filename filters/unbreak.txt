@@ -4229,3 +4229,10 @@ pewresearch.org##+js(set, ga, noopFunc)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10444
 @@||asset.fwcdn2.com/js/storyblock.js$script,domain=narcity.com
+
+! https://www.reddit.com/r/uBlockOrigin/comments/qstvpb/
+@@||quantcast.mgr.consensu.org^$script,domain=dailyrecord.co.uk
+
+! https://github.com/uBlockOrigin/uAssets/issues/7611#issuecomment-968186023
+@@||geoip.redirect-ads.com/?v=$frame,3p
+@@||geoip.redirect-ads.com/js/*$script,1p

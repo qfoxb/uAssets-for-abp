@@ -1544,14 +1544,8 @@ hpaudiobooks.*##^script:has-text('shift')
 gaydelicious.com##+js(aost, String.prototype.charCodeAt, ai_)
 gaydelicious.com##+js(aopw, _pop)
 
-! https://github.com/NanoMeow/QuickReports/issues/4045
-comandotorrents.org##+js(acis, Math, break;case $.)
-
 ! cinemablend.com anti-adb
 cinemablend.com##.affiliate_streaming_banner
-
-! eztvking .com ads
-eztvking.com##+js(acis, Math, zfgloaded)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56923
 mondainai.moe##+js(nosiif, visibility, 1000)
@@ -4985,17 +4979,6 @@ ashort2a-bro.tk##[href^="https://gotbla.blogspot.com/"]
 ashort2a-bro.tk##.xc449bad4854773ff
 @@||topchort.tk^$ghide
 
-! earncoin.site anti adb popup
-earncoin.site##+js(acis, Math, btoa)
-earncoin.site##+js(aopr, app_vars.force_disable_adblock)
-earncoin.site##+js(aopr, zfgformats)
-earncoin.site##+js(aopw, _pop)
-earncoin.site##+js(set, blurred, false)
-earncoin.site##.banner
-earncoin.site##.content
-*$frame,denyallow=google.com,domain=earncoin.site
-*$script,3p,denyallow=cloudflare.com|google.com|gstatic.com|recaptcha.net,domain=earncoin.site
-
 ! 2shrt.com anti adb ads
 2shrt.com##+js(aopr, app_vars.force_disable_adblock)
 2shrt.com##+js(aopw, _pop)
@@ -5652,13 +5635,13 @@ cryptowin.io##.panel-body > p[style=" color:#818181; background-color: #fffdc4; 
 cryptowin.io##.hidden-xs
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7702
-cdnqq.net,gotoons.org,hydrax.xyz,movi.pk,player.msmini.*,ply.mp4cage.com##+js(nowoif)
+cdnqq.net,gotoons.org,hydrax.xyz,movi.pk,player.cineflixtv.com,player.msmini.*,ply.mp4cage.com##+js(nowoif)
 movi.pk##+js(aeld, , vads)
 movi.pk##+js(acis, Math, break;case $.)
 movi.pk##+js(aopw, _pop)
 movi.pk###vads
 ||vadspremium.com^$3p
-/cdn-cgi/trace$xhr,1p,domain=cdnqq.net|gotoons.org|hydrax.xyz|movi.pk|netu.in|player.msmini.*|ply.mp4cage.com
+/cdn-cgi/trace$xhr,1p,domain=cdnqq.net|gotoons.org|hydrax.xyz|movi.pk|netu.in|player.cineflixtv.com|player.msmini.*|ply.mp4cage.com
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/k8m63f/adblock_detected/
 plugincrack.com##+js(nostif, ai_adb)
