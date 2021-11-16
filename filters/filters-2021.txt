@@ -3948,7 +3948,8 @@ moviemakeronline.com##.bbbOwner
 ! https://www.reddit.com/r/uBlockOrigin/comments/nzlim7/streaming_blocked_on_socceronin/
 oncast.xyz##+js(aopw, _pop)
 
-! https://www.reddit.com/r/uBlockOrigin/comments/nzmrqj/how_do_i_block_anti_adblock_thing_from_this/
+! https://github.com/uBlockOrigin/uAssets/pull/10492
+cinemakottaga.ml##+js(no-xhr-if, googlesyndication)
 cinemakottaga.ml##+js(aeld, DOMContentLoaded, adsBlocked)
 cinemakottaga.ml##+js(acis, document.addEventListener, adsbygoogle)
 *$image,redirect-rule=1x1.gif,domain=cinemakottaga.ml
@@ -4990,7 +4991,7 @@ fapnado.com##[class^="spot"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9800
 pogolinks.*##+js(nostif, showModal)
-pogolinks.*##+js(acis, Math, break;case $.)
+pogolinks.*##+js(acis, JSON.parse, break;case $.)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9799
 ! https://github.com/AdguardTeam/AdguardFilters/issues/92615
@@ -5348,8 +5349,11 @@ doffeecafe.me##.adsbyadop
 doffeecafe.me##.ancr-sticky
 doffeecafe.me##.idblog-floatbanner
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/93951
-celebjared.net##+js(acis, addEventListener, nextFunction)
+! https://github.com/uBlockOrigin/uAssets/issues/10493
+celebjared.net##+js(acis, document.querySelectorAll, popMagic)
+@@||celebjared.net^$ghide
+celebjared.net##[href^="https://minepi.com/"]
+celebjared.net###text-10
 
 ! https://jbbs.shitaraba.net/bbs/read.cgi/internet/25463/1618326670/71
 ac-illust.com###timer-download:style(display: block!important;)
@@ -5381,8 +5385,9 @@ katflys.com##+js(aopr, app_vars.force_disable_adblock)
 katflys.com##+js(acis, document.addEventListener, nextFunction)
 katflys.com##+js(nowoif)
 katflys.com##+js(set, blurred, false)
-katflys.com##+js(acis, Math, break;case $.)
+katflys.com##+js(acis, JSON.parse, break;case $.)
 katflys.com##+js(noeval)
+||bitfly.io^$script,domain=katflys.com
 katflys.com###overlay
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/94246
@@ -6826,3 +6831,22 @@ tinytranslation.xyz###HTML5
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10488
 *$xhr,redirect-rule=nooptext,domain=paraphrasetool.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/10495
+wouterplanet.com##+js(acis, setTimeout, 'visibility')
+wouterplanet.com##div.panel-primary.panel:nth-of-type(3)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10494
+freexcafe.com##+js(acis, __PoSettings)
+freexcafe.com##.left-col-gal-br
+freexcafe.com###rightcolumn
+freexcafe.com###banner
+freexcafe.com###join
+freexcafe.com##.hotdeal
+freexcafe.com##div.bottom-300x250
+freexcafe.com###txtbanner
+||localsnaughty.com^
+
+! paramountnetwork video ads
+||mtvnservices.com/aria/bentojs.js
+*$media,redirect=noopmp3-0.1s,domain=paramountnetwork.com

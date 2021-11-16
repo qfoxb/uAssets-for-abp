@@ -7650,6 +7650,7 @@ anysex.com##+js(aopr, ExoLoader)
 anysex.com##+js(aopr, document.dispatchEvent)
 anysex.com##+js(popads-dummy)
 anysex.com##+js(aopr, console.clear)
+anysex.com##+js(aopr, decodeURI)
 anysex.com##+js(set, globalThis, null)
 ||anysex.com^$frame,1p
 anysex.com##.fluid-b
@@ -11791,7 +11792,7 @@ hulkstreams.com,jackstream.*,olivertv.com##+js(acis, Math, zfgloaded)
 hulkstreams.com,jackstream.*,olivertv.com##+js(aopr, Date.prototype.toUTCString)
 hulkstreams.com,jackstream.*,olivertv.com##+js(aopr, decodeURIComponent)
 hulkstream.com,hulkstreams.com,jackstream.*,olivertv.com##+js(aopr, open)
-hulkstreams.com,jackstream.*,olivertv.com##+js(aopw, _pop)
+hulkstreams.com,jackstream.*,olivertv.com,starlive.xyz##+js(aopw, _pop)
 jackstream.*,olivertv.com##+js(nowebrtc)
 allfeeds.*,assia.org,daddylive.*,dubsstreamz.com,freefeds.com,lowend.xyz,sporting77.*,teleriumtv.*,wstream.to,tvply.me##+js(nowoif)
 jackstream.*##+js(acis, Math, break;case)
@@ -17575,7 +17576,6 @@ ihow.info##+js(nostif, getComputedStyle, 250)
 @@||eldia.com^$ghide
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/dv0n5w/torrentgalaxy_ads/
-torrentgalaxy.to##+js(set, globalThis, null)
 *$script,3p,denyallow=bootstrapcdn.com|disqus.com|disquscdn.com|jsdelivr.net|jwpcdn.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com,domain=torrentgalaxy.*
 torrentgalaxy.to##.alert
 ||d3p8w7to4066sy.cloudfront.net^
@@ -18722,7 +18722,7 @@ keralatelecom.info##.ai-viewports
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6823
 extreme-down.*##+js(acis, $, friendlyduck)
-extreme-down.*##+js(acis, String.fromCharCode, /btoa|break/)
+extreme-down.*##+js(acis, JSON.parse, break;case $.)
 ||ladsims.com^
 
 ! https://github.com/NanoMeow/QuickReports/issues/2746
@@ -18834,6 +18834,8 @@ streamz.*,streamzz.*##button:has(span:has-text(Skip))
 #@#div[class^="div-gpt-ad"]
 #@#[class^="div-gpt-ad"]
 *##[class^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-height:1px!important)
+#@#[id^="div-gpt-ad"]
+*##[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-height:1px!important)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6860
 javpornstreaming.com##+js(aopr, adBlockDetected)
