@@ -1,4 +1,4 @@
-﻿[uBlock Origin]
+[Adblock Plus 2.0]
 ! Title: Block Outsider Intrusion into LAN
 ! Expires: 11 days
 ! Description: Prevents public internet sites from digging into your local LAN files, and can also help mitigate DNS rebind attacks.
