@@ -4664,12 +4664,8 @@ jpopsingles.eu##+js(aeld, , adb)
 @@||jpopsingles.eu^$image,1p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1804
-freecoursesonline.*##+js(aopw, ai_front)
+! freecoursesonline. me
 @@||freecoursesonline.*^$ghide
-||freecoursesonline.me/*.gif$image
-||freecoursesonline.*/sw.js
-freecoursesonline.*##+js(aeld, load, toLowerCase)
-freecoursesonline.*##+js(nosiif, visibility, 1000)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1805
 @@||asianovel.com^$ghide
@@ -5893,7 +5889,7 @@ freemegalinks.com##+js(nobab)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9814
 @@||frkn64modding.com^$ghide
-frkn64modding.com##+js(aost, String.prototype.charCodeAt, ai_)
+frkn64modding.com##+js(no-xhr-if, ad_)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2350
 @@||cdn.vuplay.co.uk/*/comscore.$script,domain=sporza.be
@@ -9358,6 +9354,7 @@ planetfootball.com###abr_purchase_div
 audiotools.blog##+js(aost, String.prototype.charCodeAt, ai_)
 audiotools.pro##+js(aeld, DOMContentLoaded, adsBlocked)
 audiotools.pro##+js(acis, onload, style.display)
+*$image,redirect-rule=1x1.gif,domain=audiotools.blog
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4011
 dressupmix.com##+js(acis, fuckAdBlock, importFAB)
@@ -17709,12 +17706,6 @@ projectfreetv.*##[href^="https://projectfreetv.network/high-speed-hd-streaming.h
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63019
 *$xhr,redirect-rule=nooptext,domain=freevocabulary.com
 
-! https://github.com/NanoMeow/QuickReports/issues/2299
-almutmiz.net##+js(aopw, ai_front)
-almutmiz.net#@#.vce-ad-container
-almutmiz.net#@#.vce-ad-below-header
-||almutmiz.net/wp-content/plugins/fwduvp/js/FWDUVP.js
-||o22.in/js/full-page-script.js$script,domain=almutmiz.net
 ||t3lyem.info^
 
 ! https://github.com/NanoMeow/QuickReports/issues/2303
@@ -21260,7 +21251,7 @@ gaypornhdfree.*##+js(aeld, DOMContentLoaded, adsBlocked)
 podu.me##.adv-contanier
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62436
-programmiedovetrovarli.it##+js(aopw, ai_front)
+programmiedovetrovarli.it##+js(aost, encodeURIComponent, inlineScript)
 
 ! https://forums.lanik.us/viewtopic.php?f=103&t=44512
 @@||bolsanow.com^$ghide
@@ -21496,6 +21487,7 @@ javtiful.com##[href^="//"][rel="nofollow norefferer noopener"]
 ||jav.si/js/zplay.js
 ||jav.si/js/mMbVAA7.js
 fakyutube.com##+js(nowoif)
+fakyutube.com##+js(aopr, __Y)
 supervideo.tv##+js(aopr, AaDetector)
 supervideo.tv##+js(acis, Math, break;case $.)
 

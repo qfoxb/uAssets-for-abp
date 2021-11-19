@@ -4210,7 +4210,7 @@ myair2.resmed.com##+js(no-xhr-if, cloudflare.com/cdn-cgi/trace)
 @@_advertisement_$image,domain=jennifer-lawrence.com
 @@/advertising_$image,domain=timfahlbusch.com
 @@/ad_campaigns/*$image,domain=alicia-vikander.com
-@@/adverts/*$image,domain=emily-blunt.com|isla-fisher.net|islafisher.net
+@@/adverts/*$image,domain=emily-blunt.com|isla-fisher.net|islafisher.net|reese-witherspoon.org|reesewitherspoon.org
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10348
 @@||cloudflare.com/cdn-cgi/trace$xhr,domain=54647.io
@@ -4242,6 +4242,3 @@ pewresearch.org##+js(set, ga, noopFunc)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78676
 saitama-np.co.jp#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-height:1px!important)
-
-! https://www.reddit.com/r/uBlockOrigin/comments/qw2a37/
-@@||sourcepoint.theguardian.com/wrapper*$xhr,script,1p

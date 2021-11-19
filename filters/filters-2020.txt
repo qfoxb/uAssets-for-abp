@@ -2491,15 +2491,15 @@ ouhxxx.com##+js(nosiif, visibility, 1000)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59678
 dramahd.me##+js(aost, String.prototype.charCodeAt, ai_)
-dramahd.me##+js(aopw, _pop)
 ||linkspy.cc^$3p
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59683
 series-streaminghd.com##+js(nosiif, visibility, 1000)
+planet-streaming1.com##+js(nowoif)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59686
 filmesonlinehd1.org##+js(acis, String.fromCharCode, /btoa|break/)
-filmesonlinehd1.org,gdrivevideo.cc,videojs.cc##+js(nowoif)
+filmesonlinehd1.org##+js(nowoif)
 
 ! imgcredit.xyz popunder
 imgcredit.xyz##+js(aopr, exoJsPop101)
@@ -2538,7 +2538,7 @@ malaysiastock.biz##.RightPanel_Rectangle1
 *$xhr,redirect-rule=nooptext,domain=katholisches.info
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59797
-biopills.net##+js(aost, String.prototype.charCodeAt, ai_)
+biopills.net##+js(aost, encodeURIComponent, inlineScript)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/nks3hf/bypassing_adblock_blocker_on_atozmathcom/
 atozmath.com##+js(acis, alert, reCAPTCHA)
@@ -3033,9 +3033,6 @@ checkfiletype.com##+js(nosiif, visibility, 1000)
 
 ! https://github.com/NanoMeow/QuickReports/issues/4415
 @@||scrapbox.io^$xhr,1p
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/61695
-okanuzun.com##+js(aopw, ai_front)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61721
 santoinferninho.com##+js(nosiif, visibility, 1000)
@@ -3647,13 +3644,6 @@ crackstreams.*##+js(nowebrtc)
 crackedstream.*,crackstreams.*##+js(noeval-if, debugger)
 crackedstream.*,crackstreams.*##+js(nostif, debugger)
 crackedstream.*,crackstreams.*##+js(set, runAdblock, noopFunc)
-
-! 1337xhd .cc popups
-1337xhd.*##+js(nowebrtc)
-1337xhd.*##+js(acis, String.fromCharCode, 'shift')
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/63869
-moviehousememories.com##+js(set, $tieE3, true)
 
 ! https://github.com/NanoMeow/QuickReports/issues/4666#issuecomment-692159445
 ruplayers.com##pp
@@ -6228,7 +6218,7 @@ slideplayer.com##.bottom_comment_banners
 slideplayer.com##.top_comment_banners
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71041
-1ahaber.com##+js(aopw, ai_front)
+1ahaber.com##+js(aopr, b2a)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71052
 @@||api.adinplay.com/libs/aiptag/pub/MOP/mope.io/tag.min.js$script,domain=mope.io
