@@ -659,6 +659,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||ouhastay.net^
 ||trk.enemy-adult-scared-there.xyz^$all
 ||trk.setting-nervous-steady-noted.xyz^$all
+||tube911.com^$all
 
 ||hyperwage.com^$all
 ||ricavato.com^
@@ -842,13 +843,16 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||webapplicationminefree.cyou^$all
 ||eudoxia-myr.com^$all
 ||revpu.sh^$all
+||adblockextension.online^$all
+||sexual-partner2.com^$all
+||ultimate-detection.com^$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68588
 ! https://github.com/uBlockOrigin/uAssets/issues/8869
 /^https?:\/\/[-0-9a-z]*prize[-0-9a-z]+\.live\/\?u=[0-9a-z]+&o=[0-9a-z]+/$doc,domain=live
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&o=/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
-/^https:\/\/[-0-9a-z]{12,}\.life\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&t=/$doc,domain=life
+/^https:\/\/[-0-9a-z]{12,}\.life\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&/$doc,domain=life
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 ! https://github.com/uBlockOrigin/uAssets/issues/10116
 /^https:\/\/feedbackip\d{2}\.pw/$doc,domain=pw
@@ -909,6 +913,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||atnpx.com^
 ||bestoffer2021.info^
 ||best-prizehouse15.info^
+||best-winplace.life^$all
 ||checkup08.biz^
 ||getvottak.com^
 ||herdcowhas.icu^
@@ -937,6 +942,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||znews-live.com^
 ||zoneforyourprize.life^
 ||zvideo-live.com^
+||arthyredir2.com^$all
+||adserveryo3.xyz^$all
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9045
 ||securitydefender.xyz^$all
@@ -1158,3 +1165,15 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ! https://github.com/DandelionSprout/adfilt/issues/267
 ||tekhacks.net^$all
 ||mediafire.com/file/pj9jdm7iznc4d51/tekhacksnet_multi_loader.rar^$doc
+
+! https://github.com/uBlockOrigin/uAssets/pull/10503
+||freedownloadfiles.org^$all
+
+! https://github.com/uBlockOrigin/uAssets/issues/10536
+||tw-goldenwinner-57.com^$doc
+
+! https://github.com/iam-py-test/investigations/blob/main/2021/11/25/1.md
+! https://github.com/uBlockOrigin/uAssets/pull/10599
+||fasterfiles.net^$all
+||steamkeygiveaway.net^$all
+||yunosurveys.com^$all
