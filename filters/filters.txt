@@ -1589,19 +1589,19 @@ fmovies.*##+js(set, console.clear, undefined)
 @@||iamcdn.net/players/*ads$script,domain=playhydrax.com
 ||iamcdn.net/players/ads.watch.min.js$script,domain=playhydrax.com,important
 ||iamcdn.net/players/playera.dmins.js$script,domain=playhydrax.com
-||iamcdn.net/players/player*.*mins.js$script,domain=hydracdn.*|redirect-ads.com
-||iamcdn.net/players/playhydraxs.min.js$script,domain=redirect-ads.com
+||iamcdn.net/players/player*.*mins.js$script,domain=hydracdn.*|redirect-ads.com|nazarickol.com
+||iamcdn.net/players/playhydraxs.min.js$script,domain=redirect-ads.com|nazarickol.com
 hydracdn.*##+js(acis, String.fromCharCode, /btoa|break/)
 hydracdn.*,hydrax.net,playhydrax.com##+js(aopr, AaDetector)
 hydracdn.*,hydrax.net,playhydrax.com##+js(nostif, debugger)
 playhydrax.com##+js(nosiif, _0x)
 hydracdn.*,hydrax.net,playhydrax.com##+js(nowoif, /^/, 2)
-redirect-ads.com##+js(set, detectAdBlockAll, noopFunc)
-*$image,redirect-rule=32x32.png,domain=redirect-ads.com
-redirect-ads.com##+js(set, console.clear, undefined)
-redirect-ads.com##+js(ra, style, #over)
-redirect-ads.com###playback-fake
-redirect-ads.com##+js(nowoif, /^/, 1)
+redirect-ads.com,nazarickol.com##+js(set, detectAdBlockAll, noopFunc)
+*$image,redirect-rule=32x32.png,domain=redirect-ads.com|nazarickol.com
+redirect-ads.com,nazarickol.com##+js(set, console.clear, undefined)
+redirect-ads.com,nazarickol.com##+js(ra, style, #over)
+redirect-ads.com,nazarickol.com###playback-fake
+redirect-ads.com,nazarickol.com##+js(nowoif, /^/, 1)
 playhydrax.com,hydracdn.*,hydrax.net##div#over:remove()
 @@||hydracdn.*^$ghide
 @@||hydrax.net^$ghide
@@ -2143,7 +2143,8 @@ sxyprn.*###vid_container_id > .tdn
 ! https://github.com/uBlockOrigin/uAssets/issues/1197
 magesy.*,majesy.*##+js(nosiif, visibility, 1000)
 lacuevadeguns.com,magesy.*,majesy.*##+js(aost, onload, inlineScript)
-@@||magesypro.com^$ghide
+magesy.*,magesypro.*##+js(nostif, ai_)
+magesy.*##+js(aost, btoa, start)
 ||googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect=noopjs,domain=majesy.com
 *$image,redirect-rule=1x1.gif,domain=magesy.*|majesy.*
 *$script,redirect-rule=noopjs,domain=magesy.*|majesy.*
@@ -2152,10 +2153,11 @@ majesy.*##.dark.jquery-adi
 magesy.*##.chw-widget
 magesy.*##.adsbygoogle
 majesy.*##.widget_execphp
-*$image,domain=magesypro.com,redirect-rule=1x1.gif
-magesypro.com##.adsbygoogle
 mage.si##+js(aeld, load, nextFunction)
 *$image,redirect-rule=1x1.gif,domain=mage.si
+*$image,domain=magesypro.*,redirect-rule=1x1.gif
+@@||magesypro.*^$ghide
+magesypro.*##.adsbygoogle
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3596
 @@||dangotoons.com^$ghide
@@ -4885,7 +4887,7 @@ megaup.net##+js(nano-sib, display())
 ||megaup.net/imageads/$image,redirect-rule=noopframe,1p
 megaup.net##+js(aeld, error)
 megaup.net##+js(ra, href|target, a[href^="https://tm-offers.gamingadult.com/"])
-*$image,redirect-rule=32x32.png,domain=megaup.net
+!*$image,redirect-rule=32x32.png,domain=megaup.net
 ||rtbsystem.org^$3p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1850
@@ -9644,10 +9646,6 @@ sna3talaflam.com###adblock_abdoutech
 sna3talaflam.com##body:style(overflow: auto !important;)
 sna3talaflam.com##+js(aeld, load, onload)
 
-! https://github.com/uBlockOrigin/uAssets/issues/4131
-alotof.software###abnotify
-alotof.software###modaltgnotice
-
 ! https://github.com/uBlockOrigin/uAssets/pull/4124
 linkspaid.com##+js(aopr, app_vars.force_disable_adblock)
 linkspaid.com##+js(set, jQuery.adblock, false)
@@ -13869,10 +13867,6 @@ papalah.com##+js(aopw, adBlockDetected)
 ! https://github.com/uBlockOrigin/uAssets/issues/5573
 @@||ramdan.tv^$ghide
 ramdan.tv##.ad-728-90
-
-! https://github.com/NanoMeow/QuickReports/issues/1193
-@@||journalstar.com^$ghide
-journalstar.com##.tnt-ads
 
 ! solarmovie.id popup
 solarmovie.id##+js(acis, Math, zfgloaded)
@@ -18792,13 +18786,13 @@ streamz.*,streamzz.*##button:has(span:has-text(Skip))
 ! https://github.com/orgs/uBlockOrigin/teams/ublock-filters-volunteers/discussions/289
 ! google contributor anti adblock
 #@#.div-gpt-ad
-*##.div-gpt-ad:style(width:1px!important;height:1px!important;min-height:1px!important;)
+*##.div-gpt-ad:style(width:1px!important;height:1px!important;min-height:1px!important;margin:0!important;padding:0!important)
 ! for the french list
 #@#div[class^="div-gpt-ad"]
 #@#[class^="div-gpt-ad"]
-*##[class^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-height:1px!important)
+*##[class^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-height:1px!important;margin:0!important;padding:0!important)
 #@#[id^="div-gpt-ad"]
-*##[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-height:1px!important)
+*##[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-height:1px!important;margin:0!important;padding:0!important)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6860
 javpornstreaming.com##+js(aopr, adBlockDetected)
