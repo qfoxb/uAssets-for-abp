@@ -661,6 +661,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||trk.setting-nervous-steady-noted.xyz^$all
 ||tube911.com^$all
 ||ationpeci.one^$document,popup
+||bestlifeoffer20.com^$all
 
 ||hyperwage.com^$all
 ||ricavato.com^
@@ -819,7 +820,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||downlosaly.info^$all
 /go.php?url=*&uclick=$doc
 ||best-sexy-partner1.com^$all
-.com/smartlink/?a=$doc
 ||1firstofall1.com^$all
 ||gegenhartz.de^$all
 ||marootrack.co^$all
@@ -849,11 +849,16 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||ultimate-detection.com^$all
 ||helpmight.online^$all
 ||listen-heres.com^$all
+||frafinomoney01.fun^$all
+/smartlink/?a=*&s1=$doc
+||sexpartnercommunity.com^$all
+/ll/click.php?key=$doc
+||maxhacks.pro^$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68588
 ! https://github.com/uBlockOrigin/uAssets/issues/8869
 /^https?:\/\/[-0-9a-z]*prize[-0-9a-z]+\.live\/\?u=[0-9a-z]+&o=[0-9a-z]+/$doc,domain=live
-/^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&o=/$doc,domain=top
+/^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
 /^https:\/\/[-0-9a-z]{12,}\.life\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&/$doc,domain=life
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
