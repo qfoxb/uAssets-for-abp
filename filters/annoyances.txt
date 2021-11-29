@@ -289,9 +289,6 @@ mc-mod.net##+js(acis, document.oncontextmenu)
 mc-mod.net##+js(acis, image_save_msg, key)
 mc-mod.net##body:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important;-moz-user-select: text !important;-ms-user-select: text !important;user-select: text !important;)
 
-! https://forums.lanik.us/viewtopic.php?f=62&t=41150
-||api.live365.com/geocheck
-
 ! https://github.com/jspenguin2017/uBlockProtector/issues/963
 phillymag.com##.gtp-ad
 
@@ -6433,3 +6430,7 @@ zwei-euro.com##+js(nostif, Delay)
 
 ! yoyofilmeys. com anti right click
 yoyofilmeys.*##+js(acis, document.oncontextmenu)
+
+! voe right click other keys
+voe.sx##+js(aeld, /keydown|keyup/, keyCode)
+voe.sx##+js(aeld, contextmenu)
