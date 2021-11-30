@@ -3372,7 +3372,7 @@ voe.sx##+js(acis, EventTarget.prototype.addEventListener, /\^http|test/)
 voe.sx##+js(acis, String.fromCharCode, /btoa|break/)
 voe.sx##+js(acis, $, fadeIn)
 voe.sx##+js(nowebrtc)
-voe.sx##+js(set, console.clear, noopFunc)
+voe.sx##+js(set, console.clear, undefined)
 voe.sx##a[href^="https://glixaing.com/"]
 @@download=$popup,3p,domain=voe.sx
 @@||voe.sx/dl?op=download_orig$popup,1p
@@ -3466,7 +3466,7 @@ lookcam.*##+js(set, canRunAds, true)
 lookcam.*##div.prefix-adlabel
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/ioi83o/how_to_block_this_add/
-*$script,3p,denyallow=cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|hcaptcha.com|jsdelivr.net|recaptcha.net,domain=manga4life.com
+*$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|google.com|googleapis.com|gstatic.com|hcaptcha.com|jsdelivr.net|recaptcha.net,domain=manga4life.com
 *$frame,script,3p,denyallow=cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|hcaptcha.com|jsdelivr.net|recaptcha.net,domain=mangasee123.com
 
 ! https://github.com/NanoMeow/QuickReports/issues/4657
@@ -4776,7 +4776,8 @@ lite-link.*##.banner
 *$script,3p,denyallow=google.com|gstatic.com|recaptcha.net,domain=lite-link.*
 
 ! https://github.com/uBlockOrigin/uAssets/commit/6bc0de4a260c4653d1c1d91a1ae118d87a88f89e#commitcomment-43943548
-filerio.in,openloadmov.*,uploads.mobi,evoload.io,hulu.*,~hulu.com,yesmovies123.me,yt2mp3s.*##+js(acis, String.fromCharCode, /btoa|break/)
+yesmovies123.me##+js(acis, String.fromCharCode, /btoa|break/)
+yt2mp3s.me##+js(acis, JSON.parse, break;case $.)
 uploads.mobi##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
 moviewr.com##+js(acis, JSON.parse, break;case $.)
 movies123.*,wifimovies.net##+js(acis, Math, break;case $.)

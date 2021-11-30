@@ -3755,12 +3755,8 @@ pixhost.*###web:style(display: block !important;)
 ||whitwise.com^$3p
 ||playwire.com^$domain=readmng.com
 
-! https://github.com/uBlockOrigin/uAssets/issues/7788
+! https://github.com/uBlockOrigin/uAssets/issues/10665
 @@||next-episode.net^$ghide
-next-episode.net##+js(nosiif, /^/)
-*$script,domain=next-episode.net,redirect-rule=noopjs
-next-episode.net##+js(aost, document.getElementById, onload)
-next-episode.net##+js(acis, document.createElement, console)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1402
 movie4k.is##+js(aopr, urlToShow)
@@ -4229,9 +4225,9 @@ wizhdsports.fi##+js(nowebrtc)
 ||stream2watch.*/sw.js$script,1p
 ||steptaik.net^$3p
 ||taiwhups.net^$3p
-! daddylive.live (.club) popups
+! daddylive.live (.club .me) popups
 ! https://github.com/NanoMeow/QuickReports/issues/1306
-daddylive.*##+js(acis, Math, break;case $.)
+daddylive.*##+js(acis, JSON.parse, break;case $.)
 daddylive.*##+js(aopr, AaDetector)
 daddylive.*##+js(aopr, require)
 daddylive.*##+js(aopw, _pop)
@@ -4662,11 +4658,11 @@ apurogol.net###fakeplayer
 ||ichlnk.com^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1802
-jpopsingles.eu##+js(nosiif, clientHeight)
-jpopsingles.eu##+js(acis, jQuery, ai_adb)
+jpopsingles.eu##+js(acis, eval, replace)
+jpopsingles.eu###babasbmsgx
+jpopsingles.eu##body:style(visibility:visible !important)
 jpopsingles.eu##+js(nano-sib, downloadTimer)
 jpopsingles.eu##+js(aopw, _pop)
-jpopsingles.eu##+js(aeld, , adb)
 @@||jpopsingles.eu^$ghide
 @@||jpopsingles.eu^$image,1p
 
@@ -15243,6 +15239,8 @@ spankbang.com##+js(nowoif)
 spankbang.com##a[class][href^="https://www.blacked.com/"]
 spankbang.com##.video-item:not([id]):not([data-id])
 spankbang.com###interstitial_div
+spankbang.com##.ttaa2v3
+||ersties.com^$3p
 
 ! https://github.com/abp-filters/abp-filters-anti-cv/issues/236
 streaminfr.com##+js(aopr, FuckAdBlock)
@@ -15762,7 +15760,7 @@ nakedneighbour.com##.banner:upward(.block)
 /eva.gif$domain=erotichdworld.com|guruofporn.com|jesseporn.xyz|jumboporn.xyz|kendralist.com
 /flr.js$domain=8boobs.com|angelgals.com|babesexy.com|babesinporn.com|fooxybabes.com|hotbabeswanted.com|hotstunners.com|mainbabes.com|nakedbabes.club|nakedgirlsroom.com|nudebabes.sexy|pleasuregirl.net|rabbitsfun.com|sexybabes.club|sexybabesart.com|silkengirl.*|wantedbabes.com
 /images/*/b/*$image,domain=babesandbitches.net|babesbang.com|babeuniversum.com|grabpussy.com|nightdreambabe.com|novoporn.com|novostrong.com|pbabes.com|redpornblog.com|rossoporn.com|sexynakeds.com
-/images/*/banners/*$image,domain=100bucksbabes.com|8boobs.com|babeimpact.com|babesandgirls.com|babesaround.com|babesinporn.com|babesmachine.com|bustybloom.com|chickteases.com|decorativemodels.com|dirtyyoungbitches.com|exgirlfriendmarket.com|fooxybabes.com|glam0ur.com|hotstunners.com|livejasminbabes.net|morazzia.com|nakedneighbour.com|pleasuregirl.net|rabbitsfun.com|sexyaporno.com|sexykittenporn.com|silkengirl.*|slutsandangels.com|theomegaproject.org|thousandbabes.com|wantedbabes.com|wildfanny.com
+/images/*/banners/*$image,domain=100bucksbabes.com|8boobs.com|babeimpact.com|babesandgirls.com|babesaround.com|babesinporn.com|babesmachine.com|bustybloom.com|chickteases.com|decorativemodels.com|dirtyyoungbitches.com|exgirlfriendmarket.com|fooxybabes.com|glam0ur.com|hotstunners.com|livejasminbabes.net|morazzia.com|nakedneighbour.com|novoglam.com|pleasuregirl.net|rabbitsfun.com|sexyaporno.com|sexykittenporn.com|silkengirl.*|slutsandangels.com|theomegaproject.org|thousandbabes.com|wantedbabes.com|wildfanny.com
 /istripper/istripper_$image,domain=8boobs.com|babesinporn.com|fooxybabes.com|hotstunners.com|mainbabes.com|rabbitsfun.com|silkengirl.*|wantedbabes.com
 /smallfr/*$frame,domain=babeimpact.com|decorativemodels.com|sexykittenporn.com
 /smallfr2/*$frame,domain=babeimpact.com|decorativemodels.com
@@ -21571,11 +21569,12 @@ techdracula.com##.adsbygoogle
 ! https://github.com/easylist/easylist/issues/6471
 /^https?:\/\/js.*\/t\/[0-9]{3}\/[0-9]{3}\/[a-z0-9]{7,8}\.js/$script,3p,badfilter
 /\/t\/[0-9]{3}\/[0-9]{3}\/a[0-9]{4,9}\.js$/$script
-/^https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/\?[a-z]{3,7}=[0-9]{4,8}$/$script,3p
+/^https?:\/\/[0-9a-zA-Z]{10,16}\.cloudfront\.net\/\?[a-z]{3,7}=\d{4,8}$/$script,xhr,3p
 ! https://github.com/easylist/easylist/pull/9330
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,3p
 ! globalThis
 /^https?:\/\/[0-9a-f]{53}\.s3\.amazonaws\.com\/[0-9a-f]{10}$/$xhr,3p
+/^https?:\/\/s3\.us-east-1\.amazonaws\.com\/[0-9a-f]{53}\/[0-9a-f]{10}$/$xhr,3p
 
 ! generic filters for revolving adservers
 /ntfc.php?$script
