@@ -4880,7 +4880,7 @@ megaup.net##+js(nano-sib, display())
 !megaup.net##.metaRedirectWrapperBottomAds:style(pointer-events: none !important;opacity: 0 !important)
 !megaup.net##[id*="ScriptRootC"]:upward(1):style(position:absolute !important;left:-99999px !important)
 @@||megaup.net^$ghide
-||megaup.net/imageads/$image,redirect-rule=noopframe,1p
+! ||megaup.net/imageads/$image,redirect-rule=noopframe,1p
 megaup.net##+js(aeld, error)
 megaup.net##+js(ra, href|target, a[href^="https://tm-offers.gamingadult.com/"])
 !*$image,redirect-rule=32x32.png,domain=megaup.net
@@ -10886,6 +10886,7 @@ simsdom.com##._pubL
 wsj.com##+js(acis, NREUM)
 wsj.com##+js(nostif, linkEl)
 wsj.com##[class*="sponsored"]
+wsj.com##div[id^="wrapper-AD_"]
 wsj.com##div[class^="style--column--"] > div[class=""] > div[id^="wrapper-AD_NATIVE"]:upward(2)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4531
@@ -21574,7 +21575,7 @@ techdracula.com##.adsbygoogle
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,3p
 ! globalThis
 /^https?:\/\/[0-9a-f]{53}\.s3\.amazonaws\.com\/[0-9a-f]{10}$/$xhr,3p
-/^https?:\/\/s3\.us-east-1\.amazonaws\.com\/[0-9a-f]{53}\/[0-9a-f]{10}$/$xhr,3p
+/^https?:\/\/s3\.us-east-1\.amazonaws\.com\/[0-9a-f]{50,}\/[0-9a-f]{10}$/$xhr,3p
 
 ! generic filters for revolving adservers
 /ntfc.php?$script

@@ -1248,7 +1248,7 @@ is2btc.com##.text-center.col-sm-12
 sunhope.it##+js(nosiif, document.getElementById, 10000)
 
 ! propeller crap
-1111fullwise.*,111watcho.*,123-watch.com,123moviesclub.*,123moviesla.*,123moviesprime.com,123ssgm.*,247movie.net,2gomovies.*,7025a.com,afilmyhouse.blogspot.com,antsmovies.com,attvideo.com,bioskopq.com,cinema.cimatna.com,convertitoremp3.download,crackevil.com,dflinks.*,europix.*,filma1.*,filmyzillafilmywap.*,foreverwallpapers.com,freeload.*,fzmoviesnet.com,gtrmovies.com,gyonlineng.com,hdmoviehubs.*,hdmovies7.com,hdmovieserver.com,hitmovies4u.com,keepv.id,maamusiq.com,mcubd.com,megafilmestop.com,motive213.com,moviecool.*,neomovies.net,netnaija.paidnaija.com,oceanofmovies.*,pksmovies.*,saff-tv.net,shortlinkto.*,soap2day.*,songspk.*,thelinkbox.*,thelosmovies.com,veryfastdownload.pw,watch4hd.*,watchonlinemovies50.com.pk,yify.stream,ylink.bid,yt1s.com##+js(acis, JSON.parse, break;case $.)
+1111fullwise.*,111watcho.*,123-watch.com,123moviesclub.*,123moviesla.*,123moviesprime.com,123ssgm.*,247movie.net,2gomovies.*,7025a.com,afilmyhouse.blogspot.com,antsmovies.com,attvideo.com,bioskopq.com,cinema.cimatna.com,convertitoremp3.download,crackevil.com,dflinks.*,downloadming4.com,europix.*,filma1.*,filmyzillafilmywap.*,foreverwallpapers.com,freeload.*,fzmoviesnet.com,gtrmovies.com,gyonlineng.com,hdmoviehubs.*,hdmovies7.com,hdmovieserver.com,hitmovies4u.com,keepv.id,maamusiq.com,mcubd.com,megafilmestop.com,motive213.com,moviecool.*,naasongsfree.*,neomovies.net,netnaija.paidnaija.com,oceanofmovies.*,pksmovies.*,rytmp3.com,saff-tv.net,shortlinkto.*,soap2day.*,songspk.*,thelinkbox.*,thelosmovies.com,veryfastdownload.pw,watch4hd.*,watchonlinemovies50.com.pk,yify.stream,ylink.bid,yoat.xyz,yt1s.com##+js(acis, JSON.parse, break;case $.)
 cinema.cimatna.com,neomovies.net##^script:has-text(break;case $.)
 ##[href^="https://www.highperformancecpm.com/"]
 ||cvpqvmjudkcaxa.xyz^
@@ -1271,6 +1271,9 @@ cinema.cimatna.com,neomovies.net##^script:has-text(break;case $.)
 ||tocjgiwjprhmwto.top^
 ||hugiffamopfrge.top^
 ||aeucutsmpwtvr.top^
+||ksqjlijauf.top^
+||ssnptshxpdd.top^
+||yoat.xyz/xyz.js
 ||tnpads.xyz^$3p
 ||gyonlineng.com/sw.js$xhr,1p
 ||www.mcubd.com/sw.js$script,1p
@@ -4482,11 +4485,15 @@ zedge.net##+js(nano-sib, (i-1))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88067
 zetporn.com##+js(aopr, ExoLoader.serve)
 zetporn.com##+js(aeld, click, popMagic)
+zetporn.com##+js(acis, addEventListener, -0x)
 zetporn.com##.aside-itempage-col
 /\.com\/[a-z]{9,}\/[A-Za-z]{9,}\.js$/$script,1p,domain=zetporn.com
-||zetporn.com/worker.js
+||zetporn.com/sw.js
 ||eighing.space^$3p
 ||entsconsesi.top^$3p
+||madehimn.xyz^
+||srsihavelearn.xyz^
+||yestedjgrs.xyz^
 *$script,3p,denyallow=googleapis.com,domain=zetporn.com
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/ohvw2n/adblock_detected_on_blackenterprisecom/
@@ -5258,6 +5265,7 @@ vidembed.*##+js(noeval)
 mp3snow.com##+js(nowoif)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9885
+mp3download.to##+js(aost, String.prototype.charCodeAt, Object)
 mp3download.to##+js(nowoif)
 ##.ads-container
 
@@ -6315,11 +6323,11 @@ moddedguru.com##div.banner
 crazytechgo.com##+js(acis, eval, replace)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10317
-imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(nowoif)
-imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(nano-sib, timer)
-imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(nosiif, 0x)
-imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(nostif, 0x)
-imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(set, hold_click, false)
+imgbbd.buzz,imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(nowoif)
+imgbbd.buzz,imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(nano-sib, timer)
+imgbbd.buzz,imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(nosiif, 0x)
+imgbbd.buzz,imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(nostif, 0x)
+imgbbd.buzz,imglkju.buzz,imglqw.buzz,imgpekele.buzz,imgwang.buzz,imgxvd.buzz,imgyng.buzz,imgyvdw.buzz##+js(set, hold_click, false)
 imgwang.buzz##+js(acis, RegExp, debugger)
 ##div[style="position: fixed; display: block; width: 100%; height: 15%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
 ||zhtlvag.com^
@@ -7185,10 +7193,52 @@ wapsing.com##+js(nowoif)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10673
 just-upload.com##+js(set, globalThis, null)
-||just-upload.com^$csp=default-src 'unsafe-inline' 'unsafe-eval' 'self' *.google.com *.gstatic.com *.googleapis.com *.wp.com *.googletagmanager.com
+||just-upload.com^$csp=default-src 'unsafe-inline' 'unsafe-eval' 'self' *.google.com *.gstatic.com *.googleapis.com *.googletagmanager.com
 ||d1t4ekjh9ps4ob.cloudfront.net^
 ||rinryesop.one^
 ||tingeffukec.one^
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101253
 hotdesimms.com##+js(nostif, offsetHeight)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10680
+hollymoviehd.cc##+js(acis, JSON.parse, break;case $.)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/r65c51/ublock_detected/
+@@||animesaria.com^$ghide
+
+! https://github.com/uBlockOrigin/uAssets/issues/10679
+@@||coinpayz.xyz^$ghide
+coinpayz.xyz##.ads
+||benureko.xyz^
+||coinpayz.xyz/*.php$frame
+
+! https://github.com/uBlockOrigin/uAssets/pull/10684
+apiyt.com,masstamilans.com,mymp3song.*,okmusi.com##+js(nowoif)
+||inuropag.tk^
+||gaupremob.cf^
+
+! https://github.com/abpvn/abpvn/issues/306
+xnxx-sex-videos.com##+js(nostif, /out.php)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10685
+wpking.in##+js(acis, eval, replace)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10686
+tnmusic.in##+js(acis, Math, /btoa|break/)
+tnmusic.in##^script:has-text(break;case $.)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10688
+xvedios.info##+js(ra, onclick, [onclick*="open"])
+xvedios.info##+js(set, history.pushState, noopFunc)
+xvedios.info##+js(aopw, onpopstate)
+xvedios.info##^script:has-text(onpopstate)
+
+! https://github.com/Sainan/Universal-Bypass/issues/2102
+sohexo.org##+js(nowoif)
+sohexo.org##+js(set, blurred, false)
+sohexo.org###go-popup:remove()
+
+! https://www.reddit.com/r/uBlockOrigin/comments/r71n9g/ifonca_adblock_popup/
+*##div.adsbygoogle.Ad-Container.sidebar-ad:style(display:block !important)
+##.stream-item-widget
