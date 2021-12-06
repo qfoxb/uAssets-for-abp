@@ -2773,7 +2773,6 @@ getcoloringpages.com#@#.adsBlock
 ||crazyegg.com^$3p
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/gy800s/larenait_videos_are_broken/
-||audit.quantcast.mgr.consensu.org^$badfilter
 @@||media.larena.it/media/lib/cmp/quantcast.js$script,1p
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=larena.it
 *$script,domain=larena.it,redirect-rule=noopjs
@@ -3689,11 +3688,6 @@ uschovna.cz##body:style(background-image:none !important)
 ! unbreak vermangasporno.com download button
 vermangasporno.com#@#a[target="_blank"][rel="noopener noreferrer"] > img
 
-! ivoox. com broken
-ivoox.com##.in.fade.modal.remote-submit
-ivoox.com##.in.fade.modal-backdrop
-ivoox.com##body:style(overflow:auto !important)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/8850
 @@||fundingchoicesmessages.google.com^$script,domain=bbc.com
 
@@ -4272,7 +4266,21 @@ ilbianconero.com##.no-scroll:style(overflow:auto!important)
 @@||clj.valuecommerce.com/*/vcushion.min.js
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10718
-@@||etsy.com/api/*/ajax/*$xhr,1p
+@@||etsy.com/api/*/ajax/bespoke/public/neu/specs/*_photos_modal$xhr,1p
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/r7ja04/
 ||securegames.iwin.com/data/gtm.json$1p,xhr,redirect=noop.js
+
+! https://github.com/uBlockOrigin/uAssets/issues/10731
+@@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager.com/gtm.js,domain=midomi.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/10737
+@@||tags.tiqcdn.com/utag/*/prod/utag.js$script,domain=listen.klove.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/10770
+@@||cdn.casamireasa.biz/deploys/www/delivery^$domain=canale.live
+@@||canale.live/reclama/$1p
+@@||canale.live/player-tv/$css,1p
+
+! unbreak https://gogoplay1.com/videos/kero-kero-chime-episode-30's download popup
+@@||gogoplay1.com/download?id=$popup

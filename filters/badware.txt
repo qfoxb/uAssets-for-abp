@@ -452,7 +452,6 @@ thepiratebay3.com^$all
 ||polimer.xyz^$all
 ||bingstyle.com^$all
 ||zctrack.com^$all
-||macotuqa.xyz^$all
 ||redirekted.com^$all
 ||1ownandfresh1.com^$all
 ||get19dragos.club^$all
@@ -778,10 +777,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||download-sistem.ru^
 ||heartmedia.biz^$all
 ||beta-news.org^$all
-||news-back.org^$all
 ||clk.rtpdn*.com^$doc,popup
 /click.php?key=*&cost=$doc
-||centralheat.me^$all
 ||dreamone.online^$all
 ||totaltopposts.com^$all
 /?%7B%7Bip%7D%7D*&clickId=$doc
@@ -807,7 +804,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||localhookupclub1.com^$all
 ||sweetgirls.date^$all
 ||captcha-smart.top^$all
-||centralheat.net^$all
 ||fast-travel.org^$all
 ||typiccor.com^$all
 ||wholedailyfeed.com^$all
@@ -830,7 +826,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||marootrack.co^$all
 /?{BV_SRCID}&$doc
 ||161.35.4.84^$doc
-||bestrackerty-deals.com^$all
 ||brainychoose-captcha.top^$all
 ||kawakalyui.z11.web.core.windows.net^$all
 ||bitcoinevolutionsite.club^$doc
@@ -840,7 +835,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||clean-protection.xyz^$all
 ||security-scanner.xyz^$all
 /werrx01/?$doc
-||fugles.net^$all
 ||maxy-tax.com^$all
 /jump?id=*&_tgUrl=$doc
 ||ether-give21.net^$all
@@ -862,6 +856,9 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||update-global.com^$all
 .html?cep=*&cost=0.$doc
 ||the-real-girls.life^$all
+||becilobun.com^$all
+/?ip=*&uclickhash=$doc
+||brownsite.click^$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68588
 ! https://github.com/uBlockOrigin/uAssets/issues/8869
@@ -920,10 +917,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69036
 .systems/signup?ad_domain=$doc,popup
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/78614
-/^https?:\/\/\d{6}\.xyz\/lucky\/[-a-z]+\/\?t=/$doc,popup,domain=xyz
-/^https?:\/\/[a-z]{6}\.vip\/lucky\/[-a-z]+\/\?t=/$doc,popup,domain=vip
 
 ! fake software updaters /redirections
 ||1perpersqe1.com^$all

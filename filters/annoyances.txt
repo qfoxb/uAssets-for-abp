@@ -3675,9 +3675,6 @@ kwamkidhen.com##.unselectable:style(-webkit-touch-callout: default !important; -
 ! altranotizia .it anti select
 altranotizia.it##+js(acis, disableSelection)
 
-! https://github.com/uBlockOrigin/uAssets/issues/7377
-theguardian.com##.site-message--banner
-
 ! https://www.reddit.com/r/uBlockOrigin/comments/gig2vt/
 livemint.com##.subscription .paywall:style(height: unset !important; overflow: unset !important;)
 livemint.com##.subscription .paywall .subscriptionBox
@@ -6434,3 +6431,6 @@ voe.sx##+js(aeld, contextmenu)
 
 ! wpking. in f-keys
 wpking.in##+js(aeld, , Key)
+
+! ibomma. pw anti right click select copy
+ibomma.pw##+js(acis, $, contextmenu)
