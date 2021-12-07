@@ -1405,6 +1405,8 @@ popimed.com##+js(nowebrtc)
 popimed.com##+js(aopw, _pop)
 popimed.com##+js(set, blurred, false)
 popimed.com##.banner-inner
+popimed.com##+js(aeld, click, trigger)
+popimed.com##+js(ra, href, [rel^="noopener"])
 ||adsgig.com^
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56572
@@ -5893,8 +5895,8 @@ rezkozpatch.xyz##+js(acis, eval, ignielAdBlock)
 animekuro.org##.mks_ads_widget
 animekuro.org##+js(acis, document.write)
 
-! https://github.com/uBlockOrigin/uBlock-issues/issues/1404
-telesintese.com.br##^meta[http-equiv="refresh"]
+! https://github.com/uBlockOrigin/uAssets/issues/10788
+telesintese.com.br##+js(refresh-defuser)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70387
 devcourseweb.com##+js(nosiif, visibility, 1000)
@@ -5917,10 +5919,12 @@ verdragonball.online##+js(aopw, _pop)
 *$popunder,domain=r18hub.com,3p
 ||r18hub.com/assets/vast/videos/*$xhr,1p
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/70455
+! https://github.com/AdguardTeam/AdguardFilters/issues/70455, 101236
+samaa-pro.com##+js(aopr, app_vars.force_disable_adblock)
+7misr4day.com,mik4mob.com,sama-pro.com##+js(nano-sib)
 7misr4day.com##+js(aopr, adBlockDetected)
+samaa-pro.com##+js(set, blurred, false)
 7misr4day.com##+js(nowoif)
-7misr4day.com,mik4mob.com##+js(nano-sib)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70457
 miklpro.com##+js(aopr, app_vars.force_disable_adblock)

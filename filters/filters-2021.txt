@@ -1645,8 +1645,8 @@ linkpoi.me##+js(set, blurred, false)
 linkpoi.me##+js(no-fetch-if, manager)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/77046
-short.food-royal.com##+js(aopr, app_vars.force_disable_adblock)
-short.food-royal.com##+js(set, blurred, false)
+short.food-royal.com,usdshort.com##+js(aopr, app_vars.force_disable_adblock)
+short.food-royal.com,usdshort.com##+js(set, blurred, false)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8697
 alohatube.xyz##+js(set, popit, false)
@@ -5917,8 +5917,8 @@ javhub.net##[class^="banner-"]
 ||smac-ad.com^$3p
 ||smac-ad.com^$badfilter
 
-! https://www.reddit.com/r/uBlockOrigin/comments/q0frv0/while_reading_a_sports_article_i_was_redirected/
-novsport.com##^meta[http-equiv="refresh"]
+! https://github.com/uBlockOrigin/uAssets/issues/10788
+novsport.com##+js(refresh-defuser)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10129
 yifysub.net##+js(acis, $, absda)
@@ -5970,6 +5970,7 @@ girls-like.me##div[style$="height:250px;"]
 girls-like.me##div[style$="width:728px;height:90px;"]
 
 ! https://github.com/FastForwardTeam/FastForward/issues/149
+go.netfile.cc##+js(aopr, app_vars.force_disable_adblock)
 go.netfile.cc##+js(set, blurred, false)
 
 ! https://github.com/FastForwardTeam/FastForward/issues/151
@@ -7395,7 +7396,6 @@ camstreams.tv##div[style="position: absolute; inset: 0px; overflow: hidden; z-in
 ||camstreams.tv/player/html.php?aid=pre_roll_html
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/r9gi08/how_to_remove_antiadblock/
-streamonsport.to##.container-fluid.events > .row
 streamonsport.to##[href^="/go.php"]
 streamonsport.to##.btn-sm.btn-danger.btn
 @@||leet365.cc^$ghide
@@ -7432,3 +7432,57 @@ fembed-hd.com##+js(aopr, __Y)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/ra6dd5/
 *$object,redirect-rule=empty,domain=sonixgvn.net
+
+! https://github.com/uBlockOrigin/uAssets/issues/10779
+mconverter.eu##+js(nostif, offsetHeight)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10777
+sevenjournals.com##+js(nobab)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10793
+joomlabeginner.com##+js(nostif, eb)
+joomlabeginner.com##.bannergroup
+
+! https://github.com/uBlockOrigin/uAssets/issues/10792
+learnclax.com##+js(acis, $, fetch)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10791
+@@||games.miamiherald.com^$ghide
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=games.miamiherald.com
+games.miamiherald.com##[class*="displayAd"]
+games.miamiherald.com##+js(nano-sib, game)
+
+! https://github.com/uBlockOrigin/uAssets/issues/7805
+jpoplibs.us##+js(nosiif, visibility, 1000)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10795
+@@||corvusrom.com^$ghide
+
+! https://github.com/uBlockOrigin/uAssets/issues/10797
+reit-tirement.com##+js(nosiif, visibility, 1000)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10798
+ytmp3x.com##+js(nowoif)
+
+! https://github.com/uBlockOrigin/uAssets/issues/9917#issuecomment-988105302
+bneo.info##+js(acis, eval, replace)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/rb2a2x/how_to_fix_adblock_detection_on_this_website/
+newsmondo.it##+js(acis, document.getElementById, "detect")
+
+! https://www.reddit.com/r/uBlockOrigin/comments/rb0kqa/adblock_detection_by_questpass/
+*$xhr,redirect-rule=nooptext,domain=zwielkopolski24.pl
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/102275
+@@||go.adinsurance.xyz^$ghide
+go.adinsurance.xyz##+js(set, blurred, false)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10809
+goduke.com##+js(no-xhr-if, /analytics|livestats/)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10785
+@@||satoshitron.top^$ghide
+
+! https://github.com/uBlockOrigin/uAssets/issues/10810
+hyipstats.net##+js(no-fetch-if, adsbygoogle)
+hyipstats.net##.w-125px
