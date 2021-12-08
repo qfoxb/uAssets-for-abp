@@ -2510,10 +2510,10 @@ malaysiastock.biz##.RightPanel_Rectangle1
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59797
 biopills.net##+js(aost, encodeURIComponent, inlineScript)
 
-! https://www.reddit.com/r/uBlockOrigin/comments/nks3hf/bypassing_adblock_blocker_on_atozmathcom/
+! https://github.com/uBlockOrigin/uAssets/issues/10815
 atozmath.com##+js(acis, alert, reCAPTCHA)
 @@||atozmath.com^$ghide
-atozmath.com##.menubg .adsbyvli[data-ad-slot][data-width]:not([data-height="250"]),#top.table0 .menubg .adsbyvli[data-ad-slot]:not([data-width]):style(height:250px !important;position:absolute !important;left:-3000px !important)
+atozmath.com##.adsbyvli:style(height:0px!important;width:0px!important)
 @@||atozmath.com/Scripts/advertisement.js$xhr,1p
 
 ! https://github.com/NanoMeow/QuickReports/issues/4365
@@ -6124,7 +6124,7 @@ f2movies.to##+js(nosiif, _0x)
 f2movies.to###gift-top > [href="/android-movies-apk"]
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70843
-/images\/(?:Banner\d{1,2}\.|[a-z]{3}\/)/$image,1p,domain=thesquarshers.com
+//images\/(?:Banner\d{1,2}\.|[a-z]{3}\/)/$image,1p,domain=thesquarshers.com
 thesquarshers.com##img[src*="/Banner"]:upward(a)
 thesquarshers.com##.table
 thesquarshers.com##.video-holder

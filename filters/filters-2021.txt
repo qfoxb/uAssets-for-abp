@@ -5041,6 +5041,9 @@ hamsterix.*,xhplanet1.com,xhwebsite.com,xhwide1.com##div[class*="spb"]
 hamsterix.*,xhplanet1.com,xhwebsite.com,xhwide1.com##[href*="/faphouse/out"]
 hamsterix.*,xhplanet1.com,xhwebsite.com,xhwide1.com##.xplayer-banner
 xhwide1.com##.wio-xspl-adshare
+!#if env_mobile
+xhwide1.com##^script:has-text(popunder)
+!#endif
 ||go.mgdjmp.com^$3p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9802
@@ -7498,3 +7501,9 @@ itudong.com##+js(aeld, load, nextFunction)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10820
 tainhanhvn.com##+js(aeld, load, /nextFunction|2000/)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10823
+@@||play.tv3.ee^$script,1p
+
+! https://github.com/uBlockOrigin/uAssets/issues/10824
+pfps.gg##+js(set, ga, trueFunc)
