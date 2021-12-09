@@ -39,11 +39,14 @@ deine-tierwelt.de##.OUTBRAIN
 deine-tierwelt.de##.header-leaderboard
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/knqn96/
+! https://github.com/easylist/easylist/issues/9973
 techrfour.com,techymozo.com###wpsafe-link:style(display: block !important)
 techrfour.com,techymozo.com##.wpsafe-top, .wpsafe-top ~ #primary
 techrfour.com##.idblog-topbanner-aftermenu
+cookdov.com##+js(set, blurred, false)
 techrfour.com##.col-md-4.widget-area
 techrfour.com##.size-full.alignnone
+cookdov.com##.banner
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8418
 hancinema.net##+js(acis, document.createElement, admiral)
@@ -577,8 +580,6 @@ porndr.com##.we_are_sorry
 /s/s/supc.php
 /s/s/supv.php
 /s/su.php?t=
-/nb/frot_lod.js
-/s/s/js/m/i-def.js?b=
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8460
 deviants.com##+js(aopr, decodeURI)
@@ -5417,6 +5418,7 @@ beingtek.com##+js(set, blurred, false)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9946
 pcbeta.com##+js(aost, MutationObserver, observe)
+pcbeta.com##div:matches-css(width: /980px/)
 
 ! 720p-fullizleme.com,fullfilmcibaba.com,hdmixfilim.com popup
 720p-fullizleme.com,fullfilmcibaba.com,hdmixfilim.com##+js(aopw, yeniSekmeAdresi)
@@ -6225,7 +6227,8 @@ mp3juices.cc##+js(acis, JSON, break;case)
 mp3juices.cc##^script:has-text(break;case)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97744
-fapguru.com##+js(acis, document.querySelectorAll, popMagic)
+fapguru.com##+js(aost, $, inlineScript)
+##[href="https://clickaine.com"]
 fapguru.com##.underplayer_banner
 ||awrfds3.pornpapa.com^
 
@@ -7507,3 +7510,33 @@ tainhanhvn.com##+js(aeld, load, /nextFunction|2000/)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10824
 pfps.gg##+js(set, ga, trueFunc)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10832
+fffmovies.*##+js(acis, JSON.parse, break;case $.)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/102362
+arhplyrics.in##+js(nano-sib)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/102076
+tecnologiapp.site##+js(aopr, app_vars.force_disable_adblock)
+tecnologiapp.site##+js(set, blurred, false)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/101609
+adslink.programasfulltaf16.com##+js(aopr, app_vars.force_disable_adblock)
+adslink.programasfulltaf16.com##+js(set, blurred, false)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/98082
+claimtrx.com##+js(nosiif, visibility, 1000)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/98081
+riadlink.top##+js(nosiif, visibility, 1000)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10830
+autocoin.in##+js(nosiif, visibility, 1000)
+
+! 4kporn. xxx popunder
+4kporn.xxx##+js(set, flashvars.popunder_url, '')
+4kporn.xxx##[src^="https://4kporn.xxx/player/html.php?aid=pause_html"]
+
+! https://github.com/uBlockOrigin/uAssets/issues/10835
+pinayvids.com##+js(acis, document.addEventListener, adsBlocked)
