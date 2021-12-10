@@ -15569,8 +15569,6 @@ extremereportbot.com##+js(nostif, [native code], 1)
 ||googleapis.com/discovery/$xhr,domain=extremereportbot.com
 @@||pagead2.googlesyndication.com^*/show_ads_impl.js$script,domain=extremereportbot.com
 @@||doubleclick.net/pagead/*$frame,domain=extremereportbot.com
-||googleads.g.doubleclick.net/pagead/ads?client=ca-pub$frame,redirect=noopframe,important,domain=extremereportbot.com
-||googleads.g.doubleclick.net/pagead/ads?guci$frame,redirect=noopframe,important,domain=extremereportbot.com
 @@||googlesyndication.com^$xhr,domain=extremereportbot.com
 
 ! https://github.com/NanoMeow/QuickReports/issues/1690
@@ -16505,14 +16503,15 @@ gfsvideos.com##+js(nowoif)
 home-made-videos.com##+js(aopr, document.dispatchEvent)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8462
-nuvid.com##+js(aeld, click, open)
-nuvid.com##+js(nowoif)
-nuvid.com##div[style^="height:477px"]
-nuvid.com##footer > .rfix
-nuvid.com##.aside > h2
-nuvid.com##.download_adv_text_photo
-nuvid.com##.video-options
-nuvid.com##.advertisement
+! https://github.com/AdguardTeam/AdguardFilters/issues/102670
+nuvid.*##+js(aeld, click, open)
+nuvid.*##+js(nowoif)
+nuvid.*##div[style^="height:477px"]
+nuvid.*##footer > .rfix
+nuvid.*##.aside > h2
+nuvid.*##.download_adv_text_photo
+nuvid.*##.video-options
+nuvid.*##.advertisement
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6827
 shameless.com##+js(aopr, ExoLoader.addZone)
