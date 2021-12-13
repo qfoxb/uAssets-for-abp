@@ -706,8 +706,9 @@ mail.yahoo.com##div#modal-outer[aria-labelledby="adblock-unblock-cue"]
 ||d3g5ovfngjw9bw.cloudfront.net^$script,redirect=noopjs
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76465
+! https://mm9844.cc/e/c3e55sp79uz6.html popup
 mm9841.com,mm9842.com##+js(nowoif)
-mm9842.com##+js(aopr, __Y)
+mm9842.com,mm9844.cc##+js(aopr, __Y)
 @@||mm9841.com^$ghide
 
 ! https://github.com/NanoMeow/QuickReports/issues/3738
@@ -5108,14 +5109,6 @@ sluttyrat.com###under_player_button
 ! morritastube.xxx popop
 morritastube.xxx##+js(aopr, scriptwz_url)
 morritastube.xxx##+js(aopr, sites_urls_pops)
-
-! besthentaitube.com ichineseporn.com popup ads
-besthentaitube.com,ichineseporn.com##+js(aeld, click, popMagic)
-besthentaitube.com,ichineseporn.com##+js(aopw, atOptions)
-besthentaitube.com,ichineseporn.com##+js(nowoif)
-besthentaitube.com,ichineseporn.com###playerOverlay
-besthentaitube.com,ichineseporn.com##.col.content-col > p[align="center"] > [href][target="_blank"]
-besthentaitube.com,ichineseporn.com##.-aff.col.item-col
 
 ! emulatorgames.net boost countdown timer
 emulatorgames.net##+js(nano-sib, , , 0.3)

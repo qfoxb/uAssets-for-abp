@@ -327,7 +327,8 @@ kinopoisk.ru###image:style(opacity: 1 !important;)
 ! https://github.com/uBlockOrigin/uAssets/issues/1906
 ! https://www.reddit.com/r/uBlockOrigin/comments/9c6j8u/
 ! https://github.com/uBlockOrigin/uAssets/issues/5531
-/google-analytics.$badfilter
+! https://github.com/uBlockOrigin/uAssets/issues/10860
+/google-analytics.$~image,badfilter
 /googleanalytics.js$badfilter
 -google-analytics.$badfilter
 -google-analytics/$badfilter
@@ -4293,3 +4294,24 @@ ilbianconero.com##.no-scroll:style(overflow:auto!important)
 
 ! https://github.com/easylist/easylist/commit/18aded54a64a0cfddef443d935a21c69bb401de2#commitcomment-61714860
 @@||www.visibleoffers.com/js/third-party/angulartics-google-analytics/dist/angulartics-ga.min.js$script,1p
+
+! https://github.com/uBlockOrigin/uAssets/issues/10868
+@@||googletagmanager.com/gtm.js$script,domain=swisslos.ch
+
+! https://github.com/uBlockOrigin/uAssets/issues/10874
+@@||enchambered.com/puzzles/*/assets/js/googleanalytics$script,1p
+
+! https://github.com/uBlockOrigin/uAssets/issues/10847
+||static.chotot.com/storage/js/prebid-ads.js$script,important
+
+! https://github.com/uBlockOrigin/uAssets/issues/10867
+@@||cds.connatix.com/p/*/connatix.playspace.js$script,domain=adweek.com
+@@||cd.connatix.com/connatix.playspace.js$script,domain=adweek.com
+||adweek.com^$removeparam=traffic_source
+
+! broken video player by easyprivacy on cnet homepage
+@@||cnet.com^*/lib/tracking/comscore/$script
+
+! https://github.com/easylist/easylist/pull/10038
+! unbreak www.apowersoft.cn,www.apowersoft.tw,airmore.com,www.videograbber.net,kraken.io
+/^https?:\/\/.*\/(bundle|warning|style|bootstrap|brand|reset|jquery-ui|styles|error|logo|index|favicon|star|header)\.(png|css)\?[A-Za-z0-9]{30,}.*/$3p,badfilter
