@@ -2233,7 +2233,7 @@ adyou.co###bannerUrl
 
 ! https://github.com/uBlockOrigin/uAssets/issues/883
 ! AdFly
-activeation.com,activetect.net,adf.ly,atabencot.net,atharori.net,atomcurve.com,atominik.com,auto-login-xxx.com,ay.gy,babblecase.com,baymaleti.net,bitigee.com,bluenik.com,brightvar.bid,briskgram.net,brisktopia.com,casualient.com,chinnica.net,cinebo.net,clearload.bid,coginator.com,cogismith.com,cowner.net,dl.android-zone.org,dl.underclassblog.com,dataurbia.com,download.replaymod.com,fiaharam.net,gatustox.net,gdanstum.net,gloyah.net,gusimp.net,j.gs,kaitect.com,kializer.com,kibuilder.com,kimechanic.com,larati.net,meriabub.net,microify.com,mmoity.com,picocurl.com,pintient.com,q.gs,quainator.com,quamiller.com,queuecosm.bid,rd.consoletarget.com,riffhold.com,scuseami.net,simizer.com,skamaker.com,skamason.com,sostieni.ilwebmaster21.com,swiftviz.net,thouth.net,threadsphere.bid,tinyical.com,tinyium.com,twineer.com,uclaut.net,viahold.com,vializer.com,viwright.com,xterca.net,yabuilder.com,yamechanic.com,yoalizer.com,yobuilder.com,yoineer.com,yoitect.com,zo.ee,zoee.xyz##+js(adfly-defuser)
+activeation.com,activetect.net,adf.ly,atabencot.net,atharori.net,atomcurve.com,atominik.com,auto-login-xxx.com,ay.gy,babblecase.com,baymaleti.net,bitigee.com,bluenik.com,brightvar.bid,briskgram.net,brisktopia.com,casualient.com,chinnica.net,cinebo.net,clearload.bid,coginator.com,cogismith.com,cowner.net,dl.android-zone.org,dl.underclassblog.com,dataurbia.com,download.replaymod.com,fiaharam.net,gatustox.net,gdanstum.net,gloyah.net,gusimp.net,j.gs,kaitect.com,kializer.com,kibuilder.com,kimechanic.com,larati.net,meriabub.net,microify.com,mmoity.com,picocurl.com,pintient.com,q.gs,quainator.com,quamiller.com,queuecosm.bid,rd.consoletarget.com,riffhold.com,scuseami.net,simizer.com,skamaker.com,skamason.com,sostieni.ilwebmaster21.com,swiftviz.net,thouth.net,threadsphere.bid,tinyical.com,tinyium.com,twineer.com,uclaut.net,usfinf.net,viahold.com,vializer.com,viwright.com,xterca.net,yabuilder.com,yamechanic.com,yoalizer.com,yobuilder.com,yoineer.com,yoitect.com,zo.ee,zoee.xyz##+js(adfly-defuser)
 ||fbs.com^$3p
 ! https://github.com/uBlockOrigin/uAssets/issues/1009#issuecomment-352160776
 ! https://github.com/jspenguin2017/uBlockProtector/issues/791
@@ -2248,6 +2248,11 @@ meulink.tk##+js(set, blurred, false)
 meulink.tk##+js(aopr, open)
 ||123link.*/push/
 123link.*##.ads-block-warning
+! https://github.com/uBlockOrigin/uAssets/issues/3374
+123link.*##+js(aopr, ads_block)
+123link.*##+js(aopr, blockAdBlock)
+123link.*##+js(nano-sib)
+123link.*##+js(set, blurred, false)
 ! https://github.com/uBlockOrigin/uAssets/issues/5890
 ||maranhesduve.club^$script
 ||pixel.maranhesduve.club^$xhr
@@ -3922,7 +3927,7 @@ porndish.com##+js(aopw, _pop)
 ! https://github.com/uBlockOrigin/uAssets/issues/1497
 ! https://github.com/uBlockOrigin/uAssets/issues/1521
 ! https://github.com/uBlockOrigin/uAssets/issues/1731
-123link.*,admove.co,adsurl.xyz,al.ly,apkmirror.com,arabcut.com,bbf.lt,bilink.xyz,bitcoadz.pw,btc.ms,coinb.ink,coinlink.us,cpmlink.net,curs.io,cut-urls.com,cutearn.com,ecurs.co,ecut.io,eg4link.*,egy-links.com,eurs.io,fas.li,idlelivelink.*,igram.*,iiv.pl,infinityurl.co,iziwinmoney.info,leenlink.com,lewat.id,link-cash.com,linkatk.net,linkhits.us,linkkch.com,lkcash.net,shink.me,shink.xyz,shortzero.com,so.gd,teqani-plus.com,ur.ly,url.gem-flash.com,urle.co,zeiz.me##+js(nano-sib)
+admove.co,adsurl.xyz,al.ly,apkmirror.com,arabcut.com,bbf.lt,bilink.xyz,bitcoadz.pw,btc.ms,coinb.ink,coinlink.us,cpmlink.net,curs.io,cut-urls.com,cutearn.com,ecurs.co,ecut.io,eg4link.*,egy-links.com,eurs.io,fas.li,idlelivelink.*,igram.*,iiv.pl,infinityurl.co,iziwinmoney.info,leenlink.com,lewat.id,link-cash.com,linkatk.net,linkhits.us,linkkch.com,lkcash.net,shink.me,shink.xyz,shortzero.com,so.gd,teqani-plus.com,ur.ly,url.gem-flash.com,urle.co,zeiz.me##+js(nano-sib)
 globalbesthosting.com,srt.am,userupload.*##+js(nano-stb)
 ! https://github.com/uBlockOrigin/uAssets/issues/1481
 1ink.cc##+js(nano-sib)
@@ -4372,8 +4377,8 @@ waybig.com##.aside-adds-col
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1953
 ! animeflv.net | animeflvnet.com | animeflv.ac | animeflv.cc | animeflv.la | animeflv.ru  ads/popup
-animeflv.*,animeflvnet.com##+js(acis, JSON.parse, break;case $.)
-animeflv.*,animeflvnet.com##+js(acis, Math, break;case $.)
+animeflvnet.com##+js(acis, JSON.parse, break;case $.)
+animeflvnet.com##+js(acis, Math, break;case $.)
 animeflv.*##+js(acis, jQuery, 'pp12')
 *$script,3p,denyallow=cloudflare.com|cloudflare.net|cloudfront.net|disqus.com|disquscdn.com|facebook.net|fastly.net|fastlylb.net|fbcdn.net|google.com|googleapis.com|gstatic.com|hcaptcha.com|hwcdn.net|jquery.com|jsdelivr.net|recaptcha.net,domain=animeflv.*
 @@||animeflv.*/assets/vast/videojs$script,1p
@@ -5221,13 +5226,14 @@ elfqrin.com##+js(nostif, alert, 8000)
 anonymousemail.me##+js(acis, document.getElementById, adblock)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2019
-porngem.com##+js(aeld, getexoloader)
-porngem.com##+js(aeld, , bi())
-porngem.com##+js(popads-dummy)
-||porngem.com/ai/*$frame,1p
+porngem.com##+js(set, console.clear, noopFunc)
 porngem.com##.video-right
 porngem.com##.featured-b
 porngem.com###player-pop-layer
+porngem.com##.adv-in-video
+porngem.com##.bottom-b-s
+porngem.com##.sponsor
+porngem.com##.top-sponsor
 
 ! https://forums.lanik.us/viewtopic.php?f=104&t=40485&p=135354#p135178
 @@||e-komplet.dk^$ghide
@@ -7178,7 +7184,7 @@ cut-fly.com##form#go-popup:remove()
 gioialive.it##+js(nostif, rbm_block_active, 1000)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10098
-investing.com##+js(set, google_ad_status, 1)
+investing.com##+js(no-fetch-if, ads)
 investing.com##.ad_ad__3OHhN
 investing.com##.outbrain_outbrain-wrapper__3mDpk
 
@@ -7442,6 +7448,8 @@ chicoer.com##+js(set, CnnXt.Event.fire, noopFunc)
 anonyviet.com##+js(nostif, nextFunction, 250)
 anonyviet.com##+js(aopr, Date.prototype.toUTCString)
 @@||anonyviet.com^$ghide
+anonyviet.com##.ai-viewport-1
+anonyviet.com##.adsbygoogle
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3096
 visionias.net##+js(aeld, load, 2000)
@@ -19022,10 +19030,6 @@ onemanhua.com##+js(nostif, checkSiteNormalLoad)
 @@||virallfeed.com^$ghide
 virallfeed.com##.topad
 
-! https://github.com/uBlockOrigin/uAssets/issues/3374
-123link.*##+js(aopr, ads_block)
-123link.*##+js(aopr, blockAdBlock)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/6917
 @@||awesomegogo.com^$ghide
 awesomegogo.com##.topad
@@ -21470,12 +21474,14 @@ techdracula.com##.adsbygoogle
 ! propeller new variants
 /^https:\/\/[a-z]{8,15}\.top(\/(?:\d{1,5}|0NaN|articles?|browse|index|movie|news|pages?|static|view|web|wiki)){1,4}\.html$/$frame,3p,match-case
 /^https:\/\/[a-z]{8,15}\.top\/(?:ajax|articles|config|custom|data|menu|resources|validators)(?:\.json)?$/$xhr,3p
-/^https:\/\/[a-z]{8,15}\.top\/(?:bootstrap|bundle|index|jquery-ui|reset|styles?)\.css\?[\/0-9a-zA-Z]{46,}=?=?$/$css,3p,match-case
-/^https:\/\/[a-z]{8,15}\.top\/(?:brand|error|favicon|header|icon|image|logo|star|warning)\.png\?[0-9a-zA-Z]{46,}=?=?$/$image,3p,match-case
+/^https:\/\/[a-z]{8,15}\.top\/(?:bootstrap|bundle|index|jquery-ui|reset|styles?)\.css\?aHR0c[\/0-9a-zA-Z]{41,}=?=?$/$css,3p,match-case
+/^https:\/\/[a-z]{8,15}\.top\/(?:brand|error|favicon|header|icon|image|logo|star|warning)\.png\?aHR0c[0-9a-zA-Z]{41,}=?=?$/$image,3p,match-case
 /^https:\/\/[a-z]{8,15}\.xyz(\/(?:\d{1,5}|0NaN|articles?|browse|index|movie|news|pages?|static|view|web|wiki)){1,4}\.html$/$frame,3p,match-case
 /^https:\/\/[a-z]{8,15}\.xyz\/(?:ajax|articles|config|custom|data|menu|resources|validators)(?:\.json)?$/$xhr,3p
-/^https:\/\/[a-z]{8,15}\.xyz\/(?:bootstrap|bundle|index|jquery-ui|reset|styles?)\.css\?[\/0-9a-zA-Z]{46,}=?=?$/$css,3p,match-case
-/^https:\/\/[a-z]{8,15}\.xyz\/(?:brand|error|favicon|header|icon|image|logo|star|warning)\.png\?[0-9a-zA-Z]{46,}=?=?$/$image,3p,match-case
+/^https:\/\/[a-z]{8,15}\.xyz\/(?:bootstrap|bundle|index|jquery-ui|reset|styles?)\.css\?aHR0c[\/0-9a-zA-Z]{41,}=?=?$/$css,3p,match-case
+/^https:\/\/[a-z]{8,15}\.xyz\/(?:brand|error|favicon|header|icon|image|logo|star|warning)\.png\?aHR0c[0-9a-zA-Z]{41,}=?=?$/$image,3p,match-case
+.top/event|$xhr,3p
+.xyz/event|$xhr,3p
 
 ! generic filters for revolving adservers
 /ntfc.php?$script

@@ -4107,9 +4107,6 @@ safeframe.googlesyndication.com##.left-container
 @@||bigappboi.com/captchalocker/js/popup.js.php
 @@||bigappboi.com/cp/js/captcha.js.php
 
-! https://github.com/uBlockOrigin/uAssets/issues/10046
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,domain=cnet.com
-
 ! fix video https://www.pussyspace.com/live/anna_lus/
 @@||chaturbate.com/in/$frame,domain=pussyspace.*
 
@@ -4188,6 +4185,7 @@ myair2.resmed.com##+js(no-xhr-if, cloudflare.com/cdn-cgi/trace)
 @@_advertisment.$image,domain=gorgeouspfeiffer.com
 @@_advertisement_$image,domain=jennifer-lawrence.com
 @@/advertising_$image,domain=timfahlbusch.com
+@@/advertisment/*$image,domain=taylorpictures.net
 @@/ad_campaigns/*$image,domain=alicia-vikander.com
 @@/adverts/*$image,domain=emily-blunt.com|isla-fisher.net|islafisher.net|reese-witherspoon.org|reesewitherspoon.org
 
@@ -4219,8 +4217,8 @@ pewresearch.org##+js(set, ga, noopFunc)
 ! https://github.com/uBlockOrigin/uAssets/issues/10491
 @@||quantcast.mgr.consensu.org^*tcfv2/*/cmp2.js?referer=$script
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/78676
-saitama-np.co.jp#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-height:1px!important)
+! https://github.com/uBlockOrigin/uAssets/issues/10922
+saitama-np.co.jp#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-height:1px!important;margin:0!important;padding:0!important)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/qohky0/sfgatecom_images_blocked_when_using_the_ublock/hl92tpw/
 @@||aps.hearstnp.com/Scripts/loadAds.js$script,domain=sfgate.com
@@ -4309,9 +4307,29 @@ ilbianconero.com##.no-scroll:style(overflow:auto!important)
 @@||cd.connatix.com/connatix.playspace.js$script,domain=adweek.com
 ||adweek.com^$removeparam=traffic_source
 
-! broken video player by easyprivacy on cnet homepage
-@@||cnet.com^*/lib/tracking/comscore/$script
+! https://github.com/uBlockOrigin/uAssets/issues/10919
+@@||cibng.ibanking-services.com^$cname
+@@||ppl.ibanking-services.com^$cname
 
-! https://github.com/easylist/easylist/pull/10038
-! unbreak www.apowersoft.cn,www.apowersoft.tw,airmore.com,www.videograbber.net,kraken.io
-/^https?:\/\/.*\/(bundle|warning|style|bootstrap|brand|reset|jquery-ui|styles|error|logo|index|favicon|star|header)\.(png|css)\?[A-Za-z0-9]{30,}.*/$3p,badfilter
+! https://github.com/uBlockOrigin/uAssets/issues/10927
+@@||api.adinplay.com/libs/aiptag/pub/WRC/warscrap.io/tag.min.js$script,domain=warscrap.io
+warscrap.io##+js(set, window.pbjsChunk, noopFunc)
+warscrap.io##.squareAdContainer
+warscrap.io##.main-menu-bottom
+
+! https://github.com/uBlockOrigin/uAssets/issues/10920
+@@||cdn.optimizely.com/datafiles/*.json$xhr,domain=myaccount.amfam.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/10943
+@@||fmkorea.com/modules/point/icons/*$image,1p
+ 
+! https://github.com/uBlockOrigin/uAssets/issues/10950
+*$script,3p,domain=animeflv.net,badfilter
+
+! https://www.kurashiru.com/articles/b327275a-2dc9-4458-982f-58a95d89030d layout broken on mobile
+kurashiru.com#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-height:1px!important;margin:0!important;padding:0!important)
+
+! https://github.com/uBlockOrigin/uAssets/issues/10958
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=meteoetradar.com
+@@||securepubads.g.doubleclick.net/gpt/pubads_impl_$script,domain=meteoetradar.com
+meteoetradar.com##+js(no-xhr-if, doubleclick)
