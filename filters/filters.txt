@@ -146,7 +146,6 @@ youtube.com##ytd-display-ad-renderer:upward(ytd-rich-item-renderer)
 ! https://github.com/uBlockOrigin/uAssets/issues/7767
 ! AdDefend
 !#if env_chromium
-n-tv.de##+js(aopr, embedAddefend)
 haus-garten-test.de##+js(set, Object.keys, trueFunc)
 bafoeg-aktuell.de,bikerszene.de,deine-tierwelt.de,dhd24.com,donnerwetter.de,e-hausaufgaben.de,fremdwort.de,gartendialog.de,gartenlexikon.de,gewinnspiele.tv,gut-erklaert.de,haus-garten-test.de,iban-rechner.de,kindergeld.org,ksta.de,messen.de,moviejones.de,mz-web.de,naumburger-tageblatt.de,newsbreak24.de,nickles.de,oeffentlicher-dienst.info,rheinische-anzeigenblaetter.de,rundschau-online.de,torgranate.de,truckscout24.*,unsere-helden.com,weser-kurier.de,wieistmeineip.*##+js(nostif, .call(null), 10)
 lablue.*##+js(nostif, push, 500)
@@ -184,6 +183,8 @@ mtb-news.de##.mtbnews-forum__banner
 newsbreak24.de##.aw-track-click
 newsbreak24.de###adup1
 transfermarkt.*##.noscript
+! https://github.com/uBlockOrigin/uAssets/issues/10975
+n-tv.de##+js(aopr, embedAddefend)
 ! To counter unnecessary exception filters
 ||adnxs.com^$important,domain=bz-berlin.de|metal-hammer.de|musikexpress.de|rollingstone.de|stylebook.de
 ||googlesyndication.com^$script,important,domain=autobild.de|metal-hammer.de|musikexpress.de|rollingstone.de
@@ -4853,11 +4854,11 @@ megaup.net##+js(nano-sib, display())
 !megaup.net##.metaRedirectWrapperBottomAds:style(pointer-events: none !important;opacity: 0 !important)
 !megaup.net##[id*="ScriptRootC"]:upward(1):style(position:absolute !important;left:-99999px !important)
 @@||megaup.net^$ghide
-! ||megaup.net/imageads/$image,redirect-rule=noopframe,1p
+||megaup.net/imageads/$image,1p,redirect-rule=noopframe
 megaup.net##+js(aeld, error)
 megaup.net##+js(ra, href|target, a[href^="https://tm-offers.gamingadult.com/"])
 !*$image,redirect-rule=32x32.png,domain=megaup.net
-||megaup.net/imageads/*$image,redirect=32x32.png,1p
+!||megaup.net/imageads/*$image,redirect=32x32.png,1p
 ||rtbsystem.org^$3p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1850
@@ -5368,6 +5369,8 @@ vipbox.*##.btn-lg.btn
 vipbox.*##.position-absolute
 ##[data-lnguri*="vipbox"]
 *$image,redirect-rule=1x1.gif,domain=vipbox.*
+@@||vipbox.*^$ghide
+vipbox.*##.btn-success.btn
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2104
 wkyc.com##+js(acis, btoa)
@@ -7184,7 +7187,9 @@ cut-fly.com##form#go-popup:remove()
 gioialive.it##+js(nostif, rbm_block_active, 1000)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10098
+! https://github.com/uBlockOrigin/uAssets/issues/11009
 investing.com##+js(no-fetch-if, ads)
+investing.com##+js(set, google_ad_status, 1)
 investing.com##.ad_ad__3OHhN
 investing.com##.outbrain_outbrain-wrapper__3mDpk
 
@@ -10264,6 +10269,7 @@ l23movies.*,123moviess.*,123movies.*,123movies0.*,123movieshub.*##+js(acis, JSON
 e123movies.com##+js(acis, Math, break;case $.)
 0123movies.*,123movieshub.*##+js(aopr, AaDetector)
 0l23movies.*##+js(aopr, rid)
+123movieshub.*##+js(aopw, _pop)
 123movies.*##a[href="https://www.123movies.club/stream-now/"]
 123movies.*,123movieslife.*##.btn-watch-area
 123movies.*##li > .options:has-text(Watch Online)
@@ -10773,7 +10779,8 @@ sledujfilmy.to##+js(acis, $, hide)
 ! https://github.com/uBlockOrigin/uAssets/issues/3011
 forum.soft98.ir##.shad
 soft98.ir##div.col-lg.col-12:nth-of-type(2),#sidebar > section.card:nth-of-type(1) > .text-center.card-body:style(pointer-events:none !important;opacity:0 !important)
-soft98.ir##div.col-lg.col-12:style(pointer-events:none !important;opacity:0 !important)
+soft98.ir##+js(ra, href|src, a[href] > img[src*="padvish"]\, a[href*="padvish"][target="_blank"], stay)
+soft98.ir##+js(nostif, e())
 *$image,3p,domain=soft98.ir|~forum.soft98.ir
 *$image,redirect-rule=1x1.gif,domain=soft98.ir
 @@||soft98.ir^$ghide
@@ -11297,8 +11304,7 @@ fizyka.org##+js(nobab)
 sexgalaxy.net##+js(nowoif)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4732
-k-vid.*,kshows.to##+js(acis, Math, break;case $.)
-watchserieshd.*##+js(acis, JSON.parse, break;case $.)
+watchserieshd.*##+js(aost, String.fromCharCode, inlineScript)
 ||oagudsey.uk^
 ||yvgqtrnncvearx.xyz^
 
@@ -13265,6 +13271,8 @@ pes.social##.ezoic-ad
 rushtime.in##.adsbygoogle
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5438
+||filerio.in/banners/*$image,1p
+||i.ibb.co^$image,domain=filerio.in
 ||filerio.in/sw.js$script,1p
 ||oukrocky.com^
 ||nameketathar.pro^
@@ -14688,7 +14696,6 @@ watch4hd.com##.btn-block.btn
 watch4hd.com##[href="#tab-ad"]:upward(2)
 
 ! altadefinizione .cloud anti adb
-@@||altadefinizione.*^$ghide
 hdpass.cloud##+js(nano-sib)
 ||hdpass.cloud/HD/$media,1p
 ||altadefinizone.*^$popup,3p
@@ -17472,10 +17479,13 @@ vipstand.se##+js(aeld, , _0x)
 ! https://github.com/uBlockOrigin/uAssets/issues/2824
 turkanime.*##+js(nostif, blocked)
 turkanime.*##+js(acis, Math, zfgloaded)
-*$script,redirect-rule=noopjs,domain=turkanime.net
+*$script,redirect-rule=noopjs,domain=turkanime.*
 @@||turkanime.*^$ghide
 @@||turkanime.*/ad/$xhr,1p
-turkanime.net##div.col-xs-12:has-text(MMPORG OYUNLAR)
+turkanime.*##div.col-xs-12:has-text(MMPORG OYUNLAR)
+turkanime.*###sponsored
+turkanime.*##.panel-title:has-text(REKLAM)
+turkanime.*##.AltkisimMenu
 video.sibnet.ru###vjs-overlayclip-box
 video.sibnet.ru##.vjs-overlayclip-box-close
 
