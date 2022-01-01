@@ -1399,9 +1399,6 @@ curbed.com,eater.com,funnyordie.com,mmafighting.com,mmamania.com,polygon.com,rac
 ! right click https://github.com/uBlockOrigin/uAssets/issues/4822
 them4ufree.info##+js(acis, document.oncontextmenu)
 
-! anti adb warning #905
-fux.com##+js(set, adsEnabled, true)
-
 ! bdcraft
 @@||bdcraft.net^$ghide
 bdcraft.net##+js(set, adsbygoogle, null)
@@ -6484,3 +6481,31 @@ yuque.com##+js(aeld, copy)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103536
 otomobilgunluklerim.com##.adblockalert
 otomobilgunluklerim.com##.ad_block_detected:style(overflow: auto !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11017
+picallow.com##+js(acis, document.oncontextmenu, nocontextmenu)
+picallow.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11023
+links.extralinks.casa##+js(acis, document.onselectstart, disableselect)
+
+! magesypro. pro anti select
+magesypro.*##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! psihologiadeazi. ro anti right click, select, copy, f-keys
+psihologiadeazi.ro##+js(aopr, nocontext)
+psihologiadeazi.ro##+js(aopr, disable_copy)
+psihologiadeazi.ro##+js(acis, jQuery, keydown)
+psihologiadeazi.ro##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11129
+ssuathletics.com##+js(acis, document.querySelector, adblock)
+
+! https://github.com/cjx82630/cjxlist/commit/6529adc701822ea1467b9e5a38ad823d27cc1d1e
+52bdys.com##+js(aopr, onload)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11140
+cocomanga.com##+js(aeld, contextmenu)
+
+! https://github.com/rxliuli/userjs/issues/50
+mooc.chaoxing.com##+js(aeld, beforepaste)

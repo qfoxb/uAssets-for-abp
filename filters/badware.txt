@@ -670,6 +670,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||mqdownload.com^$all
 ||spacedrain.site^$all
 ||vviotaer.space^$all
+/pop-click?sid=*&data=$doc
 
 ||hyperwage.com^$all
 ||ricavato.com^
@@ -853,7 +854,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||helpmight.online^$all
 ||listen-heres.com^$all
 ||frafinomoney01.fun^$all
-/smartlink/?a=*&s1=$doc
+/smartlink/?a=$doc
 ||date.sexpartnercommunity.com/landing/*$doc
 /ll/click.php?key=$doc
 ||maxhacks.pro^$all
@@ -869,6 +870,11 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||fortcheats.fun^$all
 ||downloadonlyfree.com^$all
 ||super-ladies-now.life^$all
+||unogames.site^$all
+||mfilecloud.com/d2twaHh5Ym5jb3p1X2ZCVmVk$doc
+||onetaphack.one^$all
+||cheaterboss.com^$all
+||shopsales2022.com^$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68588
 ! https://github.com/uBlockOrigin/uAssets/issues/8869
@@ -892,6 +898,12 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /^https?:\/\/adserveryo\d\.xyz\/\?/$doc,domain=xyz
 ! https://github.com/uBlockOrigin/uAssets/commit/623de1e06d5d6061f51381af8bf133647cf2283b#commitcomment-61561818
 /^https:\/\/money\d{2}game\.site\/\?u=/$doc,domain=site
+! e.g. https://to3s.biz/?p=gi4tgnjwgu5gi3bpgy2tmmy
+/^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
+! https://github.com/uBlockOrigin/uAssets/commit/338171343ea7804e7e04030fbbf109ca58012aab#commitcomment-62652730
+/^https:\/\/cat\d{2}tuzik\.online\/\?u=/$doc,domain=online
+! https://best-datinghotties1.com/?u=zehkae3&o=tza8fn2
+/^https:\/\/best-datinghotties\d\.com\/\?u=/$doc,domain=com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8378
 ||0addon.com^
@@ -1235,3 +1247,14 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 
 ! https://bbs.kafan.cn/thread-2223042-1-1.html - Phishing
 ||3650365voicemailplay.blob.core.windows.net^$all
+
+! https://github.com/uBlockOrigin/uAssets/pull/10997
+! fake domain
+||jinshanduba.org.cn^$all
+! https://bbs.kafan.cn/thread-2170747-1-1.html – malicious script
+||phpstat.cntcm.com.cn/phpstat/count/abceffgh/abceffgh.js^$script
+
+! https://github.com/uBlockOrigin/uAssets/pull/11041
+||sites.google.com/view/hypixeldupemethod/*^$doc
+||mcdupe.xyz^$doc
+||cdn.discordapp.com/attachments/916391647955279943/*^$all
