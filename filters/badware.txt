@@ -650,7 +650,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||adstellar.icu^
 ||aleks-avto-rnd.ru^$all
 ||ouhastay.net^
-||trk.enemy-adult-scared-there.xyz^$all
 ||trk.setting-nervous-steady-noted.xyz^$all
 ||tube911.com^$all
 ||ationpeci.one^$document,popup
@@ -671,6 +670,11 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||spacedrain.site^$all
 ||vviotaer.space^$all
 /pop-click?sid=*&data=$doc
+/click?a=*&aff_click_id=$doc
+||9-girls.ru^$all
+||adserver7.sbs^$all
+||pergames.fun^$all
+||stils-top.space^$all
 
 ||hyperwage.com^$all
 ||ricavato.com^
@@ -791,7 +795,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||windows-scan.com^$all
 ||ourhypewords.com^$all
 ||antivirus.landerhd.com^$all
-||takaytry.z11.web.core.windows.net^$all
 ||findyour-realsex2.com^$all
 ||slowerwave.cyou^$all
 ||deltasec300gt.fun^$all
@@ -832,7 +835,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 /?{BV_SRCID}&$doc
 ||161.35.4.84^$doc
 ||brainychoose-captcha.top^$all
-||kawakalyui.z11.web.core.windows.net^$all
 ||bitcoinevolutionsite.club^$doc
 ||besty-deals.com^$all
 ||beta-one.net^$all
@@ -875,6 +877,12 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||onetaphack.one^$all
 ||cheaterboss.com^$all
 ||shopsales2022.com^$all
+||arahitojinja.or.jp^$all
+||facebookteens.com^$all
+||best-chicks-here.life^$all
+||cat02tuzik.online^$all
+||dating-herenow3.com^$all
+||dating-space.top^$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68588
 ! https://github.com/uBlockOrigin/uAssets/issues/8869
@@ -1109,6 +1117,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 
 ! https://github.com/uBlockOrigin/uAssets/pull/10017
 ||flash.cn^$all
+! fake flash
+||flashplayer-cn.com^$all
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/pu9ffh/blacklist_the_following_url_in_badware_risks_or/
 ||hypixelskyblock.net^$doc
@@ -1258,3 +1268,9 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||sites.google.com/view/hypixeldupemethod/*^$doc
 ||mcdupe.xyz^$doc
 ||cdn.discordapp.com/attachments/916391647955279943/*^$all
+
+! https://github.com/uBlockOrigin/uAssets/issues/11157
+||sideload.net^$doc
+||stc.tools^$doc
+||stcverify.com^$doc
+||1980s.click^$doc

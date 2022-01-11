@@ -1664,7 +1664,8 @@ mypussydischarge.com##+js(aopr, decodeURI)
 ! https://github.com/NanoAdblocker/NanoFilters/issues/515
 tvepg.eu##+js(nostif, google_jobrunner)
 
-! https://www.reddit.com/r/uBlockOrigin/comments/pjszlf/adblocker_detected/
+! https://github.com/uBlockOrigin/uAssets/issues/9950
+sms24.me##+js(set, $ado, trueFunc)
 *$script,redirect-rule=noopjs,domain=sms24.me
 @@||sms24.me^$ghide
 
@@ -2524,7 +2525,7 @@ atozmath.com##+js(no-xhr-if, bilsyndication)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=noopjs,domain=atozmath.com
 ||quantumdex.io^$domain=atozmath.com
 ||a-mx.com^
-atozmath.com##+js(set, window.vlipbChunk, noopFunc)
+atozmath.com##+js(set, window.vlipb.installedModules, undefined)
 atozmath.com##+js(set, vitag.enableGeoLocation, false)
 atozmath.com##+js(no-xhr-if, vliplatform)
 atozmath.com##+js(aost, Object.assign, bidsBackHandler)
@@ -3068,6 +3069,7 @@ errotica-archives.com##+js(ra, href, [href*="ccbill"])
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7797
 imfb.xyz##+js(nowoif)
+imfb.xyz##+js(aopr, __Y)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7800
 simkl.com##+js(aeld, load, head)
@@ -4664,9 +4666,6 @@ wo2viral.com##a.button
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66787
 adobezii.com##+js(nosiif, visibility, 1000)
 
-! sportsstreamtv.live popups
-sportstreamtv.live##+js(acis, document.currentScript, btoa)
-
 ! https://www.reddit.com/r/uBlockOrigin/comments/jmyeka/adblock_detected_on_walkthroughindoblogspotcom/
 walkthrough-indo.blogspot.com##+js(acis, addEventListener, google_ad_client)
 
@@ -4958,13 +4957,15 @@ unityassets4free.com##img[src^="https://unityassets4free.com/wp-content/uploads/
 vlive.tv##+js(json-prune, meta.advertise)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10281
-new.lewd.ninja##+js(set, adnPopConfig, trueFunc)
+new.lewd.ninja##+js(aost, adnPopConfig.triggerMethod)
+new.lewd.ninja##+js(nostif, lewd)
 new.lewd.ninja##+js(aeld, error)
 *$xhr,redirect-rule=nooptext,domain=new.lewd.ninja
 new.lewd.ninja##a.is-hidden-desktop-only
 new.lewd.ninja##.stargate.box
 new.lewd.ninja##.video-overlay
 new.lewd.ninja##div[id][style*="height:1px;display:inline-block;clear:none;position:absolute"]
+@@||a.trk-imps.com/oauth2$script,domain=new.lewd.ninja
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67519
 hentaienglish.com,hentaiporno.xxx##+js(acis, document.querySelectorAll, popMagic)
@@ -5037,6 +5038,7 @@ microtx.id##+js(nano-sib)
 streamingcommunity.*##^script:has-text(break;case $.)
 streamingcommunity.*##+js(acis, JSON.parse, break;case $.)
 streamingcommunity.*##+js(nosiif, visibility, 1000)
+@@||scws.xyz^$xhr,domain=streamingcommunity.*
 
 ! tvmd .info ads
 ##.fints-block__row
@@ -5520,14 +5522,8 @@ porn300.com##.aan__list
 mineiroloko.co##+js(adfly-defuser)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8330
-streamonsport.info###iframe_preview
-allfoot.info##.salidor_inner
-allfoot.info##+js(aeld, load, nextFunction)
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/69350
-kazanclilink.com##+js(nano-sib)
-@@||kazanclilink.com^$ghide
-kazanclilink.com##[id*="ScriptRoot"]
+! streamonsport. to
+streamonsport.*###iframe_preview
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69378
 freemagazines.top##+js(aost, String.prototype.charCodeAt, ai_)
@@ -5536,12 +5532,6 @@ freemagazines.top##+js(acis, eval, replace)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/k6opvk/aggressive_ad_popup_locks_out_site_for_45seconds/
 namebio.com##.modal.bootbox[aria-hidden="false"]:has(#nudge-link[href^="https://bit.ly"])
-
-! https://github.com/uBlockOrigin/uAssets/issues/8332
-! https://github.com/uBlockOrigin/uAssets/issues/9833
-! https://github.com/uBlockOrigin/uAssets/issues/11140
-cocomanga.com##+js(acis, JSON.parse, break;case $.)
-cocomanga.com,cocomanhua.com##+js(aeld, , popMagic)
 
 ! https://github.com/LiCybora/NanoDefenderFirefox/issues/195
 *$script,redirect-rule=noopjs,domain=anihub.tv

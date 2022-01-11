@@ -1,0 +1,139 @@
+! Title: uBlock filters
+! Expires: 4 days
+! Description: Filters optimized for uBlock, to be used along EasyList
+! Homepage: https://github.com/uBlockOrigin/uAssets
+! Licence: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
+! New filters from January 2022 to ->
+!
+! GitHub issues: https://github.com/uBlockOrigin/uAssets/issues
+! GitHub pull requests: https://github.com/uBlockOrigin/uAssets/pulls
+
+! https://www.reddit.com/r/uBlockOrigin/comments/rr818d/
+akoam.*##+js(nowoif)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/105249
+javhdfree.icu##+js(aopr, __Y)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/105224
+porner.tv,pornmonde.com##+js(acis, document.querySelectorAll, popMagic)
+porner.tv,pornmonde.com##.sources
+
+! pornocomics. online popups forced overlay
+pornocomics.*###dclm_modal_screen
+pornocomics.*###dclm_modal_content
+pornocomics.*##*:style(filter: none !important)
+pornocomics.*##+js(aeld, , pop)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11173
+techkaran.co.in##+js(acis, decodeURIComponent, ai_)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11174
+@@||dosgamezone.com^$image,1p
+
+! animes. vision popups
+animes.vision##+js(aopw, _pop)
+
+! ragnarokmanga. com popMagic
+ragnarokmanga.com##+js(acis, document.querySelectorAll, popMagic)
+
+! tenseishitaraslimedattaken-manga. com popMagic
+tenseishitaraslimedattaken-manga.com##+js(acis, document.querySelectorAll, popMagic)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11185
+jpoplist.us##+js(no-fetch-if, googlesyndication)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/rvodti/a_website_is_detecting_ublock_on_orion_browser/
+buffstreams.tv##.w-100.position-absolute.h-100
+buffstreams.tv,tvply.me##+js(aopw, _pop)
+tvply.*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
+||rucixlgwpb.com^
+||ywgcbcibz.com^
+
+! https://github.com/uBlockOrigin/uAssets/issues/11187
+423down.com##+js(aeld, DOMContentLoaded, adsBlocked)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/rvomws/bluraycom_ubo_v1402/
+blu-ray.com##+js(nowoif)
+
+! ccthesims. com anti adb
+ccthesims.com##+js(nostif, ai_)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11198
+rosefile.net##+js(acis, document.addEventListener, nextFunction)
+
+! https://jbbs.shitaraba.net/bbs/read.cgi/internet/25463/1598352715/430
+ac-illust.com,photo-ac.com##+js(set, enable_dl_after_countdown, true)
+ac-illust.com,photo-ac.com##+js(set, isGGSurvey, true)
+ac-illust.com,photo-ac.com###eachDownloadedModal .ac-btn[href^="https://premium."]:upward(#eachDownloadedModal)
+ac-illust.com,photo-ac.com##.modal-backdrop
+ac-illust.com,photo-ac.com##body.modal-open *:style(filter: none!important;)
+
+! PopAds
+7hitmovies.bond,flizmovies.cc,solarseries.club,solartv.club,swatchhd.online,ytstvmovies.xyz##+js(aopw, _pop)
+
+! propeller crap/ads
+sflix.to##+js(acis, JSON.parse, break;case $.)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11200
+@@||zepperplexo.com^$ghide
+
+! https://github.com/uBlockOrigin/uAssets/issues/11202
+||rsc.lavanguardia.com/js/godo-didomix$script,1p
+
+! https://github.com/uBlockOrigin/uAssets/issues/11199
+apkowner.org,appsmodz.com##+js(no-xhr-if, googlesyndication)
+appsmodz.com##.sticky-ads
+
+! https://github.com/uBlockOrigin/uAssets/issues/11218
+bingotingo.com##+js(no-xhr-if, googlesyndication)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11221
+/abDetector.js$badfilter
+
+! https://github.com/uBlockOrigin/uAssets/issues/11223
+@@||kuronime.tv^$ghide
+
+! https://github.com/uBlockOrigin/uAssets/issues/11210
+watchporn.to##+js(set, flashvars.popunder_url, '')
+watchporn.to##+js(set, flashvars.video_click_url, '')
+
+! https://github.com/uBlockOrigin/uAssets/issues/9448#issuecomment-1006821975
+dotabuff.com##+js(no-fetch-if, ads)
+dotabuff.com##.retaliate.mana-void
+
+! sportstreamtv. co popups
+sportstreamtv.*##+js(acis, JSON.parse, break;case $.)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/106120
+seositespeed.com##+js(acis, eval, replace)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11245
+social-unlock.com##+js(set, ad_link,  '')
+
+! mrgay. com popunder, popups, ads
+mrgay.com##+js(aopr, mz)
+mrgay.com##+js(nowoif)
+mrgay.com##.headline.wrapper:has-text(Advertisement)
+mrgay.com##.headline.wrapper:has-text(Advertisement) + div
+mrgay.com###und_ban
+mrgay.com##.video-info > section:has-text(Adv)
+mrgay.com##article > .headline:has-text(Suggested)
+mrgay.com##article > .headline:has-text(Suggested) + section
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/106240
+octanime.net##+js(acis, Math, break;case)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/106296
+nekolink.site##+js(aopr, __Y)
+
+! 123lnk.xyz leftover, timer
+123lnk.xyz##+js(nano-stb, countDown)
+123lnk.xyz###submitBtn + p
+123lnk.xyz##center + p
+
+! https://github.com/bogachenko/fuckfuckadblock/issues/262
+@@||crackturkey.com^$ghide
+/responsive-ad.$badfilter
+
+! beginningmanga. com popMagic
+beginningmanga.com##+js(acis, document.querySelectorAll, popMagic)

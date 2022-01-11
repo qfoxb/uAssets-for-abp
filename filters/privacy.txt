@@ -134,7 +134,9 @@ brillen.de##+js(acis, document.createElement, 'script')
 /ga_setup.js$3p
 /google-analytics.$3p,~image
 /googleanalytics.js$3p
--google-analytics/$3p
+! https://github.com/uBlockOrigin/uAssets/issues/11262
+-google-analytics/$domain=~wordpress.org,badfilter
+-google-analytics/$3p,domain=~wordpress.org
 
 ! https://github.com/uBlockOrigin/uAssets/pull/4961
 ||the-japan-news.com/modules/js/lib/fgp/fingerprint2.js$script,redirect=fingerprint2.js,important
@@ -268,6 +270,7 @@ stoic.ai##+js(acis, Math.floor, Number.MAX_SAFE_INTEGER)
 ! https://github.com/uBlockOrigin/uAssets/issues/9717
 ppss.kr##[href*="https://www.classo.me"]:remove()
 ppss.kr##.ppss-title-banner:remove()
+||jsdelivr.net/npm/datbpzjvws@latest/dist/script.min.js
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/p29y3w/these_guys_boast_combatting_all_adblocks/
 ||connectier.io^
@@ -296,18 +299,12 @@ tacobell.com##+js(set, bmak.js_post, false)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95660
 ||ahentai.top/counter.php
 
-! ytmp3.cc geo info
-||ads-website.ytsservice.com^
-
 ! https://twitter.com/wongmjane/status/1446556836497264641
 reddit.com##+js(no-fetch-if, url:/^https:\/\/www\.reddit\.com$/ method:post)
 reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 
 ! https://github.com/easylist/easylist/pull/9370
 ||tr.jianshu.com^
-
-! imgur.com sentry script
-||js.media-lab.ai/ana-sentry.js^
 
 ! https://github.com/uBlockOrigin/uAssets/pull/10282
 ||log.mix.sina.com.cn^
@@ -324,7 +321,7 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 
 ! https://github.com/Yuki2718/adblock/issues/40
 ! https://github.com/Yuki2718/adblock/issues/44
-/\.com\/[-_0-9a-zA-Z]{6,}\/[-\/_0-9a-zA-Z]{30,}$/$script,1p,domain=gu-global.com|uniqlo.com
+/\.com\/[-_0-9a-zA-Z]{4,}\/[-\/_0-9a-zA-Z]{30,}$/$script,1p,domain=gu-global.com|uniqlo.com
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/r06yju/sur_in_english_website_recognises_ad_blocker/
 ||metrics.surinenglish.com^
@@ -336,7 +333,7 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 @@||natureetdecouvertes.com^*/pixel.png$~third-party,badfilter
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10630
-||cm.bilibili.com^
+||cm.bilibili.com/cm/api/$xhr
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10679
 ||wannads.com/api/track/fingerprint^
@@ -359,3 +356,6 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 /cfga/jquery.js?$image
 /npm/sks@0.*/lazyload.js$script,3p
 ||skk.moe/*.js?$image
+
+! jzzo.com,xxxvogue.net, etc.
+/s/js/ta-2.3.js?

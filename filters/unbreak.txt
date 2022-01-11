@@ -331,7 +331,6 @@ kinopoisk.ru###image:style(opacity: 1 !important;)
 /google-analytics.$~image,badfilter
 /googleanalytics.js$badfilter
 -google-analytics.$badfilter
--google-analytics/$badfilter
 /google-analytics.$script,badfilter
 ! https://forums.lanik.us/viewtopic.php?f=64&p=136474
 /ga_setup.js$badfilter
@@ -1134,9 +1133,6 @@ tubewolf.com##.bnnr
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3999
 @@||google-analytics.com/analytics.js$script,domain=panerabread.com
-
-! https://github.com/uBlockOrigin/uAssets/issues/918#issuecomment-435215254
-||4tube.com/assets/abexperiments-$badfilter
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/9t71mf/ublock_origin_breaks_conde_nast_video_player
 @@||googletagservices.com/tag/js/gpt.js$script,domain=pitchfork.com
@@ -4349,3 +4345,34 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 ! https://github.com/uBlockOrigin/uAssets/issues/11109
 @@||shakeshack.com/sites/default/files/google_tag/*$script,1p
 @@||googletagmanager.com/gtm.js$script,domain=shakeshack.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/11158
+@@||googletagmanager.com/gtm.js$script,domain=microcenter.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/11159
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=watch.plex.tv
+
+! https://github.com/uBlockOrigin/uAssets/issues/7220#issuecomment-1004560136
+@@||s0.2mdn.net/instream/html5/ima3.js$script,domain=eurogamer.net
+
+! https://github.com/uBlockOrigin/uAssets/issues/1539#issuecomment-1005618009
+@@||googletagservices.com/tag/js/gpt.js$script,domain=thestar.co.uk
+@@||securepubads.g.doubleclick.net/gpt/*$script,domain=thestar.co.uk
+
+! https://forums.lanik.us/viewtopic.php?p=162736#p162736
+||vendorlist.dmcdn.net^$badfilter
+
+! https://github.com/uBlockOrigin/uAssets/issues/5131#issuecomment-1007971628
+@@||cdn.vox-cdn.com/packs/js/concert_ads-*.js$script,domain=theverge.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/11237
+@@||tags.tiqcdn.com/utag/bper/istituzionali/prod/utag.$script,domain=bper.it
+
+! https://github.com/uBlockOrigin/uAssets/issues/11244
+heise.de#@#[data-ad-unit]
+
+! https://github.com/uBlockOrigin/uAssets/issues/11246
+@@||s0.2mdn.net/instream/html5/ima3.js$script,domain=as.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/11258
+@@||nocturnetls.net^$script,1p
