@@ -4244,9 +4244,6 @@ ilbianconero.com##.no-scroll:style(overflow:auto!important)
 ! https://github.com/easylist/easylist/pull/9904
 @@||clj.valuecommerce.com/*/vcushion.min.js
 
-! https://github.com/uBlockOrigin/uAssets/issues/10718
-@@||etsy.com/api/*/ajax/bespoke/public/neu/specs/*?log_performance_metrics=false$xhr,1p
-
 ! https://www.reddit.com/r/uBlockOrigin/comments/r7ja04/
 ||securegames.iwin.com/data/gtm.json$1p,xhr,redirect=noop.js
 
@@ -4376,3 +4373,10 @@ heise.de#@#[data-ad-unit]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11258
 @@||nocturnetls.net^$script,1p
+
+! cname https://github.com/uBlockOrigin/uAssets/issues/11275
+@@||relay-client-c01.iocnt.net^$script,domain=www.businessinsider.de
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/103489
+! https://github.com/easylist/easylist/pull/10137
+@@||comic-boost.com/gentosha/advertisement_view$frame,1p
