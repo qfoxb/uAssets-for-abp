@@ -144,3 +144,48 @@ cdn.gamemonetize.com###imaContainer
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11279
 superpsx.com##+js(no-xhr-if, googlesyndication)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11282
+so1.asia##+js(nano-stb, , , 0.02)
+so1.asia##+js(nano-sib, , , 0.02)
+so1.asia##+js(rc, hidden, .panel-body > .text-center > button)
+so1.asia##+js(ra, disabled, .panel-body > .text-center > button)
+so1.asia##.pietimer
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/106511
+privatenewz.com##+js(no-xhr-if, adsbygoogle)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11287
+@@||seootools.com^$ghide
+
+! https://github.com/uBlockOrigin/uAssets/issues/11288
+plagiarismdetector.net##+js(aopr, google_jobrunner)
+plagiarismdetector.net###second_slot
+plagiarismdetector.net###first_slot
+*$image,redirect-rule=2x2.png,domain=searchenginereports.net
+searchenginereports.net##[id^="adboxx"]
+
+! https://github.com/uBlockOrigin/uAssets/issues/883#issuecomment-1011508524
+xervoo.net##+js(adfly-defuser)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11293
+hqpornero.com##+js(acis, document.querySelectorAll, popMagic)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11294
+@@||osmanonline.co.uk^$ghide
+osmanonline.co.uk##.is-sticky
+
+! https://github.com/uBlockOrigin/uAssets/issues/11296
+quizack.com##+js(no-fetch-if, googlesyndication)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11297
+netfile.cc##+js(set, blurred, false)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11298
+ninja.io##+js(set, App.AdblockDetected, false)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11301
+@@||niftyfutures.org^$ghide
+
+! other pages using popMagic
+comicsvalley.com,finding-camellia.com##+js(acis, document.querySelectorAll, popMagic)
