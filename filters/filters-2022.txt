@@ -69,7 +69,7 @@ ac-illust.com,photo-ac.com##.modal-backdrop
 ac-illust.com,photo-ac.com##body.modal-open *:style(filter: none!important;)
 
 ! PopAds
-7hitmovies.bond,flizmovies.cc,solarseries.club,solartv.club,swatchhd.online,ytstvmovies.xyz##+js(aopw, _pop)
+7hitmovies.bond,flizmovies.*,solarseries.club,solartv.club,swatchhd.online,ytstvmovies.xyz##+js(aopw, _pop)
 
 ! propeller crap/ads
 sflix.to##+js(acis, JSON.parse, break;case $.)
@@ -189,3 +189,42 @@ ninja.io##+js(set, App.AdblockDetected, false)
 
 ! other pages using popMagic
 comicsvalley.com,finding-camellia.com##+js(acis, document.querySelectorAll, popMagic)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11307
+goshow.tv##+js(acis, document.querySelectorAll, popMagic)
+goshow.tv##+js(aopr, ExoLoader)
+
+! tokyoblog.tv popup
+tokyoblog.tv##+js(aopw, _pop)
+tokyoblog.tv##+js(acis, decodeURI, decodeURIComponent)
+||pierisrapgae.com^
+
+! https://github.com/uBlockOrigin/uAssets/issues/11322
+cocomanga.com##+js(aeld, load, popMagic)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11320
+primeos.in##.elementor-popup-modal
+primeos.in##body:style(overflow: auto !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11324
+sarapbabe.com##+js(aopr, decodeURI)
+stream25.xyz##+js(aopw, _pop)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11328
+integral-calculator.com##+js(aopr, fallbackAds)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11333
+victor-mochere.com##+js(nostif, ai_)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/s5ehyc/how_can_i_remove_detection_from_this_website/
+/doubleserve.js$badfilter
+
+! buondua.com leftover
+buondua.com##.main-body > div > div[class]:not([class^="item"]):not([class^="article"]):has-text(/^Sponsored ads$/)
+buondua.com##.main-body div[class] > .adsbyexoclick:upward(1)
+buondua.com##.pagination + br + div[class]
+buondua.com##div[class*="article"] > div:not([class]) > div[class]:has-text(/^Sponsored ads$/)
+
+! roms-download.com popup
+roms-download.com##+js(acis, Math, break;case $.)
+roms-download.com###ads
