@@ -3487,9 +3487,6 @@ newsinlevels.com,videosinlevels.com##+js(set, sgpbCanRunAds, true)
 ! vivatube.com popup
 vivatube.com##+js(nowoif)
 
-! satoh-blog.blogspot.com anti-adb
-satoh-blog.blogspot.com##+js(acis, document.addEventListener, google_ad_client)
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84036
 knightnoscanlation.com##+js(acis, eval, replace)
 knightnoscanlation.com##.c-sidebar
@@ -3886,9 +3883,6 @@ torproxy.cyou##+js(aopw, _pop)
 
 ! unblockweb. me popups
 unblockweb.me##+js(aopw, _pop)
-
-! https://github.com/uBlockOrigin/uAssets/issues/10061
-turkdebrid.*##+js(acis, document.addEventListener, /google_ad_client|nextFunction/)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85695
 @@||codingnepalweb.com^$ghide
@@ -6869,7 +6863,9 @@ pornpapa.com##.underplayer_banner
 ! https://www.reddit.com/r/uBlockOrigin/comments/r06yju/sur_in_english_website_recognises_ad_blocker/
 ||surinenglish.com/adbd^
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/99505
+! https://github.com/AdguardTeam/AdguardFilters/issues/107015
+av01.tv##+js(nowoif)
+av01.tv##+js(ra, onclick, a[onclick^="setTimeout"])
 av01.tv##.row > div > #tile-ad:upward(1)
 av01.tv##div[style="width: 100%; height: 100%; top: 0px; position: fixed; z-index: 1; background-color: rgba(0, 0, 0, 0.8); overflow-x: hidden; transition: all 0.2s ease 0s; padding: 5%;"]
 av01.tv##+js(rc, vjs-hidden, .vjs-control-bar, stay)

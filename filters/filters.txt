@@ -769,7 +769,6 @@ carbuyer.co.uk##+js(aopr, _sp_.mms.startMsg)
 @@||asadcdn.com/adlib/libmodules/desktop/instream.$script,domain=bild.de
 @@||ioam.de/iam.js$script,domain=bild.de
 @@||bild.de^$ghide
-!@@||tags.tiqcdn.com^$script,domain=bild.de
 bild.de#@##fullBanner
 bild.de#@##powerplace
 bild.de#@##subchannelBanner1_1
@@ -3272,7 +3271,6 @@ xvideos.com,xvideos2.com##+js(nowoif)
 xvideos.com,xvideos2.com##+js(nowebrtc)
 xvideos.com,xvideos2.com,xnxx.com##.banner-game
 xvideos.com,xvideos2.com##.videoad-title
-xvideos.com##a[href^="https://cams.xvideos.com"]:upward(1)
 xxvids.net##[href*="offer_id"]
 xxvids.net##[href^="http://rabbits.webcam/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96000
@@ -3401,6 +3399,7 @@ tnaflix.com##+js(aeld, getexoloader)
 empflix.com,tnaflix.com##.lastLiAvx
 tnaflix.com###vidPlayer span:has-text(Advertisement)
 tnaflix.com###vidPlayer > div:last-child
+tnaflix.com###zoneInPlayer
 empflix.com##.mewBlock
 empflix.com##.mewDv
 empflix.com##.padAdvx
@@ -5711,9 +5710,9 @@ goafricaonline.com##+js(aopr, goafricaSplashScreenAd)
 ! https://github.com/uBlockOrigin/uAssets/issues/2271
 marcosfranciscodesouza.*##+js(nobab)
 
-! https://github.com/uBlockOrigin/uAssets/issues/2278
+! https://github.com/uBlockOrigin/uAssets/issues/11337
 *$script,redirect-rule=noopjs,domain=youmath.it
-youmath.it##+js(acis, document.getElementById, _0x)
+youmath.it##+js(nostif, offsetHeight)
 youmath.it###D_1
 youmath.it###C_1
 
@@ -9626,7 +9625,6 @@ consoletarget.com##+js(aopr, loadTool)
 
 ! pch .com
 *$script,domain=pch.com,redirect=noopjs,3p
-@@||tags.tiqcdn.com^$script,domain=pch.com
 @@||pchassets.com^$script,domain=pch.com
 @@||ajax.googleapis.com/ajax/$script,domain=pch.com
 @@||gstatic.com^$script,domain=pch.com
@@ -18384,11 +18382,8 @@ cheatsquad.gg##.tooltip::before
 cheatsquad.gg##.tooltip::after
 ! https://github.com/uBlockOrigin/uAssets/issues/7273#issuecomment-966551769
 @@||work.ink^$ghide
-work.ink##.ad
-work.ink##+js(aost, Math, inlineScript)
 work.ink##.desc:upward([class*="adb"])
 *$frame,redirect-rule=noopframe,domain=work.ink
-work.ink##^script:has-text(-0x)
 
 ! https://github.com/NanoMeow/QuickReports/issues/2645
 xz2.xyz##+js(aopr, app_vars.force_disable_adblock)

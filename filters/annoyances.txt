@@ -2699,6 +2699,8 @@ pelismart.com##+js(aopr, onload)
 ! https://github.com/uBlockOrigin/uAssets/issues/11335
 keybr.com##+js(nostif, , 5000)
 keybr.com##+js(nostif, [native code])
+keybr.com###keybr_728x90_970x90_ATF:upward(2)
+keybr.com###keybr_160x600_Left:upward(2)
 
 ! https://github.com/NanoMeow/QuickReports/issues/2720
 mangaku.*##+js(acis, $, contextmenu)
@@ -6516,3 +6518,9 @@ elpais.com##+js(nostif, run)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11330
 mail.tm##+js(nostif, init())
+
+! wawlist. com anti right click, select, ctrl,f-keys
+wawlist.com##+js(acis, document.oncontextmenu)
+wawlist.com##+js(acis, document.onkeydown)
+wawlist.com##+js(aopr, disableSelection)
+wawlist.com##+js(aeld, keydown)

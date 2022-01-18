@@ -228,3 +228,20 @@ buondua.com##div[class*="article"] > div:not([class]) > div[class]:has-text(/^Sp
 ! roms-download.com popup
 roms-download.com##+js(acis, Math, break;case $.)
 roms-download.com###ads
+
+! https://github.com/uBlockOrigin/uAssets/issues/11338
+/ad-banner-$~image,~script,badfilter
+
+! https://github.com/uBlockOrigin/uAssets/issues/11336
+*$image,domain=forogore.net,redirect-rule=2x2.png
+
+! https://github.com/uBlockOrigin/uAssets/issues/11340
+likuoo.video##+js(acis, document.querySelectorAll, popMagic)
+
+! streaming assia2. com popups ads
+assia2.com##+js(nowoif)
+||assia2.com/css/banr
+assia2.com##.ban468
+
+! https://forums.lanik.us/viewtopic.php?t=47152
+kepahoo.com##+js(nostif, show)
