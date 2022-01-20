@@ -245,3 +245,52 @@ assia2.com##.ban468
 
 ! https://forums.lanik.us/viewtopic.php?t=47152
 kepahoo.com##+js(nostif, show)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11352
+link.insurance-space.xyz,link.insurglobal.xyz,link.adcortoltda.agency##+js(set, blurred, false)
+1apple.xyz##+js(nano-sib, timer)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11353
+||rat.xxx/xdman/*
+rat.xxx##+js(aopr, popns)
+rat.xxx##.spots-title
+
+! https://github.com/uBlockOrigin/uAssets/issues/11360
+okamimiost.com##+js(acis, JSON.parse, break;case $.)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11366
+@@||lablue.de^$ghide
+
+! https://github.com/uBlockOrigin/uAssets/issues/11373
+sourceforge.net##.project-body > section[id]
+||a.slashdotmedia.com^
+
+! https://www.reddit.com/r/uBlockOrigin/comments/s7cjut/antiad_block_on_this_website/
+brizzynovel.com##+js(aeld, DOMContentLoaded, adsBlocked)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11376
+proviralhost.com,urbharat.xyz##+js(nano-sib, timePassed, 1300)
+proviralhost.com,urbharat.xyz##.inst > div.text-left iframe[src^="//"]:upward(.inst)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11357
+nova.cz##div.vjs-marker-ad
+imasdk.googleapis.com##.autoalign.nonLinearContainer
+
+! https://github.com/uBlockOrigin/uAssets/issues/11387
+rajsayt.xyz##+js(set, blurred, false)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11388
+av4asia.com##+js(aopr, __Y)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11390
+samfirms.com##+js(set, startfrom, 0)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/s8dxnp/adshares_is_using_blockchain_to_bypass_adblockers/
+lbprate.com##^script:has-text(Math.imul)
+||vugecymi.xyz^
+
+! https://github.com/uBlockOrigin/uAssets/issues/9932
+cefirates.com##.most-top-bar
+
+! https://twitter.com/CyderChillin/status/1484217787098669057
+||geoplugin.net^$xhr,redirect-rule=noop.txt,domain=taotronics.com
