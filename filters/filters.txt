@@ -11060,6 +11060,7 @@ pogo.com###leaderboard-ad
 ! https://github.com/uBlockOrigin/uAssets/pull/4626
 @@||torrent9.*^$ghide
 torrent9.*##+js(aeld, , _0x)
+torrent9.*###vpnvpn
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4630
 ilinks.in##+js(aopr, app_vars.force_disable_adblock)
@@ -19854,6 +19855,7 @@ shorteet.com##+js(set, open, undefined)
 shorteet.com##.banner
 ||garysero.xyz^
 ||jizekea.ru^
+*$script,3p,denyallow=gstatic.com|recaptcha.net,domain=shorteet.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7031
 mobilelegends.shop##+js(nano-sib)
