@@ -781,7 +781,7 @@ pornachi.com##.sponsor
 1shorten.com##+js(aopr, app_vars.force_disable_adblock)
 1shorten.com,publicananker.com,rodjulian.com##+js(nosiif, visibility, 1000)
 1shorten.com##+js(set, blurred, false)
-publicananker.com,rodjulian.com##+js(nano-sib, counter, 2000)
+dreamcheeky.com,fidlarmusic.com,publicananker.com,rezence.com,rodjulian.com##+js(nano-sib, counter, 2000)
 rodjulian.com##+js(noeval)
 1shorten.com##.banner
 rodjulian.com###baolink1s
@@ -7821,7 +7821,9 @@ daihatsu-club.net##[class^="side_ad_left_"]
 daihatsu-club.net##[class^="side_ad_right_"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11094
-eevblog.com##a[target] > img:upward(a)
+eevblog.com##[href*="offers"]
+eevblog.com##[src*="banner"]
+||eevblog.com/images/*.gif$image
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11118
 vaa.jp,yonelabo.com###nankafix

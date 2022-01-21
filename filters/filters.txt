@@ -4666,10 +4666,6 @@ estrenos10.com##+js(nowoif)
 ! https://github.com/uBlockOrigin/uAssets/issues/1809#issuecomment-466825920
 ||r.mail.ru/$popup,domain=estrenos10.com
 
-! https://github.com/uBlockOrigin/uAssets/issues/1813
-@@||dupedornot.com^$ghide
-dupedornot.com##+js(acis, $, haveVisited)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/2393
 pelisplus.*,pelisplus2.*##+js(aost, Math.random, /\st\.[a-zA-Z]*\sinlineScript/)
 pelisplus2.*##+js(acis, document.getElementsByTagName, onclick)
@@ -4678,7 +4674,8 @@ pelisplus.*,pelisplushd.*##+js(aopw, adcashMacros)
 pelisplus.*##+js(aopw, smrtSP)
 pelisplus.*##+js(aopw, smrtSB)
 pelisplus.*,clasico.tv##+js(aopw, _pop)
-pelisplus.*,pelisplushd.*,pelispng.online,pelispop.net,player.moovies.in,streampelis.club##+js(nowoif)
+pelisplus.*,pelisplushd.*,pelispop.net,player.moovies.in,streampelis.club##+js(nowoif)
+streampelis.club##+js(aopr, __Y)
 pelisplus.*##+js(ra, href, #opfk)
 pelisplus.*##[class^="smartadtags"]
 pelisplus.*##.links > a.btn[class*="fa-"]
@@ -19851,10 +19848,12 @@ remaxhd.*##+js(aopr, absda)
 animesonline.cz##+js(acis, String.fromCharCode, /btoa|break/)
 @@||bernstein-ah.ml/popads.js$script,domain=animesonline.cz
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/50707
-@@||shorteet.com^$ghide
-||shorteet.com/*/check.js$script,1p
-shorteet.com##+js(aopr, app_vars.force_disable_adblock)
+! https://github.com/uBlockOrigin/uAssets/issues/11406
+shorteet.com##+js(set, blurred, false)
+shorteet.com##+js(set, open, undefined)
+shorteet.com##.banner
+||garysero.xyz^
+||jizekea.ru^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7031
 mobilelegends.shop##+js(nano-sib)
