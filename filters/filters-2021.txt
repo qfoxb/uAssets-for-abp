@@ -587,6 +587,7 @@ porndr.com##.we_are_sorry
 /s/s/supc.php
 /s/s/supv.php
 /s/su.php?t=
+/javascript/fropo.js
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8460
 deviants.com##+js(aopr, decodeURI)
@@ -1410,6 +1411,8 @@ tvn.pl##+js(json-prune, movie.advertising.ad_server playlist.movie.advertising.a
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8605
 falixnodes.net##+js(nostif, [native code])
+! https://github.com/uBlockOrigin/uAssets/issues/8964#issuecomment-1021146988
+falixnodes.net##+js(no-xhr-if, securepubads)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8613
 thiruttuvcd.xyz##+js(aopw, _pop)
@@ -4406,13 +4409,11 @@ zetporn.com##+js(aopr, ExoLoader.serve)
 zetporn.com##+js(aeld, click, popMagic)
 zetporn.com##+js(acis, addEventListener, -0x)
 zetporn.com##.aside-itempage-col
-/\.com\/[a-z]{9,}\/[A-Za-z]{9,}\.js$/$script,1p,domain=zetporn.com
-||zetporn.com/sw.js
+/\.com\/[A-Za-z]{9,}\/[A-Za-z]{9,}\.js$/$script,1p,domain=zetporn.com
+||zetporn.com/*/custom_vast/$xhr
 ||eighing.space^$3p
 ||entsconsesi.top^$3p
 ||madehimn.xyz^
-||srsihavelearn.xyz^
-||yestedjgrs.xyz^
 *$script,3p,denyallow=googleapis.com,domain=zetporn.com
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/ohvw2n/adblock_detected_on_blackenterprisecom/
@@ -5692,9 +5693,10 @@ freereceivesms.com##a[href^="https://www.18sex.org/"]
 ||pobre.tv/wp-banners.js
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/93513
-coinsparty.com##+js(aopr, app_vars.force_disable_adblock)
 coinsparty.com##+js(nowoif)
 coinsparty.com##form[action$="/links/popad"]:remove()
+coinsparty.com##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
+||ad4point.nyc3.digitaloceanspaces.com^
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/pxusw4/website_opens_ads_windows_nsfw/
 findjav.com##+js(aopr, __Y)
@@ -6981,7 +6983,7 @@ glotorrents.fr-proxy.com,glotorrents.theproxy.ws##+js(nowoif)
 glotorrents.fr-proxy.com,glotorrents.theproxy.ws##+js(aopr, String.prototype.charCodeAt)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101390
-mikaraw.com##div[class^="blockads_"]
+mikaraw.com##div[style*="width: 350px"][style*="height: 250px"]
 ||cdn.fedsy.xyz/app.js
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10649

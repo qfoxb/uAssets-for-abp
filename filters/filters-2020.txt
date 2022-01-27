@@ -1458,9 +1458,6 @@ file4.net,gsu.st,souqsky.net##+js(aopw, Fingerprint2)
 123europix.*##+js(aopr, InstallTrigger)
 123europix.*##+js(aopr, LieDetector)
 
-! https://www.reddit.com/r/uBlockOrigin/comments/gwdpla/ublhow_block_popup_self_regenerating/
-animeworld.tv##+js(acis, Math, break;case $.)
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56763
 turkseed.com##+js(acis, addEventListener, google_ad_client)
 
@@ -2987,7 +2984,7 @@ wordcounter.icu##+js(aopw, _pop)
 wordcounter.icu##+js(nowoif)
 @@||wordcounter.icu^$ghide
 wordcounter.icu##center
-wordcounter.icu##div[style*="z-index:999999"] > div[style*="width:300px"]
+wordcounter.icu##div[style*="z-index:99999"] > div[style*="width:300px"]
 *$frame,denyallow=google.com|hcaptcha.com,domain=wordcounter.icu
 *$script,3p,denyallow=google.com|gstatic.com|hcaptcha.com|jsdelivr.net|recaptcha.net|googleapis.com,domain=wordcounter.icu
 ||uii.io^$3p
@@ -3327,6 +3324,7 @@ javhdporn.net##+js(set, clientSide.adbDetect, noopFunc)
 techinferno.com##+js(nostif, eabpDialog)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9701
+duplichecker.com##+js(acis, $, googlesyndication)
 duplichecker.com##+js(no-fetch-if, adsbygoogle)
 duplichecker.com##+js(no-xhr-if, ads)
 duplichecker.com##.adsbygoogle:upward(1)
@@ -3334,6 +3332,7 @@ duplichecker.com##div[style="min-height:302px"]
 duplichecker.com##[href^="https://www.duplichecker.com/link"]
 duplichecker.com##.dpn:upward(div[class])
 duplichecker.com##.p-2.mb20.p8.text-center.search-panel-sec
+duplichecker.com##.img4class.text-center.dhat
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63002
 gibit.xyz##+js(aopr, app_vars.force_disable_adblock)
@@ -3850,9 +3849,12 @@ fullmatchtv.com##.belowpost
 ! https://github.com/uBlockOrigin/uAssets/issues/7944
 highporn.net##+js(acis, document.querySelectorAll, popMagic)
 highporn.net##+js(acis, addEventListener, -0x)
+highporn.net##+js(aopr, jsUnda)
 *$script,3p,denyallow=chatango.com|cloudflare.com|cloudflare.net|disqus.com|disquscdn.com|facebook.net|fastly.net|fastlylb.net|fbcdn.net|google.com|googleapis.com|gstatic.com|hcaptcha.com|hwcdn.net|jquery.com|jsdelivr.net|jwpcdn.com|recaptcha.net|wp.com,domain=highporn.net
 highporn.net##.in-video-1
 highporn.net##.fel-playclose
+highporn.net##.banner-a
+||highporn.net/js/aapp.js
 
 ! https://github.com/NanoMeow/QuickReports/issues/4745
 animeshouse.info##+js(acis, JSON.parse, break;case $.)
@@ -5167,7 +5169,7 @@ secretsdeepweb.blogspot.com##+js(aeld, load, onload)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68073
 passgen.icu##+js(aopr, app_vars.force_disable_adblock)
 passgen.icu##+js(nowoif)
-passgen.icu##div[style*="z-index:999999"] > div[style*="width:300px"]
+passgen.icu##div[style*="z-index:99999"] > div[style*="width:300px"]
 *$frame,denyallow=google.com,domain=passgen.icu
 *$script,3p,denyallow=google.com|gstatic.com|hcaptcha.com|jsdelivr.net|recaptcha.net|cloudflare.com,domain=genpas.icu
 
@@ -5335,7 +5337,7 @@ genpassword.top##+js(nowoif)
 genpassword.top##+js(set, blurred, false)
 *$frame,denyallow=google.com,domain=genpassword.top
 *$script,3p,denyallow=cloudflare.net|cloudflare.com|google.com|gstatic.com|hcaptcha.com|jsdelivr.net|recaptcha.net,domain=genpassword.top
-genpassword.top##div[style*="z-index:999999"] > div[style*="width:300px"]
+genpassword.top##div[style*="z-index:99999"] > div[style*="width:300px"]
 ||genpassword.top/img/ai.png
 
 ! livemint anti-adblock
@@ -5371,13 +5373,6 @@ rapbhe.com##+js(acis, String.fromCharCode, atob)
 
 ! https://github.com/uBlockOrigin/uAssets/pull/8294
 niusdiario.es##+js(aeld, load, Adblock)
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/68895
-viral-topics.com##+js(aopr, app_vars.force_disable_adblock)
-viral-topics.com##.banner
-
-! https://github.com/uBlockOrigin/uAssets/issues/8296
-mr-jatt.in##+js(acis, String.fromCharCode, /btoa|break/)
 
 ! iceporn.com popup
 iceporn.com##+js(nowoif)
