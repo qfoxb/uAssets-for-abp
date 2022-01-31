@@ -23,7 +23,6 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53288
 azm.to##+js(aopr, absda)
 *$script,3p,denyallow=jquery.com|hwcdn.net|plyr.io|fastly.net|jwpcdn.com|googleapis.com|zencdn.net|hcaptcha.com,domain=azm.to
-unlimitedfiles.xyz##+js(aopr, BetterJsPop)
 
 ! https://github.com/NanoMeow/QuickReports/issues/3528
 mysflink.blogspot.com##+js(set, safelink.adblock, false)
@@ -51,9 +50,6 @@ l2db.info##[href^="https://overworld.pro/"]
 l2db.info###wrapper-content:style(margin-top:0px !important)
 l2db.info##[href*="adv"]
 
-! https://github.com/NanoMeow/QuickReports/issues/3537
-bestbitcoinfaucets.net##+js(set, show_ads_gr8_lite, true)
-
 ! https://github.com/NanoMeow/QuickReports/issues/3538
 psychic.de##+js(nostif, offsetHeight)
 
@@ -64,13 +60,6 @@ psychic.de##+js(nostif, offsetHeight)
 my-code4you.blogspot.com##+js(nostif, offsetLeft)
 my-code4you.blogspot.com##+js(set, config.pauseInspect, false)
 *$script,redirect-rule=noopjs,domain=my-code4you.blogspot.com
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/53407
-@@||ileak.xyz^$ghide
-ileak.xyz##+js(acis, Math, break;case $.)
-ileak.xyz##+js(nostif, _0x)
-*$script,redirect-rule=noopjs,domain=ileak.xyz
-ileak.xyz##.adsbygoogle
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53415
 @@||foggiatoday.it^$ghide
@@ -813,11 +802,6 @@ twistedporn.com##+js(nowoif)
 arabnaar.com##+js(nosiif, visibility, 1000)
 truesexcam.com##+js(aopr, open)
 
-! https://www.reddit.com/r/uBlockOrigin/comments/ge6q9z/adblock_detected_nsfw_site/
-allclip4.com##+js(aopr, absda)
-allclip4.com##+js(nowoif)
-allclip4.com##[href^="https://www.truerefill.com"],[href^="https://www.octafx.com/"]
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54961
 @@||althub.club^$ghide
 
@@ -933,6 +917,8 @@ swame.com##+js(set, is_adblocked, false)
 
 ! https://github.com/NanoMeow/QuickReports/issues/3832
 @@||megatuga.co^$ghide
+! megaplayer. link
+megaplayer.*##+js(aopr, __Y)
 
 ! https://github.com/NanoMeow/QuickReports/issues/3836
 settlersonlinemaps.com##+js(nostif, _0x)
