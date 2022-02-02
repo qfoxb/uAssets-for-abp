@@ -67,7 +67,7 @@ ac-illust.com,photo-ac.com##.modal-backdrop
 ac-illust.com,photo-ac.com##body.modal-open *:style(filter: none!important;)
 
 ! PopAds
-7hitmovies.bond,aotonline.org,flizmovies.*,kantotinyo.com,solarseries.club,solartv.club,swatchhd.online,xfantasy.su,yayanimes.net,ytstvmovies.xyz##+js(aopw, _pop)
+7hitmovies.bond,aotonline.org,flizmovies.*,kantotinyo.com,silverpic.com,solarseries.club,solartv.club,swatchhd.online,xfantasy.su,yayanimes.net,ytstvmovies.xyz##+js(aopw, _pop)
 ||vgfutxwgq.com^
 ||mxyxgkuexjr.com^
 
@@ -190,7 +190,7 @@ ninja.io##+js(set, App.AdblockDetected, false)
 @@||niftyfutures.org^$ghide
 
 ! other pages using popMagic
-comicsvalley.com,finding-camellia.com##+js(acis, document.querySelectorAll, popMagic)
+comicsvalley.com,finding-camellia.com,porn77.info##+js(acis, document.querySelectorAll, popMagic)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11307
 goshow.tv##+js(acis, document.querySelectorAll, popMagic)
@@ -487,3 +487,39 @@ re.two.re##.ads
 ! https://github.com/uBlockOrigin/uAssets/issues/11516
 gamingvital.com##+js(acis, decodeURIComponent, ai_)
 gamingvital.com###tdi_132
+
+! https://github.com/uBlockOrigin/uAssets/issues/11525
+equuswork.com##+js(nowoif)
+equuswork.com##[href^="https://media.r18.com/"]
+equuswork.com##.fel-playclose
+equuswork.com##.banner-top-b
+equuswork.com##.text-md-center.col-12
+equuswork.com##a[href^="https://r.trwl1.com"]
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/108686
+blindhypnosis.com##.abcd
+blindhypnosis.com##.asdf:style(display: block !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11528
+javpoll.com##+js(aopr, __Y)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11527
+vivercomsaude.online##.demand-supply
+
+! https://github.com/uBlockOrigin/uAssets/issues/11522
+pornoborshch.com##+js(ra, onclick)
+pornoborshch.com##.on-player-wrap3
+
+! https://github.com/uBlockOrigin/uAssets/issues/11534
+livetv.video##+js(set, canRunAds, true)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11537
+144.126.138.140##+js(acis, eval, replace)
+144.126.138.140##+js(nowoif)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/siiumm/adblock_detected_literally_very_hard_to_bypass/
+jojo-themes.net##+js(acis, eval, replace)
+jojo-themes.net##+js(nano-sib, download_delay)
+
+! mangadna. com popMagic
+mangadna.com##+js(acis, document.querySelectorAll, popMagic)

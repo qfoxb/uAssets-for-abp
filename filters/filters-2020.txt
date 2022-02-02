@@ -1460,13 +1460,14 @@ nightfallnews.com##.bottom_sticky_banner_container
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97376
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97467
-animesanka.*##+js(acis, JSON.parse, break;case $.)
+! https://github.com/AdguardTeam/AdguardFilters/issues/109068
+anime-sanka.com,animesanka.*##+js(acis, JSON.parse, break;case $.)
 animesanka.*##+js(aopw, _pop)
 animesanka.*##^script[data-cfasync]:has-text(h=decodeURIComponent)
 @@||animesanka.*^$ghide
 *$image,redirect-rule=1x1.gif,domain=animesanka.*
 animesanka.*##[id*="-ads-"]
-||ugahutoa.com^
+||wnccxcgvkuoitmy.com^
 
 ! https://github.com/NanoMeow/QuickReports/issues/4030
 @@||napolitoday.it^$ghide
@@ -3310,7 +3311,7 @@ javhdporn.net##+js(set, clientSide.adbDetect, noopFunc)
 techinferno.com##+js(nostif, eabpDialog)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9701
-duplichecker.com##+js(acis, $, googlesyndication)
+duplichecker.com##+js(acis, setTimeout, syndication)
 duplichecker.com##+js(no-fetch-if, adsbygoogle)
 duplichecker.com##+js(no-xhr-if, ads)
 duplichecker.com##.adsbygoogle:upward(1)
@@ -3411,12 +3412,12 @@ hentaicloud.com###photo-container > .center:not(.center:first-child)
 hentaicloud.com###player_one > .vjs-fade.vjs-over
 hentaicloud.com##section.videos-content:has(.thumbnail > a[href^="https://www.nutaku.net/signup/landing/"])
 
-! javdisk.com popup ads
+! javdisk.com/javsun.cc popup ads
 player.javdisk.com###poster
-player.javdisk.com,player.javsun.net,player.javtc.tv###preroll
-javdisk.com,javfree.la,javfree.sh,javtc.tv,javthe.com##[style^="height: 250px;overflow"]
-*$script,3p,denyallow=cdndoe.xyz|cloudflare.com|doecdn.me,domain=javdisk.com|javfree.*|javtc.tv|javthe.com
-||maphuahin.com^
+player.javdisk.com,player.javsun.*,player.javtc.tv###preroll
+javdisk.com,javfree.la,javfree.sh,javsun.*,javtc.tv,javthe.com##[style^="height: 250px;overflow"]
+*$script,3p,denyallow=cdndoe.xyz|cloudflare.com|doecdn.me,domain=javdisk.com|javfree.*|javsun.*|javtc.tv|javthe.com
+||pub.javwide.com
 
 ! javbangers.com popup ads
 javbangers.com##+js(acis, document.addEventListener, initBCPopunder)
@@ -3573,10 +3574,10 @@ getfilmes.net##+js(nowebrtc)
 ! https://github.com/uBlockOrigin/uAssets/issues/7904
 texture-packs.com##+js(no-xhr-if, adsbygoogle)
 
-! jav.la - javmec.com ads
-jav.la,javmec.com,tubeqd.tv##[style^="height: 250px;overflow"]
-player.javmec.com,player.tubeqd.tv###preroll
-*$script,3p,denyallow=cloudflare.com,domain=jav.la|javmec.com|tubeqd.tv
+! jav.la - javmec.com/me ads
+jav.la,javmec.*,tubeqd.tv##[style^="height: 250px;overflow"]
+player.javmec.*,player.tubeqd.tv###preroll
+*$script,3p,denyallow=cloudflare.com,domain=jav.la|javmec.*|tubeqd.tv
 shpl.xyz##+js(nowoif)
 
 ! https://github.com/NanoMeow/QuickReports/issues/4666
@@ -3774,7 +3775,6 @@ camclips.tv##[src^="https://camclips.tv/player/html.php?aid"]
 camclips.tv##div.cbchat
 camclips.tv##.box.rltd
 camclips.tv##.table
-||promos.camsoda.com^
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64318
 ! https://github.com/uBlockOrigin/uAssets/issues/8386
@@ -4811,9 +4811,6 @@ absolutesmmpanel.com,myhiddentech.com,thetechywizard.com##.wmg-vb-container > di
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8182
 ondebaixo.com,ondebaixa.com,ondeeubaixo.org,torrentool.org##+js(ra, onclick, a[href^="magnet:"][onclick])
-
-! https://github.com/uBlockOrigin/uAssets/issues/8185
-flvtomp3.cc##+js(nowoif)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67258
 tawiia.com##+js(aopr, app_vars.force_disable_adblock)
