@@ -6557,3 +6557,6 @@ atlas-geografic.net##+js(aopw, document.ondragstart)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11517
 funnygames.eu##.is-blocked
+
+! farm-ro.desigusxpro. com clipboard manipulation
+farm-ro.desigusxpro.com##+js(aopr, document.oncopy)
