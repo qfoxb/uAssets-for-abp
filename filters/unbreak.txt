@@ -223,9 +223,6 @@
 ! https://github.com/uBlockOrigin/uAssets/issues/148
 @@||media2.intoday.in/aajtak/$script,domain=aajtak.intoday.in|indiatoday.intoday.in
 
-! https://github.com/gorhill/uBlock/issues/2097
-kinopoisk.ru###image:style(opacity: 1 !important;)
-
 ! https://forums.lanik.us/viewtopic.php?f=64&t=33940
 @@||ahcdn.com/key=$xhr,domain=hdzog.com
 
@@ -4324,3 +4321,27 @@ himovies.to#@#a[onclick]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11550
 @@||mpsnare.iesnare.com/snare.js$script,domain=rossmann.de
+
+! walletinvestor. com scrolling broken
+walletinvestor.com##body:style(overflow: auto !important;)
+walletinvestor.com###bio_ep_bg
+
+! https://github.com/uBlockOrigin/uAssets/issues/11580
+@@||sololearn.com/api/*/comments/*$xhr,1p
+
+! https://github.com/uBlockOrigin/uAssets/issues/11593
+@@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager.com/gtm.js,domain=aeriagames.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/11592
+@@||ads.imprezzer.com/js/imprezzer2.min.js$script,domain=mgronline.com
+@@||ads.imprezzer.com/js/multisize_responsive.js$script,domain=mgronline.com
+@@||ads.imprezzer.com/js/multisize_bottompage_responsive.js$script,domain=mgronline.com
+@@||ads.imprezzer.com/js/imprezzer_vip2.js$script,domain=mgronline.com
+mgronline.com##[href^="https://www.hotelscombined.co.th/"]
+
+! https://github.com/easylist/easylist/issues/10709 blocked by PL
+@@||onesignal.com/sdks/OneSignalSDK.js$domain=wowbiz.ro
+
+! website, not a tracker
+||lp.tfd-corp.co.jp^$badfilter
+||info.neg.co.jp^$badfilter

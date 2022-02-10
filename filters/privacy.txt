@@ -132,7 +132,7 @@ brillen.de##+js(acis, document.createElement, 'script')
 ! https://github.com/uBlockOrigin/uAssets/issues/478#issuecomment-612229916
 /analytics/analytics.$~xmlhttprequest,3p
 /ga_setup.js$3p
-/google-analytics.$3p,~image
+/google-analytics.$3p,~image,domain=~secure.exeloncorp.com
 /googleanalytics.js$3p
 ! https://github.com/uBlockOrigin/uAssets/issues/11262
 -google-analytics/$domain=~wordpress.org,badfilter
@@ -257,6 +257,7 @@ stoic.ai##^script:has-text(\x3c)
 stoic.ai##+js(aost, Math.floor, injectedScript)
 tragonesymazmorras.com##+js(aost, Math.floor, anonymous)
 ||ampl.cinotes.com^
+||data-saver-cindi.herokuapp.com^
 ||cdn.cindicator.com/$script,3p
 ||fantastic-diamond.cf^
 ||they-changed-it-again.cf^
@@ -370,3 +371,6 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9970
 ||videovard.sx/api/front/view^$xhr,important
+
+! https://github.com/uBlockOrigin/uAssets/issues/11644
+endbasic.dev,jmmv.dev##+js(no-xhr-if, method:POST url:api.jmmv.dev)

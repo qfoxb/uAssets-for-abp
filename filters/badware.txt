@@ -105,9 +105,11 @@
 ||izarc.fr^$doc
 ||jdownloader.fr^$doc
 ||keepass.com^$doc
+||keepass.de^$doc
 ||keepass.es^$doc
 ||keepass.fr^$doc
 ||keepass.it^$doc
+||keepassxc.com^$doc
 ||notepad2.com^$doc
 ||open-office.fr^$doc
 ||paintnet.es^$doc
@@ -168,9 +170,6 @@
 
 ! com-guest.info badware
 ||com-guest.info^$doc
-
-! dnsleaktest.net badware
-||dnsleaktest.net^$doc
 
 ! foxload.com badware
 ||foxload.com^$doc
@@ -254,15 +253,9 @@ majorgeeks.com##b:has(a[target^="reimage"])
 ! https://github.com/uBlockOrigin/uAssets/issues/4862#issuecomment-486941006
 ||upload4earn.org^$doc
 
-! Look-alike domain for keepassxc.org, redirects to spam/malware domains
-||keepassxc.com^$doc
-
 ! switching to malware
 ||ahzahg6ohb.com^$doc
 ||ay8ou8ohth.com^$doc
-
-! https://github.com/uBlockOrigin/uAssets/issues/5638
-1tvv.ru,2012-drakon.ru,2012-god.ru,2015-god-kozy.ru,alterprogs.ru,bike-pro.ru,bilsh.com,careers.ua,daily-news.com.ua,darksound.ru,dengiua.com,diplom4rabota.ru,dynamo-kiev.com,electronika.spb.ru,faxnews.ru,fond-sovest.ru,fotochki.com,gamesnice.ru,glashataj.info,god-zmei.ru,godkota.ru,godkozy.ru,gogofiles.net,gorod-zlatoust.ru,great-income.ru,gsm-csb.ru,guitar-love.ru,healthystyle.info,huaweiclub.ru,i-no.ru,igeek.ru,intell.in.ua,jampo.com.ua,jusonline.ru,kaspianchoob.com,livegif.ru,lock-omsk.ru,marafonec.com,maxigame.su,mcomp.org,mediahouse.com.ua,miptic.ru,mir-kliparta.ru,mobile-novinki.ru,myimperia.ru,nakapote.com,nb-yanao.ru,neodrive.ru,nepoleno.ru,newsdnya.ru,newsinmir.com,nokia-lifestyle.ru,novoden.ru,obzh.ru,onegadget.ru,orbita-lviv.com,pingola.ru,pokemongo-go.ru,pravpost.org.ua,rao-ees.ru,ratnet.od.ua,remontidekor.ru,softgaz.ru,sosedi2015.ru,spletnius.ru,stuffed.ru,submarine.od.ua,sup-idea.com,supreme2.ru,tic.com.ua,tipslife.ru,topicnews.net,turmouse.ru,uralmtk.ru,usetrans.com,v2013.ru,vhoru.com.ua,vkulake.com,vnebi.com,vremechko.org,vremyamn.ru,webrecepty.info,amurutro.ru,ap7.ru,gadgetblog.ru,globalomsk.ru,obzh.ru,yuriblog.ru,zakryma.ru,zamanula.ru,zheltaya.ru##+js(aopr, document.getElementById)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5805
 ||newsfile.club^$doc
@@ -683,6 +676,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||wxhiojortldjyegtkx.bid^$all
 ||pushmeup.art^$all
 ||pushub.net^$all
+/redirect2/?a=$doc
+&atc=adterra&ad_id=$doc
 
 ||hyperwage.com^$all
 ||ricavato.com^
@@ -870,7 +865,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||maxhacks.pro^$all
 ||update-global.com^$all
 .html?cep=*&cost=0.$doc
-||the-real-girls.life^$all
 ||becilobun.com^$all
 /?ip=*&uclickhash=$doc
 ||brownsite.click^$all
@@ -905,35 +899,25 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||appfile.cc^$all
 ||d13nu0oomnx5ti.cloudfront.net^
 ||m-afee.com^$all
+||quickdates1.com^$all
+||lovesingle.xyz^$all
+||foxon.biz^$all
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68588
 ! https://github.com/uBlockOrigin/uAssets/issues/8869
-/^https?:\/\/[-0-9a-z]*prize[-0-9a-z]+\.live\/\?u=[0-9a-z]+&o=[0-9a-z]+/$doc,domain=live
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?(?:cid=[0-9a-z]+&)?u=[0-9a-z]+&/$doc,domain=top
 /^https:\/\/[0-9a-z]{3,}\.[-a-z]{10,}\.top\/[a-z]{8}\/\?utm_campaign=\w{40,}&t=/$doc,domain=top
-/^https:\/\/[-0-9a-z]{12,}\.life\/\?u=[0-9a-z]{7,}&o=[0-9a-z]{7,}&/$doc,domain=life
 /^https:\/\/[a-z]{2,3}\d\.biz\/go\/[0-9a-z]{15,18}$/$doc,domain=biz
 ! https://github.com/uBlockOrigin/uAssets/issues/10116
 /^https:\/\/feedbackip\d{2}\.pw/$doc,domain=pw
-/^https:\/\/capitalping\d{2}\.online\/\?u=/$doc,domain=online
-/^https:\/\/moneymake\d{2}\.online\/\?u=/$doc,domain=online
 ||protecttimeknew.live^$doc
 ||ifetirw.xyz^$doc
-! https://github.com/uBlockOrigin/uAssets/commit/f29aceb3c9e01ae5e6274a83ee73d806cb728f46#commitcomment-54059222
-! https://github.com/uBlockOrigin/uAssets/commit/1a26cbafaf8230a6cda149523f97a2ecc4db5354#commitcomment-54903777
-/^https:\/\/traffichub\d{2}\.[a-z]{2,6}\/\?u=/$doc
-! https://github.com/uBlockOrigin/uAssets/commit/9e08ee088a5bd12a3c2bf765ec0aa3c6067d2b54#commitcomment-60996486
-/^https:\/\/cakemoney\d{3}\.space\/\?u=/$doc,domain=space
 ! https://github.com/uBlockOrigin/uAssets/commit/02c394ccd35376542635c7b3366a9fefe564a1ec#commitcomment-61309839
 /^https?:\/\/adserveryo\d\.xyz\/\?/$doc,domain=xyz
-! https://github.com/uBlockOrigin/uAssets/commit/623de1e06d5d6061f51381af8bf133647cf2283b#commitcomment-61561818
-/^https:\/\/money\d{2}game\.site\/\?u=/$doc,domain=site
 ! e.g. https://to3s.biz/?p=gi4tgnjwgu5gi3bpgy2tmmy
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
-! https://github.com/uBlockOrigin/uAssets/commit/338171343ea7804e7e04030fbbf109ca58012aab#commitcomment-62652730
-/^https:\/\/cat\d{2}tuzik\.online\/\?u=/$doc,domain=online
-! https://best-datinghotties1.com/?u=zehkae3&o=tza8fn2
-/^https:\/\/best-datinghotties\d\.com\/\?u=/$doc,domain=com
+! fake dating/prize sites
+/^https:\/\/((?!www)[a-z]{3,5}\.)?[-0-9a-z]{6,}\.(?:com|fun|guru|life|online|pw|site|space|top)\/\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,match-case,domain=com|fun|guru|life|online|pw|site|space|top
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8378
 ||0addon.com^
@@ -1314,3 +1298,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11434
 ||discorx.gift^$all
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/109902
+||c2orcv7zjn5y.top^$all
+.top/vpnupdate/*/index.html$doc
