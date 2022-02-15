@@ -416,8 +416,8 @@ uploadking.net##+js(nano-stb, downloadbtn)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10711
 ! https://github.com/uBlockOrigin/uAssets/issues/11623
-@@||vrcmods.com^$ghide
 vrcmods.com##+js(nostif, height)
+vrcmods.com##+js(nosiif, height)
 vrcmods.com###download-form:style(display: initial !important;)
 vrcmods.com###app:style(display: none !important;)
 vrcmods.com###app_msg:style(display: none !important;)
@@ -682,8 +682,9 @@ wg-gesucht.de##+js(acis, $, detectAdBlocker)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54800
 hdmp4mania1.net##+js(nosiif, visibility, 1000)
-hdmp4mania1.net##[href^="http://bit.ly/"]
 mp4mania1.net##+js(aopr, LieDetector)
+mp4mania1.net##.advert
+mp4mania1.net,hdmp4mania1.net##.prop_native1
 
 ! https://github.com/NanoMeow/QuickReports/issues/3745
 @@*$xhr,domain=get.x-link.pl
@@ -1630,7 +1631,9 @@ mypussydischarge.com##+js(aopr, decodeURI)
 tvepg.eu##+js(nostif, google_jobrunner)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9950
-sms24.me##+js(set, $ado, trueFunc)
+sms24.me,sms24.info##+js(rc, preloader, .preloader)
+sms24.me,sms24.info##body > div[style^="position: fixed; z-index: 1000"]
+sms24.me,sms24.info##.spinner-border
 *$script,redirect-rule=noopjs,domain=sms24.me
 @@||sms24.me^$ghide
 
@@ -1966,14 +1969,14 @@ atlaq.com##+js(aopr, zfgformats)
 takimag.com##+js(acis, document.getElementById, show_ads)
 
 ! https://github.com/NanoMeow/QuickReports/issues/4200
-xsanime.com##+js(nostif, _0x)
 xsanime.com##+js(nosiif, _0x)
 xsanime.com##+js(aeld, , _0x)
 xsanime.com##+js(aopr, console.clear)
 xsanime.com##+js(acis, Math, break;case $.)
-
-! https://github.com/uBlockOrigin/uAssets/issues/7606
-@@||happy2hub.net^$ghide
+*$script,domain=xsanime.com,3p,denyallow=chatango.com|cloudflare.com|disqus.com|disquscdn.com
+||static.domain_name^
+||dotcom10.info^
+||cammpaign.com^
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/hhardf/ytboobcom_ads_bypass_ublockorigin/
 ytboob.com##+js(aopr, document.dispatchEvent)
@@ -1988,14 +1991,8 @@ gsmfirmware.net##+js(acis, eval, ignielAdBlock)
 youav.com##^script:has-text('shift')
 youav.com##+js(acis, String.fromCharCode, 'shift')
 
-! https://github.com/NanoMeow/QuickReports/issues/4216
-uploadraja.com##+js(acis, document.createElement, 'script')
-uploadraja.com##+js(aopw, _pop)
+! uploadraja .com ads
 uploadraja.com##+js(nano-stb)
-uploadraja.com##+js(nowebrtc)
-uploadraja.com##+js(nowoif)
-uploadflix.org,uploadraja.com##center > a[target="_blank"] > img
-||bp.blogspot.com^*/s1600/prosis.png$3p
 
 ! https://github.com/NanoAdblocker/NanoFilters/issues/524
 @@||crackall.net^$ghide
@@ -2837,11 +2834,10 @@ gateanime.com##+js(acis, JSON.parse, break;case $.)
 *$script,3p,denyallow=bootstrapcdn.com|cdn77.org|cloudflare.com|cloudflare.net|disqus.com|disquscdn.com|facebook.com|facebook.net|fastly.net|fastlylb.net|fbcdn.net|gogocdn.net|google.com|googleapis.com|gstatic.com|hcaptcha.com|hwcdn.net|instagram.com|jquery.com|jsdelivr.net|jwpcdn.com|jwpsrv.com|plyr.io|recaptcha.net|twimg.com|twitter.com|wp.com,domain=gateanime.com
 gateanime.com##.bnr
 
-! https://github.com/NanoMeow/QuickReports/issues/4474
-@@||tigvid.com^$ghide
-
 ! https://github.com/NanoMeow/QuickReports/issues/4477
 marriedgames.com.br##+js(nostif, ai_adb)
+marriedgames.com.br##.show-prompt
+marriedgames.com.br##._ning_cont:has(.adsbygoogle)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61132
 hakie.net##+js(nosiif, visibility, 1000)
@@ -2940,11 +2936,6 @@ tecnotutoshd.net##+js(aopw, adBlockDetected)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61580
 @@||chiasenhac.vn/test_ads.html^$frame,1p
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/61596
-shorthub.co##+js(aopr, app_vars.force_disable_adblock)
-shorthub.co##+js(aopr, open)
-*$3p,script,frame,denyallow=google.com|gstatic.com|recaptcha.net|hcaptcha.com,domain=shorthub.co
 
 ! https://github.com/NanoMeow/QuickReports/issues/4525
 daburosubs.com##+js(aopr, adBlockDetected)
@@ -3781,9 +3772,6 @@ purposegames.com##.adlabel
 ##[href^="https://wap4dollar.com/ad/nonadult/serve.php"]
 ##[href^="//ad.jetx.info/"]
 
-! https://github.com/NanoAdblocker/NanoFilters/issues/563
-*$script,3p,denyallow=fastly.net|fastlylb.net|jquery.com|hwcdn.net|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|cookieinfoscript.com,domain=sharemods.com
-
 ! https://www.reddit.com/r/uBlockOrigin/comments/iy430z/site_is_popping_up_an_intrusive_disable_adblock/
 notalwaysright.com##+js(acis, document.createElement, admiral)
 
@@ -3859,13 +3847,6 @@ audizine.com##+js(acis, document.createElement, admiral)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/j0dy4q/
 sinfoniarossini.com##+js(nowoif)
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/64678
-buynorxviagraonline.com##+js(aopw, adcashMacros)
-buynorxviagraonline.com##+js(acis, addEventListener, google_ad_client)
-buynorxviagraonline.com##.tm-menu
-buynorxviagraonline.com###HTML10
-buynorxviagraonline.com###HTML11
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88037
 thepoorcoder.com##+js(aopr, adblockDetector)
@@ -4008,9 +3989,6 @@ darkskyprojects.org##+js(aopr, adBlockDetected)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65099
 kpopstan.com##+js(nano-sib)
-
-! https://www.reddit.com/r/uBlockOrigin/comments/j5qgs3/how_to_block_these_notifications_ads_from_this/
-*$script,3p,denyallow=jwpsrv.com|plyr.io|jsdelivr.net|twimg.com|twitter.com|fastly.net|fastlylb.net|jquery.com|hwcdn.net|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com,domain=beinmatch.vip
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65120
 acapellas.eu##+js(acis, addEventListener, google_ad_client)
