@@ -246,6 +246,7 @@ kepahoo.com##+js(nostif, show)
 ! https://github.com/uBlockOrigin/uAssets/issues/11352
 link.insurance-space.xyz,link.insurglobal.xyz,link.adcortoltda.agency##+js(set, blurred, false)
 1apple.xyz##+js(nano-sib, timer)
+link.insurance-space.xyz##div[id^="bsa-zone_"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11353
 ||rat.xxx/xdman/*
@@ -841,3 +842,30 @@ milf300.com#@#.ads-link
 ! https://github.com/bogachenko/fuckfuckadblock/issues/269
 safe.elektroupdate.com#@#.adsbygoogle
 safe.elektroupdate.com##.adsbygoogle:style(height: 1px !important;)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/110510
+eroticity.net##+js(aopr, loadTool)
+||eroticity.net/clientscript/popcode_
+||eroticity.net/clientscript/poptrigger_
+
+! https://github.com/uBlockOrigin/uAssets/issues/11746
+*$image,domain=live.dragaoconnect.net,redirect-rule=2x2.png
+live.dragaoconnect.net###yx-sli1
+live.dragaoconnect.net###yx-sli2
+live.dragaoconnect.net##a[href^="ad/link.php"]
+live.dragaoconnect.net##+js(nostif, 0x)
+live.dragaoconnect.net##+js(nosiif, 0x)
+||pppbr.com^
+
+! https://github.com/uBlockOrigin/uAssets/issues/11754
+dev2qa.com##+js(acis, decodeURIComponent, ai_)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/110513
+worldappsstore.xyz##+js(no-fetch-if, googlesyndication)
+
+! https://github.com/FastForwardTeam/FastForward/issues/354
+ponselharian.com##+js(nowoif)
+||ponselharian.com/img/download_
+
+! nsfw fullxxxporn. net popups
+fullxxxporn.net##+js(aopr, decodeURI)
