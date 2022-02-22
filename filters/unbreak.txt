@@ -4021,7 +4021,6 @@ myair2.resmed.com##+js(no-xhr-if, cloudflare.com/cdn-cgi/trace)
 @@||static-redesign.cnbcfm.com^$script,domain=cnbc.com
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/qde4r9/video_player_is_blocked_by_ublock/
-||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,redirect-rule=noopjs,domain=sonyliv.com
 ||d2r1yp2w7bby2u.cloudfront.net/js/localforage.min.js$script,redirect-rule=noopjs,domain=sonyliv.com
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/qeo32a/stooqpl_stooqcom_stopped_working_yesterday/
@@ -4184,9 +4183,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 
 ! https://github.com/uBlockOrigin/uBlock-issues/discussions/1899
 @@||securepubads.g.doubleclick.net^$script,xhr,domain=weatherandradar.com
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/104430
-@@||team-rec.jp^$domain=search-voi.0101.co.jp
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11077
 ||sammobile.com^*/newrelic.js$script,1p,redirect=noop.js,important
@@ -4366,3 +4362,6 @@ abczdrowie.pl#@#+js(aost, WP.prebid, onLoad)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11715
 @@||nexus.ensighten.com/easyjet/*/Bootstrap.js$script,domain=easyjet.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/11793
+@@||code.jquery.com^$script,domain=mixdrop.*
