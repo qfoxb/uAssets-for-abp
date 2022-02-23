@@ -2480,7 +2480,7 @@ platinmods.*##+js(nano-sib)
 
 ! Common rules for TXXX network
 /\/[a-z]{4,}\/(?!holly7)[a-z]{3,6}\d\.\d\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,1p,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|upornia.*|voyeurhit.com|vxxx.com
-/(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,1p,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|vjav.*|voyeurhit.com|vxxx.com
+/(?:com|porn|tube|xxx)\/[a-z]{8,12}\/[a-z]{8,12}\.js$/$script,1p,domain=555.porn|hclips.com|hdzog.com|hotmovs.com|imzog.com|inporn.com|javdaddy.com|porn555.com|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.com|upornia.*|vjav.*|voyeurhit.com|vxxx.com
 /afon7.$script,1p
 /barbar7.$script,1p
 ! https://github.com/uBlockOrigin/uAssets/issues/10064
@@ -13486,7 +13486,6 @@ streameast.*##[id^="Advertisement"]
 sportlive.*##+js(ra, onclick)
 hdstream365.com##+js(nowoif)
 *$image,redirect-rule=32x32.png,domain=streameast.*
-streameast.*##div:nth-of-type(6) > div
 livesport4u.com,pcast.pw,sportlive.site###localpp
 pcast.pw###ads
 
@@ -14642,14 +14641,14 @@ ftuforums.com,freetutorialsus.com,freecoursessites.com,freecourseslab.com##+js(s
 @@||freecoursessites.com^$ghide
 @@||freecourseslab.com^$ghide
 freetutorialsus.com##.code-block-1.code-block > div
-ftuforums.com###content > div:nth-of-type(1)
-freecoursessites.com###content > div:nth-of-type(1)
+ftuforums.com##[style]:has-text(Advertisement)
+freecoursessites.com##[style]:has-text(Advertisement)
 freecoursessites.com###text-5
 freecoursessites.com###text-7
-freecourseslab.com###content > div:nth-of-type(1)
+freecourseslab.com##[style]:has-text(Advertisement)
 freecourseslab.com###custom_html-3
 freecourseslab.com###custom_html-2
-freetutorialseu.com###content > div:nth-of-type(1)
+freetutorialseu.com##[style]:has-text(Advertisement)
 freetutorialseu.com###text-10
 freetutorialseu.com###text-12
 ||googlesyndication.com/pagead/$script,redirect-rule=noopjs,domain=freetutorialseu.com|freetutorialsus.com
@@ -15563,6 +15562,7 @@ hegreartnudes.com##+js(acis, loadTool, popping)
 cherrynudes.com##[href^="http://wcrgl.freeadult.games/hit.php"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8719
+1001tracklists.com##+js(aopr, recoverLinks)
 1001tracklists.com##+js(ra, class, div.intAdX)
 1001tracklists.com##+js(ra, class, div[class^="img"][class$="ad"])
 @@||1001tracklists.com^$ghide
@@ -15572,8 +15572,6 @@ cherrynudes.com##[href^="http://wcrgl.freeadult.games/hit.php"]
 1001tracklists.com##.adnginTop
 1001tracklists.com##.intAdX
 1001tracklists.com##.intAdXLeft
-1001tracklists.com###left > div:nth-of-type(1) > .c
-1001tracklists.com###top > .c
 1001tracklists.com##.adnginLeft
 1001tracklists.com##+js(alert-buster)
 1001tracklists.com##.mb20
@@ -15936,8 +15934,7 @@ videos.giga.de##+js(set, requirejs.s.contexts._.defined.homad, noopFunc)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/39692#issuecomment-530184367
 hindimetoons.net##+js(aopw, adBlockDetected)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/96022
-! https://github.com/NanoMeow/QuickReports/issues/1821
+! https://github.com/AdguardTeam/AdguardFilters/issues/110893
 birdurls.com##+js(acis, Math, break;case $.)
 birdurls.com##+js(aopr, app_vars.force_disable_adblock)
 birdurls.com##+js(nosiif, visibility, 1000)
@@ -15947,10 +15944,12 @@ birdurls.com###bg_popup
 birdurls.com##+js(aopr, absda)
 birdurls.com##+js(acis, document.querySelectorAll, popMagic)
 birdurls.com##+js(set, blurred, false)
+birdurls.com##+js(aopw, _pop)
 birdurls.com##.box-main p
 birdurls.com##.box-main center
 birdurls.com###link-view > br
 birdurls.com##[href^="https://padsbrown.com/"]
+birdurls.com##a[href^="//"][rel="nofollow norefferer noopener"][style="z-index: 77630650; position: fixed; inset: 1px 1px 3px; height: 99%; width: 98%;"]
 *$frame,script,3p,denyallow=consensu.org|google.com|gstatic.com|recaptcha.net,domain=birdurls.com
 ||admediatex.net^$3p
 ||adsdime.com^$3p
@@ -16051,7 +16050,7 @@ leechall.*##.text-center.alert-info.alert
 @@||leechall.download^$script,1p
 ||digiseller.ru^$3p,domain=leechall.com
 *$script,3p,redirect-rule=noopjs,domain=leechall.download|leechall.com
-*$script,3p,denyallow=cloudflare.com|cloudflare.net|googleapis.com|jsdelivr.net|tawk.to,domain=leechall.*
+*$script,3p,denyallow=bootstrapcdn.com|cloudflare.com|cloudflare.net|googleapis.com|jsdelivr.net|tawk.to,domain=leechall.*
 
 ! https://github.com/NanoMeow/QuickReports/issues/1850
 newtoki30.net##+js(nostif, modal)
@@ -16183,8 +16182,6 @@ aii.sh##[src^="https://i.imgur.com/"]
 ksnews.me##+js(acis, $, #divDownload)
 kisstvshow.to###hideAds
 kisstvshow.to##.ksAds
-kisstvshow.to###subcontent > div:nth-of-type(2)
-kisstvshow.to##.barContent > div:nth-of-type(2) > div:nth-of-type(2)
 kisstvshow.to##div[style="width: 620px; margin: 0px auto; overflow: hidden;"]
 ||kisstvshow.*/api/pop.php$xhr,1p
 ||ad.kisstvshow.*^
@@ -18018,9 +18015,6 @@ arcadepunks.com##[href^="https://www.arcadepunks.com/go/"]
 ! https://github.com/NanoMeow/QuickReports/issues/2534
 osxinfo.net##+js(acis, $, btoa)
 
-! https://github.com/uBlockOrigin/uAssets/issues/6711
-perveden.com##body > div:nth-of-type(2)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/6713
 movieloversworld.com##+js(acis, Math, zfgloaded)
 
@@ -18069,7 +18063,8 @@ fir3.net##^meta[content*="ads.enrt.eu"]
 ! https://github.com/NanoMeow/QuickReports/issues/2564
 @@||filmytoday.com^$ghide
 filmytoday.com##.advertisement, .adsbygoogle
-filmytoday.com###container > .block-wrapper > .large-sidebar.sidebar > div.social-widget.widget:nth-of-type(2)
+filmytoday.com##.i-am-centered
+filmytoday.com##.title-section:has-text(/adv/i)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6728
 sportskeeda.com##.ad-container
@@ -19537,7 +19532,8 @@ vidlii.com##+js(set, adsbygoogle.loaded, true)
 vidlii.com##.adsbygoogle
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50316
-docer.pl##+js(set, ads_unblocked, true)
+! https://github.com/uBlockOrigin/uAssets/issues/11851
+docer.*##+js(set, ads_unblocked, true)
 
 ! https://github.com/NanoMeow/QuickReports/issues/3120
 download.htdrive.com##+js(acis, document.getElementById, bannerad)
@@ -19803,17 +19799,6 @@ atdhe.*###bannerInCenter
 
 ! 5299 .tv anti adb
 5299.tv##+js(acis, jQuery, setTimeout)
-
-! https://github.com/uBlockOrigin/uAssets/issues/7051
-! https://github.com/uBlockOrigin/uAssets/issues/7085
-mshares.co##+js(set, showAdblockAlert, null)
-mshares.co,mshare.*##center > div:nth-of-type(1)
-mshares.co,mshare.*##[class^="ads_"]
-@@||mshare.*/js/blockadblock.js$script,1p
-@@||mshare.*^$ghide
-@@||mshares.*^$ghide
-@@*$script,1p,domain=mshares.*
-*$script,3p,redirect-rule=noopjs,domain=mshares.co
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50855
 @@||scaleya.com^$ghide
@@ -20441,7 +20426,7 @@ gun-otaku.blogspot.com###HTML16
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51819
 @@||get-digital-help.com^$ghide
 get-digital-help.com##.ezoic-ad
-get-digital-help.com###stylesheet_body > div:nth-of-type(2) > span
+get-digital-help.com##.adthrive-ad
 
 ! nefree .com anti adb
 @@||nefree.com^$ghide
@@ -20849,7 +20834,6 @@ androgamer.org##+js(acis, jQuery, ai_adb)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/52613
 @@||fiches-auto.fr^$ghide
-fiches-auto.fr##.bloc_centre_709_texte > center:nth-of-type(4)
 fiches-auto.fr###bulle_avvis
 fiches-auto.fr##.adsbygoogle:style(visibility: collapse !important)
 

@@ -316,7 +316,6 @@ cutscenes.net##.item > iframe[src^="https://go."]:upward(1)
 twinkybf.com##.happy-sidebar
 twinkybf.com##.happy-under-player
 ###playerOverlay[style="position:absolute; z-index:3"]
-beemtube.com##[class^="ad-"]
 
 *$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|jsdelivr.net|unpkg.com|zencdn.net,domain=xxxfiles.com
 *$script,domain=hoporno.net,3p,denyallow=googleapis.com
@@ -2296,6 +2295,9 @@ thumpertalk.com##.ipsType_richText a:style(color:currentcolor !important)
 zshort.*##+js(set, blurred, false)
 zshort.*###fafsf2:style(display:block !important)
 zshort.*###showContainer,.textfk
+! zshort.cc/9LuhC
+mdn.rest##+js(set, waitTime, 0)
+mdn.rest###myModal2
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8852
 chapteria.com##+js(acis, document.createElement, ignielAdBlock)
@@ -3257,11 +3259,12 @@ shemalestube.com##.cover:style(background-image: none!important;)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83579
 javsenpai.site##+js(nowoif)
 
-! gamingbible.co.uk anti-adb
+! https://www.reddit.com/r/uBlockOrigin/comments/sz4cn0/gamingbible_detects_the_adblock_little_help/
 gamingbible.co.uk#@#div[class*="margin-Advert"]
 gamingbible.co.uk##div[class$="-margin-Advert"]:style(height:1px !important;width:1px !important;position:absolute !important;left:-3000px !important)
 gamingbible.co.uk##.css-1dgm0zi-Advert
 ||adsafeprotected.com/$script,redirect-rule=noopjs,domain=gamingbible.co.uk
+@@||micro.rubiconproject.com/prebid/dynamic/$script,domain=gamingbible.co.uk
 
 ! hxfile. co popups
 hxfile.co##+js(acis, Math, break;case $.)
@@ -4376,7 +4379,9 @@ anime4up.com##+js(acis, JSON.parse, break;case $.)
 ||lowendbox.com^$3p
 ||lowendbox.com/media/banner/$frame
 lowendbox.com##a[href][rel=noreferrer] > img[height="250"][width="300"]
-lowendbox.com##div.block:nth-of-type(6)
+lowendbox.com##[href="https://vpsdime.com/"]
+lowendbox.com##iframe
+lowendbox.com##div.block:has([id^="bsa"])
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88394
 *$script,3p,denyallow=cloudflare.com,domain=reddit.tube
@@ -4897,10 +4902,6 @@ mypornhere.com##.item > [href^="https://www.mrporngeek.com/"]
 shaalaa.com##div.zxc_wrap
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/pbhrqj/antiadblock_on_a_few_sites/
-@@||myagar.pro^$ghide
-myagar.pro##.ui-panel.center-container > div.profiles-panel:nth-of-type(2)
-myagar.pro##.ui-panel.right-container > div.profiles-panel:nth-of-type(2)
-myagar.pro##.top-add
 @@||cyberbunkers.com^$ghide
 cyberbunkers.com##.adsbygoogle
 freeiphone.fr##+js(aost, Math, ai_)
@@ -5151,8 +5152,10 @@ celebjared.net##[href^="https://minepi.com/"]
 celebjared.net###text-10
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/pjq4ez/
-1tamilmv.*##+js(aopw, _pop)
+! https://github.com/uBlockOrigin/uAssets/issues/11859
+1tamilmv.*##+js(acis, document.createElement, cookie)
 1tamilmv.*##+js(acis, Math, break;case $.)
+1tamilmv.*##+js(aopw, _pop)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/94160
 beingtek.com##+js(aopr, app_vars.force_disable_adblock)
@@ -5192,7 +5195,6 @@ dekhobd.com###ads
 dsocker1234.blogspot.com##+js(acis, String.prototype.charCodeAt, 'replace')
 dsocker1234.blogspot.com##+js(set, new_config.timedown, 0)
 dsocker1234.blogspot.com##.mb-3.order-last.col-md-3.col-12
-dsocker1234.blogspot.com##div.mb-3.col-md-3.col-12:nth-of-type(1)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/pmm2t4/ad_server_not_blacklisted_in_ubo/
 dottech.org###Azadify
@@ -5877,8 +5879,9 @@ kshow123.net###closeads
 ||voxymelody.xyz^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10249
-designtagebuch.de##+js(set, SteadyWidgetSettings.adblockActive, false)
-designtagebuch.de##aside.desig-widget.inner-padding.widget:nth-of-type(2)
+designtagebuch.de##+js(set, SteadyWidgetSettings.adblockActive, false) 
+@@*$xhr,domain=designtagebuch.de
+designtagebuch.de##[id^="desig-"]:has-text(ANZEIGE)
 designtagebuch.de##.zwischen-posts-wrapper
 designtagebuch.de###desig-widget-59
 designtagebuch.de##.seitenende-wrapper
@@ -7074,6 +7077,9 @@ mconverter.eu##+js(nostif, offsetHeight)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10777
 sevenjournals.com##+js(nobab)
+sevenjournals.com###yuidea-generate:style(display: block !important;)
+sevenjournals.com###yuidea-snp:style(display: block !important;)
+sevenjournals.com###yuidea-wait1
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10793
 joomlabeginner.com##+js(nostif, eb)

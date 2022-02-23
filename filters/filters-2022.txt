@@ -253,7 +253,11 @@ kepahoo.com##+js(nostif, show)
 ! https://github.com/uBlockOrigin/uAssets/issues/11352
 link.insurance-space.xyz,link.insurglobal.xyz,link.adcortoltda.agency##+js(set, blurred, false)
 1apple.xyz##+js(nano-sib, timer)
-link.insurance-space.xyz##div[id^="bsa-zone_"]
+insurance-space.xyz##div[id^="bsa-zone_"]
+go.insurance-space.xyz###wpsafe-generate:style(display: block !important;)
+go.insurance-space.xyz###wpsafe-link:style(display: block !important;)
+go.insurance-space.xyz###wpsafelinkhuman
+go.insurance-space.xyz##div[id^="wpsafe-wait"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11353
 ||rat.xxx/xdman/*
@@ -639,6 +643,7 @@ note.sieuthuthuat.com##+js(set, isAdBlockActive, false)
 ! popMagic-sites
 ! https://github.com/uBlockOrigin/uAssets/issues/11635
 allcelebs.club,beginningmanga.com,chopris.com,comicsvalley.com,eshentai.tv,faptube.com,finding-camellia.com,finevids.xxx,gifcandy.net,hentaila.com,javxxxporn.com,klmag.net,komisanwamanga.com,manhwaid.org,mdtaiwan.com,porn77.info,pornwatchers.com,seoul-station-druid.com,urgayporn.com,xculitos.com,xnxx.party,xsportshd.com##+js(acis, document.querySelectorAll, popMagic)
+pornktube.tv##+js(aeld, click, popMagic)
 ||xsportshd.com/bet.gif$image
 manhwaid.org##.c-top-sidebar
 
@@ -993,3 +998,40 @@ paidappstore.xyz###sticky-ads
 ! https://github.com/uBlockOrigin/uAssets/issues/11841
 tenies-online.*##+js(acis, JSON.parse, break;case $.)
 tubeload.co##+js(nowoif)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11847
+*$script,redirect-rule=noopjs,domain=mrlabtest.com
+
+! https://github.com/bogachenko/fuckfuckadblock/issues/273
+infinityblogger.in##+js(acis, eval, replace)
+
+! ads, popups on Vietnamese sites
+baliphim.com,khophimhd.net,lucaphim.com##+js(acis, JSON.parse, break;case $.)
+khophimhd.net###fanback
+lucaphim.com##div[id^="ads_popup"]
+/\/images\/\d{20,}\.gif$/$image,1p,domain=baliphim.com|lucaphim.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/11856
+projectfreetv2022.com##+js(acis, JSON.parse, break;case $.)
+
+! health-and.me anti-adb, timer https://foofly.xyz/EYwC
+health-and.me##+js(acis, document.addEventListener, google_ad_client)
+health-and.me##^script:has-text(google_ad_client)
+forexeen.us,health-and.me##+js(nano-sib, counter)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11861
+magdownload.org##+js(nostif, _0x)
+magdownload.org##.home-jumbotron
+
+! www.masengwa.com popup
+masengwa.com##+js(acis, JSON.parse, break;case $.)
+||seebait.com^
+
+! https://github.com/easylist/easylist/pull/10996/
+kantotflix.com##+js(acis, document.createElement, __htas)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11866
+*$script,domain=multiclaim.net,redirect-rule=noopjs
+
+! https://github.com/uBlockOrigin/uAssets/issues/11868
+prepostseo.com##+js(acis, loadAdBlocker)
