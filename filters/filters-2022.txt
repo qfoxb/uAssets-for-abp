@@ -68,11 +68,12 @@ ac-illust.com,photo-ac.com##.modal-backdrop
 ac-illust.com,photo-ac.com##body.modal-open *:style(filter: none!important;)
 
 ! PopAds
-037jav.com,7hitmovies.bond,animefrenzy.org,aotonline.org,flizmovies.*,kantotinyo.com,onepiece-mangaonline.com,silverpic.com,solarseries.club,solartv.club,swatchhd.online,xfantasy.su,yayanimes.net,youjax.com,ytstvmovies.xyz##+js(aopw, _pop)
+037jav.com,7hitmovies.bond,animefrenzy.org,aotonline.org,flizmovies.*,kantotinyo.com,onepiece-mangaonline.com,sexdicted.com,silverpic.com,solarseries.club,solartv.club,swatchhd.online,xfantasy.su,yayanimes.net,youjax.com,ytstvmovies.xyz##+js(aopw, _pop)
 
 ! propeller crap/ads
-kimoitv.com,myviid.com,s4p2.shingekinokyojin.tv,sflix.to,vanime.co,vidbam.org##+js(acis, JSON.parse, break;case $.)
+iegybest.co,kimoitv.com,mangceh.cc,mcubd.host,moviestars.to,myviid.com,s4p2.shingekinokyojin.tv,sflix.to,vanime.co,vidbam.org,yodbox.com##+js(acis, JSON.parse, break;case $.)
 ||xfyyveifirnll.com^
+||abrocvhkwhd.com^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11200
 @@||zepperplexo.com^$ghide
@@ -707,7 +708,8 @@ financeflix.in,studyranks.in,technoflip.in##+js(nano-sib, timer)
 linkshortify.site##+js(set, blurred, false)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11667
-chillx.top##+js(set, Count_Popup, undefined)
+chillx.top##+js(set, Set_Popup, false)
+chillx.top##+js(set, CPopup, undefined)
 chillx.top##+js(nowoif)
 
 ! https://github.com/easylist/easylist/commit/7a6130a149d0b832928bf5e8fc6d007aebce7ae6
@@ -1010,6 +1012,8 @@ baliphim.com,khophimhd.net,lucaphim.com##+js(acis, JSON.parse, break;case $.)
 khophimhd.net###fanback
 lucaphim.com##div[id^="ads_popup"]
 /\/images\/\d{20,}\.gif$/$image,1p,domain=baliphim.com|lucaphim.com
+ezphimmoi.net##+js(ra, onclick, body[onclick="popunder();"])
+ezphimmoi.net###popup-giua-man-hinh
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11856
 projectfreetv2022.com##+js(acis, JSON.parse, break;case $.)
@@ -1035,3 +1039,70 @@ kantotflix.com##+js(acis, document.createElement, __htas)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11868
 prepostseo.com##+js(acis, loadAdBlocker)
+prepostseo.com###top-head-ad
+prepostseo.com###after_button_ad_desktop
+prepostseo.com###after_title_ad
+prepostseo.com###above_button_ad
+prepostseo.com###sidebar_ad_big
+prepostseo.com###floorad-wrapper
+prepostseo.com##div[id^="bsa-zone_"]
+
+! https://github.com/uBlockOrigin/uAssets/issues/11867
+futemax.gratis##+js(acis, JSON.parse, break;case $.)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11882
+bluemoon-mcfc.co.uk##div.stickyContainer
+bluemoon-mcfc.co.uk##[id^="snack_"]
+
+! https://github.com/uBlockOrigin/uAssets/issues/11889
+worldtravelling.com##+js(nostif, ads)
+
+! bdnewszh. com popups, ads
+bdnewszh.com,hazmo.stream,hazmolive.stream##+js(aopw, _pop)
+bdnewszh.com##+js(acis, JSON.parse, break;case $.)
+bdnewszh.com##.billboard-banner
+bdnewszh.com##.left-sticky-banner
+bdnewszh.com##.right-sticky-banner
+bdnewszh.com##.content-banner
+||hazmolive.stream/hazmoLive.js
+||hazmo.stream/hazmo.js
+||dopjfbdvatxlhe.com^
+||uscnvdcxttnh.com^
+
+! https://github.com/uBlockOrigin/uAssets/issues/11896
+order-order.com##+js(acis, Math.random, bait)
+order-order.com###stickyfooterad
+
+! frauporno. com popups
+frauporno.com##+js(aeld, , popMagic)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11897
+azoraworld.com##+js(acis, String.fromCharCode, ai_adb)
+
+! nsfw fuxnxx. com popups
+fuxnxx.com##+js(acis, document.querySelectorAll, popMagic)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11905
+cacfutures.org,comexlive.org,daxfutures.org,dollarindex.org,dowfutures.org,ftsefutures.org,mcxlive.org,nasdaqfutures.org,ncdexlive.org,niftyfutures.org,nikkeifutures.org,sgxnifty.org,spfutures.org##+js(acis, jQuery, "No")
+cacfutures.org,comexlive.org,daxfutures.org,dollarindex.org,dowfutures.org,ftsefutures.org,mcxlive.org,nasdaqfutures.org,ncdexlive.org,niftyfutures.org,nikkeifutures.org,sgxnifty.org,spfutures.org##.ads
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/111313
+huffpost.com##+js(set, HP_Scout.adBlocked, false)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/111459
+repelis.in##+js(acis, JSON.parse, break;case $.)
+||enifeygqued.com^
+
+! https://github.com/uBlockOrigin/uAssets/issues/9932#issuecomment-1052554867
+nikita.tk##+js(aeld, load, innerHTML)
+nikita.tk##^script:has-text(document.body.innerHTML)
+
+! https://github.com/uBlockOrigin/uAssets/issues/11920
+ingles.com,spanishdict.com##+js(aeld, , isBlocking)
+ingles.com###adSide3-container
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/111499
+ikuhentai.net##div[style="position: fixed; display: block; width: 100%; height: 100%; inset: 0px; background-color: rgba(0, 0, 0, 0); z-index: 300000;"]
+
+! https://github.com/uBlockOrigin/uAssets/issues/11937
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=windowscmd.com
