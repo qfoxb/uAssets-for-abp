@@ -2873,8 +2873,8 @@ bokepindohot.pw##+js(nostif, nextFunction)
 ! https://github.com/NanoMeow/QuickReports/issues/4495
 brawlhalla.fr##+js(nostif, check)
 
-! vidshar .tv popups
-vidshar.tv##+js(acis, Math, XMLHttpRequest)
+! vidshar .tv=> .org popups
+vidshar.org##+js(acis, JSON.parse, break;case $.)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10524
 informaxonline.com##+js(no-xhr-if, mahimeta)
@@ -3392,7 +3392,7 @@ lookcam.*##div.prefix-adlabel
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/ioi83o/how_to_block_this_add/
 *$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|google.com|googleapis.com|gstatic.com|hcaptcha.com|jsdelivr.net|recaptcha.net,domain=manga4life.com
-*$frame,script,3p,denyallow=cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|hcaptcha.com|jsdelivr.net|recaptcha.net,domain=mangasee123.com
+*$frame,script,3p,denyallow=cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com|hcaptcha.com|jsdelivr.net|fastly.net|recaptcha.net,domain=mangasee123.com
 
 ! https://github.com/NanoMeow/QuickReports/issues/4657
 realityblurb.com##+js(aopr, HTMLIFrameElement)
@@ -3623,10 +3623,6 @@ androidtvbox.eu##[href^="https://bit.ly"]
 androidtvbox.eu##.stream-item
 androidtvbox.eu##.stream-item-widget
 androidtvbox.eu##.mdl_inner
-
-! drivedrama .com anti adb
-drivedrama.com##+js(aeld, load, onload)
-*$script,3p,redirect-rule=noopjs,domain=drivedrama.com
 
 ! https://github.com/NanoMeow/QuickReports/issues/4716
 animeindo.cc##+js(aopr, decodeURI)
@@ -6041,8 +6037,9 @@ fssquad.com##.banner-end.center-it > [href]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8407
 cablegratis.online##+js(aopw, _pop)
+cablegratis.online##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
+cablegratis.online###tme
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock$script
-@@*$xhr,domain=canal.cablegratis.online
 
 ! wmoviesfree. com popups
 wmoviesfree.com##+js(acis, JSON.parse, break;case $.)

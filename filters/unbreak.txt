@@ -3489,8 +3489,8 @@ bing.com##+js(nosiif, logQueue, 10000)
 ||cdn.shopify.com/*assets/pixel.gif$image,redirect=1x1.gif,domain=metrovac.com,important
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/m1fzip/can_devs_please_unblock_this_legit_website/
+! https://github.com/uBlockOrigin/uAssets/issues/12046 cname breakage
 ||actonsoftware.com^$badfilter
-||actonsoftware.com^$3p
 
 ! watcho. com home page very slow loading
 @@||cdn.branch.io/branch-$script,xhr,domain=watcho.com
@@ -4099,7 +4099,8 @@ ilbianconero.com##.no-scroll:style(overflow:auto!important)
 @@||clj.valuecommerce.com/*/vcushion.min.js
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/r7ja04/
-||securegames.iwin.com/data/gtm.json$1p,xhr,redirect=noop.js
+! https://github.com/uBlockOrigin/uAssets/issues/12034
+@@||securegames.iwin.com/data/gtm.json$xhr,domain=securegames.iwin.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10731
 @@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager.com/gtm.js,domain=midomi.com
@@ -4380,3 +4381,11 @@ cyberstumble.com##.td-animation-stack-type0-1:style(opacity:1 !important)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11959
 pearsonclinical.com##.aligner
+
+! https://www.tf1info.fr/politique/loi-anti-casseurs-sur-quels-textes-de-loi-s-appuie-edouard-philippe-et-que-disent-ils-exactement-2109497.html broken video
+@@||cdn.trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
+@@||cdn.trustcommander.net/privacy/*/privacy$script,domain=tf1info.fr
+
+! liste ar https://github.com/uBlockOrigin/uAssets/issues/12033
+*$xmlhttprequest,3p,domain=faselhd.top,badfilter
+*$script,3p,domain=faselhd.top,badfilter
