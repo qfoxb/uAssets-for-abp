@@ -716,18 +716,18 @@ tapetus.pl##+js(acis, $, setTimeout)
 tapetus.pl##div[style="box-sizing: border-box; padding:0px 5px 0px 0px; text-align:center;"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7308
-adblockstreamtape.*,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##+js(aopw, _pop)
-adblockstreamtape.*,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
-adblockstreamtape.*,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##+js(nosiif, adblock)
-adblockstreamtape.*,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##+js(nowoif)
+adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##+js(aopw, _pop)
+adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
+adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##+js(nosiif, adblock)
+adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##+js(nowoif)
 strcloud.*,streamtape.*,streamta.*,strtape.*,strtapeadblock.*##+js(ra, target, #downloadvideo)
 strcloud.*,streamtape.*,streamta.*,strtape.*,strtapeadblock.*##+js(set, towait, 0)
 strtapeadblock.*##+js(acis, Math, break;case $.)
-adblockstreamtape.*,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*#@#.google-ad
-adblockstreamtape.*,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##[class*="bn-container"], div[style*="z-index: 300000;"]
+adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*#@#.google-ad
+adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##[class*="bn-container"], div[style*="z-index: 300000;"]
 strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##iframe[src^="data:"]
 /sw.js$script,1p,domain=strcloud.*|streamtape.*|streamta.*|strtape.*|strtpe.*|strtapeadblock.*
-*$3p,denyallow=google.com|gstatic.com|hcaptcha.com|recaptcha.net|tapecontent.net,domain=adblockstreamtape.*|stape.fun|strcloud.*|streamtape.*|strtape.*|strtpe.*|strtapeadblock.*
+*$3p,denyallow=google.com|gstatic.com|hcaptcha.com|recaptcha.net|tapecontent.net,domain=adblockstreamtape.*|adblockstrtape.link|adblockstrtech.link|stape.fun|strcloud.*|streamtape.*|strtape.*|strtpe.*|strtapeadblock.*
 ||nonegrysu.pro^
 ||tstacyfubmyfrs.top^
 ||wqxnbtlvo.xyz^
@@ -2450,11 +2450,12 @@ biopills.net##+js(aost, encodeURIComponent, inlineScript)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10815
 atozmath.com##+js(acis, alert, reCAPTCHA)
+atozmath.com##+js(aeld, blur, event.triggered)
 @@||atozmath.com^$ghide
 @@||atozmath.com/Scripts/advertisement.js$xhr,1p
 atozmath.com##.videoDiscovery
 @@||services.bilsyndication.com/adv1/*$script,domain=atozmath.com
-@@||biltag.bilsyndication.com/v1/*$script,domain=atozmath.com
+@@||biltag.bilsyndication.com^$script,domain=atozmath.com
 @@||assets.bilsyndication.com/prebid/default/*$script,domain=atozmath.com
 ||assets.bilsyndication.com/plugins/*$script,redirect=noopjs,domain=atozmath.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=noopjs,domain=atozmath.com
@@ -3068,9 +3069,6 @@ thehacktoday.com##.adsbygoogle
 ! https://github.com/NanoMeow/QuickReports/issues/4588
 annabelle.ch##+js(aopr, _sp_._networkListenerData)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/62435
-@@||cdn-surfline.com/*/scripts/adsbox.js$script,domain=surfline.com
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/62450
 csgo-ranks.com##+js(nosiif, visibility, 1000)
 
@@ -3495,6 +3493,7 @@ getitfree.cn##+js(acis, document.getElementById, .style)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7900
 *$script,3p,domain=webmusic.*
+/^https:\/\/aj[0-9a-z]{2}\d{2}\.online\/[0-9a-z]{8}\.js$/$script,3p
 
 ! https://github.com/uBlockOrigin/uAssets/pull/7901
 smallpocketlibrary.com##+js(aopr, adBlockDetected)
@@ -4671,9 +4670,9 @@ top.gg###video-root
 @@||arrowos.net/js/*$script,1p
 arrowos.net##body:style(visibility:visible !important)
 @@||arrowos.net^$ghide
+arrowos.net##.card-content:has(> .adsbygoogle)
 arrowos.net##.adsbygoogle
 arrowos.net###babasbmsgx
-arrowos.net##.card-content:has(.adsbygoogle)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8167
 3hiidude.*,hiidudemoviez.*##+js(aopw, _pop)
