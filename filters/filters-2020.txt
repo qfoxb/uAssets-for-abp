@@ -289,29 +289,20 @@ fanproj.net##+js(acis, JSON.parse, break;case $.)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7488
 ! https://github.com/uBlockOrigin/uAssets/issues/8373
-dropgalaxy.*,financemonk.net,techssting.com##+js(aeld, , { [native code] })
-dropgalaxy.*,financemonk.net,techssting.com##+js(nosiif, { [native code] })
 dropgalaxy.*,financemonk.net,techssting.com##+js(nowoif)
-dropgalaxy.*,financemonk.net,techssting.com##+js(ra, onclick|target, .btn-primary.btn-lg.btn-block.btn)
 dropgalaxy.*,financemonk.net,techssting.com##[href^="https://bit.ly/"]
 dropgalaxy.*,financemonk.net,techssting.com###operadata + br + [href][target="_blank"]
 dropgalaxy.*,financemonk.net,techssting.com##body > div[style^="position: fixed; display: block"]
 @@||blockadsnot.com/tabletop.min.js$script,domain=dropgalaxy.*|financemonk.net|techssting.com
 @@||dnhfi5nn2dt67.cloudfront.net/ui-bootstrap-tpls.min.js$script,domain=dropgalaxy.*|financemonk.net|techssting.com
-*$script,redirect-rule=noopjs,domain=dropgalaxy.*|financemonk.net|techssting.com
-*$image,redirect-rule=2x2.png,domain=dropgalaxy.*|financemonk.net|techssting.com
-dropgalaxy.*,financemonk.net,techssting.com##+js(nosiif, _0x)
 dropgalaxy.*,financemonk.net,techssting.com##.adsbygoogle:style(max-height: 1px !important;)
 dropgalaxy.*,financemonk.net,techssting.com##[id^="aswift"]:style(display:none!important;)
 dropgalaxy.*,financemonk.net,techssting.com##iframe[id*="_mN_main_"]
 dropgalaxy.*,financemonk.net,techssting.com##[target="_blank"]:has-text(Download)
 dropgalaxy.*,financemonk.net,techssting.com###modalpop
-@@.jpg$image,domain=dropgalaxy.*|financemonk.net|techssting.com
-@@.png$image,domain=dropgalaxy.*|financemonk.net|techssting.com
 @@||c.adsco.re^$script,domain=dropgalaxy.*|financemonk.net|techssting.com
 @@||contextual.media.net/dmedianet.js?cid=$domain=dropgalaxy.*|financemonk.net|techssting.com
 @@||contextual.media.net/*/fcmain.js$domain=dropgalaxy.*|financemonk.net|techssting.com
-@@||googlesyndication.com^$script,xhr,domain=dropgalaxy.*|financemonk.net|techssting.com
 @@||remarketingpixel.com/stats$xhr,domain=dropgalaxy.*|financemonk.net|techssting.com
 @@||cloudfront.net/publishers/dropgalaxycom.min.js$domain=dropgalaxy.com
 @@||cmp.uniconsent.com^$script,xhr,domain=dropgalaxy.com
@@ -326,11 +317,18 @@ newsindi.com,financemonk.net,techssting.com##+js(aopr, absda)
 !#if env_firefox
 @@||adservice.google.*/adsid/integrator.js$script,domain=dropgalaxy.*|financemonk.net|techssting.com
 !#endif
-techyneed.com###iframe
 ||housewifehaunted.com^
-*$frame,redirect-rule=noopframe,domain=dropgalaxy.com
-*$xhr,redirect-rule=nooptext,domain=dropgalaxy.com
-dropgalaxy.com##[id^="div-gpt-ad"]:remove()
+*$frame,redirect-rule=noopframe,domain=dropgalaxy.com|techthematter.xyz
+*$xhr,redirect-rule=nooptext,domain=dropgalaxy.com|techthematter.xyz
+*$script,redirect-rule=noopjs,domain=dropgalaxy.*|financemonk.net|techssting.com|techthematter.xyz
+*$image,redirect-rule=2x2.png,domain=dropgalaxy.*|financemonk.net|techssting.com|techthematter.xyz
+@@.jpg$image,domain=dropgalaxy.*|financemonk.net|techssting.com|techthematter.xyz
+@@.png$image,domain=dropgalaxy.*|financemonk.net|techssting.com|techthematter.xyz
+@@||googlesyndication.com^$script,xhr,domain=dropgalaxy.*|financemonk.net|techssting.com|techthematter.xyz
+@@||techthematter.xyz^$ghide
+@@||freychang.fun^$xhr,domain=dropgalaxy.*|financemonk.net|techssting.com|techthematter.xyz
+@@||jscdn.greeter.me/dropgalaxy.onlinehead.js$script,domain=dropgalaxy.com
+dropgalaxy.com#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53896
 memoriadatv.com##+js(nano-stb)
@@ -725,6 +723,7 @@ strcloud.*,streamtape.*,streamta.*,strtape.*,strtapeadblock.*##+js(set, towait, 
 strtapeadblock.*##+js(acis, Math, break;case $.)
 adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*#@#.google-ad
 adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##[class*="bn-container"], div[style*="z-index: 300000;"]
+adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamta.*,streamtape.*,strtape.*,strtpe.*##.plyr-overlay
 strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##iframe[src^="data:"]
 /sw.js$script,1p,domain=strcloud.*|streamtape.*|streamta.*|strtape.*|strtpe.*|strtapeadblock.*
 *$3p,denyallow=google.com|gstatic.com|hcaptcha.com|recaptcha.net|tapecontent.net,domain=adblockstreamtape.*|adblockstrtape.link|adblockstrtech.link|stape.fun|strcloud.*|streamtape.*|strtape.*|strtpe.*|strtapeadblock.*

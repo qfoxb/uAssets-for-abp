@@ -68,10 +68,10 @@ ac-illust.com,photo-ac.com##.modal-backdrop
 ac-illust.com,photo-ac.com##body.modal-open *:style(filter: none!important;)
 
 ! PopAds
-037jav.com,7hitmovies.bond,animefrenzy.org,aotonline.org,everia.club,flizmovies.*,kantotinyo.com,onepiece-mangaonline.com,sexdicted.com,silverpic.com,solarseries.club,solartv.club,swatchhd.online,xfantasy.su,yayanimes.net,youjax.com,ytstvmovies.xyz##+js(aopw, _pop)
+037jav.com,7hitmovies.bond,androidadult.com,animefrenzy.org,aotonline.org,everia.club,flizmovies.*,kantotinyo.com,onepiece-mangaonline.com,sexdicted.com,silverpic.com,solarseries.club,solartv.club,swatchhd.online,xfantasy.su,yayanimes.net,youjax.com,ytstv.me,ytstvmovies.xyz##+js(aopw, _pop)
 
 ! propeller crap/ads
-a123movies.net,hds-streaming-vf.com,hurawatch.*,iegybest.co,jujutsukaisen-manga.online,kimoitv.com,mangceh.cc,mcubd.host,moviestars.to,myviid.com,s4p2.shingekinokyojin.tv,sflix.to,ssoap2day.*,vanime.co,vidbam.org,yodbox.com##+js(acis, JSON.parse, break;case $.)
+a123movies.net,animefreak.*,hds-streaming-vf.com,hurawatch.*,iegybest.co,jujutsukaisen-manga.online,kimoitv.com,mangceh.cc,mcubd.host,moviestars.to,myviid.com,s4p2.shingekinokyojin.tv,sflix.to,ssoap2day.*,vanime.co,vidbam.org,yodbox.com##+js(acis, JSON.parse, break;case $.)
 ||xfyyveifirnll.com^
 ||abrocvhkwhd.com^
 ||ksiywrjwvkmat.com^
@@ -285,7 +285,14 @@ urbharat.xyz##iframe[width="300"]
 nova.cz##div.vjs-marker-ad
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11387
+! https://github.com/AdguardTeam/AdguardFilters/issues/112175
 rajsayt.xyz##+js(set, blurred, false)
+rajsayt.xyz##+js(no-fetch-if, googlesyndication)
+rajsayt.xyz###wpsafe-generate:style(display: block !important)
+rajsayt.xyz###wpsafe-link:style(display: block !important)
+rajsayt.xyz###wpsafe-wait1
+rajsayt.xyz###wpsafe-wait2
+wplink.*##+js(set, blurred, false)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11388
 av4asia.com##+js(aopr, __Y)
@@ -641,7 +648,7 @@ note.sieuthuthuat.com##+js(set, isAdBlockActive, false)
 
 ! popMagic-sites
 ! https://github.com/uBlockOrigin/uAssets/issues/11635
-allcelebs.club,beginningmanga.com,chopris.com,comicsvalley.com,eshentai.tv,familyporner.com,faptube.com,finding-camellia.com,finevids.xxx,gifcandy.net,hentaihd.xyz,hentaila.com,javxxxporn.com,klmag.net,komisanwamanga.com,ldkmanga.com,manhwaid.org,mdtaiwan.com,porn77.info,pornhub-teen.com,filmpornoitaliano.org,pornwatchers.com,seoul-station-druid.com,urgayporn.com,xculitos.com,xnxx.party,xsportshd.com,yaoiscan.com##+js(acis, document.querySelectorAll, popMagic)
+allcelebs.club,beginningmanga.com,chopris.com,comicsvalley.com,eshentai.tv,familyporner.com,faptube.com,filmpornoitaliano.org,finding-camellia.com,finevids.xxx,gifcandy.net,hentaihd.xyz,hentaila.com,javxxxporn.com,klmag.net,komisanwamanga.com,ldkmanga.com,manhwaid.org,mdtaiwan.com,porn77.info,pornhub-teen.com,pornken.com,pornwatchers.com,scatkings.com,seoul-station-druid.com,urgayporn.com,xculitos.com,xnxx.party,xsportshd.com,yaoiscan.com##+js(acis, document.querySelectorAll, popMagic)
 pornktube.tv##+js(aeld, click, popMagic)
 ||xsportshd.com/bet.gif$image
 manhwaid.org##.c-top-sidebar
@@ -1179,13 +1186,14 @@ forex-gold.net##.demand-supply
 ! https://github.com/uBlockOrigin/uAssets/issues/12037
 chiangraitimes.com##+js(acis, eval, replace)
 
-! https://github.com/uBlockOrigin/uAssets/pull/12045
-dirtyindianporn.*,freeindianporn2.com,onlyindianporn.*,xxnx.*,xxxindianporn.*##+js(aopr, exoJsPop101)
+! exo ads
+desixxxtube.org,dirtyindianporn.*,freeindianporn2.com,indianpornvideos.*,kompoz2.com,onlyindianporn.*,pakistaniporn2.com,porno18.*,xxnx.*,xxxindianporn.*##+js(aopr, exoJsPop101)
 xxxhdvideo.*##+js(aopr, decodeURI)
 indianporn365.net##+js(acis, document.createElement, 'script')
 ||zylytavo.com^
 ||myzuphaby.pro^
 ||dirtyindianporn.info/js/friends.sv.js
+||pakistaniporn2.com/js/friends.minz.js
 
 ! cinegrabber. com
 cinegrabber.com##+js(aopr, __Y)
@@ -1235,3 +1243,24 @@ uploadmx.com##.adsbygoogle
 
 ! streaming-french. com popups
 streaming-french.com##+js(acis, JSON.parse, break;case $.)
+
+! https://github.com/easylist/easylist/pull/11177
+whcp4.com##+js(nowoif)
+
+! download3s.net focus detection
+download3s.net##+js(set, blurred, false)
+
+! https://github.com/easylist/easylist/pull/11191
+ziperto.com##+js(acis, globalThis, break;case)
+||sfultraight.xyz^
+||erdeally.com^
+
+! jav.one popup
+jav.one##+js(acis, document.querySelectorAll, popMagic)
+javfu.net##+js(aopr, __Y)
+
+! javhd.today globalThis
+javhd.today##+js(acis, globalThis, break;case)
+
+! desitelugusex. com ads
+desitelugusex.com##+js(set, D4zz, noopFunc)
