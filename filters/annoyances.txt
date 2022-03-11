@@ -2277,6 +2277,8 @@ gamershit.altervista.org##+js(aopr, document.oncontextmenu)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4802
 @@||minecraft-schematics.com^$ghide
+minecraft-schematics.com##.adsbygoogle
+minecraft-schematics.com##[href^="http://www.pingperfect.com/aff.php"]
 
 ! theitaliantimes .it right click, select, copy ..
 theitaliantimes.it##+js(ra, oncontextmenu|onselectstart|ondragstart|oncopy|oncut|onpaste|onbeforecopy)
@@ -4628,7 +4630,7 @@ safetxt.net##+js(acis, $, contextmenu)
 1fichier.com##.ui-widget-overlay
 
 ! abc .es anti adb warning
-abc.es##+js(aopr, vocento.tracking)
+! abc.es##+js(aopr, vocento.tracking)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8347#issuecomment-744394924
 forum.release-apk.com##.has-profile.post:first-child:has-text(/adblock/i)
@@ -5538,6 +5540,7 @@ streaminglearningcenter.com##+js(nostif, ads)
 prepostseo.com##+js(nostif, 'head')
 
 ! youmath. it anti select
+youmath.it##+js(aopw, document.onmousedown)
 youmath.it##+js(aopw, document.onselectstart)
 youmath.it##+js(aopr, document.onselectstart)
 youmath.it##+js(set, disableselect, trueFunc)
@@ -6521,3 +6524,10 @@ mocah.org##+js(ra, oncontextmenu)
 ! https://github.com/uBlockOrigin/uAssets/issues/12067
 ukrainashop.com##+js(aeld, contextmenu)
 ukrainashop.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12119
+101soundboards.com##.blocked-notice-small
+
+! https://github.com/uBlockOrigin/uAssets/issues/12132
+geeksforgeeks.org##+js(nostif, onscroll ,5500)
+geeksforgeeks.org##+js(nostif, login ,5000)
