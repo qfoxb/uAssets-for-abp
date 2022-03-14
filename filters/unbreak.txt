@@ -698,9 +698,6 @@ cyclingnews.com##.global-banner
 ! https://forums.lanik.us/viewtopic.php?p=136057#p136057
 @@|https://api-secure.solvemedia.com^$script
 
-! http://www.trilulilu.ro/ntv-culte-misa
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=trilulilu.ro
-
 ! https://twitter.com/andrewvijay/status/995297630371495941
 ! These Adguard Mobile procedural cosmetic filters are causing issues
 mobile.twitter.com#@#section[role="region"] > div > div[style^="padding-bottom"] > div[class] > div[class][-ext-has='div.rn-1uif7bo[dir="auto"]']
@@ -4389,3 +4386,30 @@ pearsonclinical.com##.aligner
 ! liste ar https://github.com/uBlockOrigin/uAssets/issues/12033
 *$xmlhttprequest,3p,domain=faselhd.top,badfilter
 *$script,3p,domain=faselhd.top,badfilter
+
+! https://github.com/uBlockOrigin/uAssets/issues/8629#issuecomment-1062033466
+*$image,domain=asfan.as.com,redirect-rule=1x1.gif
+
+! https://github.com/uBlockOrigin/uAssets/issues/12108
+#@##banner_ad
+
+! https://github.com/uBlockOrigin/uAssets/issues/12143
+/adw.$domain=~adw.be|~adw.olsztyn.pl|~adw.org|~adw.org.pl|~valadoc.org,badfilter
+/adw.$domain=~adw.be|~adw.olsztyn.pl|~adw.org|~adw.org.pl|~valadoc.org|~adw.amsterdam.nl
+
+! mpsconline. gov.in breakage
+@@||mpsconline.gov.in^$ghide
+
+! https://github.com/uBlockOrigin/uAssets/issues/12118#issuecomment-1064221681
+*$popup,3p,domain=streamz.ws,badfilter
+
+! https://github.com/uBlockOrigin/uAssets/issues/12159
+||booking.rm.dk/selvbooking/*/analytics/*$xhr,1p,redirect-rule=nooptext
+
+! https://github.com/uBlockOrigin/uAssets/issues/12153
+||fwcdn2.com^$third-party,badfilter
+||fireworkapi.com^$third-party,badfilter
+||fireworktv.com^$third-party,badfilter
+
+! https://github.com/uBlockOrigin/uAssets/issues/12167
+||clerk.io^$3p,badfilter

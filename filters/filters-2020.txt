@@ -311,7 +311,6 @@ dropgalaxy.*,financemonk.net,techssting.com###modalpop
 @@||techssting.com^$ghide
 techssting.com###vipada
 tmp.dropgalaxy.in###vipgoogle-center-div
-dropgalaxy.com##[id^="div-gpt-ad"]:remove()
 financemonk.net###vipada
 newsindi.com,financemonk.net,techssting.com##+js(aopr, absda)
 @@||googletagmanager.com/gtag/js$xhr,domain=dropgalaxy.*|financemonk.net|techssting.com
@@ -319,7 +318,6 @@ newsindi.com,financemonk.net,techssting.com##+js(aopr, absda)
 @@||adservice.google.*/adsid/integrator.js$script,domain=dropgalaxy.*|financemonk.net|techssting.com
 !#endif
 ||housewifehaunted.com^
-
 *$frame,redirect-rule=noopframe,domain=dropgalaxy.com|techthematter.xyz
 *$xhr,redirect-rule=nooptext,domain=dropgalaxy.com|techthematter.xyz
 *$script,redirect-rule=noopjs,domain=dropgalaxy.*|financemonk.net|techssting.com|techthematter.xyz
@@ -327,7 +325,10 @@ newsindi.com,financemonk.net,techssting.com##+js(aopr, absda)
 @@.jpg$image,domain=dropgalaxy.*|financemonk.net|techssting.com|techthematter.xyz
 @@.png$image,domain=dropgalaxy.*|financemonk.net|techssting.com|techthematter.xyz
 @@||googlesyndication.com^$script,xhr,domain=dropgalaxy.*|financemonk.net|techssting.com|techthematter.xyz
-@@||techthematter.xyz$ghide
+@@||techthematter.xyz^$ghide
+@@||freychang.fun^$xhr,domain=dropgalaxy.*|financemonk.net|techssting.com|techthematter.xyz
+@@||jscdn.greeter.me/dropgalaxy.onlinehead.js$script,domain=dropgalaxy.com
+dropgalaxy.com#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53896
 memoriadatv.com##+js(nano-stb)
@@ -725,7 +726,7 @@ adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*
 adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamta.*,streamtape.*,strtape.*,strtpe.*##.plyr-overlay
 strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##iframe[src^="data:"]
 /sw.js$script,1p,domain=strcloud.*|streamtape.*|streamta.*|strtape.*|strtpe.*|strtapeadblock.*
-*$3p,denyallow=google.com|gstatic.com|hcaptcha.com|recaptcha.net|tapecontent.net,domain=adblockstreamtape.*|adblockstrtape.link|adblockstrtech.link|stape.fun|strcloud.*|streamtape.*|strtape.*|strtpe.*|strtapeadblock.*
+*$3p,denyallow=google.com|gstatic.com|hcaptcha.com|recaptcha.net|tapecontent.net|adblockstreamtape.art,domain=adblockstreamtape.*|adblockstrtape.link|adblockstrtech.link|stape.fun|strcloud.*|streamtape.*|strtape.*|strtapeadblock.*|strtpe.*
 ||nonegrysu.pro^
 ||tstacyfubmyfrs.top^
 ||wqxnbtlvo.xyz^
@@ -1335,8 +1336,13 @@ freshstuff4u.info##+js(acis, addEventListener, google_ad_client)
 freshstuff4u.info##div.widget_list_mag_wp_300px, .img-200
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56515
+! https://github.com/uBlockOrigin/uAssets/issues/12142
 anoboy.*##+js(acis, addEventListener, google_ad_client)
 anoboy.*##div#judi2, #coloma, [href^="//kokipoker.net"]
+anoboy.*##[href^="https://bit.ly/"]
+anoboy.*##[href^="http://click2go.me/"]
+anoboy.*###popup_box
+anoboy.*###popup_bawah
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56429
 turkrock.com##+js(acis, $, .show)
@@ -1581,6 +1587,10 @@ bestofcomicbooks.com##+js(acis, Math, break;case $.)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57155
 shr.cash##+js(aopr, app_vars.force_disable_adblock)
 ||pnd.tl/*/320x50$frame
+shr.cash##.swal2-backdrop-show.swal2-center.swal2-container
+shr.cash##+js(aopr, open)
+shr.cash##+js(acis, JSON.parse, break;case $.)
+.gif$domain=shr.cash
 
 ! https://github.com/NanoMeow/QuickReports/issues/4085
 miroir1.trackr.fr##+js(nostif, adsBlocked)
@@ -1657,9 +1667,6 @@ romania-insider.com##+js(nostif, loadingDelayPassed)
 ||tv3play.skaties.lv/static/scripts/ima3.js^$script,redirect-rule=noopjs,domain=skaties.lv
 ||tv3play.skaties.lv/static/scripts/trackdb/events.gif^$image,redirect-rule=1x1.gif,domain=skaties.lv
 ||mssl.fwmrm.net/libs/adm/6.11.0/LinkTag2.js^$redirect-rule=noopjs,script,domain=skaties.lv
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/57454
-axuur.com##+js(aopr, app_vars.force_disable_adblock)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57462
 woodcraftsman.ru##+js(nosiif, visibility, 1000)
@@ -2145,7 +2152,7 @@ link1s.*##+js(aopr, app_vars.force_disable_adblock)
 aemenstore.com,aloass.com,alobyt.com,alocd.com,alogum.com,aloguy.com,alohdd.com,byboe.com,cazzette.com,hookeaudio.com,jncojeans.com,kiemlua.com,kingsleynyc.com,lucidcam.com,nousdecor.com,pennbookcenter.com,restorbio.com,staaker.com,truebrandy.com,uebnews.online,thegoneapp.com##+js(nano-sib, counter, 2000)
 aemenstore.com,aloass.com,alobyt.com,alocd.com,alogum.com,aloguy.com,alohdd.com,anhdep24.com,byboe.com,cazzette.com,dataf.pro,hookeaudio.com,jncojeans.com,kiemlua.com,kingsleynyc.com,link1s.*,lucidcam.com,marharo.com,medcpu.com,nousdecor.com,pennbookcenter.com,restorbio.com,staaker.com,thegoneapp.com,truebrandy.com,uebnews.online##+js(nosiif, visibility, 1000)
 link1s.*##+js(set, blurred, false)
-aemenstore.com,aloass.com,alobyt.com,alocd.com,alogum.com,aloguy.com,alohdd.com,byboe.com,cazzette.com,dataf.pro,hookeaudio.com,jncojeans.com,kiemlua.com,kingsleynyc.com,link1s.*,lucidcam.com,marharo.com,medcpu.com,nousdecor.com,pennbookcenter.com,restorbio.com,rodjulian.com,staaker.com,truebrandy.com,uebnews.online,thegoneapp.com###link1s-wait1
+aemenstore.com,aloass.com,alobyt.com,alocd.com,alogum.com,aloguy.com,alohdd.com,byboe.com,cazzette.com,dataf.pro,hookeaudio.com,jncojeans.com,kiemlua.com,kingsleynyc.com,link1s.*,lucidcam.com,marharo.com,medcpu.com,nousdecor.com,pennbookcenter.com,restorbio.com,staaker.com,truebrandy.com,uebnews.online,thegoneapp.com###link1s-wait1
 aemenstore.com,aloass.com,alobyt.com,alocd.com,alogum.com,aloguy.com,alohdd.com,byboe.com,cazzette.com,dataf.pro,hookeaudio.com,jncojeans.com,kiemlua.com,kingsleynyc.com,link1s.*,lucidcam.com,marharo.com,medcpu.com,nousdecor.com,pennbookcenter.com,restorbio.com,rodjulian.com,staaker.com,truebrandy.com,uebnews.online,thegoneapp.com###link1s-snp:style(display:block!important)
 *$3p,denyallow=bootstrapcdn.com|cloudflare.com|google.com|googleapis.com|gstatic.com|hcaptcha.com|jquery.com|jsdelivr.net|recaptcha.net,domain=link1s.*
 link1s.*##.banner-inner
@@ -2153,7 +2160,6 @@ rodjulian.com##+js(aopr, app_vars.force_disable_adblock)
 rodjulian.com##+js(set, blurred, false)
 rodjulian.com###fixedban
 kiemlua.com,link1s.*###baolink1s
-rodjulian.com##center:nth-of-type(2)
 rodjulian.com##center:nth-of-type(4)
 rodjulian.com##div.wp-block-image
 
@@ -6109,7 +6115,7 @@ javbix.com##.content_movie > div[style="padding:10px; margin-top:15px; text-alig
 javbix.com##.letterLi:last-of-type
 
 ! https://github.com/easylist/easylist/issues/6476#issuecomment-751258895
-dvdplay.*,rawmanga.top##+js(aost, Math, onreadystatechange)
+rawmanga.top##+js(aost, Math, onreadystatechange)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71232
 2adultflashgames.com##+js(aopr, loadTool)
