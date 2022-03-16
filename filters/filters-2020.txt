@@ -381,7 +381,7 @@ adslink.pw##.banner-inner
 adslink.pw##+js(aopw, ai_adb)
 adslink.pw##+js(aopw, _pop)
 adslink.pw##+js(set, blurred, false)
-*$script,3p,denyallow=b-cdn.net|google.com|gstatic.com|recaptcha.net,domain=adslink.pw
+*$script,3p,denyallow=b-cdn.net|cdnized.com|google.com|gstatic.com|recaptcha.net,domain=adslink.pw
 
 ! https://github.com/NanoMeow/QuickReports/issues/3625
 kryptogator.com##+js(aopr, adBlockDetected)
@@ -604,11 +604,11 @@ leakite.com##+js(acis, jQuery, ai_adb)
 rangerboard.com##+js(acis, $, btoa)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54274
-beermoneyforum.com##+js(acis, $, initAdblockDetection)
-beermoneyforum.com##+js(nostif, samOverlay)
+beermoneyforum.com##+js(acis, $, Adblock)
 beermoneyforum.com##.is-active.overlay-container
 beermoneyforum.com##.samBackground:style(background-image:none !important)
 beermoneyforum.com##.samBackgroundItem.samItem
+beermoneyforum.com##body:style(overflow: auto !important)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54703
 bg-gledai.co##+js(nosiif, visibility, 1000)
@@ -720,15 +720,15 @@ tapetus.pl##div[style="box-sizing: border-box; padding:0px 5px 0px 0px; text-ali
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7308
 adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##+js(aopw, _pop)
-adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
+adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,streamtapeadblock.*,strtapeadblock.*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
 adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##+js(nosiif, adblock)
-adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##+js(nowoif)
+adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,streamtapeadblock.*,strtapeadblock.*##+js(nowoif)
 strcloud.*,streamtape.*,streamta.*,strtape.*,strtapeadblock.*##+js(ra, target, #downloadvideo)
 strcloud.*,streamtape.*,streamta.*,strtape.*,strtapeadblock.*##+js(set, towait, 0)
 strtapeadblock.*##+js(acis, Math, break;case $.)
 adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*#@#.google-ad
 adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##[class*="bn-container"], div[style*="z-index: 300000;"]
-adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamta.*,streamtape.*,strtape.*,strtpe.*##.plyr-overlay
+adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamta.*,streamtape.*,streamtapeadblock.*,strtape.*,strtpe.*##.play-overlay
 strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##iframe[src^="data:"]
 /sw.js$script,1p,domain=strcloud.*|streamtape.*|streamta.*|strtape.*|strtpe.*|strtapeadblock.*
 !*$3p,denyallow=google.com|gstatic.com|hcaptcha.com|recaptcha.net|tapecontent.net|adblockstreamtape.art,domain=adblockstreamtape.*|adblockstrtape.link|adblockstrtech.link|stape.fun|strcloud.*|streamtape.*|strtape.*|strtapeadblock.*|strtpe.*
@@ -736,6 +736,7 @@ strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##iframe[s
 ||tstacyfubmyfrs.top^
 ||wqxnbtlvo.xyz^
 ||ndbspfpgynbt.com^
+||odhrnejegx.com^
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54846
 yabiladi.com##+js(set, adBlockDetected, null)
@@ -1327,11 +1328,6 @@ pasteit.*##+js(noeval-if, AdBlock)
 
 ! https://github.com/NanoMeow/QuickReports/issues/3987
 *$xhr,redirect-rule=nooptext,domain=freebinchecker.com
-
-! https://github.com/NanoAdblocker/NanoFilters/issues/509
-nyaa.iss.one##+js(aopr, LieDetector)
-! fap.iss.one PH
-iss.one##.servers-cost-money1
 
 ! https://github.com/NanoMeow/QuickReports/issues/3988
 @@||geekprank.com^$ghide

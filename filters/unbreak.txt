@@ -4393,10 +4393,6 @@ pearsonclinical.com##.aligner
 ! https://github.com/uBlockOrigin/uAssets/issues/12108
 #@##banner_ad
 
-! https://github.com/uBlockOrigin/uAssets/issues/12143
-/adw.$domain=~adw.be|~adw.olsztyn.pl|~adw.org|~adw.org.pl|~valadoc.org,badfilter
-/adw.$domain=~adw.be|~adw.olsztyn.pl|~adw.org|~adw.org.pl|~valadoc.org|~adw.amsterdam.nl
-
 ! mpsconline. gov.in breakage
 @@||mpsconline.gov.in^$ghide
 
@@ -4414,3 +4410,29 @@ leboncoin.fr#@#div[class^="styles_ad__"]
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/tdjn7n/webcamshowsorg_videos_nolonger_working_tried_a/
 *$script,3p,domain=mixdrop.co,badfilter
+
+! https://github.com/uBlockOrigin/uAssets/issues/12240
+@@||signalshares.com/webtrends.min.js$script,1p
+
+! https://github.com/uBlockOrigin/uAssets/issues/12244
+||mixpanel.com^$badfilter
+||mixpanel.com^$3p
+
+! Counters `clustrmaps.com` from Peter Lowe's List
+||clustrmaps.com^$badfilter
+||clustrmaps.com^$3p
+
+! https://github.com/uBlockOrigin/uAssets/issues/10775
+@@||doci.pl/aserver/$subdocument,1p
+@@||docer.pl/aserver/$subdocument,1p
+@@||ovh.webshark.pl^$script,domain=doci.pl|docer.pl
+@@||static.webshark.pl/$script,domain=doci.pl|adk.freedisc.pl|docer.pl
+@@||static.webshark.pl/static/js/library/aserver/helper.js$script,domain=adk.musody.com|docero.de
+@@||adk.docer.pl/asrv/$subdocument,1p
+@@||doci.pl^$ghide
+@@||docer.pl^$ghide
+docer.pl#@##ad
+docer.pl#@#[class^="ad-"]
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/110659
+@@||capi.connatix.com/core/pls$xhr,domain=loot.tv

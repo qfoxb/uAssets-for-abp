@@ -413,7 +413,6 @@ thepiratebay3.com^$all
 ||bingstyle.com^$all
 ||zctrack.com^$all
 ||redirekted.com^$all
-||1ownandfresh1.com^$all
 ||get19dragos.club^$all
 ||best-prizes-house.life^$all
 ||ptookaih.net^$all
@@ -656,7 +655,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 &adspot_id=*&cost=0.$doc
 ||game-hacks.online^$all
 ||s4f.net^$all
-||142.91.159.163^$doc
 ||onlyfreetoonporn.com^$all
 ||tilda.gb.net^$all
 ||eval.ly^$all
@@ -685,7 +683,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||downloads2020.com^$all
 ||downloads2021.com^$all
 ||aloha-news.net^$all
-||stay-notified.live^$all
 ||bookgr8.com^$all
 ||kakstitotako.com^$all
 ||internetspeedtracker.com^$all
@@ -774,7 +771,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||be-104.xyz^$all
 ||be-105.xyz^$all
 ||findmydating.com^$all
-||download-sistem.ru^
 ||heartmedia.biz^$all
 ||beta-news.org^$all
 ||clk.rtpdn*.com^$doc,popup
@@ -792,7 +788,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||loveiswaiting.net^$all
 ||world-news-filter.info^$all
 ||peliculas3.me^$all
-||checkingnotifications.org^$all
 ||instahookupxxx.com^$all
 ||rapidantivirus.com^$all
 ||securesystemguide.com^$all
@@ -866,7 +861,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||onetaphack.one^$all
 ||cheaterboss.com^$all
 ||shopsales2022.com^$all
-||arahitojinja.or.jp^$all
 ||facebookteens.com^$all
 ||best-chicks-here.life^$all
 ||cat02tuzik.online^$all
@@ -939,15 +933,12 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||91.241.60.119^$all
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8630
-||mediazlez.pp.ua^$all
 ||newfind.cloudns.cl^$all
-||recangedesna.ml^$all
 ||sevenonex.space^$all
 ||suzamense.com^$all
 ||walhalagame.fun^$doc
 ! https://github.com/uBlockOrigin/uAssets/issues/8630#issuecomment-803722231
 ||app-inject.com^$doc
-||zhirhacks.pro^
 ! https://github.com/uBlockOrigin/uAssets/issues/8630#issuecomment-809115828
 ||supra.dns-cloud.net^$doc
 ! https://github.com/uBlockOrigin/uAssets/issues/8630#issuecomment-810957825
@@ -971,7 +962,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||home-prize-winner-ma3d.live^
 ||hsmvem.com^
 ||illuminatelocks.com^
-||load17.biz^
 ||mfroute.com^
 ||miserve-chanics.com^
 ||mobileoffers-5-r-download.com^
@@ -1178,9 +1168,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ! https://blog.netlab.360.com/pinkbot
 ||cnc.pinklander.com^$all
 
-! https://github.com/DandelionSprout/adfilt/issues/63#issuecomment-962502517
-||disccord.shop^$all
-
 ! https://github.com/uBlockOrigin/uAssets/issues/10442
 ||discordapp.cam^$all
 ||discordap.$all
@@ -1254,9 +1241,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ! malicious ip
 ||37.1.209.213^$all
 
-! https://bbs.kafan.cn/thread-2223042-1-1.html - Phishing
-||3650365voicemailplay.blob.core.windows.net^$all
-
 ! https://github.com/uBlockOrigin/uAssets/pull/10997
 ! fake domain
 ||jinshanduba.org.cn^$all
@@ -1286,7 +1270,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||pclicensekeys.com^$doc
 ||cracklabel.com^$doc
 ||keystool.com^$doc
-||aglianicodelvulture.eu^$doc
 ||pcwarezbox.com^$doc
 ||installcracks.com^$doc
 ||10crack.com^$doc
@@ -1492,9 +1475,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11394
 ||theannoyingsite.com^$all
-
-! https://github.com/uBlockOrigin/uAssets/issues/11393
-||elongi.org^$all
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11407
 ||rbngdm.com^$all
