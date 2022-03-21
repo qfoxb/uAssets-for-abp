@@ -97,17 +97,11 @@ dicionariocriativo.com.br##+js(aopr, getSelection)
 ! https://github.com/NanoMeow/QuickReports/issues/3246
 al.com,allkpop.com,calendarpedia.co.uk,ccn.com,cleveland.com,comicsands.com,duffelblog.com,gamepur.com,gamerevolution.com,interestingengineering.com,keengamer.com,listenonrepeat.com,mandatory.com,mlive.com,musicfeeds.com.au,newatlas.com,pgatour.com,readlightnovel.org,secondnexus.com,sevenforums.com,sport24.co.za,superherohype.com,thefashionspot.com,theodysseyonline.com,totalbeauty.com,westernjournal.com##+js(aopr, __cmpGdprAppliesGlobally)
 
-! https://github.com/uBlockOrigin/uAssets/issues/1615
-raiplay.it##.tagManagerError
-
 ! https://github.com/uBlockOrigin/uAssets/issues/1627
 mercurynews.com##.info-box-body
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=40128
 hgtv.com##.o-AdhesionNotifier
-
-! whatnetworth remove killcopy
-whatnetworth.com##+js(aopw, killCopy)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/1712
 oo-software.com##+js(nostif, iframe, 5000)
@@ -948,9 +942,6 @@ booksmedicos.org##+js(acis, jQuery, document)
 proxfree.com###pftop:style(height: auto !important;padding-bottom:5px !important)
 proxfree.com##.pflrgAds
 
-! 66cruises . com select
-66cruises.com##+js(ra, oncontextmenu|ondragstart|onselectstart|onkeydown)
-
 ! https://forums.lanik.us/viewtopic.php?f=62&t=42259
 instagram.com##[class]:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
@@ -971,9 +962,6 @@ md5hashing.net##.red.b.center.mute
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4244
 siliconinvestor.com##+js(acis, document.getElementById, undefined)
-
-! right click kora-online . tv
-kora-online.tv##+js(aeld, /^(?:keydown|contextmenu)$/, code)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4253
 jobsbotswana.info##+js(acis, jQuery, restriction)
@@ -1612,10 +1600,6 @@ anime-extremo.*##+js(aopw, document.oncontextmenu)
 ! https://github.com/uBlockOrigin/uAssets/issues/5193
 listatv.pl##+js(ra, oncontextmenu)
 
-! right click / select #5196
-stiffgamerdown.com##+js(acis, document.oncontextmenu)
-stiffgamerdown.com##+js(acis, disableSelection)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/5224
 dzwignice.info##+js(aeld, contextmenu)
 
@@ -1636,11 +1620,6 @@ bibliacatolica.com.br##+js(aopr, getSelection)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2692
 script-stack.com##+js(aeld, contextmenu)
-
-! https://github.com/uBlockOrigin/uAssets/issues/5253
-iconlord.com##+js(acis, disableSelection)
-iconlord.com##+js(aopw, document.oncontextmenu)
-iconlord.com##.unselectable:style(-moz-user-select: text !important; -webkit-user-select: text !important;)
 
 ! mio .to right click, select
 mio.to##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
@@ -1865,9 +1844,6 @@ zdnet.de##+js(aopr, can_i_run_ads)
 ! https://github.com/NanoMeow/QuickReports/issues/1209
 cinemablend.com##+js(aopr, __cmpGdprAppliesGlobally)
 
-! ctrl-U #5589
-shtme.co##+js(aopw, shortcut)
-
 ! putlockerfun .com unlock the video
 putlockerfun.com##+js(aopr, bizpanda)
 
@@ -1881,9 +1857,9 @@ ovagames.com##+js(aopw, document.oncontextmenu)
 ovagames.com##.unselectable:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 ! bigulnews .tv right click, select, ctrl-U
-bigulnews.tv##+js(aopw, document.oncontextmenu)
-bigulnews.tv##+js(acis, disableSelection, reEnable)
-bigulnews.tv##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+bigulnews.tv##+js(aeld, /contextmenu|keydown|keyup|copy/)
+bigulnews.tv##+js(aopw, stopPrntScr)
+bigulnews.tv##*::selection:style(background-color:#338FFF!important)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5613
 @@||metabattle.com^$ghide
@@ -1919,12 +1895,6 @@ youtube.com##.no-scroll #page-manager:style(margin-top: 0px !important)
 ! https://github.com/uBlockOrigin/uAssets/issues/5911
 youtube.com##ytd-popup-container > .ytd-popup-container > #contentWrapper > .ytd-popup-container[position-type="OPEN_POPUP_POSITION_BOTTOMLEFT"]
 m.youtube.com###mealbar\:3 > ytm-mealbar.mealbar-promo-renderer
-
-! https://github.com/uBlockOrigin/uAssets/issues/5763
-! https://redd.it/ffex0g
-patient.info##body:style(overflow: auto !important;)
-patient.info###cookie-policy, #cookie-policy-overlay
-patient.info##+js(aeld, touchmove)
 
 ! https://github.com/NanoMeow/QuickReports/issues/1338
 buienradar.nl##+js(set, hideBannerBlockedMessage, true)
@@ -3841,12 +3811,11 @@ marfilius.blogspot.com##*:style(-webkit-touch-callout: default !important; -webk
 ! https://github.com/uBlockOrigin/uAssets/issues/7628
 2219.net##+js(aopr, clickNS)
 
-! https://github.com/uBlockOrigin/uAssets/issues/7633
-@@||utopia.de/advertisement.js$xhr,1p
-
 ! thisisfutbol .com anti adb notice
 @@||thisisfutbol.com^$ghide
 thisisfutbol.com##.ad-billboard
+thisisfutbol.com##.c-header__advert
+thisisfutbol.com###snack_dex6
 
 ! iptv4best .com select, ctrl-u
 iptv4best.com##+js(acis, disableSelection, reEnable)
@@ -3902,9 +3871,9 @@ healthdelay.com##+js(aopr, disable_copy)
 healthdelay.com##+js(aopw, document.oncontextmenu)
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=44912
-||gomovies-online.me/addons/*.gif$image
-gomovies-online.me##[href="/user/profile/premium-membership"]
-gomovies-online.me##.ico.close
+||gomovies-online.*/addons/*.gif$image
+gomovies-online.*##[href="/user/profile/premium-membership"]
+gomovies-online.*##.ico.close
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59406
 nuggetroyale.io##.mainMenuAdBox
@@ -4001,10 +3970,11 @@ texte.work##+js(aopr, disableselect)
 newsromania.net##+js(acis, document.oncontextmenu)
 newsromania.net##+js(acis, disableSelection, reEnable)
 
-! iqformat .me anti right click, select, ctrl-u
+! iqformat .me anti right click, select, ctrl-u, print
 iqformat.me##+js(aopw, document.oncontextmenu)
 iqformat.me##+js(acis, disableSelection, reEnable)
 iqformat.me##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+iqformat.me##style:has-text(@media print):remove()
 
 ! allforme .co anti right click, select, ctrl-u
 allforme.co##+js(aopw, document.oncontextmenu)
@@ -6539,3 +6509,24 @@ flinsetyadi.com##*:style(-webkit-touch-callout: default !important; -webkit-user
 
 ! https://github.com/uBlockOrigin/uAssets/commit/78e4cf26d8d9302f1874742ca5f282f6c287ef59#commitcomment-68544465
 coinurl.net##+js(ra, onkeydown)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12295
+koszalincity.pl##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+koszalincity.pl##+js(acis, document.oncontextmenu)
+koszalincity.pl##+js(acis, document.onkeydown)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12297
+theghostinmymachine.com##+js(acis, document.oncontextmenu)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12279
+jobinja.ir##.c-forceToLogin__overlay
+jobinja.ir##.c-forceToLogin__message.o-box
+jobinja.ir##[class*="forceToLogin"] [class*="forceToLogin"]:style(filter: none !important)
+
+! codehelppro.com anti-adblock
+@@||codehelppro.com^$ghide
+codehelppro.com##.adsbygoogle
+
+! https://www.reddit.com/r/uBlockOrigin/comments/thrxes/
+computerbase.de##dialog:remove()
+computerbase.de##+js(rc, consent-dialog-open, body)
