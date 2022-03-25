@@ -1,9 +1,14 @@
-name: GitHub CI
+name: Deploy to gh-pages branch
 
 on:
-  schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '43 */8 * * *'
+  push:
+    branches:
+      - master
+
+# https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-only-cancel-in-progress-jobs-or-runs-for-the-current-workflow
+concurrency: 
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   publish:
@@ -19,14 +24,23 @@ jobs:
           TMPDIR=$(mktemp -d)
           git clone --depth=1 https://github.com/uBlockOrigin/uAssets.git $TMPDIR
           cp $TMPDIR/filters/*.txt filters/
-      - name: Setup git config
+      - name: Patch last-updated field
         run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
+          DATE=$(date -Ru)
+          for f in $(git diff --name-only); do
+            STAT=$(git diff --numstat $f | sed -r '/^1\s+1\s+/d')
+            if [[ -n $STAT ]]; then
+              sed -ir "0,/^! Last modified: /s/^\(! Last modified: \)%timestamp%/\\1$DATE/" $f
+            else
+              git checkout -q $f
+            fi
+          done
       - name: Commit changes (if any)
         run: |
           if [[ -n $(git diff) ]]; then
+            git config user.name "gitHub-actions bot"
+            git config user.email "<>"
             git add -u filters/
-            git commit -m "Update all filter lists"
+            git commit -m "Update modified filter lists"
             git push origin gh-pages
           fi
