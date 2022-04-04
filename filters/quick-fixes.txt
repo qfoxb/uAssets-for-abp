@@ -17,7 +17,7 @@ money.pl#@#.ads
 wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,gadzetomania.pl##body:has(button:has-text(Zaloguj)) > [id] > [class]:matches-css(z-index:/2147483647/)
 wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,gadzetomania.pl##body:has(button:has-text(Zaloguj)) > div:style(filter: none !important)
 wp.pl,money.pl,o2.pl,parenting.pl,pudelek.pl,autokult.pl,gadzetomania.pl,fotoblogia.pl,komorkomania.pl,gadzetomania.pl##body:has(button:has-text(Zaloguj)):style(overflow: auto !important)
-wp.pl,money.pl,pudelek.pl,gadzetomania.pl,fotoblogia.pl,gadzetomania.pl##body:has(button:has-text(Zaloguj)) div > style:has-text(flex: 0 0 100%) + div
+wp.pl,money.pl,pudelek.pl,gadzetomania.pl,fotoblogia.pl,gadzetomania.pl,o2.pl##body:has(button:has-text(Zaloguj)) div > style:has-text(flex: 0 0 100%) + div
 autokult.pl,fotoblogia.pl,kafeteria.pl,komorkomania.pl##body:has(button:has-text(Zaloguj)) a[href^="https://www.wp.pl"] > img[src^="https://v.wpimg.pl/"]:upward(3)
 fotoblogia.pl,kafeteria.pl##body:has(button:has-text(Zaloguj)) .article-sidebar-wrapper + div:has(a[href^="https://www.wp.pl"] > img[src^="https://v.wpimg.pl/"])
 wp.pl,money.pl##body:has(button:has-text(Zaloguj)) div[class] > div > div:empty + div > a[href*="wp.pl/"] > img[src^="https://v.wpimg.pl/"]:upward(4)
@@ -31,15 +31,16 @@ wp.pl##body:has(button:has-text(Zaloguj)) div[style*="top: 0px; left: 320px; bac
 wp.pl##body:has(button:has-text(Zaloguj)) a[style*="background:"][href^="https://www.wp.pl?src"] + div > div + div + div
 wp.pl##body:has(button:has-text(Zaloguj)) div[class] > div[class] + img[width="56"][height="45"][alt][src^="https://v.wpimg.pl"] + div[class]:upward(1)
 wp.pl##body:has(button:has-text(Zaloguj)) span[class]:has-text(REKLAMA):upward(li[data-adv])
-wp.pl,autokult.pl##body:has(button:has-text(Zaloguj)) > div[class]:has(div[style*="height: 184"]:has(a[href*="wp.pl"]))
+wp.pl,autokult.pl##body:has(button:has-text(Zaloguj)) > div[class]:has(> div[style*="height: 184"] > a[href*="wp.pl"])
 autokult.pl##body:has(button:has-text(Zaloguj)) iframe[src^="https://v.wpimg.pl/"]
 autokult.pl##body:has(button:has-text(Zaloguj)) .article-wrapper > [class]:not(.content-wrapper)
-o2.pl##body:has(button:has-text(Zaloguj)) > div > div[style="height: 120px;"] > a[href^="https://www.o2.pl/"]:upward(2)
+o2.pl##div[class]:has(> h6:has-text(Oferty dla Ciebie) + div > img[role="presentation"])
 o2.pl,pudelek.pl##body:has(button:has-text(Zaloguj)) div[class] > div:not([class]):not([id]) > a > div > div:has-text(Reklama):upward(4)
 sportowefakty.wp.pl##body:has(button:has-text(Zaloguj)) div[class] > div[class] > div:empty + div[class] > div:not([class]) > div[class]:has(a[href*="wp.pl/"] > img[src^="https://v.wpimg.pl/"]):upward(4)
 sportowefakty.wp.pl##body:has(button:has-text(Zaloguj)) li:matches-css-after(content:/REKLAMA/)
 parenting.pl,abczdrowie.pl##body:has(button:has-text(Zaloguj)) main + div:has(a[href*=".pl/"] > img[src^="https://v.wpimg.pl/"])
 pudelek.pl,autokult.pl##body:has(button:has-text(Zaloguj)) div[style*="position: relative; top: 0px;"]:has(> a[href*=".pl/"] > div[style*="background-image"])
+parenting.pl##body:has(button:has-text(Zaloguj)) > div[class]:has(> div[style*="height: 184"] > a[href^="https://parenting.pl"])
 
 ! next-episode anti adb
 @@||next-episode.net^$script,1p
@@ -63,8 +64,13 @@ aternos.org##.ad-label:style(height: 1px !important; width: 1px !important; opac
 aternos.org##.sidebar
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12163
-ppss.kr,ygosu.com,tgd.kr,inven.co.kr##img[style*="cursor: pointer;"][style*="max-width: 100%"][style*="height: auto;"]:style(max-height: 0px !important;)
-ppss.kr,ygosu.com,tgd.kr,inven.co.kr##[id*="adshield"]:style(max-height: 0px !important;)
+ppss.kr###ppss_wing_banner_left > *
+ppss.kr###genesis-content > *:not(.home-top, article, section, h2, .fb-quote)
+*$script,redirect-rule=noopjs,domain=ppss.kr|ygosu.com|tgd.kr|inven.co.kr
+*$image,redirect-rule=1x1.gif,domain=ppss.kr|ygosu.com|tgd.kr|inven.co.kr
+*$xhr,redirect-rule=noopjs,domain=ppss.kr|ygosu.com|tgd.kr|inven.co.kr
+/\/[0-9a-zA-Z\_?\-]{19,}\.(?!png|jpg|gif|jpeg|html|htm|txt)/$popup,1p,domain=ppss.kr|ygosu.com|tgd.kr|inven.co.kr
+||coupang.com/?src*addtag=*&placementid&campaignid*&subid=*&impressionid&campaigntype*&subparam=$popup,3p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11152
 rjno1.com##style:not(:has-text(#content)):not(:has-text(.qnx)):not(:has-text(.button)):min-text-length(150):remove()
@@ -75,23 +81,20 @@ rjno1.com##body > *:not(#site-top-bar):not(#page):not(iframe):not(.wp-die-messag
 rjno1.com##*:matches-css(max-height:/300px/):style(max-height: none !important;)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9696
-||tpucdn.com/review/ql$image,domain=techpowerup.com
-techpowerup.com##:not(:matches-path(/forums/)) a[href^="/review/"][href$="ee"]
-techpowerup.com##:not(:matches-path(/forums/)) .saq > *:has(img)
-techpowerup.com##:not(:matches-path(/forums/)) *:matches-css(width:/308/):matches-css(position:/relative/):matches-css(height:/./) > *:has(img)
-techpowerup.com##:not(:matches-path(/forums/)) *:matches-css(margin:/5px/):matches-css(width:/7/):has(img)
-techpowerup.com##:not(:matches-path(/forums/)) *:has(label[title*="-"][onclick]) + *:has(img)
-techpowerup.com##:not(:matches-path(/forums/)) form[action]:not([action="/frontpage-poll/"]):upward(aside[class*=" "]) ~ *:has(img)
-techpowerup.com##:not(:matches-path(/forums/)) nav > div[class*="__logowrappr"] + aside > div > a
-techpowerup.com##:not(:matches-path(/forums/)) body > [class] > *:matches-css(display:/flex/):not(:has(div[class] > .content)) > *:has(img)
-techpowerup.com##:not(:matches-path(/forums/)) .content + [class] > *:has(img)
-techpowerup.com##:not(:matches-path(/forums/)) div:has(div > h1:has-text(atest) + ul) + *:has(img)
-
-! https://github.com/uBlockOrigin/uAssets/issues/12329
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,important,domain=news.tbs.co.jp,badfilter
+||tpucdn.com/review/dfgtf*/images/*.jpg$image,domain=techpowerup.com
+||tpucdn.com/review/*34/images/*22-33-44*.jpg$image,domain=techpowerup.com
+||techpowerup.com/_ping$xhr
+!#if env_mobile
+techpowerup.com##:not(:matches-path(/forums/)) body:has(a[href*="/login"]) .apyrort > nav > div + aside[class]:has(> div:not([class]):not([id]) > div > a[href^="/review/"] > span > b > span > img):style(height: 1px !important; width: 1px !important; opacity: 0 !important; pointer-events: none !important;)
+!#endif
+!#if env_chromium
+techpowerup.com##:not(:matches-path(/forums/)) body:has(a[href*="/login"]) xddiuvdc > a[href^="/review/"] > span > b > span > img:style(height: 1px !important; width: 1px !important; opacity: 0 !important; pointer-events: none !important;)
+techpowerup.com##:not(:matches-path(/forums/)) body:has(a[href*="/login"]) aside > div:not([class]):not([id]) > div > a[href^="/review/"] > span > b > span > img[src^="https://tpucdn.com/review/"]:style(height: 1px !important; width: 1px !important; opacity: 0 !important; pointer-events: none !important;)
+!#endif
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9932#issuecomment-1075139639
 nikita.tk##+js(aost, document.cookie)
+||nikita.tk/*+$script,1p
 
 ! idnes. cz ads
 idnes.cz##[style*="background-repeat"]
@@ -101,15 +104,17 @@ idnes.cz##+js(nostif, /Adform|didomi|adblock|forEach/)
 idnes.cz##[href*="-redir."]:upward(2)
 
 ! reported
-||financemonk.net^$badfilter
-||techthematter.xyz^$badfilter
 ||ruokareseptit.online^$badfilter
-||urbharat.xyz^$badfilter
-||financemonk.net^$3p
-||techthematter.xyz^$3p
 ||ruokareseptit.online^$3p
-||urbharat.xyz^$3p
 
-! streamtape temporary fix for https://github.com/uBlockOrigin/uAssets/commit/2aa96fee97d084a232faa132e56ff0af01591b07
-adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,streamtapeadblock.*,strtape.*,strtpe.*,strtapeadblock.*#@#[class*="bn-container"], div[style*="z-index: 300000;"], .play-overlay
-adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##[class*="bn-container"], div[style*="z-index: 300000;"]
+! https://www.reddit.com/r/uBlockOrigin/comments/ttmb6w/help_i_need_help_creating_a_filter_for_elemtnt/
+search.seznam.cz##[title*="adtext"]:upward(2)
+search.seznam.cz##[href*="adurl"]:upward(2)
+search.seznam.cz##[viewBox*="41"]:upward([data-dot-data])
+search.seznam.cz##[class]:not([style]):matches-css(background-image: /url.*svg/):matches-css(position: absolute):upward([data-dot-data])
+
+! https://github.com/uBlockOrigin/uAssets/issues/12538
+||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js$script,redirect-rule=noopjs,domain=bilibili.com
+
+! si.com breakage
+si.com#@#.is-below-header-ad
