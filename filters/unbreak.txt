@@ -2078,7 +2078,6 @@ pcgamer.com#@#.hawk-widget
 @@||google-analytics.com/ga.js$script,domain=bimi.jorudan.co.jp
 
 ! https://github.com/uBlockOrigin/uAssets/issues/707#issuecomment-565051652
-@@||static.telegraph.co.uk/telegraph-advertising/tmg-gpt.min.js$script,1p
 ! broken videos at telegraph.co.uk the videos are behind a paywall
 ! example https://www.telegraph.co.uk/news/2020/06/18/like-churchill-de-gaulle-1940-britain-france-united-against/
 @@||notice.sp-prod.net^$frame,domain=telegraph.co.uk
@@ -4266,6 +4265,7 @@ himovies.to#@#a[onclick]
 ! https://forums.lanik.us/viewtopic.php?f=64&t=40469
 @@||google.com^*recaptcha/$frame
 @@||gstatic.com/recaptcha/*$css
+@@||google.com^*recaptcha/$script
 
 ! breaking links https://kimcartoon.li/Cartoon/Doomlands
 ||ghosthis.review^$badfilter
@@ -4439,3 +4439,14 @@ united.no#@#.page-ads
 
 ! si.com breakage
 si.com#@#.is-below-header-ad
+
+! https://github.com/uBlockOrigin/uAssets/issues/12498
+@@||edge.permutive.app^$script,domain=watch.globaltv.com
+@@||api.permutive.com/v*/geoip$xhr,domain=watch.globaltv.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/12615#issuecomment-1090002131
+@@||googletagmanager.com/gtm.js$script,domain=oakandfort.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/12636
+@@/1.gif?$image,1p,domain=kanjiku.net
+@@/2.gif?$image,1p,domain=kanjiku.net

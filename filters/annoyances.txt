@@ -1358,11 +1358,6 @@ androidcentral.com##.swal-overlay
 ! https://github.com/uBlockOrigin/uAssets/issues/5030
 instagram.com##.ZUqME:has(a[href^="/accounts/emailsignup/"])
 
-! https://old.reddit.com/r/uBlockOrigin/comments/dimzi2/how_to_block_login_pop_up_on_instagram/
-! https://github.com/uBlockOrigin/uAssets/issues/6481
-instagram.com##body[style*="overflow: hidden;"]:style(overflow-y: scroll !important;)
-instagram.com##body[style*="overflow: hidden;"] .XQXOT:style(width: calc(100% - 12px) !important; padding-right: 0 !important;)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/6481#issuecomment-615294565
 instagram.com##+js(set, _sharedData.is_whitelisted_crawl_bot, true)
 ! https://github.com/uBlockOrigin/uAssets/issues/7758
@@ -2287,7 +2282,8 @@ musixmatch.com##body:style(-webkit-touch-callout: default !important; -webkit-us
 @@||animestreaming.biz^$ghide
 
 ! https://reddit.com/r/uBlockOrigin/comments/dzzxp1
-ecosia.org##.js-whitelist-notice
+! https://github.com/uBlockOrigin/uAssets/issues/12620
+ecosia.org##.notice
 ecosia.org##.result-snippet:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important;-moz-user-select: text !important;-ms-user-select: text !important;user-select: text !important;)
 
 ! https://github.com/NanoMeow/QuickReports/issues/2369
@@ -5908,7 +5904,7 @@ phimdinhcao.com##+js(aopr, devtoolsDetector)
 cafago.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10951
-tvzingvn.com##+js(acis, onload, contextmenu)
+zingvntv.com##+js(acis, onload, contextmenu)
 
 ! https://github.com/uBlockOrigin/uAssets/pull/10979
 ||4399.com/antijs/Antiindulgence.js
@@ -6298,3 +6294,37 @@ brainly.*##+js(set, jsData.hasVideoMeteringUnlogEnabled, undefined)
 ! enable context menu
 viewsb.com##+js(acis, console.clear, onload)
 sbfast.com,sbflix.*##+js(acis, onload, contextmenu)
+
+! https://dizipal213.com/film/the-bubble/ anti right click
+dizipal208.com,dizipal209.com,dizipal210.com,dizipal211.com,dizipal212.com,dizipal213.com,dizipal214.com,dizipal215.com,dizipal216.com,dizipal217.com,dizipal218.com,dizipal219.com,dizipal220.com,dizipal221.com,dizipal222.com,dizipal223.com,dizipal224.com,dizipal225.com,dizipal226.com,dizipal227.com,dizipal228.com,dizipal229.com,dizipal230.com,dizipal231.com,dizipal232.com,dizipal233.com,dizipal234.com,dizipal235.com,dizipal236.com,dizipal237.com,dizipal238.com,dizipal239.com,dizipal240.com,dizipal241.com,dizipal242.com,dizipal243.com,dizipal244.com,dizipal245.com,dizipal246.com,dizipal247.com,dizipal248.com,dizipal249.com,dizipal250.com##+js(acis, console.clear, onload)
+dizipal208.com,dizipal209.com,dizipal210.com,dizipal211.com,dizipal212.com,dizipal213.com,dizipal214.com,dizipal215.com,dizipal216.com,dizipal217.com,dizipal218.com,dizipal219.com,dizipal220.com,dizipal221.com,dizipal222.com,dizipal223.com,dizipal224.com,dizipal225.com,dizipal226.com,dizipal227.com,dizipal228.com,dizipal229.com,dizipal230.com,dizipal231.com,dizipal232.com,dizipal233.com,dizipal234.com,dizipal235.com,dizipal236.com,dizipal237.com,dizipal238.com,dizipal239.com,dizipal240.com,dizipal241.com,dizipal242.com,dizipal243.com,dizipal244.com,dizipal245.com,dizipal246.com,dizipal247.com,dizipal248.com,dizipal249.com,dizipal250.com##+js(acis, devtoolsDetector)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12612
+1mg.com##+js(aeld, mouseout)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/114557
+blueraindrops.com##+js(set, lepopup_abd_enabled, '')
+blueraindrops.com##+js(acis, document.oncontextmenu)
+
+! cinemakottaga.top anti right click
+cinemakottaga.top##+js(aopr, document.oncontextmenu)
+
+! fnbrjp.com anti-adb
+fnbrjp.com##+js(nostif, 広告)
+
+! https://www.thuthuatmoi.xyz/2021/07/bitdefender-total-security-2501458-64.html anti right click
+top1iq.com##+js(acis, shortcut)
+
+! allthingsvegas. com anti adb warning
+@@||allthingsvegas.com^$ghide
+
+! https://tinyurl.com/y9mv9crw anti devtools
+itscybertech.com##+js(acis, check, debugger)
+
+! sekaikomik. live anti right click, select, ctrl-u
+sekaikomik.live##+js(acis, document.querySelectorAll, popMagic)
+sekaikomik.live##+js(acis, document.oncontextmenu)
+sekaikomik.live##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/12623
+valid.x86.fr##.widget-advert-300-600
