@@ -342,6 +342,9 @@ dropgalaxy.com##[src^="//ad.a-ads.com/"]
 ||ad.a-ads.com$frame
 a-ads.com##.size300x250
 googlesyndication.com##.GoogleActiveViewElement
+@@||services.vlitag.com/adv1/*$script,domain=dropgalaxy.com
+dropgalaxy.com##[id^="apkad"]
+dropgalaxy.com###nativefluid
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53896
 memoriadatv.com##+js(nano-stb)
@@ -1164,7 +1167,6 @@ punisoku.blogo.jp##+js(acis, url, Math.random)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/55784
 oncam.me##+js(nosiif, visibility, 1000)
 oncam.me##+js(acis, window.onload, open)
-oncam.me##.adv
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/55791
 resetoff.pl##+js(set, ads_unblocked, true)
@@ -1363,7 +1365,6 @@ turkrock.com##+js(acis, $, .show)
 85videos.com##.sponsor
 85videos.com###pop
 85videos.com##.haha-body
-||oibljobzmmv.com^
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56460
 hamakei.com###topBnr, #recBanner, .partner
@@ -1816,6 +1817,7 @@ ur-ly.xyz##+js(acis, String.fromCharCode, 'shift')
 ur-ly.xyz##^script:has-text('shift')
 ur-ly.xyz##+js(aopr, app_vars.force_disable_adblock)
 ur-ly.xyz##+js(aopr, open)
+ur-ly.xyz##+js(set, blurred, false)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57788
 pcprogramasymas.*##+js(acis, String.fromCharCode, .join(''))
@@ -4231,7 +4233,7 @@ illink.net##.banner
 ||i.ibb.co^$image,domain=illink.net
 
 ! https://github.com/uBlockOrigin/uAssets/commit/ebc17ccb4d31c16f64ee9fb85e526babb9533d98#commitcomment-43341473
-filmyzilla.*##+js(acis, JSON.parse, break;case $.)
+filmyzilla.*##+js(aeld, , break;case $.)
 filmyzilla.*##+js(aopw, _pop)
 filmyzilla.*##^script:has-text(break;case $.)
 
@@ -4690,7 +4692,6 @@ lite-link.*##.banner
 
 ! https://github.com/uBlockOrigin/uAssets/commit/6bc0de4a260c4653d1c1d91a1ae118d87a88f89e#commitcomment-43943548
 yesmovies123.me##+js(acis, String.fromCharCode, /btoa|break/)
-yt2mp3s.me##+js(acis, JSON.parse, break;case $.)
 uploads.mobi##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
 moviewr.com,wifimovies.net##+js(acis, parseInt, break;case $.)
 movies123.*##+js(acis, Math, break;case $.)
@@ -4899,14 +4900,13 @@ progameguides.com##[id^="content_dynamicAd-"]
 ! https://www.reddit.com/r/uBlockOrigin/comments/jthanh/new_tv_site_with_ads_uk/
 ! https://forums.lanik.us/viewtopic.php?p=158772#p158772
 ||dni-adops-proxy-prod-adopsmediaconverter.mercury.dnitv.com^$media
-discoveryplus.co.uk##.bmpui-seekbar-markers
-discoveryplus.co.uk##.bmpui-ui-ads-status
-discoveryplus.co.uk##+js(json-prune, data.attributes.config.freewheel data.attributes.config.featureFlags.dPlayer)
-discoveryplus.it##+js(json-prune, data.attributes.config.freewheel data.attributes.config.featureFlags.dPlayer)
-@@||identity.mparticle.com/v1/login$xhr,domain=discoveryplus.co.uk
-*$media,redirect=noopmp3-0.1s,domain=discoveryplus.it
-@@*$xhr,domain=discoveryplus.co.uk
-||doubleclick.net^$xhr,domain=discoveryplus.co.uk,important
+discoveryplus.*##.bmpui-seekbar-markers
+discoveryplus.*##.bmpui-ui-ads-status
+discoveryplus.*##+js(json-prune, data.attributes.config.freewheel data.attributes.config.featureFlags.dPlayer)
+@@||identity.mparticle.com/v1/login$xhr,domain=discoveryplus.*
+*$media,redirect=noopmp3-0.1s,domain=discoveryplus.*
+@@*$xhr,domain=discoveryplus.*
+||doubleclick.net^$xhr,domain=discoveryplus.*,important
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67650
 pureshort.*##+js(aopr, app_vars.force_disable_adblock)

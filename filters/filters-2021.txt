@@ -277,7 +277,6 @@ hqporner.top##.box_b > small
 hqpornstream.com##.spot-block
 instapornvideos.com##.container-sts-bl
 javbest.xyz##.adsvideo
-javhd.run##.loading-ad
 javrave.club,javraveclub.com##.leader_banner
 kingcomix.com##[href^="//"][rel="nofollow norefferer noopener"]
 longporn.xyz##[href="http://toplivesexcams.net"]
@@ -578,6 +577,9 @@ porndr.com##.we_are_sorry
 /s/s/supv.php
 /s/su.php?t=
 /javascript/fropo.js
+/s/s/js/m/custom.js?
+/s/s/js/m/custom_advanced.js?
+/s/s/js/ssu.v2.
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8460
 deviants.com##+js(aopr, decodeURI)
@@ -1223,7 +1225,7 @@ is2btc.com##.text-center.col-sm-12
 sunhope.it##+js(nosiif, document.getElementById, 10000)
 
 ! propeller crap
-0123movie.*,1111fullwise.*,111watcho.*,123-watch.com,123fullview.*,123moviesclub.*,123moviesla.*,123moviesready.org,123ssgm.*,247movie.net,2gomovies.*,2umovies.*,4filmyzilla.*,4hdmovie.com,4hiidude.*,5xmovies.*,69hoshudaana.*,7025a.com,akmcloud.*,akstream.xyz,allmovieshub.*,askmaryhub.com,atdhe.pro,attvideo.com,b-bmovies.com,bollymovies.*,bollywoodfilma.*,brmovies.*,canonprintersdrivers.com,cinema.cimatna.com,convertitoremp3.download,crackevil.com,cydiasources.net,dailymovieshub.com,dflinks.*,dopebox.to,downloadming.*,elevationmap.net,europix.*,filma1.*,filme-bune.biz,filmisongs.*,filmy-zilla.co.in,filmywap.*,filmyzilla.filmywap2021ganduworld.com,filmyzilla2021.xyz,filmyzilla2022.waystohunt.info,foreverwallpapers.com,freemoviesfull.com,fulltube.*,fzmoviesnet.com,gyonlineng.com,hdmoviehubs.*,hdmovies23.com,hdmovieserver.com,hindilinks4u.*,hindimovies.live,hotmasti.*,insurancebillpayment.net,isaimini.ca,isaiminimovies.xyz,jollyfreemovies.com,katlinks.*,keepv.id,kingsmovieshd.*,linkotes.com,linksdegrupos.com.br,linksmore.*,maamusiq.com,megafilmestop.com,megashare-website.com,mkvcage.*,mobilemovies.*,motive213.com,motive213link.blogspot.com,moviemasalahd.xyz,movierulzhd.*,moviesbaba.*,moviezaddiction.*,mp3fusion.net,msmoviesbd.com,multicanais.tv,naasongs.*,naasongsfree.*,neomovies.net,netnaija.paidnaija.com,nullpk.com,oceanofmovies.*,ogario.ovh,pagalworld.*,pagodesparabaixar.org,paidnaija.com,pelisstar.com,pirlotv.mx,pksmovies.*,prmovies.*,radamel.icu,romfast.com,rytmp3.*,saff-tv.net,sdmoviespoint.*,sharkfish.xyz,soap2day.*,songspk.*,stivandz.com,tamilyogis.*,techsslash.com,thelinkbox.*,thelosmovies.com,uplinkto.*,vadbom.com,veryfastdownload.pw,watch4hd.*,watchmovieshd.*,watchofree.com,watchopm.net,watchseri.net,watchseriess.net,watchseriesstream.com,wifi4games.com,wildwap.*,xn--mlaregvle-02af.nu,ylink.bid,yoat.xyz,yotrabajo.info,yt-api.com,yt-download.org,yt1s.com,ytix.xyz,ytsaver.*##+js(acis, JSON.parse, break;case $.)
+0123movie.*,1111fullwise.*,111watcho.*,123-watch.com,123fullview.*,123moviesclub.*,123moviesla.*,123moviesready.org,123ssgm.*,247movie.net,2gomovies.*,2umovies.*,4filmyzilla.*,4hdmovie.com,4hiidude.*,5xmovies.*,69hoshudaana.*,7025a.com,akmcloud.*,akstream.xyz,allmovieshub.*,attvideo.com,b-bmovies.com,bollymovies.*,bollywoodfilma.*,brmovies.*,convertitoremp3.download,crackevil.com,dailymovieshub.com,dflinks.*,downloadming.*,europix.*,filma1.*,filme-bune.biz,filmisongs.*,filmy-zilla.co.in,filmywap.*,filmyzilla.filmywap2021ganduworld.com,filmyzilla2021.xyz,filmyzilla2022.waystohunt.info,fulltube.*,fzmoviesnet.com,gyonlineng.com,hdmoviehubs.*,hdmovies23.com,hindilinks4u.*,hindimovies.live,hotmasti.*,isaimini.ca,isaiminimovies.xyz,jollyfreemovies.com,katlinks.*,keepv.id,kingsmovieshd.*,linkotes.com,linksdegrupos.com.br,linksmore.*,maamusiq.com,megafilmestop.com,megashare-website.com,mkvcage.*,mobilemovies.*,motive213.com,motive213link.blogspot.com,moviemasalahd.xyz,movierulzhd.*,moviesbaba.*,moviezaddiction.*,mp3fusion.net,msmoviesbd.com,multicanais.tv,naasongs.*,naasongsfree.*,neomovies.net,nullpk.com,oceanofmovies.*,ogario.ovh,pagalworld.*,pagodesparabaixar.org,pelisstar.com,pirlotv.mx,pksmovies.*,prmovies.*,radamel.icu,romfast.com,rytmp3.*,saff-tv.net,sdmoviespoint.*,sharkfish.xyz,soap2day.*,songspk.*,stivandz.com,tamilyogis.*,techsslash.com,thelinkbox.*,thelosmovies.com,uplinkto.*,vadbom.com,veryfastdownload.pw,watch4hd.*,watchmovieshd.*,watchofree.com,watchopm.net,watchseri.net,watchseriess.net,watchseriesstream.com,wifi4games.com,wildwap.*,xn--mlaregvle-02af.nu,ylink.bid,yoat.xyz,yotrabajo.info,yt-api.com,yt-download.org,yt1s.com,ytix.xyz,ytsaver.*##+js(acis, JSON.parse, break;case $.)
 afilmyhouse.blogspot.com##+js(acis, Math, break;case $.)
 hitmovies4u.com##+js(acis, Promise, JSON.parse)
 hitmovies4u.com##+js(ra, onclick, a.thumb.mvi-cover)
@@ -1237,6 +1239,7 @@ uplinkto.*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
 shortlinkto.*##+js(acis, JSON.parse, break;case $.)
 fmovies2.cx##+js(acis, String.fromCharCode, break)
 fulltube.*##.mvic-btn
+247movie.net##.open.modal
 
 ! vibehubs. com antiadb and ads
 vibehubs.com##+js(aost, jQuery, ai_adb)
@@ -2935,8 +2938,8 @@ vwforum.ro##+js(nostif, offsetHeight)
 lcpdfr.com##div.ipsMargin_bottom.ipsAreaBackground.ipsPadding\:half
 lcpdfr.com##.adSpacing
 
-! french-stream .lol | .so popups
-french-stream.*##+js(acis, Promise)
+! french-stream .lol | .so | .mx popups
+french-stream.*##+js(aeld, , break;case $.)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82331
 rodude.com##+js(acis, onload)
@@ -3172,7 +3175,7 @@ hitproversion.com##.onp-sl-social-locker
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=anydebrid.com
 @@||ads.exoclick.com^$script,domain=anydebrid.com
 *$script,redirect-rule=noopjs,domain=anydebrid.com
-@@||adserver.juicyads.com/js/*.js$script,domain=anydebrid.com
+@@||adserver.juicyads.com/*.js$script,domain=anydebrid.com
 
 ! mavplay. xyz popups
 mavplay.xyz##+js(aeld, , _blank)
@@ -3649,7 +3652,9 @@ subscene.vip##+js(nano-sib, #timer)
 civilenggforall.com##+js(aopr, blockAdBlock)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85332
-*$script,3p,denyallow=chatango.com|cloudfront.net|disqus.com|disquscdn.com|fastlylb.net,domain=rawkuma.com
+*$script,3p,denyallow=chatango.com|cloudflare.net|cloudfront.net|disqus.com|disquscdn.com|fastlylb.net,domain=rawkuma.com
+rawkuma.com##+js(acis, parseInt, break;case $.)
+||mbmrwxdwq.com^
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85343
 ||sentry-cdn.com^$script,redirect-rule=noopjs,domain=freebitz.xyz
@@ -5700,7 +5705,9 @@ mgnet.xyz##.active.bnsLayers.is-block-touch.is-grid > .col_12.article-center
 mgnet.xyz##.bounceIn.animated.bnsLayers.is-block-touch.is-grid
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/q6n83l/anti_adblock_message_on/
+! https://github.com/uBlockOrigin/uAssets/issues/12858
 dealsfinders.blog##+js(no-fetch-if, method:HEAD)
+dealsfinders.blog##+js(nostif, show)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97069
 @@||olympusscanlation.com^$ghide
@@ -5779,7 +5786,7 @@ baixedetudo.net.br##+js(acis, JSON.parse, break;case $.)
 @@||goplay.be^$ghide
 
 ! pirate4all.com popup
-pirate4all.com##+js(acis, JSON.parse, break;case $.)
+pirate4all.com##+js(acis, parseInt, break;case $.)
 pirate4all.com##.e3lan-top.e3lan
 pirate4all.com##.pirat-before-content
 
@@ -5794,7 +5801,7 @@ threenow.co.nz##.EpisodeAdBlockerWarning
 9now.com.au##.vjs-cuepoint
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97464
-egyshare.cc##+js(acis, JSON.parse, break;case $.)
+egyshare.cc##+js(acis, parseInt, break;case $.)
 egyshare.cc##+js(aopw, _pop)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/qaqmg8/how_can_i_block_this_type_of_ads/
@@ -6021,8 +6028,8 @@ ztorrents.net##.bottom-Ads
 ztorrents.net##.top-Ads
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98116
-watchtheoffice.cc##+js(acis, JSON.parse, break;case $.)
-watchtheoffice.cc###custom_html-4
+watchtheofficetv.com##+js(acis, parseInt, break;case $.)
+watchtheofficetv.com###custom_html-4
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98102
 pelis-online.net##+js(aopw, absda)
@@ -6100,7 +6107,7 @@ mejoresmodsminecraft.site##+js(acis, decodeURIComponent, ai_adb)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10346
 watchdoctorwhoonline.com##^script:has-text(break;case $.)
-watchdoctorwhoonline.com##+js(acis, JSON.parse, break;case $.)
+watchdoctorwhoonline.com##+js(acis, parseInt, break;case $.)
 watchdoctorwhoonline.com##.custom-html-widget.textwidget > .close
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10344
@@ -6190,7 +6197,7 @@ ootech.vn##+js(acis, $, test)
 ||add.pics^$3p,script
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10361
-viralitytoday.com##+js(acis, JSON.parse, break;case $.)
+viralitytoday.com##+js(acis, parseInt, break;case $.)
 
 ! parked domains anti adb
 /px.gif?$image,redirect-rule=1x1.gif,1p
@@ -6546,9 +6553,10 @@ masteredutech.com##+js(acis, JSON.parse, break;case $.)
 defaultfreeshort.in##+js(set, blurred, false)
 defaultfreeshort.in###myDIV:style(display: block!important;)
 defaultfreeshort.in##.banner-inner
-codecomets.com##+js(rc, disabled, a#enablebtn)
-codecomets.com##.blog-item
-codecomets.com###timeblock
+codecomets.com,techxpulse.com##+js(rc, disabled, a#enablebtn)
+codecomets.com,techxpulse.com##.blog-item
+codecomets.com,techxpulse.com###timeblock
+techxpulse.com###msgblock:style(display: block !important)
 
 ! https://github.com/FastForwardTeam/FastForward/issues/208
 ||ytsubme.com/assets/adblock/
@@ -6608,7 +6616,7 @@ linkshere.*##+js(acis, JSON.parse, break;case $.)
 hdonline.co##+js(acis, JSON.parse, break;case $.)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10533
-cricstream.*##+js(acis, JSON.parse, break;case $.)
+cricstream.*##+js(acis, parseInt, break;case $.)
 cricstream.*##.w-100.position-absolute.h-100
 
 ! meetdownload.com popups
@@ -6763,7 +6771,7 @@ mikaraw.com##div[style*="width: 350px"][style*="height: 250px"]
 ||cdn.fedsy.xyz/app.js
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10649
-myoplay.club##+js(acis, JSON.parse, break;case $.)
+myoplay.club##+js(acis, parseInt, break;case $.)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10650
 loticon.xyz##+js(acis, document.getElementById, 'OK')
@@ -6925,7 +6933,7 @@ itdmusics.com##+js(aopw, _pop)
 itopmusic.org##+js(aopw, _pop)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102012
-animebee.to##+js(acis, JSON.parse, break;case $.)
+animebee.to##+js(acis, parseInt, break;case $.)
 
 ! https://github.com/bogachenko/fuckfuckadblock/issues/249
 @@||player.oyasumi.me^$ghide
@@ -7621,3 +7629,4 @@ onlytech.com##+js(acis, $, test)
 ! https://github.com/easylist/easylist/pull/10341/
 pinoymovies.es##+js(ra, href, #clickfakeplayer)
 pinoymovies.es##+js(set, dtGonza.playeradstime, -1)
+/fret/meow4/*$script,3p
