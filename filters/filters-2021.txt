@@ -431,6 +431,8 @@ imgur.com##.Post-item-external-ad:upward(div[style])
 thodkyaat.com##pp
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/os7fcw/any_bypass_for_ubo_detection_on_comidoc/
+! https://github.com/uBlockOrigin/uAssets/issues/12933
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=comidoc.net
 comidoc.net#@#.googlead
 ! comidoc.net##+js(no-fetch-if, method:HEAD)
 comidoc.net##div[style="text-align: center; margin-left: auto; margin-right: auto; min-height: 266px; max-width: 100vw;"]
@@ -579,6 +581,7 @@ porndr.com##.we_are_sorry
 /javascript/fropo.js
 /s/s/js/m/custom.js?
 /s/s/js/m/custom_advanced.js?
+/s/s/js/m/im.js?
 /s/s/js/ssu.v2.
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8460
@@ -1225,7 +1228,7 @@ is2btc.com##.text-center.col-sm-12
 sunhope.it##+js(nosiif, document.getElementById, 10000)
 
 ! propeller crap
-0123movie.*,1111fullwise.*,111watcho.*,123-watch.com,123fullview.*,123moviesclub.*,123moviesla.*,123moviesready.org,123ssgm.*,247movie.net,2gomovies.*,2umovies.*,4filmyzilla.*,4hdmovie.com,4hiidude.*,5xmovies.*,69hoshudaana.*,7025a.com,akmcloud.*,akstream.xyz,allmovieshub.*,attvideo.com,b-bmovies.com,bollymovies.*,bollywoodfilma.*,brmovies.*,convertitoremp3.download,crackevil.com,dailymovieshub.com,dflinks.*,downloadming.*,europix.*,filma1.*,filme-bune.biz,filmisongs.*,filmy-zilla.co.in,filmywap.*,filmyzilla.filmywap2021ganduworld.com,filmyzilla2021.xyz,filmyzilla2022.waystohunt.info,fulltube.*,fzmoviesnet.com,gyonlineng.com,hdmoviehubs.*,hdmovies23.com,hindilinks4u.*,hindimovies.live,hotmasti.*,isaimini.ca,isaiminimovies.xyz,jollyfreemovies.com,katlinks.*,keepv.id,kingsmovieshd.*,linkotes.com,linksdegrupos.com.br,linksmore.*,maamusiq.com,megafilmestop.com,megashare-website.com,mkvcage.*,mobilemovies.*,motive213.com,motive213link.blogspot.com,moviemasalahd.xyz,movierulzhd.*,moviesbaba.*,moviezaddiction.*,mp3fusion.net,msmoviesbd.com,multicanais.tv,naasongs.*,naasongsfree.*,neomovies.net,nullpk.com,oceanofmovies.*,ogario.ovh,pagalworld.*,pagodesparabaixar.org,pelisstar.com,pirlotv.mx,pksmovies.*,prmovies.*,radamel.icu,romfast.com,rytmp3.*,saff-tv.net,sdmoviespoint.*,sharkfish.xyz,soap2day.*,songspk.*,stivandz.com,tamilyogis.*,techsslash.com,thelinkbox.*,thelosmovies.com,uplinkto.*,vadbom.com,veryfastdownload.pw,watch4hd.*,watchmovieshd.*,watchofree.com,watchopm.net,watchseri.net,watchseriess.net,watchseriesstream.com,wifi4games.com,wildwap.*,xn--mlaregvle-02af.nu,ylink.bid,yoat.xyz,yotrabajo.info,yt-api.com,yt-download.org,yt1s.com,ytix.xyz,ytsaver.*##+js(acis, JSON.parse, break;case $.)
+0123movie.*,1111fullwise.*,111watcho.*,123-watch.com,123fullview.*,123moviesclub.*,123moviesla.*,123moviesready.org,123ssgm.*,247movie.net,2gomovies.*,4filmyzilla.*,4hdmovie.com,4hiidude.*,5xmovies.*,69hoshudaana.*,7025a.com,akmcloud.*,akstream.xyz,allmovieshub.*,attvideo.com,b-bmovies.com,bollymovies.*,bollywoodfilma.*,convertitoremp3.download,crackevil.com,dailymovieshub.com,dflinks.*,downloadming.*,europix.*,filma1.*,filme-bune.biz,filmisongs.*,filmy-zilla.co.in,filmywap.*,filmyzilla.filmywap2021ganduworld.com,filmyzilla2021.xyz,filmyzilla2022.waystohunt.info,fulltube.*,fzmoviesnet.com,gyonlineng.com,hdmoviehubs.*,hdmovies23.com,hindimovies.live,isaimini.ca,isaiminimovies.xyz,jollyfreemovies.com,katlinks.*,keepv.id,linksmore.*,maamusiq.com,megafilmestop.com,megashare-website.com,mobilemovies.*,motive213.com,motive213link.blogspot.com,moviemasalahd.xyz,movierulzhd.*,moviesbaba.*,naasongs.*,naasongsfree.*,neomovies.net,oceanofmovies.*,pagalworld.*,pagodesparabaixar.org,pelisstar.com,pirlotv.mx,radamel.icu,romfast.com,sdmoviespoint.*,sharkfish.xyz,soap2day.*,stivandz.com,tamilyogis.*,techsslash.com,thelinkbox.*,uplinkto.*,vadbom.com,veryfastdownload.pw,watchmovieshd.*,watchseri.net,watchseriesstream.com,wifi4games.com,wildwap.*,xn--mlaregvle-02af.nu,ylink.bid,yoat.xyz,yotrabajo.info,yt-api.com,yt-download.org,yt1s.com,ytix.xyz,ytsaver.*##+js(acis, JSON.parse, break;case $.)
 afilmyhouse.blogspot.com##+js(acis, Math, break;case $.)
 hitmovies4u.com##+js(acis, Promise, JSON.parse)
 hitmovies4u.com##+js(ra, onclick, a.thumb.mvi-cover)
@@ -1521,6 +1524,8 @@ speedostream.com##+js(acis, Math, break;case $.)
 speedostream.com##+js(aost, Object.getOwnPropertyDescriptor, /^/)
 speedostream.com##+js(aost, JSON.parse, computed)
 speedostream.com##^script:has-text(break;case $.)
+speedostream.com##+js(aeld, , break;case $.)
+||s.speedostream.com^$script,1p
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76791
 @@||nnaa66.xyz^$ghide
@@ -1572,6 +1577,7 @@ galaxy-link.space##.box-main > .blog-item
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/m15ihi/site_detecting_ublock_origin/
 traveldesearch.com##+js(aost, XMLHttpRequest, onreadystatechange)
+traveldesearch.com##+js(acis, parseInt, break;case $.)
 vkspeed.com##div.jw-cue-type-ads
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/77040
@@ -3029,7 +3035,7 @@ nihonfasshon.blogspot.com##+js(acis, document.addEventListener, google_ad_client
 ee1061360223528.xyz,s365.live##+js(aopr, afScript)
 
 ! stopstreamtv. net popups
-stopstreamtv.net##+js(acis, JSON.parse, break;case $.)
+stopstreamtv.net##+js(acis, parseInt, break;case $.)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9038
 @@||filezipa.com^$ghide
@@ -4262,7 +4268,9 @@ justcastingporn.com,justfamilyporn.com##+js(acis, document.createElement, _htas)
 ! animefenix. com popups
 animefenix.com##+js(acis, Math, break;case $.)
 animefenix.com##+js(aopr, decodeURI)
+animefenix.com##+js(aopr, mm)
 ||methidpossum.com^
+||passworddrunkenheating.com^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9596
 @@||smallseo.tools^$ghide
@@ -4561,7 +4569,7 @@ blasensex.com##.w300
 ygosu.com##tbody > tr a[href^="https://ygosu.com/banner"]:upward(2)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9749
-cheat.hax4you.net##+js(acis, JSON.parse, break;case $.)
+cheat.hax4you.net##+js(acis, parseInt, break;case $.)
 @@||cheat.hax4you.net^$ghide
 
 ! manganelo. tv popups
@@ -5553,9 +5561,10 @@ ispot.tv##+js(aeld, , adb)
 donpelis.com##+js(aost, localStorage, stackDepth:1)
 donpelis.com##+js(ra, onclick, [onclick^="pop"])
 
-! javhub.net popup ads
+! https://github.com/AdguardTeam/AdguardFilters/issues/116299
 javhub.net##+js(aeld, DOMContentLoaded, 0x)
 javhub.net##+js(aopr, cainPopUp)
+javhub.net##+js(aopr, pURL)
 javhub.net##.fel-playclose
 javhub.net##[class^="banner-"]
 ||smac-ad.com^$3p

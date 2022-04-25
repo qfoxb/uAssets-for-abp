@@ -289,7 +289,7 @@ dropgalaxy.*,financemonk.net##+js(nowoif)
 dropgalaxy.*,financemonk.net##[href^="https://bit.ly/"]
 dropgalaxy.*,financemonk.net###operadata + br + [href][target="_blank"]
 dropgalaxy.*,financemonk.net##body > div[style^="position: fixed; display: block"]
-@@||blockadsnot.com/tabletop.min.js$script,domain=dropgalaxy.*|financemonk.net
+@@||blockadsnot.com/tabletop.min.js$script,domain=financemonk.net
 @@||dnhfi5nn2dt67.cloudfront.net/ui-bootstrap-tpls.min.js$script,domain=dropgalaxy.*|financemonk.net
 dropgalaxy.*,financemonk.net##.adsbygoogle:style(max-height: 1px !important;)
 dropgalaxy.*,financemonk.net##[id^="aswift"]:style(display:none!important;)
@@ -304,7 +304,6 @@ dropgalaxy.*,financemonk.net###modalpop
 @@||cmp.uniconsent.com^$script,xhr,domain=dropgalaxy.com
 @@||dropgalaxy.*^$ghide
 @@||financemonk.net^$ghide
-techssting.com###vipada
 tmp.dropgalaxy.in###vipgoogle-center-div
 financemonk.net###vipada
 newsindi.com,financemonk.net##+js(aopr, absda)
@@ -333,7 +332,6 @@ techthematter.xyz###app
 techthematter.xyz###msg
 techthematter.xyz##a#link:style(display: block !important)
 !!!
-@@*$xhr,frame,domain=dropgalaxy.com
 dropgalaxy.com##.GoogleActiveViewElement, .middle-container, .mys-wrapper
 dropgalaxy.com##.ns-mulii-l-square-editorial
 dropgalaxy.com##.pgAdWrapper
@@ -342,9 +340,19 @@ dropgalaxy.com##[src^="//ad.a-ads.com/"]
 ||ad.a-ads.com$frame
 a-ads.com##.size300x250
 googlesyndication.com##.GoogleActiveViewElement
-@@||services.vlitag.com/adv1/*$script,domain=dropgalaxy.com
+@@||tag.vlitag.com/v1/*$script,domain=dropgalaxy.com
 dropgalaxy.com##[id^="apkad"]
 dropgalaxy.com###nativefluid
+@@||protagcdn.com/s/dropgalaxy.com/site.js$script,domain=dropgalaxy.com
+@@||script.4dex.io/localstore.js$script,domain=dropgalaxy.com
+@@||services.vlitag.com/adv1/$script,domain=dropgalaxy.com
+@@||static.criteo.net/js/ld/publishertag.prebid.js$script,xhr,domain=dropgalaxy.com
+@@||protagcdn.com/check-bot/index.html$frame,domain=dropgalaxy.com
+@@||mp.4dex.io/prebid$xhr,domain=dropgalaxy.com
+@@||script.4dex.io/adagio.js$xhr,domain=dropgalaxy.com
+@@||gum.criteo.com/sid/json?origin=prebid&topUrl=$xhr,domain=dropgalaxy.com
+@@||securepubads.g.doubleclick.net/pagead/ppub_config?ippd=$xhr,domain=dropgalaxy.com
+@@||assets.vlitag.com/prebid/default/prebid-*.js$script,domain=dropgalaxy.com
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53896
 memoriadatv.com##+js(nano-stb)
@@ -731,13 +739,13 @@ tapetus.pl##div[style="box-sizing: border-box; padding:0px 5px 0px 0px; text-ali
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7308
 ! https://github.com/uBlockOrigin/uAssets/issues/12468
-adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,shavetape.*,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##+js(aopw, _pop)
-adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,streamtapeadblock.*,strtapeadblock.*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
-adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,streamtapeadblock.*,strtapeadblock.*##+js(acis, JSON.parse, Promise)
-adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##+js(nosiif, adblock)
-adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,streamtapeadblock.*,strtapeadblock.*##+js(nowoif)
+adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,shavetape.*,stape.fun,strcloud.*,streamadblockplus.com,streamta.*,streamtape.*,strtape.*,strtapeadblock.*,strtpe.*##+js(aopw, _pop)
+adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamadblockplus.com,streamta.*,streamtape.*,streamtapeadblock.*,strtape.*,strtapeadblock.*,strtpe.*##+js(aost, Math.random, /\st\.[a-zA-Z]*\s/)
+adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamadblockplus.com,streamta.*,streamtape.*,streamtapeadblock.*,strtape.*,strtapeadblock.*,strtpe.*##+js(acis, JSON.parse, Promise)
+adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamadblockplus.com,streamta.*,streamtape.*,strtape.*,strtapeadblock.*,strtpe.*##+js(nosiif, adblock)
+adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamadblockplus.com,streamta.*,streamtape.*,streamtapeadblock.*,strtape.*,strtapeadblock,strtpe.*##+js(nowoif)
 strcloud.*,streamtape.*,streamta.*,strtape.*,strtapeadblock.*##+js(ra, target, #downloadvideo)
-shavetape.*,strcloud.*,streamtape.*,streamta.*,strtape.*,strtapeadblock.*##+js(nano-stb, counter)
+streamadblockplus.com,shavetape.*,strcloud.*,streamtape.*,streamta.*,strtape.*,strtapeadblock.*##+js(nano-stb, counter)
 shavetape.*,strtapeadblock.*##+js(acis, Math, break;case $.)
 adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*#@#.google-ad
 adblockstreamtape.*,adblockstrtape.link,adblockstrtech.link,shavetape.*,stape.fun,strcloud.*,streamtape.*,streamta.*,strtape.*,strtpe.*,strtapeadblock.*##[class*="bn-container"], div[style*="z-index: 300000;"]
@@ -2062,7 +2070,6 @@ siteunblocked.info,theproxy.app##+js(nowoif)
 /app14.js$domain=siteunblocked.info|theproxy.app
 /g12.js$domain=siteunblocked.info|theproxy.app
 siteunblocked.info,theproxy.app##.all-linked
-||sidebyz.com^$all
 siteunblocked.info##+js(aopr, GetWindowHeight)
 siteunblocked.info##+js(aopr, decodeURIComponent)
 /hy.js$script,domain=siteunblocked.info
@@ -3854,8 +3861,8 @@ globo.com,latimes.com##+js(nostif, f.parentNode.removeChild(f), 100)
 avimobilemovies.net,hackiee.mobi##+js(nowebrtc)
 avimobilemovies.net,hackiee.mobi##+js(nowoif)
 avimobilemovies.net,hackiee.mobi##+js(set, Object.defineProperty, noopFunc)
-avimobilemovies.net,hackiee.mobi##^script:has-text(Object.defineProperty)
-avimobilemovies.net,hackiee.mobi##^script:has-text(JSON.parse)
+mobilemovieshd.me##+js(acis, parseInt, break;case $.)
+avimobilemovies.net,hackiee.mobi,mobilemovies.*,mobilemovieshd.me,tamilmobilemovies.in##^script:has-text(break;case $.)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7972
 *$script,3p,denyallow=fastly.net|fastlylb.net|jquery.com|hwcdn.net|hcaptcha.com|recaptcha.net|cloudflare.com|cloudflare.net|google.com|googleapis.com|gstatic.com,domain=13x4.com
@@ -5413,6 +5420,7 @@ mineiroloko.co##+js(adfly-defuser)
 streamonsport.*###iframe_preview
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69378
+@@||freemagazines.top^$ghide
 freemagazines.top##+js(aopr, b2a)
 freemagazines.top##+js(nostif, showModal)
 freemagazines.top##+js(acis, eval, replace)
@@ -6074,9 +6082,14 @@ wmoviesfree.*##.orange.big-color-btn
 ||wmoviesfree.*/themes/movies/img/banner_leaderboard$image
 
 ! dulu. to popups
+*$script,redirect-rule=noopjs,domain=dulu.to
 dulu.to##+js(acis, JSON.parse, break;case $.)
 dulu.to##+js(ra, href, #clickfakeplayer)
+server1.dulu.to###theotherads
+server2.dulu.to##+js(aopr, BetterJsPop)
+server2.dulu.to##button[onclick]
 hotflix.cc##+js(nowoif)
+videobot.stream##+js(aopr, __Y)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70904
 ehotpics.com,repicsx.com,upicsz.com##+js(acis, document.querySelectorAll, popMagic)
