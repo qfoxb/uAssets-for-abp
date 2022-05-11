@@ -1300,6 +1300,7 @@ supergoku.com###link:style(display: block !important;)
 ||flvto.biz^$csp=script-src *
 2conv.com,flvto.biz##+js(acis, String.fromCharCode, /btoa|break/)
 2conv.com,flvto.biz,flv2mp3.by##+js(nowoif)
+||cuttlefly.com^
 
 ! docker.events.cube365.net
 cube365.net##+js(set, mixpanel.get_distinct_id, true)
@@ -1448,15 +1449,14 @@ nightfallnews.com##.top_banner_container
 nightfallnews.com##+js(aopr, adBlockDetected)
 nightfallnews.com##.bottom_sticky_banner_container
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/97376
-! https://github.com/AdguardTeam/AdguardFilters/issues/97467
-! https://github.com/AdguardTeam/AdguardFilters/issues/109068
-anime-sanka.com,animesanka.*##+js(acis, JSON.parse, break;case $.)
+! https://github.com/AdguardTeam/AdguardFilters/issues/117871
+anime-sanka.com,animesanka.*##+js(acis, parseInt, break;case $.)
 animesanka.*##+js(aopw, _pop)
 animesanka.*##^script[data-cfasync]:has-text(h=decodeURIComponent)
 @@||animesanka.*^$ghide
 *$image,redirect-rule=1x1.gif,domain=animesanka.*
 animesanka.*##[id*="-ads-"]
+||mlimgmxn.com^
 
 ! https://github.com/NanoMeow/QuickReports/issues/4030
 @@||napolitoday.it^$ghide
@@ -5078,9 +5078,6 @@ adultdeepfakes.com##+js(nowoif)
 ! downloadtwittervideo.com popup
 downloadtwittervideo.com##+js(nowoif)
 
-! https://www.reddit.com/r/uBlockOrigin/comments/jz12a7/cant_watch_videos_without_turning_off_ubo/
-@@||neulionms-a.akamaihd.net^$script,domain=nba.com
-
 ! https://www.reddit.com/r/uBlockOrigin/comments/jzs64f/adblock_detected/
 mzupdate.com##+js(aopr, absda)
 mzupdate.com##+js(acis, atob)
@@ -5445,13 +5442,14 @@ cryptowin.io##.panel-body > p[style=" color:#818181; background-color: #fffdc4; 
 cryptowin.io##.hidden-xs
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7702
-cdnqq.net,cdn1.fastvid.co,gotoons.org,hydrax.xyz,movi.pk,player.cineflixtv.com,player.msmini.*,ply.mp4cage.com##+js(nowoif)
+cdnqq.net,cdn1.fastvid.co,gotoons.org,hydrax.xyz,kokostream.net,movi.pk,player.cineflixtv.com,player.msmini.*,ply.mp4cage.com##+js(nowoif)
 movi.pk##+js(aeld, , vads)
 movi.pk##+js(aeld, , break;case $.)
 movi.pk##+js(aopw, _pop)
 movi.pk###vads
 ||vadspremium.com^$3p
-/cdn-cgi/trace$xhr,1p,domain=cdnqq.net|cdn1.fastvid.co|gotoons.org|hydrax.xyz|movi.pk|netu.in|player.cineflixtv.com|player.msmini.*|ply.mp4cage.com
+/cdn-cgi/trace$xhr,1p,domain=cdnqq.net|cdn1.fastvid.co|gotoons.org|hydrax.xyz|kokostream.net|movi.pk|netu.in|player.cineflixtv.com|player.msmini.*|ply.mp4cage.com
+||glizauvo.net^
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/k8m63f/adblock_detected/
 plugincrack.com##+js(nostif, ai_adb)

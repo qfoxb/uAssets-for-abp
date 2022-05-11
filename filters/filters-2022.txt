@@ -70,11 +70,11 @@ ac-illust.com,photo-ac.com##body.modal-open *:style(filter: none!important;)
 
 ! PopAds-sites
 037jav.com,7hitmovies.bond,androidadult.com,animefrenzy.org,animestotais.xyz,animeyt.es,aotonline.org,askim-bg.com,bobsvagene.club,cuevana3.fan,cumception.com,entrepelis.org,estrenosdoramas.net,everia.club,flizmovies.*,flyfaucet.com,gamesmountain.com,hdmoviesflix.win,hesgoal.tv,javf.net,kantotinyo.com,mangagenki.me,megapornpics.com,meusanimes.net,movieswbb.com,mp3paw.u4m.cfd,onepiece-mangaonline.com,onlyfullporn.video,ragnaru.net,read-onepiece.net,rojadirectatvenvivo.com,serijefilmovi.com,sexcomics.me,sexdicted.com,silverpic.com,solarseries.club,solartv.club,swatchhd.online,themoviesflix.com.se,themoviesverse.co,tvseries.video,universityonline.club,xfantasy.su,xn--xvideos-espaol-1nb.com,yayanimes.net,youjax.com,ytstv.me,ytstvmovies.xyz##+js(aopw, _pop)
-entrepelis.org##^script[data-cfasync]:has-text(h=decodeURIComponent)
+entrepelis.org,mangagenki.me##^script[data-cfasync]:has-text(h=decodeURIComponent)
 
 ! popMagic-sites - domains may be NSFW
 ! https://github.com/uBlockOrigin/uAssets/issues/11635
-1punchman-manga.com,adltc.cc,allcelebs.club,amateur-mature.net,amateurfapper.com,animeidhentai.com,beginningmanga.com,besthdgayporn.com,caitlin.top,cervezaporno.com,chinesesexmovie.net,chopris.com,comicsvalley.com,csrevo.com,eshentai.tv,everysextube.com,familyporner.com,faptube.com,filmpornoitaliano.org,finding-camellia.com,finevids.xxx,gifcandy.net,hentai.tv,hentai-cosplays.com,hentaihd.xyz,hentaila.com,hotshag.com,hunterfansub.com,iceporn.tv,j-pussy.com,japteenx.com,jasmr.net,javfullmovie.com,javporn.tv,javsub-english.top,javxxxporn.com,klmag.net,klmanga.net,komisanwamanga.com,latino69.fun,ldkmanga.com,lesbiansex.best,lesbiantube.club,manga-dbs.com,manhwaid.org,mature-tube.sexy,mdtaiwan.com,momtubeporn.xxx,momxxx.video,nhentai.*,phim85.com,porn77.info,pornhub-teen.com,porn0video.com,pornken.com,pornwatchers.com,pulpo69.com,readfireforce.com,scatkings.com,sekaikomik.live,seoul-station-druid.com,sexoverdose.com,sexrura.com,sleazedepot.com,solomax-levelnewbie.*,solomaxlevelnewbie.*,spy-x-family.*,supremebabes.com,thebeginningaftertheend.*,truyenhentai18.net,urgayporn.com,watchfreejavonline.co,watchporninpublic.com,webtoonscan.com,xculitos.com,xexle.com,xnxx.party,xsportshd.com,xxxcomics.org,yaoiscan.com##+js(acis, document.querySelectorAll, popMagic)
+1punchman-manga.com,adltc.cc,allcelebs.club,amateur-mature.net,amateurfapper.com,animeidhentai.com,animesex.me,beginningmanga.com,besthdgayporn.com,caitlin.top,cervezaporno.com,chinesesexmovie.net,chopris.com,comicsvalley.com,csrevo.com,eshentai.tv,everysextube.com,familyporner.com,faptube.com,filmpornoitaliano.org,finding-camellia.com,finevids.xxx,gekkouscans.com.br,gifcandy.net,hentai.tv,hentai-cosplays.com,hentaihd.xyz,hentaila.com,hotshag.com,hunterfansub.com,iceporn.tv,j-pussy.com,japteenx.com,jasmr.net,javfullmovie.com,javporn.tv,javsub-english.top,javxxxporn.com,klmag.net,klmanga.net,komisanwamanga.com,latino69.fun,ldkmanga.com,lesbiansex.best,lesbiantube.club,manga-dbs.com,manhwaid.org,mature-tube.sexy,mdtaiwan.com,momtubeporn.xxx,momxxx.video,nhentai.*,phim85.com,porn77.info,pornhub-teen.com,porn0video.com,pornken.com,pornwatchers.com,pulpo69.com,readfireforce.com,scatkings.com,sekaikomik.live,seoul-station-druid.com,sexoverdose.com,sexrura.com,sleazedepot.com,solomax-levelnewbie.*,solomaxlevelnewbie.*,spy-x-family.*,supremebabes.com,thebeginningaftertheend.*,truyenhentai18.net,urgayporn.com,watchfreejavonline.co,watchporninpublic.com,webtoonscan.com,xculitos.com,xexle.com,xnxx.party,xsportshd.com,xxxcomics.org,yaoiscan.com##+js(acis, document.querySelectorAll, popMagic)
 jav-asia.top,javf.net,javideo.net,kr18plus.com,mangameta.com,pornktube.tv,xfrenchies.com##+js(aeld, , popMagic)
 ||xsportshd.com/bet.gif$image
 manhwaid.org##.c-top-sidebar
@@ -101,11 +101,10 @@ japanporn.tv##+js(acis, Math.floor, ExoLoader)
 
 ! propeller-sites
 9xmovie.click,a123movies.net,acervofilmes.com,airportseirosafar.com,animefreak.*,askim-bg.com,assistirseriados.net,cmp3.ru,comofuncionaque.com,filmovi.ws,hackiee.mobi,hd44.net,hds-streaming-vf.com,hdzone.org,hurawatch.*,hwnaturkya.com,i123movies.net,ibrasoftware.com,iegybest.co,imgbase.ru,jujutsukaisen-manga.online,jujutsukaisenonline.net,kimoitv.com,mangceh.cc,mega-mkv.com,mobilephonedir.com,mobiro.org,moviestars.to,mp3-gratis.it,mp3-vk.ru,myviid.com,nosong.ru,onlinesubtitrat.com,peliculontube.net,playlist-youtu.be,putlocker68.com,rojadirectahd.online,s4p2.shingekinokyojin.tv,serijefilmovi.com,ssoap2day.*,thingstomen.com,u123movies.com,vidbam.org,vkmp3.*,vkmp3s.ru,watchgintama.com,yodbox.com,zeidgh.com##+js(acis, JSON.parse, break;case $.)
-123movies-official.site,animespank.com,bbb.fm,bx-zone.com,cima100fm.com,ccnworldtech.com,distanta.net,divicast.com,fightforthealliance.com,gentlewasher.com,hentaizm.fun,hilaryhahn.com,hhdmovies.*,imgspark.com,jpscan-vf.com,mangahere.today,manganatos.com,manhwa68.com,mcubd.host,moonblinkwifi.com,mp3yeni.org,networklovers.com,putlocker.*,putlockers.*,quiltfusion.com,redowlanalytics.com,showbizbites.com,stickerdeals.net,tcpermaculture.com,totallyfuzzy.net,tudotecno.com,tvhay.top,vanime.*,vbox7-mp3.info,vudeo.*##+js(acis, parseInt, break;case $.)
+123movies-official.site,animespank.com,bbb.fm,bx-zone.com,cima100fm.com,ccnworldtech.com,distanta.net,divicast.com,fightforthealliance.com,gentlewasher.com,hentaizm.fun,hilaryhahn.com,hhdmovies.*,hothit.me,imgspark.com,jpscan-vf.com,mangahere.today,manganatos.com,manhwa68.com,mcubd.host,moonblinkwifi.com,mp3yeni.org,networklovers.com,putlocker.*,putlockers.*,quiltfusion.com,redowlanalytics.com,showbizbites.com,stickerdeals.net,tcpermaculture.com,totallyfuzzy.net,tudotecno.com,tvhay.top,vanime.*,vbox7-mp3.info,vudeo.*##+js(acis, parseInt, break;case $.)
 putlocker68.com##^script:has-text(break;case $.)
 familyporn.tv,jujutsukaisenonline.net##+js(aopr, mm)
 yodbox.com##+js(aopw, _pop)
-||szxjygbabily.com^
 ||astcarbinkom.com^
 ||eezoulru.com^
 ||fxhpaoxqyajvmdg.
@@ -118,10 +117,12 @@ yodbox.com##+js(aopw, _pop)
 ||aahekppl.com^
 ||htxourpo.com^
 ||qlowivucwh.com^
+||nrvkwqaatl.com^
+||pbsdutufp.com^
 
 ! htas-sites
 ! https://github.com/easylist/easylist/pull/10996/
-10convert.com,besthdgayporn.com,kantotflix.com,komiklokal.xyz,leermanga.net,naijauncut.com,tatli.biz,teenager365.com##+js(acis, document.createElement, __htas)
+10convert.com,besthdgayporn.com,kantotflix.com,komiklokal.xyz,leermanga.net,mangamovil.net,naijauncut.com,tatli.biz,teenager365.com##+js(acis, document.createElement, __htas)
 ||kewhulawi.com^
 ||wyphawhity.com^
 ||masakeku.com^
@@ -981,7 +982,7 @@ faucetpot.me###middle-adspace
 faucetpot.me##.p-0.text-center.col-12
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11769
-koreanpornmovie.xyz##+js(nowoif)
+koreanpornmovie.xyz##+js(aopr, BetterJsPop)
 ||koreanpornmovie.xyz/cdn-cgi/trace$1p
 koreanpornmovie.xyz##+js(set, console.clear, undefined)
 
@@ -1995,8 +1996,10 @@ noob4cast.com##+js(nowoif)
 noob4cast.com##+js(aopw, _pop)
 
 ! https://note1s.com/notes/LZ9U4J timer
-note1s.com##.countdown
-note1s.com##+js(ra, disabled, button)
+! https://github.com/AdguardTeam/AdguardFilters/issues/118010
+note1s.com,paste1s.com##.countdown
+note1s.com,paste1s.com##+js(ra, disabled, button)
+||web1s.com^$3p
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/tu8gbu/imgboxcom_sometimes_seemingly_puts_a_link_inside/
 /_/ads/*$badfilter
@@ -2743,8 +2746,6 @@ nhentai.io##+js(aopr, Script_Manager)
 nhentai.io##+js(aopr, Script_Manager_Time)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117939
-*$script,redirect-rule=noopjs,domain=freebitcoin.top
-*$xhr,redirect-rule=nooptext,domain=freebitcoin.top
 freebitcoin.top##+js(acis, eval, decodeURIComponent)
 
 ! https://github.com/uBlockOrigin/uAssets/pull/12517
@@ -2812,8 +2813,6 @@ ytconverter.app##+js(acis, parseInt, break;case $.)
 code2care.org##+js(nostif, Msg)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118077
-*$script,redirect-rule=noopjs,domain=faucetclub.net
-*$xhr,redirect-rule=nooptext,domain=faucetclub.net
 /main.js$script,3p,domain=faucetclub.net
 faucetclub.net##+js(acis, eval, decodeURIComponent)
 faucetclub.net##.container > div > center
@@ -2836,8 +2835,7 @@ nevcoins.club##.justify-content-center.box-shadow
 @@||keran.co/js/sailthru.js$script,1p
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118055
-*$script,redirect-rule=noopjs,domain=faucetcrypto.net
-*$xhr,redirect-rule=nooptext,domain=faucetcrypto.net
+||surfe.pro/js/net.js$script,xhr,redirect-rule=noop.js
 faucetcrypto.net##+js(acis, eval, decodeURIComponent)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118042
@@ -2865,3 +2863,47 @@ formulapassion.it##.yobee-adv
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118145
 ||asiancli.com/pub$script,domain=asianwatch.net
 asianwatch.net##+js(acis, parseInt, break;case $.)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/117958
+animeuniverse.click##+js(acis, document.addEventListener, google_ad_client)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/uls5g8/adblock_detected_by_chpadsblockdetectorpro/i7x99x2/
+@@||onlyhgames.com^$ghide
+onlyhgames.com##+js(acis, document.getElementById, adsBlocked)
+onlyhgames.com##+js(nano-sib, i--)
+onlyhgames.com##+js(nano-stb, CountBack, 990)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/ulsnpv/bestmp3convertercom_ads/
+1ytmp3.com,bestmp3converter.com,clickmp3.com##+js(nowoif, !download)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/118149
+@@||blogupdated.com^$ghide
+blogupdated.com##+js(acis, eval, lazyadsense)
+blogupdated.com##+js(nano-sib, counter)
+blogupdated.com##.adsbygoogle:upward([id^="HTML"])
+
+! https://forums.lanik.us/viewtopic.php?t=47536-nsfw-multiple-websites
+amateur8.com,freeporn8.com,maturetubehere.com##+js(aeld, /click|mousedown/, catch)
+/pp34.js?sv=
+
+! https://github.com/uBlockOrigin/uAssets/issues/13162
+onlyhotleaks.com##+js(acis, document.querySelectorAll, popMagic)
+onlyhotleaks.com##+js(aopr, decodeURI)
+
+! anti adb reaperscans. id
+reaperscans.id##+js(no-xhr-if, ads)
+
+! https://github.com/uBlockOrigin/uAssets/issues/13168
+*$media,redirect-rule=noopmp3-0.1s,domain=149.56.24.226
+layarkacaxxi.icu##+js(aopr, __Y)
+
+! idope. cyou popups
+idope.cyou##+js(aopr, afScript)
+
+! https://github.com/uBlockOrigin/uAssets/issues/13175
+||static.doubleclick.net/instream/ad_status.js$xhr,redirect-rule=noop.js,domain=sshinjector.net
+
+! https://www.reddit.com/r/uBlockOrigin/comments/uned4o/adblock_detected_on_streaming_site_voe/
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=voe-unblock.com
+voe.bar,voe-unblock.com##+js(nowoif)
+||d2uppiu77stez1.cloudfront.net^$all
