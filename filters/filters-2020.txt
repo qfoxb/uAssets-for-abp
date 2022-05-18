@@ -3815,7 +3815,10 @@ aylink.co,gitizle.vip,shtms.co##+js(ra, data-ppcnt_ads|onclick, #main)
 aylink.co,gitizle.vip,shtms.co##.alternative-ad
 
 ! https://github.com/NanoMeow/QuickReports/issues/4755
-databasegdriveplayer.*##+js(acis, JSON.parse, break;case $.)
+databasegdriveplayer.*##+js(aeld, , break;case $.)
+databasegdriveplayer.*##^script:has-text(break;case $.)
+*$frame,xhr,css,image,3p,denyallow=gdriveplayer.io|isostech.com|jwcdn.com|m.media-amazon.com|subscene.gdriveplayer.me|themoviedb.org|tmdb.org,domain=databasegdriveplayer.co
+||tauvoojo.net^
 
 ! etcscrs .to popups
 etcscrs.to##+js(aopr, LieDetector)
@@ -4945,6 +4948,7 @@ mytoolz.net##+js(aopr, onload)
 ! https://github.com/uBlockOrigin/uAssets/issues/8233
 pics4you.net##+js(aopr, absda)
 pics4you.net##+js(aopr, loadTool)
+*$script,3p,domain=pics4you.net
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8237
 moozpussy.com,zoompussy.com##+js(aopr, loadTool)
@@ -5039,13 +5043,6 @@ getpczone.com###breadcrumb-ads-links
 ! kissmanga. nl popups
 kissmanga.*##+js(acis, JSON.parse, break;case $.)
 kissmanga.*###myModal
-
-! coindailytimes.com/wavescoin.xyz anti-adblock/ads
-coindailytimes.com##[href^="http://moonbit.co.in/"]
-coindailytimes.com##[href^="http://moondoge.co.in/"]
-coindailytimes.com##[href^="http://moonliteco.in/"]
-coindailytimes.com##div[align="center"]
-coindailytimes.com##body > div > div > a
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8247
 thevideos.ga##+js(acis, Math, zfgloaded)
@@ -5442,14 +5439,14 @@ cryptowin.io##.panel-body > p[style=" color:#818181; background-color: #fffdc4; 
 cryptowin.io##.hidden-xs
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7702
-cdnqq.net,cdn1.fastvid.co,gotoons.org,hydrax.xyz,kokostream.net,movi.pk,player.cineflixtv.com,player.msmini.*,ply.mp4cage.com##+js(nowoif)
+0gomovies.*,cdnqq.net,cdn1.fastvid.co,gotoons.org,hydrax.xyz,kokostream.net,movi.pk,player.cineflixtv.com,player.msmini.*,ply.mp4cage.com##+js(nowoif)
+0gogle.com##+js(aopr, __Y)
 movi.pk##+js(aeld, , vads)
 movi.pk##+js(aeld, , break;case $.)
 movi.pk##+js(aopw, _pop)
 movi.pk###vads
 ||vadspremium.com^$3p
-/cdn-cgi/trace$xhr,1p,domain=cdnqq.net|cdn1.fastvid.co|gotoons.org|hydrax.xyz|kokostream.net|movi.pk|netu.in|player.cineflixtv.com|player.msmini.*|ply.mp4cage.com
-||glizauvo.net^
+/cdn-cgi/trace$xhr,1p,domain=0gomovies.*|cdnqq.net|cdn1.fastvid.co|gotoons.org|hydrax.xyz|kokostream.net|movi.pk|netu.in|player.cineflixtv.com|player.msmini.*|ply.mp4cage.com
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/k8m63f/adblock_detected/
 plugincrack.com##+js(nostif, ai_adb)
@@ -5993,9 +5990,11 @@ eropaste.com##+js(set, isAdBlockActive, false)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70487
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70888
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71223
+adult-sex-gamess.com,hentaigames.app,mobilesexgamesx.com,mysexgamer.com,porngameshd.com,sexgamescc.com##+js(nostif, /out.php)
 adult-sex-gamess.com,hentaigames.app,mobilesexgamesx.com,mysexgamer.com,porngameshd.com,sexgamescc.com##.a-th:first-child:has(iframe)
 adult-sex-gamess.com,hentaigames.app,mobilesexgamesx.com,mysexgamer.com,porngameshd.com,sexgamescc.com##.alert-danger > .row
-adult-sex-gamess.com,hentaigames.app,mobilesexgamesx.com,mysexgamer.com,porngameshd.com,sexgamescc.com##+js(nostif, /out.php)
+adult-sex-gamess.com,hentaigames.app,mobilesexgamesx.com,mysexgamer.com,porngameshd.com,sexgamescc.com##.ntkSides
+adult-sex-gamess.com,hentaigames.app,mobilesexgamesx.com,mysexgamer.com,porngameshd.com,sexgamescc.com###modalegames
 
 ! yporn.tv popunder
 yporn.tv##+js(acis, document.querySelectorAll, popMagic)
