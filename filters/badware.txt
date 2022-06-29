@@ -310,7 +310,6 @@ majorgeeks.com##b:has(a[target^="reimage"])
 ||securecloud-smart.com^$all
 ||doctopdftech.com^$all
 ||palundrus.com^$all
-||giftdomain.site^$all
 ||best2019-games-web4.com^$all
 ||install.convertmyvid.com^$all
 ||check-best-prizes-here.*^$all
@@ -320,6 +319,8 @@ majorgeeks.com##b:has(a[target^="reimage"])
 ||beqbox.com^
 ||weefy.me^
 ||bblck.me^$all
+||glinks.co^$all
+/?track=*&key=$all
 
 ! SpyHunter links
 ! Ref: https://blog.malwarebytes.com/detections/pup-optional-spyhunter/
@@ -429,8 +430,6 @@ thepiratebay3.com^$all
 ||clkepd.com^$all
 ||btnativenav.com^$all
 ||1111sale.us^$all
-||getoiu.com^$all
-||cyneheard-fau.com^$all
 ||litance-viestside.icu^$all
 ||omgtnc.com^$all
 ||bector-blotance.xyz^$all
@@ -439,10 +438,7 @@ thepiratebay3.com^$all
 ||revercecaptcha.com^$all
 ||bestoffer21.info^$all
 ||express-news.me^$all
-||n01.biz^$all
 ||n06.biz^$all
-||storage-for-mobileapps.life^$all
-||tourism-services.online^$all
 ||um-bredirect.com^$all
 ||terlaby.com^$all
 ||aff2021.com^$all
@@ -529,7 +525,7 @@ thepiratebay3.com^$all
 .com/c/*?s1=$doc,domain=com
 .net/c/*?s1=$doc,domain=net
 /aff.php?*&_cbUrl=$doc
-/fg/tds/ae?tds_campaign=$doc
+/tds/ae?tds_campaign=$doc
 /site/redirectpage?ca=link&sid=$doc
 /tds/ae?tdsId=*&clickid=$doc
 ||adating.link^$all
@@ -539,9 +535,7 @@ thepiratebay3.com^$all
 ||benaughty.com^$all
 ||searchdatestoday.com^$all
 ||robin201.xyz^$all
-||1redirb.com^
 ||amata-syb.com^$all
-||coleryujgdq345678hfdh.xyz^$all
 /track/click.php?c=*&zoneid=$doc
 ||o-uccino.top^$all
 ||fattykettleinexpedient.com^$all
@@ -598,14 +592,12 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||ads.sophiapoole.com^
 ||adstellar.icu^
 ||aleks-avto-rnd.ru^$all
-||ouhastay.net^
 ||trk.setting-nervous-steady-noted.xyz^$all
 ||tube911.com^$all
 ||ationpeci.one^$document,popup
 ||bestlifeoffer20.com^$all
 ||adlogists.com^
 ||clicks.affstrack.com^
-||movementsspentlist.com^
 ||track.date-secure.com^
 ||tribalcellular.com^
 ||weledying-jessed.com^$all
@@ -645,7 +637,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||s4f.net^$all
 ||onlyfreetoonporn.com^$all
 ||tilda.gb.net^$all
-||eval.ly^$all
 ||cleardexchange.com^$all
 ||duellosheliced.com^$all
 ||shahidmosalsalat.co^$all
@@ -660,6 +651,15 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||fast-date.site^$all
 ||redirectto.fun^$all
 ||sopertyvalua.com^$all
+||cpttrcklnk.com^$all
+||neighborhoodsluts.com^$all
+.xyz/video.php?=*&dating_xyz_0&&0$frame
+||0redird.com^$all
+||extyoneplus-3.com^$all
+||mcmo22.com^$all
+||turnhub.net^$all
+/click?pid=*&offer_id=$doc
+||nanosterile.eu^$all
 
 ||hyperwage.com^$all
 ||ricavato.com^
@@ -710,7 +710,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||womeniover.com^$all
 ||cleanphonefast.com^$all
 ||fastphonebooster.com^$all
-||offers.flogboat.com^$all
 ||reimageplusminus.me^$all
 ||flashymass.com^$all
 ||luckywinner-web1.com^$all
@@ -719,7 +718,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||traffichub01.online^$all
 ||theshoparound.com^$all
 ||asstok.com^$all
-||microsupportjp.xyz^$all
 ||loverfuck.com^$all
 ||profi-para.com^$all
 ||bedcity-lake.top^$all
@@ -825,7 +823,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||webapplicationminefree.cyou^$all
 ||eudoxia-myr.com^$all
 ||revpu.sh^$all
-||adblockextension.online^$all
 ||sexual-partner2.com^$all
 ||ultimate-detection.com^$all
 ||helpmight.online^$all
@@ -876,7 +873,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||getmackeepersoftpro.xyz^$all
 ||tigerpush.net^$all
 /expired/unprotected_win/?track=$doc
-||familysimulators.com^$all
+||familysimulator.$all
 ||pushnott.com^$all
 ||instaflrt.com^$all
 ||singlesgetmatched.com^$all
@@ -899,6 +896,10 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||classicpartnerships.com^$all
 ||legendarytable.com^$all
 ||traffmax-redirect.com^$all
+||greengoplatform.com^$all
+||transportgoline.com^$all
+||directspecial.biz^$all
+||gobacktothefuture.biz^$all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/114312
 /prize/luckyus-ad/*$doc
 ||mauptaub.com^$all
@@ -912,6 +913,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||eningspon.com^$all
 ||familysimulatorgame.com^$all
 ||trackingboost.com^$all
+||meetka1.name^$all
 ||meetka2.name^$all
 ||update-protection.com^$all
 ||asiaxdate.com^$all
@@ -929,6 +931,24 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||d135aysof2oufc.cloudfront.net^$all
 ||blob.core.windows.net/$web/$doc
 /?banner=*&phone=$doc
+||chevrontax.info^$all
+||advidates.com^$all
+||josannastudio.co^$all
+||scan-scan.com^$all
+||dvjqvdfujjvvkuyvhjqdvbjcmioljbhjmijq.s3.ap-northeast-1.amazonaws.com^$all
+/2/index.html#|$doc
+/?clickid=*&cost=0.$doc
+/index.php?key=*&t1=$doc
+||cmprotraf.club^$all
+||prelandappslab.com^$all
+/registration?theme=*&a_aid=$doc
+.top/prize/*.php?c=$doc
+||naked-hd.xyz^$all
+||di02.biz^$all
+||adultonlineplay.com^$all
+||fastandslut.com^$all
+&click_price=0.*&click_id=$doc
+||compresspecialty.online^
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68588
 ! https://github.com/uBlockOrigin/uAssets/issues/8869
@@ -938,11 +958,11 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ! e.g. https://to3s.biz/?p=gi4tgnjwgu5gi3bpgy2tmmy
 /^https:\/\/to\ds\.biz\/\?p=/$doc,domain=biz
 ! fake dating/prize sites
-/^https?:\/\/((?!www)[a-z]{3,}\.)?[-0-9a-z]{6,}\.(?:com|de|fun|guru|life|online|pw|site|space|top|us|xyz)\/(?:[a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=com|de|fun|guru|life|online|pw|site|space|top|us|xyz
+/^https?:\/\/((?!www)[a-z]{3,}\.)?[-0-9a-z]{6,}\.(?:buzz|com|de|fun|guru|life|online|pw|site|space|top|us|xyz)\/(?:[a-z]{6,8}\/)?\/?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|life|online|pw|site|space|top|us|xyz
 ! https://github.com/uBlockOrigin/uAssets/commit/df17084b4815e87d420e8adf19bf4959e828e6e5#commitcomment-66510549
-/^https?:\/\/((?!www)[a-z]{3,}\.)?[-0-9a-z]{6,}\.(?:com|de|fun|guru|life|online|pw|site|space|top|us|xyz)\/(?:[a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=com|de|fun|guru|life|online|pw|site|space|top|us|xyz
+/^https?:\/\/((?!www)[a-z]{3,}\.)?[-0-9a-z]{6,}\.(?:buzz|com|de|fun|guru|life|online|pw|site|space|top|us|xyz)\/(?:[a-z]{6,8}\/)?\/?\?o=[0-9a-z]{7}&u=[0-9a-z]{7}/$doc,frame,match-case,domain=buzz|com|de|fun|guru|life|online|pw|site|space|top|us|xyz
 ! push notification scam
-/^https:\/\/(?:www\d\.)?[-a-z]{6,13}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}/\?cid=[-_0-9a-zA-Z]{24,36}&sid=[_0-9a-f]{1,32}$/$doc,match-case,domain=com|info|net|org
+/^https:\/\/(?:www\d\.)?[-a-z]{6,}\.(?:com|info|net|org)\/(?=[-_a-zA-Z]{0,42}\d)(?=[-_0-9a-z]{0,42}[A-Z])[-_0-9a-zA-Z]{43}\/\?cid=[-_0-9a-zA-Z]{16,36}&sid=[_0-9a-f]{1,32}$/$doc,match-case,domain=com|info|net|org
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8378
 ||ogtrk.net^
@@ -998,7 +1018,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||ndsborous.biz^
 ||omefukmend.xyz^$all
 ||ournewsafte.biz^
-||ponk.pro^
 ||protocolgroupgroups.com^
 ||rhopalium-convolve-mozettas.xyz^
 ||service-indemonstrably-spadger-renting.xyz^
@@ -1017,7 +1036,8 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||zvideo-live.com^
 ||arthyredir2.com^$all
 ||adserveryo3.xyz^$all
-/index.php?uid=*&code=ad#$doc
+/index.php?uid=*&code=ad^$doc
+||mcclick.online^$all
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9045
 ||securitydefender.xyz^$all
@@ -1038,7 +1058,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||my-hookup-clubs1.com^$all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84634
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84639
-||60255.xyz^$all
 ||localsexfinderxxx4.com^$all
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84638
 ||sinder8.com^$all
@@ -1060,6 +1079,7 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||polyhymnia-mar.com^$all
 ||trktrk.club^$all
 ||virpropcnow.xyz^$all
+||2xdoubles.com^$all
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9400
 ||corona-virus-map.com^$all
@@ -1529,7 +1549,6 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 
 ||i7ece0xrg4nx.com^$all
 */bouncy.php?*&inPopUp=$all
-||demnan.com^
 ||1redirc.com^$all
 ||nutrientassumptionclaims.com^$all
 
@@ -1558,4 +1577,29 @@ okashimag.com,tech4yougadgets.com##+js(aopr, Notification)
 ||flippingcharts.com^$all
 
 ! https://github.com/uBlockOrigin/uAssets/issues/13177
+! https://github.com/uBlockOrigin/uAssets/issues/13734
 ||fullcrack.vn^$all
+||vi-vn.vn^$doc
+
+! https://twitter.com/rarara18181818/status/1530214731608313856
+/rtbfeed.php?$image,3p
+||mepiloxa.com^$all
+
+! https://forums.balena.io/t/counterfeit-etcher-websites/274606/5
+||etcher.net^$all
+||etcher.download^$all
+
+! https://twitter.com/ot_inc/status/1532316247094087680
+||phone-analyzer.com^$doc
+
+! https://twitter.com/NaomiSuzuki_/status/1536553207299985408 fake chrome
+!#if !env_mobile
+/^http:\/\/[a-z]{5}\.[a-z]{5}\.com\/[a-z]{10}\.apk$/$doc,match-case,domain=com
+!#endif
+
+! https://twitter.com/AP_Zenmashi/status/1538071295535218688
+! https://twitter.com/AP_Zenmashi/status/1538071140035608577
+/^https:\/\/www\.aeon\.[a-z]{7,8}\.com\/login\.php\?user_token=\d+/$doc
+
+! https://github.com/uBlockOrigin/uAssets/pull/13858
+||skyblockqolhub.com^$all

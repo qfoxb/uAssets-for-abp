@@ -1034,8 +1034,6 @@ warszawawpigulce.pl##.eklama
 @@||spotxcdn.com/integration/directsdk/$script,domain=bloomberg.*
 @@||search.spotxchange.com^$xhr,domain=bloomberg.*
 @@||sourcepointcmp.bloomberg.com/ccpa.js$script,domain=bloomberg.*
-! bloomberg.com CNAME
-@@||cdx.cedexis.net^$domain=bloomberg.*
 
 ! https://github.com/easylist/easylist/issues/2103
 @@||go.com/disneyid/responder$frame,1p
@@ -1299,8 +1297,8 @@ hawaiitribune-herald.com,thegardenisland.com,westhawaiitoday.com#@#.header-ad
 
 ! https://forums.lanik.us/viewtopic.php?f=64&t=42649
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46988
-://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cs.washington.edu|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.finance|~ads.gambinoslot.com|~ads.google.com|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.magalu.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com,badfilter
-://ads.$domain=~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bestprints.biz|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.cableidp.jp|~ads.colombiaonline.com|~ads.comeon.com|~ads.cs.washington.edu|~ads.cvut.cz|~ads.d2c.ne.jp|~ads.dev.int.revelian.com|~ads.dollartree.com|~ads.elcarado.com|~ads.finance|~ads.gambinoslot.com|~ads.google.com|~ads.gree.net|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.lviv.ua|~ads.magalu.com|~ads.mba|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.route.cc|~ads.safi-gmbh.ch|~ads.selfip.com|~ads.shopee.*|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.typepad.jp|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
+://ads.$domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.colombiaonline.com|~ads.comeon.com|~ads.cs.washington.edu|~ads.cvut.cz|~ads.dollartree.com|~ads.elcarado.com|~ads.finance|~ads.gambinoslot.com|~ads.google.com|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.magalu.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.rohlik.cz|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com,badfilter
+://ads.$domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.bestprints.biz|~ads.bigbom.com|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.cableidp.jp|~ads.colombiaonline.com|~ads.comeon.com|~ads.cs.washington.edu|~ads.cvut.cz|~ads.d2c.ne.jp|~ads.dev.int.revelian.com|~ads.dollartree.com|~ads.elcarado.com|~ads.finance|~ads.gambinoslot.com|~ads.google.com|~ads.gree.net|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.lapalingo.com|~ads.listonic.com|~ads.lordlucky.com|~ads.lviv.ua|~ads.magalu.com|~ads.mba|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.msstate.edu|~ads.mst.dk|~ads.nc|~ads.nimses.com|~ads.nipr.ac.jp|~ads.odesbuild.com|~ads.olx.pl|~ads.pinterest.com|~ads.quasaraffiliates.com|~ads.red|~ads.reddit.com|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.*|~ads.sk|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.toplayaffiliates.com|~ads.typepad.jp|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~ads.xtribeapp.com|~ads.yahoosmallbusiness.com|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com
 
 ! https://forums.lanik.us/viewtopic.php?p=145834#p145834
 dday.it#@#.sponsored
@@ -1709,7 +1707,6 @@ wallpaperplay.com##.adsbygoogle
 ! https://github.com/uBlockOrigin/uAssets/issues/6085
 @@||rte.ie/djstatic/dotie/js/tracker.js$script,1p
 @@||src.litix.io/theoplayer/*$script,domain=rte.ie
-@@||tag.aticdn.net/$script,domain=rte.ie
 rte.ie##.alert.callout
 rte.ie###gpt-leaderboard
 
@@ -2296,7 +2293,6 @@ dziennikbaltycki.pl,dzienniklodzki.pl,dziennikpolski24.pl,dziennikzachodni.pl,ec
 ! https://github.com/uBlockOrigin/uAssets/issues/7005
 ! https://github.com/uBlockOrigin/uAssets/issues/7012#issuecomment-592815205
 ||cedexis.com^$3p,badfilter
-||cedexis.net^$3p,badfilter
 
 ! Conversation broken allthingsvegas .com
 @@||pix.spot.im/api/$xhr,domain=allthingsvegas.com
@@ -2486,9 +2482,6 @@ recensionihot.com#@#a[href^="https://www.moscarossa.biz/"]
 
 ! https://github.com/NanoMeow/QuickReports/issues/3580
 @@||assets.adobedtm.com/*/satelliteLib-$script,domain=mitelcel.com
-
-! CNAME unbreak airfrance.co.jp
-@@||cdx.cedexis.net^$3p,domain=airfrance.co.jp
 
 ! https://github.com/NanoAdblocker/NanoFilters/issues/480
 |https://$subdocument,3p,domain=series9.to,badfilter
@@ -3146,9 +3139,6 @@ hentaiplay.net###video_overlays
 
 ! https://ads.spotify.com/en-US/culture-next/the-2020-report/ blank page
 @@||google-analytics.com/analytics.js$script,domain=ads.spotify.com
-
-! https://github.com/uBlockOrigin/uAssets/issues/8078
-||widgets.outbrain.com/outbrain.js$script,redirect-rule=empty,domain=www.vice.com,important
 
 ! https://www.fox.com/watch/bdb5db80949b2226d9caa10c08dc1032/ broken video
 @@||link.theplatform.com/*/media/*?affiliate=$xhr,domain=fox.com
@@ -4047,9 +4037,6 @@ ilbianconero.com##.no-scroll:style(overflow:auto!important)
 ! https://github.com/uBlockOrigin/uAssets/issues/10694
 @@||googletagmanager.com/gtm.js$script,domain=suspilne.media
 
-! https://github.com/easylist/easylist/pull/9904
-@@||clj.valuecommerce.com/*/vcushion.min.js
-
 ! https://github.com/uBlockOrigin/uAssets/issues/10731
 @@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager.com/gtm.js,domain=midomi.com
 
@@ -4153,9 +4140,6 @@ meteoetradar.com##+js(no-xhr-if, doubleclick)
 ! https://github.com/uBlockOrigin/uAssets/issues/1539#issuecomment-1005618009
 @@||googletagservices.com/tag/js/gpt.js$script,domain=thestar.co.uk
 @@||securepubads.g.doubleclick.net/gpt/*$script,domain=thestar.co.uk
-
-! https://forums.lanik.us/viewtopic.php?p=162736#p162736
-||vendorlist.dmcdn.net^$badfilter
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5131#issuecomment-1007971628
 @@||cdn.vox-cdn.com/packs/js/concert_ads-*.js$script,domain=theverge.com
@@ -4294,6 +4278,10 @@ sports.yahoo.com#@#.H\(400px\).Pos\(r\)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11285
 ||relish.com^$domain=seriouseats.com
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/106875
+@@||googletagmanager.com/gtm.js$domain=www3.nissan.co.jp
+*$script,redirect-rule=noop.js,domain=nissan.co.jp
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11716
 abczdrowie.pl#@#+js(aost, WP.prebid, onLoad)
@@ -4544,3 +4532,125 @@ duckduckgo.com#@#.js-sidebar-ads
 
 ! https://github.com/uBlockOrigin/uAssets/issues/13222
 @@||postclickmarketing.com^$domain=adtspecials.com|befinanciallyfit.com|cursodemedicina.com.br|demandmetric.com|hootsuite.com|semipresencial.com.br|systemsprotect.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/13290
+@@||app.detrack.com/api/v2/tracking$xhr
+
+! https://github.com/uBlockOrigin/uAssets/issues/13316
+@@||cdnjs.cloudflare.com/cdn-cgi/trace$xhr,domain=piliapp.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/13324
+@@||index.hr/thirdparty/brid/*$script,1p
+
+! stern plus article links not clickable
+@@||google-analytics.com/analytics.js$script,redirect-rule=google-analytics.com/analytics.js:5,domain=stern.de
+@@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager_gtm.js:5,domain=stern.de
+
+! https://github.com/easylist/easylist/issues/12104#issuecomment-1135989449
+||xxxhd.cc^$badfilter
+
+! https://github.com/uBlockOrigin/uAssets/issues/13393#issuecomment-1139089175
+@@||c.amazon-adsystem.com/aax2/apstag.js$script,domain=oggi.it
+@@||components2.rcsobjects.it/rcs_adv/v1/distro/dfp/common/prebid.js$script,domain=oggi.it
+@@||static.adsafeprotected.com/iasPET$script,domain=oggi.it
+
+! https://github.com/uBlockOrigin/uAssets/commit/d4142849f5accc8f04308fd4f0a00286fe145b97#commitcomment-74791148
+@@||location.api.useinsider.com^$xhr,domain=nontongp.xyz
+
+! https://github.com/uBlockOrigin/uAssets/issues/13284
+! flix
+@@||googletagmanager.com/gtm.js$script,domain=lacuracao.pe|mumzworld.com|tsbohemia.cz
+
+! https://github.com/uBlockOrigin/uAssets/pull/13443
+tamin.ir#@#.ads2
+@@||tamin.ir/content/ads/
+
+! voeunblock2.com break by EL regex filter
+@@||voeunblock2.com^$frame,3p
+
+! https://github.com/uBlockOrigin/uAssets/issues/13489
+job.mt.de,job.nw.de#@#^script:has-text(===):has-text(/[\w\W]{16000}/)
+job.mt.de,job.nw.de#@#+js(nostif, .call(null), 10)
+
+! https://github.com/uBlockOrigin/uAssets/issues/13499
+fontspace.com#@#.container-ads
+
+! https://github.com/uBlockOrigin/uAssets/issues/8629#issuecomment-1142720254
+@@||ak-ads-ns.prisasd.com/prebid/prebid_noticias.js$script,domain=as.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/5288#issuecomment-1142727136
+||elpais.com/t.gif$image,1p,redirect-rule=1x1.gif,important
+
+! https://github.com/uBlockOrigin/uAssets/issues/13512
+||fwcdn2.com^$badfilter
+
+! https://forums.lanik.us/viewtopic.php?t=47586-minute-ly
+||minute.ly^$3p,badfilter
+
+! https://github.com/uBlockOrigin/uAssets/issues/13538
+@@||cdn.branch.io/branch-latest.min.js$script,domain=ecwid.com
+@@||app.link/_r?sdk$script,domain=ecwid.com
+@@||api2.branch.io/v1/url$xhr,domain=ecwid.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/13615
+@@||cdn.appdynamics.com/adrum/adrum-*.js$domain=santander.cl
+
+! https://github.com/uBlockOrigin/uAssets/issues/13655
+||ads.tiktok.com^$badfilter
+
+! https://github.com/uBlockOrigin/uAssets/issues/13679
+@@||api.enthusiastgaming.net/scripts/cdn.enthusiast.gg/script/eg-aps/release/*$xhr,domain=diep.io
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/121423
+||lfjack.com^$badfilter
+||lfjack.com^$domain=ecchi.iwara.tv
+
+! https://www.reddit.com/r/uBlockOrigin/comments/vdl0mx/videos_fail_to_load_on_oe24at/
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=oe24.at
+
+! https://github.com/uBlockOrigin/uAssets/issues/13737
+@@||m.faz.net^$cname
+
+! https://github.com/uBlockOrigin/uAssets/issues/13768
+@@||last.fm/static/js-build/tracking/tealium-utag-set.js$script,1p
+
+! https://www.reddit.com/r/uBlockOrigin/comments/vf5dyc/cant_play_bubble_game/
+! https://github.com/uBlockOrigin/uAssets/issues/13814
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=html5.gamedistribution.com
+@@||hb.improvedigital.com/pbw/headerlift.min.js$script,domain=html5.gamedistribution.com
+@@||hb.improvedigital.com/pbw/prebid/*$script,domain=html5.gamedistribution.com
+||tag.atom.gamedistribution.com^$xhr,redirect-rule=nooptext,1p
+gamedistribution.com##+js(no-fetch-if, /^/)
+
+! https://github.com/uBlockOrigin/uAssets/issues/13781
+||cdn.branch.io^$badfilter
+@@||cdn.branch.io/branch-latest.min.js$script
+
+! https://github.com/uBlockOrigin/uAssets/issues/13782
+@@||marketingautomation.services/client/ss.js$script,domain=leeuwerik.nl
+@@||marketingautomation.services/*login$script,domain=leeuwerik.nl
+
+! https://github.com/uBlockOrigin/uAssets/issues/13792
+||early-birds.fr^$script,redirect-rule=noopjs,domain=metmuseum.org
+
+! https://forums.lanik.us/viewtopic.php?p=164436#p164436
+@@||ad.doubleclick.net/clk*travel*&destinationURL=$doc
+
+! unlock legit page simpletraffic. co
+||simpletraffic.co^$badfilter
+||simpletraffic.co^$3p
+
+! https://www.reddit.com/r/uBlockOrigin/comments/vmcd4l/songstatscom_backend_domain_blocked_again/
+@@||data.songstats.com/api/v1/analytics/$xhr,1p
+
+! https://forums.lanik.us/viewtopic.php?t=47647-video-di-sky-incorporati-in-altre-pagine
+||4strokemedia.com^$3p,badfilter
+@@||4strokemedia.com^$script,xhr,domain=oasport.it
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=oasport.it|video.gazzetta.it
+@@||secure.quantserve.com/quant.js$script,domain=oasport.it
+@@||cmp.quantcast.com^$xhr,script,domain=oasport.it
+oasport.it#@#.adv
+oasport.it#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
+
+! https://github.com/uBlockOrigin/uAssets/issues/13872
+@@||cmp.quantcast.com/tcfv2/$script,domain=express.co.uk
