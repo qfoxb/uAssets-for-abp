@@ -108,8 +108,6 @@
 ! https://github.com/uBlockOrigin/uAssets/issues/5889
 ! To counter `quantcast.com` in hpHosts, Peter Lowe's
 ||quantcast.com^$badfilter
-||quantcast.com^$3p
-@@||privacy-api-gateway.quantcast.com^$xhr,domain=sourceforge.net
 
 ! https://twitter.com/Urre/status/572742363069714432
 ! To counter `/keen.min.js` in EasyPrivacy
@@ -198,9 +196,6 @@
 
 ! https://github.com/uBlockOrigin/uAssets/issues/34
 @@||premium.soundcloud.com/*/js/tracking.js$script,1p
-
-! https://github.com/uBlockOrigin/uAssets/issues/46
-@@||snoobi.com^$script,domain=kartta.hel.fi
 
 ! https://github.com/gorhill/uBlock/issues/1737
 @@||googletagmanager.com/gtm.js?$domain=willyweather.com.au
@@ -337,9 +332,6 @@
 ! https://www.reddit.com/r/uBlockOrigin/comments/6mios7/not_allowing_some_sites_to_load_up
 ||lexus.com/lexus-share/js/tracking_omn/s_code.js$script,important,1p,redirect=noopjs
 
-! https://www.reddit.com/r/uBlockOrigin/comments/6mrkwp/timecom_article_causes_infinite_blocked_elements/
-||minute.ly^$domain=time.com
-
 ! https://github.com/uBlockOrigin/uAssets/issues/511
 ! https://github.com/uBlockOrigin/uAssets/issues/539
 @@||googletagmanager.com/gtm.js$script,domain=livescience.com|space.com|topspeed.com
@@ -404,6 +396,8 @@ pythonjobshq.com##+js(aopr, Keen)
 
 ! https://forums.lanik.us/viewtopic.php?f=64&t=38262
 ||oakley.com/_ui/dist/scripts/vendor/tealium.js$script,1p,redirect=noopjs,important
+! https://github.com/easylist/easylist/commit/95d5301f133a55af58ae42da56b95270b0f013a7
+||oakleysi.com/_ui/dist/scripts/vendor/tealium.js$redirect=noopjs,important
 
 ! Reported in Chrome store: "Orange portal http://www.orange.fr/portail is freezed"
 orange.fr#@##o_carrepub
@@ -2442,13 +2436,6 @@ recensionihot.com#@#a[href^="https://www.moscarossa.biz/"]
 ! https://www.reddit.com/r/uBlockOrigin/comments/fvdiij/ublockorigin_blocking_a_site_we_own/
 @@||js.maxmind.com/js/apis/geoip2/*/geoip2.js$script,domain=12handz.com
 
-! https://github.com/NanoMeow/QuickReports/issues/3507
-||cmp.dmgmediaprivacy.co.uk^$badfilter
-||cmp.dmgmediaprivacy.co.uk^$3p
-@@||cmp.dmgmediaprivacy.co.uk^$frame,script,domain=metro.co.uk
-! https://forums.lanik.us/viewtopic.php?f=64&t=45775
-@@||cmp.dmgmediaprivacy.co.uk^$domain=inews.co.uk
-
 ! https://github.com/NanoMeow/QuickReports/issues/3448
 @@||downdetector.com/*/javascript/adscript.js$script
 @@||static.ziffdavis.com/sitenotice/evidon-barrier.js$script,domain=allestoringen.*|downdetector.*|xn--allestrungen-9ib.*
@@ -2834,9 +2821,6 @@ saltspringexchange.com#@#.single-ad
 
 ! https://github.com/NanoMeow/QuickReports/issues/4339
 mirrorace.com#@#.uk-button-secondary
-
-! https://github.com/uBlockOrigin/uAssets/issues/7673
-@@||doubleclick.net^$script,xhr,domain=softonic.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7686
 @@||s0.2mdn.net/ads/studio/Enabler.js$script,domain=kabum.com.br
@@ -3808,9 +3792,6 @@ coolmathgames.com##+js(set, network_user_id, '')
 @@||potwm.com/tube-player/?$frame,domain=camsexbabe.nl
 @@||potwm.com/api/video-promotion/v1/get-$xhr,domain=camsexbabe.nl|potwm.com
 
-! https://github.com/uBlockOrigin/uAssets/issues/9693
-@@||hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.*%3d128x128$image,domain=blog.livedoor.jp
-
 ! https://github.com/uBlockOrigin/uAssets/issues/9692
 ||hb.afl.rakuten.co.jp^$badfilter
 ||hb.afl.rakuten.co.jp^$3p
@@ -4001,7 +3982,8 @@ pewresearch.org##+js(set, ga, noopFunc)
 @@||quantcast.mgr.consensu.org^*tcfv2*cmp2.js?referer=$script
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10922
-saitama-np.co.jp#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
+! https://jbbs.shitaraba.net/bbs/read.cgi/internet/25463/1652115193/241
+kabutan.jp,saitama-np.co.jp#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/qohky0/sfgatecom_images_blocked_when_using_the_ublock/hl92tpw/
 @@||aps.hearstnp.com/Scripts/loadAds.js$script,domain=sfgate.com
@@ -4351,6 +4333,7 @@ pearsonclinical.com##.aligner
 ||clustrmaps.com^$3p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10775
+! https://github.com/uBlockOrigin/uAssets/issues/14124
 @@||doci.pl/aserver/$subdocument,1p
 @@||docer.pl/aserver/$subdocument,1p
 @@||ovh.webshark.pl^$script,domain=doci.pl|docer.pl
@@ -4361,6 +4344,7 @@ pearsonclinical.com##.aligner
 @@||docer.pl^$ghide
 docer.pl#@##ad
 docer.pl#@#[class^="ad-"]
+@@||webshark.pl^$script,domain=doceru.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12298
 @@||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=trygghansa.se
@@ -4465,9 +4449,6 @@ cadenadial.com##+js(aost, History, /(^(?!.*(Function|HTMLDocument).*))/)
 
 ! cname breakage by CHN list $script,subdocument,third-party,websocket,xmlhttprequest,domain=yemancomic.com
 @@||psl.2cycomic.com^$script,domain=yemancomic.com
-
-! https://github.com/uBlockOrigin/uAssets/issues/12850
-@@||v.fwmrm.net/ad/g/$script,domain=embed.sanoma-sndp.fi
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12896
 @@||builder-assets.unbounce.com^$css,domain=duden.de
@@ -4585,7 +4566,9 @@ fontspace.com#@#.container-ads
 ||fwcdn2.com^$badfilter
 
 ! https://forums.lanik.us/viewtopic.php?t=47586-minute-ly
+! https://forums.lanik.us/viewtopic.php?t=47684-tldw-me
 ||minute.ly^$3p,badfilter
+||tldw.me^$3p,badfilter
 
 ! https://github.com/uBlockOrigin/uAssets/issues/13538
 @@||cdn.branch.io/branch-latest.min.js$script,domain=ecwid.com
@@ -4630,9 +4613,6 @@ gamedistribution.com##+js(no-fetch-if, /^/)
 @@||marketingautomation.services/client/ss.js$script,domain=leeuwerik.nl
 @@||marketingautomation.services/*login$script,domain=leeuwerik.nl
 
-! https://github.com/uBlockOrigin/uAssets/issues/13792
-||early-birds.fr^$script,redirect-rule=noopjs,domain=metmuseum.org
-
 ! https://forums.lanik.us/viewtopic.php?p=164436#p164436
 @@||ad.doubleclick.net/clk*travel*&destinationURL=$doc
 
@@ -4648,9 +4628,74 @@ gamedistribution.com##+js(no-fetch-if, /^/)
 @@||4strokemedia.com^$script,xhr,domain=oasport.it
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=oasport.it|video.gazzetta.it
 @@||secure.quantserve.com/quant.js$script,domain=oasport.it
-@@||cmp.quantcast.com^$xhr,script,domain=oasport.it
 oasport.it#@#.adv
 oasport.it#@#[id^="div-gpt-ad"]:style(width:1px!important;height:1px!important;min-width:1px!important;min-height:1px!important;margin:0!important;padding:0!important;overflow:hidden!important;opacity:0!important)
 
-! https://github.com/uBlockOrigin/uAssets/issues/13872
-@@||cmp.quantcast.com/tcfv2/$script,domain=express.co.uk
+! vice. com cookie banner reappear after every reload
+||sourcepoint.vice.com^$badfilter
+
+! https://github.com/uBlockOrigin/uAssets/issues/13878
+@@||tags.tiqcdn.com/utag/bluestem/main/prod/utag.sync.js$script,domain=fingerhut.com
+@@||monetate.net^$script,xhr,domain=fingerhut.com
+
+! funny.pho. to cannot switch the language
+||hits.informer.com/log.php$image,domain=funny.pho.to,redirect-rule=1x1.gif
+
+! https://github.com/uBlockOrigin/uAssets/issues/13888
+@@||console.otc.t-systems.com/mrs/rest/api/v1/log$xhr,1p
+
+! https://github.com/uBlockOrigin/uAssets/issues/13935
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=factable.com
+@@||securepubads.g.doubleclick.net/gpt/*$script,domain=factable.com
+factable.com##.puicontainer
+factable.com##.pohcontainer
+
+! https://github.com/uBlockOrigin/uAssets/issues/13938
+@@/prebid-ads/adsensebase.js$script,redirect-rule=prebid-ads.js,domain=darkreading.com
+
+! cname unlocking stream https://www.streamonfoot.xyz/77-rmc-en-ligne.html
+@@||streaming.adswizz.com^$media,domain=streamonfoot.xyz
+
+! affiliate.rakuten.co.jp broken
+||ba.afl.rakuten.co.jp^$badfilter
+||ba.afl.rakuten.co.jp^$3p
+
+! https://github.com/easylist/easylist/commit/9768261aea3ca545b7a4f9021c4721ff2aaa21a6#commitcomment-78591398
+beckershospitalreview.com##html,body:style(overflow: auto !important)
+
+! breaking filter in AR list https://github.com/uBlockOrigin/uAssets/issues/14039
+#@#.ad-image
+
+! https://github.com/uBlockOrigin/uAssets/issues/14051
+*$frame,domain=mcrypto.club|luckydice.net,redirect-rule=noopframe
+||cryptocoinsad.com/ads/show.php$frame,redirect-rule=noop.html
+
+! https://github.com/uBlockOrigin/uAssets/issues/14063
+thequint.com#@#._4xQrn
+thequint.com##._4xQrn:style(max-height:0px)
+thequint.com##span:has-text(ADVERTISEMENT)
+
+! https://github.com/uBlockOrigin/uAssets/issues/14072
+@@||gstatic.*/recaptcha/
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/125072
+||wpfc.ml^$image,redirect-rule=1x1.gif,domain=thestoryexchange.org
+
+! https://github.com/uBlockOrigin/uAssets/issues/14102
+cdc.gov##+js(set, window.s, undefined)
+
+! https://github.com/uBlockOrigin/uAssets/issues/14118
+||da-services.ch^$3p,badfilter
+
+! privacy settings broken on ebay-kleinanzeigen.de/gdpr
+@@||googletagmanager.com/gtm.js$script,redirect-rule=googletagmanager_gtm.js:5,domain=ebay-kleinanzeigen.de
+
+! https://github.com/uBlockOrigin/uAssets/issues/14141
+@@||novelgames.com^$script,1p
+@@||cdn.intergi.com^$script,domain=novelgames.com
+@@||cdn.intergient.com^$domain=novelgames.com
+@@||cdn.intergient.com^$1p
+*$image,domain=novelgames.com,redirect-rule=1x1.gif
+*$script,domain=novelgames.com,redirect-rule=noopjs
+*$xhr,domain=novelgames.com,redirect-rule=nooptext
+novelgames.com##+js(nano-sib)

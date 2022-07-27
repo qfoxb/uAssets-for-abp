@@ -30,41 +30,53 @@ www.wp.pl##div[class] > img[src^="https://v.wpimg.pl/"] + img[src^="https://v.wp
 www.wp.pl##div[class][style="margin-bottom: 20px;"]:has(> div + div + div > img[src^="https://v.wpimg.pl/"][role="presentation"])
 www.wp.pl##div[class][style="margin-bottom: 20px;"]:has(div > div > a#undefined-0)
 
+! https://github.com/uBlockOrigin/uAssets/issues/13890
+/^https:\/\/[a-z]{2,14}\.wp\.pl\/[a-zA-Z0-9_-]{200,}/$script,domain=nowy.tlen.pl|poczta.o2.pl|profil.wp.pl,badfilter
+/^https:\/\/[a-z]{2,14}\.wp\.pl\/[a-zA-Z0-9_-]{200,915}$/$script,domain=nowy.tlen.pl|poczta.o2.pl|profil.wp.pl
+
 ! aternos anti adb
-aternos.org##.ad:style(opacity: 0.00105 !important; pointer-events: none !important;)
-aternos.org##.sidebar:style(padding: 1.235px !important; min-width: 0px !important; width: 0.1px !important;)
-aternos.org##.header-link-exaroton *:style(opacity: 0.001220 !important; pointer-events: none !important;)
-aternos.org##[id^="google_ads_iframe"]:style(max-height: 1px !important;)
-aternos.org##[data-google-query-id]:upward(.bottom):style(opacity: 0.00105 !important; pointer-events: none !important;)
-aternos.org##[data-google-query-id]:upward(.responsive-leaderboard)
-aternos.org##ins[id^="gpt_unit_"]
+@@||mp.4dex.io/prebid$xhr,domain=aternos.org
+@@||prg.smartadserver.com/prebid/v1$xhr,domain=aternos.org
+@@||venatusmedia-d.openx.net/w/1.0/arj$xhr,domain=aternos.org
+@@||adx.adform.net/adx/openrtb$xhr,domain=aternos.org
+@@||htlb.casalemedia.com/cygnus?s=$xhr,domain=aternos.org
+@@||prebid.a-mo.net/a/c$xhr,domain=aternos.org
+aternos.org##.sidebar:style(width: 0px !important;)
+aternos.org##.header-link-exaroton:style(filter: opacity(0) !important;)
+aternos.org##.header-link-exaroton-link:style(pointer-events: none !important;)
+aternos.org###placement-takeover
+aternos.org##.ad-dfp:style(min-height: 0.5px !important; height: 1.1px !important; pointer-events: none !important;)
+||fastlane.rubiconproject.com^$removeparam,domain=aternos.org
+||htlb.casalemedia.com^$removeparam=r,domain=aternos.org
+||vntsm.io^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12163
-*$frame,redirect-rule=noopframe,domain=ppss.kr|ygosu.com|loawa.com|feedclick.net|dailian.co.kr|inven.co.kr
-*$script,xhr,redirect-rule=noopjs,domain=ppss.kr|ygosu.com|loawa.com|feedclick.net|dailian.co.kr|inven.co.kr
-*$image,redirect-rule=1x1.gif,domain=ygosu.com|loawa.com|feedclick.net|dailian.co.kr|inven.co.kr
+*$frame,redirect-rule=noopframe,domain=ppss.kr|ygosu.com|loawa.com|feedclick.net|dailian.co.kr|inven.co.kr|algumon.com|sportalkorea.com
+*$script,xhr,redirect-rule=noopjs,domain=ppss.kr|ygosu.com|loawa.com|feedclick.net|dailian.co.kr|inven.co.kr|algumon.com|sportalkorea.com
+*$image,redirect-rule=1x1.gif,domain=ygosu.com|loawa.com|feedclick.net|dailian.co.kr|inven.co.kr|algumon.com|sportalkorea.com
 *$image,redirect-rule=32x32.png,domain=ppss.kr
-@@*$ghide,domain=ppss.kr|ygosu.com|loawa.com|feedclick.net|dailian.co.kr|inven.co.kr
+@@*$ghide,domain=ppss.kr|ygosu.com|loawa.com|feedclick.net|dailian.co.kr|inven.co.kr|algumon.com|sportalkorea.com
+algumon.com#@#div[class^="ad-"]
 !#if env_chromium
-@@||static.dable.io/dist/plugin.min.js$xhr,domain=ppss.kr|ygosu.com|feedclick.net|loawa.com|inven.co.kr
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=ygosu.com|inven.co.kr
-@@||ad.doubleclick.net/ddm/adj/Bkne/Bdfs$xhr,domain=ppss.kr|ygosu.com|feedclick.net|loawa.com|inven.co.kr
+@@||static.dable.io/dist/plugin.min.js$xhr,domain=ppss.kr|ygosu.com|feedclick.net|loawa.com|inven.co.kr|algumon.com|sportalkorea.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=ygosu.com|inven.co.kr|sportalkorea.com
+@@||ad.doubleclick.net/ddm/adj/Bkne/Bdfs$xhr,domain=ppss.kr|ygosu.com|feedclick.net|loawa.com|inven.co.kr|algumon.com|sportalkorea.com
 !#endif
-@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=loawa.com|feedclick.net|ppss.kr
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xhr,domain=loawa.com|feedclick.net|ppss.kr
+@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/$script,domain=loawa.com|feedclick.net|ppss.kr|algumon.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xhr,domain=loawa.com|feedclick.net|ppss.kr|algumon.com
 @@||adservice.google.*/adsid/integrator.js?domain=loawa.com$script,domain=loawa.com
+@@||tpc.googlesyndication.com/sodar/sodar2.js$script,domain=loawa.com
+@@||googleads.g.doubleclick.net/pagead/ads?*&format=970x90$frame,domain=loawa.com
+@@||googleads.g.doubleclick.net/pagead/ads?*&format=0x100$frame,domain=loawa.com
+@@||wcs.naver.net/wcslog.js$script,domain=loawa.com
 @@||api.dable.io/plugin/services/ppss.kr/prefs2?$script,domain=ppss.kr
 @@||static.dable.io/dist/plugin.min.js$script,domain=ppss.kr
 @@||tab2.clickmon.co.kr/pop/$script,domain=ygosu.com
-ppss.kr,ygosu.com,inven.co.kr##div[style^="position: relative; margin-right: auto; display: flex; justify-content: center;"]::after:style(content: ''; display: block; position: absolute; top: 0; left: 0; z-index: 2147483647; height: 40%; width: 100%; background: white;)
-ppss.kr,ygosu.com,inven.co.kr##div[style^="position: relative; margin-right: auto; display: flex; justify-content: center;"] > div::after:style(content: ''; display: block; position: absolute; top: 40%; left: 0; z-index: 2147483647; height: 40%; width: 100%; background: white;)
-ppss.kr,ygosu.com,inven.co.kr##div[style^="position: relative; margin-right: auto; display: flex; justify-content: center;"]::before:style(content: ''; display: block; position: absolute; top: 80%; left: 0; z-index: 2147483647; height: 20%; width: 100%; background: white;)
-feedclick.net##div[style^="position: relative; margin-right: auto; display: flex; justify-content: center;"]::after:style(content: ''; display: block; position: absolute; top: 0; left: 0; z-index: 2147483647; height: 40%; width: 100%; background: #1F1F1F;)
-feedclick.net##div[style^="position: relative; margin-right: auto; display: flex; justify-content: center;"] > div::after:style(content: ''; display: block; position: absolute; top: 40%; left: 0; z-index: 2147483647; height: 40%; width: 100%; background: #1F1F1F;)
-feedclick.net##div[style^="position: relative; margin-right: auto; display: flex; justify-content: center;"]::before:style(content: ''; display: block; position: absolute; top: 80%; left: 0; z-index: 2147483647; height: 20%; width: 100%; background: #1F1F1F;)
-loawa.com##div[style^="position: relative; margin-right: auto; display: flex; justify-content: center;"]::after:style(content: ''; display: block; position: absolute; top: 0; left: 0; z-index: 2147483647; height: 40%; width: 100%; background: #0e1015;)
-loawa.com##div[style^="position: relative; margin-right: auto; display: flex; justify-content: center;"] > div::after:style(content: ''; display: block; position: absolute; top: 40%; left: 0; z-index: 2147483647; height: 40%; width: 100%; background: #0e1015;)
-loawa.com##div[style^="position: relative; margin-right: auto; display: flex; justify-content: center;"]::before:style(content: ''; display: block; position: absolute; top: 80%; left: 0; z-index: 2147483647; height: 20%; width: 100%; background: #0e1015;)
+||googleads.g.doubleclick.net/pagead/ads$frame,removeparam=/^(?:correlator|f[cr-w]|p[e-sv]|[abdeg-or-x])/,domain=loawa.com
+||googleads.g.doubleclick.net/pagead/ads$frame,removeparam=p,domain=loawa.com
+ppss.kr,ygosu.com,inven.co.kr,sportalkorea.com##div[style$=" margin-right: auto; display: flex; justify-content: center; max-width: 100%; z-index: 499;"]::after:style(content: ''; display: block; position: absolute; top: 0; left: 0; z-index: 3; height: 100%; width: 100%; background: white;)
+feedclick.net,algumon.com##div[style$=" margin-right: auto; display: flex; justify-content: center; max-width: 100%; z-index: 499;"]::after:style(content: ''; display: block; position: absolute; top: 0; left: 0; z-index: 3; height: 100%; width: 100%; background: #1F1F1F;)
+loawa.com##div[style$=" margin-right: auto; display: flex; justify-content: center; max-width: 100%; z-index: 499;"]::after:style(content: ''; display: block; position: absolute; top: 0; left: 0; z-index: 3; height: 100%; width: 100%; background: #0e1015;)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/11152
 *$script,redirect-rule=noopjs,domain=rjno1.com
@@ -121,36 +133,23 @@ fcdn.lauta.media##+js(set, loadFailHandler, noopFunc)
 ! https://github.com/uBlockOrigin/uAssets/issues/11004
 @@||anydebrid.com^$ghide
 @@||hotdebrid.com^$ghide
-||a.exoclick.com/ad_track.js$script,redirect-rule=noop.js,domain=anydebrid.com|hotdebrid.com
-@@||cdn.adnxs.com^$script,domain=anydebrid.com|hotdebrid.com
-@@||acdn.adnxs.com^$script,domain=anydebrid.com|hotdebrid.com
+@@://*.*.*/$script,domain=anydebrid.com|hotdebrid.com
+*$frame,redirect-rule=noopframe,domain=anydebrid.com|hotdebrid.com
+*$script,redirect-rule=noopjs,domain=anydebrid.com|hotdebrid.com
+||googletagmanager.com/gtag/js?id=UA-$script,important,domain=anydebrid.com|hotdebrid.com
+||mc.yandex.ru/metrika/tag.js|$script,important,domain=hotdebrid.com
+||pagead2.googlesyndication.com/pagead/sma8.js$script,important,domain=anydebrid.com|hotdebrid.com
+||partner.googleadservices.com/gampad/cookie.js?domain=$script,important,domain=anydebrid.com|hotdebrid.com
+||adservice.google.*/adsid/integrator.js?domain=$script,important,domain=anydebrid.com|hotdebrid.com
 
 ! https://github.com/uBlockOrigin/uAssets/issues/13424
-megaup.net##.metaRedirectWrapperBottomAds > div > a > img:style(height: 250px !important; width: 300px !important;)
-@@||megaup.net/*.gif$image,1p,badfilter
-||megaup.net^$image,redirect-rule=1x1.gif,1p
+megaup.net##.metaRedirectWrapperBottomAds > div > a > img:style(transform: translateX(10000px) !important; pointer-events: none !important;)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/13544
-/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$3p,~media,domain=1cloudfile.com|2embed.ru|9xmovies.app|9xupload.asia|adblockstreamtape.art|adblockstreamtape.fr|adblockstreamtape.site|allsports.icu|aotonline.co|bowfile.com|cast4u.xyz|clicknupload.to|cloudvideo.tv|coloredmanga.com|daddylive.click|daddylive.fun|deltabit.co|dood.la|dood.pm|dood.sh|dood.so|dood.to|dood.watch|dood.ws|drivebuzz.icu|dslayeronline.com|dulu.to|dum.to|embedsb.com|embedsito.com|embedstream.me|eplayvid.net|evoload.io|fembed-hd.com|fileclub.cyou|filmy4wap.ink|flashx.net|fmovies.ps|gamovideo.com|gaybeeg.info|givemenbastreams.com|gogoanimes.org|gogoplay.io|gogoplay4.com|gomo.to|goodstream.org|hdfilme.cx|hexupload.net|hurawatch.at|kesini.in|kickasstorrents.to|linkhub.icu|linksafe.cc|mangareader.cc|mangovideo.pw|maxsport.one|mirrorace.org|mixdrop.bz|mixdrop.ch|mixdrop.club|mixdrop.co|mixdrop.sx|mixdrop.to|mixdrops.xyz|mp4upload.com|mycast.icu|mystream.to|nelion.me|nocensor.biz|ovagames.com|pcgamestorrents.com|playtube.ws|pouvideo.cc|projectfreetv2.com|proxyer.org|putlockers.gs|rojadirecta.watch|scloud.online|send.cm|shortlinkto.icu|skidrowcodex.net|smallencode.me|soccerstreamslive.co|stape.fun|stayonline.pro|strcloud.in|streamlare.com|streamsport.icu|streamta.pe|streamta.site|streamtape.com|streamtapeadblock.art|streamz.ws|streamzz.to|strtape.cloud|strtape.tech|strtapeadblock.club|superstream123.net|supervideo.tv|telerium.icu|theproxy.ws|upbam.org|uplinkto.one|uproxy.to|upstream.to|uptobhai.com|userload.co|userload.xyz|vidbam.org|vidembed.me|videovard.sx|vidlox.me|vidshar.org|vidsrc.me|vidsrc.stream|vipleague.tv|vivo.sx|voe-un-block.com|voe-unblock.com|voe-unblock.net|voe.bar|voe.sx|voeun-block.net|voeunbl0ck.com|voeunblck.com|voeunblk.com|voeunblock.com|voeunblock1.com|voeunblock2.com|voeunblock3.com|vudeo.io|vupload.com|wowlive.info|yodbox.com|youtube4kdownloader.com,badfilter
-
-! https://github.com/uBlockOrigin/uAssets/issues/13369
-! https://www.reddit.com/r/uBlockOrigin/comments/uzptpn/tamriel_trade_center_stopping_search_with_ublock/
-@@||tamrieltradecentre.com^$ghide
-@@||pagead2.googlesyndication.com/pagead/managed/js/$script,domain=tamrieltradecentre.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=tamrieltradecentre.com
-@@||adservice.google.com/adsid/integrator.js$xhr,domain=tamrieltradecentre.com
-*$xhr,script,domain=tamrieltradecentre.com,redirect-rule=noopjs
-*$frame,redirect-rule=noopframe,domain=tamrieltradecentre.com
-@@||googleads.g.doubleclick.net/pagead/ads$frame,domain=tamrieltradecentre.com
-||googleads.g.doubleclick.net/pagead/ads$frame,removeparam=/^(?:correlator|f[cr-w]|p[e-sv]|[abdeg-or-x])/,domain=tamrieltradecentre.com
-||googleads.g.doubleclick.net/pagead/ads$frame,removeparam=p,domain=tamrieltradecentre.com
-!/\/Content\/images\/[a-z]+\/[a-z]+\d\.(?:gif|jpeg)/$image,1p,domain=tamrieltradecentre.com
-tamrieltradecentre.com##.adsbygoogle:style(height: 0px !important;)
-tamrieltradecentre.com##a[href*=".sjv.io"] > img:style(width: 1% !important; opacity: 0 !important;)
-tamrieltradecentre.com##[id^="aswift_"]
+! https://github.com/uBlockOrigin/uAssets/commit/6008194de5ebfb5f37abb375c8b6147f52d8bff3#commitcomment-76982803
+/^https?:\/\/[0-9a-z]{8,}\.com\/.*/$3p,~media,domain=1cloudfile.com|2embed.ru|9xmovies.app|9xupload.asia|adblockstreamtape.art|adblockstreamtape.fr|adblockstreamtape.site|allsports.icu|aotonline.co|bowfile.com|cast4u.xyz|clicknupload.to|cloudvideo.tv|coloredmanga.com|daddylive.click|daddylive.fun|deltabit.co|dood.la|dood.pm|dood.sh|dood.so|dood.to|dood.watch|dood.ws|drivebuzz.icu|dslayeronline.com|dulu.to|dum.to|embedsb.com|embedsito.com|embedstream.me|eplayvid.net|evoload.io|fembed-hd.com|fileclub.cyou|filmy4wap.ink|flashx.net|fmovies.ps|gamovideo.com|gaybeeg.info|givemenbastreams.com|gogoanimes.org|gogoplay.io|gogoplay4.com|gomo.to|goodstream.org|hdfilme.cx|hexupload.net|hurawatch.at|kesini.in|kickasstorrents.to|linkhub.icu|linksafe.cc|mangareader.cc|mangovideo.pw|maxsport.one|mirrorace.org|mixdrop.bz|mixdrop.ch|mixdrop.click|mixdrop.club|mixdrop.co|mixdrop.sx|mixdrop.to|mixdrops.xyz|mp4upload.com|mycast.icu|mystream.to|nelion.me|nocensor.biz|ovagames.com|pcgamestorrents.com|playtube.ws|pouvideo.cc|projectfreetv2.com|proxyer.org|putlockers.gs|rojadirecta.watch|scloud.online|send.cm|shortlinkto.icu|skidrowcodex.net|smallencode.me|soccerstreamslive.co|stape.fun|stayonline.pro|strcloud.in|streamlare.com|streamsport.icu|streamta.pe|streamta.site|streamtape.com|streamtapeadblock.art|streamz.ws|streamzz.to|strtape.cloud|strtape.tech|strtapeadblock.club|strtapeadblocker.xyz|superstream123.net|supervideo.tv|telerium.icu|theproxy.ws|un-block-voe.net|upbam.org|uplinkto.one|uproxy.to|upstream.to|uptobhai.com|userload.co|userload.xyz|vidbam.org|vidembed.me|videovard.sx|vidlox.me|vidshar.org|vidsrc.me|vidsrc.stream|vipleague.tv|vivo.sx|voe-un-block.com|voe-unblock.com|voe-unblock.net|voe.bar|voe.sx|voeun-block.net|voeunbl0ck.com|voeunblck.com|voeunblk.com|voeunblock.com|voeunblock1.com|voeunblock2.com|voeunblock3.com|vudeo.io|vupload.com|wowlive.info|yodbox.com|youtube4kdownloader.com,badfilter
 
 ! https://github.com/uBlockOrigin/uAssets/issues/2320
-freemcserver.net##+js(nostif, /\x7|adblock/)
 *$xhr,script,redirect-rule=noopjs,domain=freemcserver.net
 *$image,redirect-rule=1x1.gif,domain=freemcserver.net
 @@||gapt.hit.gemius.pl/xgemius.js$xhr,domain=freemcserver.net
@@ -163,18 +162,35 @@ freemcserver.net##+js(nostif, /\x7|adblock/)
 canale.live##+js(set, moneyAbovePrivacyByvCDN, true)
 canale.live##+js(nosiif, href)
 
-! file-upload .com malicious redirect
-file-upload.*##^meta[http-equiv="refresh"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/123169
+||vizcloud.store/E/$badfilter
 
-! hotfix https://github.com/uBlockOrigin/uAssets/issues/13782
-@@||marketingautomation.services/client/ss.js$script,domain=leeuwerik.nl
-@@||marketingautomation.services/*login$script,domain=leeuwerik.nl
+! luscious. net anti adb
+@@*$xhr,domain=luscious.net,3p
 
-! unhide Next button
-forex-gold.net#@#.header-mnm
+! https://github.com/easylist/easylist/commit/73701244b11d5d916bef99627dbfb409e7e14e44
+amazon.*#@#div[cel_widget_id^="sims-consolidated-"]
+amazon.*#@#div[cel_widget_id^="sims-mobile-consolidated-"]
+amazon.*##div[cel_widget_id="sims-consolidated-3_csm_instrumentation_wrapper"]
+amazon.*##div[data-cel-widget="sims-consolidated-4_csm_instrumentation_wrapper"]
+amazon.*##div[cel_widget_id="sims-consolidated-5_csm_instrumentation_wrapper"]
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/103488
-musenboya.com##+js(nostif, /location\.href|document\./)
-musenboya.com##+js(acis, document.getElementById, detect)
-@@||musenboya.com^$ghide
-*$script,redirect-rule=noopjs,domain=musenboya.com
+! pixsera
+! https://github.com/uBlockOrigin/uAssets/issues/9123
+@@*$ghide,domain=imgxbe.buzz|imgux.buzz|imgewe.buzz|imguebr.buzz|imgqew.buzz|imgbew.buzz|imguo.buzz|imgxxxx.buzz
+imgxbe.buzz,imgux.buzz,imgewe.buzz,imguebr.buzz,imgqew.buzz,imgbew.buzz,imguo.buzz,imgxxxx.buzz##+js(aeld, , _0x)
+imgxbe.buzz,imgux.buzz,imgewe.buzz,imguebr.buzz,imgqew.buzz,imgbew.buzz,imguo.buzz,imgxxxx.buzz##+js(nosiif, _0x)
+imgxbe.buzz,imgux.buzz,imgewe.buzz,imguebr.buzz,imgqew.buzz,imgbew.buzz,imguo.buzz,imgxxxx.buzz##+js(aopr, console.clear)
+imgxbe.buzz,imgux.buzz,imgewe.buzz,imguebr.buzz,imgqew.buzz,imgbew.buzz,imguo.buzz,imgxxxx.buzz##+js(nano-sib, timer)
+imgxbe.buzz,imgux.buzz,imgewe.buzz,imguebr.buzz,imgqew.buzz,imgbew.buzz,imguo.buzz,imgxxxx.buzz##[id*="ScriptRootC"]
+imgxbe.buzz,imgux.buzz,imgewe.buzz,imguebr.buzz,imgqew.buzz,imgbew.buzz,imguo.buzz,imgxxxx.buzz##div[id][style^="position: fixed; display: block; width: 100%;"]
+imgxbe.buzz,imgux.buzz,imgewe.buzz,imguebr.buzz,imgqew.buzz,imgbew.buzz,imguo.buzz,imgxxxx.buzz##div[style="width:100%;height:110px"]
+imgxbe.buzz,imgux.buzz,imgewe.buzz,imguebr.buzz,imgqew.buzz,imgbew.buzz,imguo.buzz,imgxxxx.buzz##+js(nowoif, !/prcf.fiyar|themes|pixsense|.jpg/)
+buzz##div[id][style^="position: fixed; display: block; width: 100%; height: 1"][style$="top: 0; left: 0; background-color: rgba(0, 0, 0, 0); z-index: 299999;"]
+.top/*=https://imgair.net/vip/*.html$popup,3p,domain=buzz
+buzz#@#.ads1
+
+! https://github.com/uBlockOrigin/uAssets/issues/13931#issuecomment-1186193894
+apkcombo.com##+js(aeld, DOMContentLoaded, clientHeight)
+apkcombo.com##div[class*=-ad]
+apkcombo.com##p:has-text(Advertisement)
