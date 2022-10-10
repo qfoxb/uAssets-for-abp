@@ -5,7 +5,7 @@
 !              exception filters.
 ! Expires: 4 days
 ! Last modified: %timestamp%
-! Licence: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
+! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 !
 ! GitHub issues: https://github.com/uBlockOrigin/uAssets/issues
@@ -67,7 +67,6 @@
 ! https://www.eff.org/deeplinks/2014/07/white-house-website-includes-unique-non-cookie-tracker-despite-privacy-policy
 ! https://github.com/uBlockOrigin/uAssets/issues/1713
 ! https://github.com/uBlockOrigin/uAssets/issues/6319
-||addthis.com^$important,3p,domain=~amd.com|~missingkids.com|~missingkids.org|~sainsburys.jobs|~schonmagazine.com|~sitecore.com|~plotaroute.com
 ! https://github.com/gorhill/uBlock/issues/1384
 ! https://github.com/uBlockOrigin/uAssets/issues/11003
 ||addthis.com/*/addthis_widget.js$script,redirect=addthis.com/addthis_widget.js
@@ -76,11 +75,7 @@
 ! https://github.com/uBlockOrigin/uAssets/issues/6608
 free18.net,gadgetlove.com,nrc.gov,onbeing.org,rapgenius.com,schonmagazine.com,tech.co,tmz.com#@#.addthis_toolbox
 ! https://github.com/uBlockOrigin/uAssets/issues/6557
-@@||addthis.com/js/*/addthis_widget.js$script,domain=amd.com
-@@||addthisedge.com/live/$script,domain=amd.com
 ! https://www.reddit.com/r/uBlockOrigin/comments/oifywi/
-@@||addthis.com^$script,domain=schonmagazine.com
-@@||addthis.com/js/*/addthis_widget.js$script,domain=plotaroute.com
 
 ! Examples of what is fixed by even an unfilled dummy API:
 ! https://twitter.com/kenn_butler/status/709163241021317120
@@ -235,7 +230,7 @@ search.brave.com##+js(no-fetch-if, body:browser)
 /^\w+://[\w.\-]+\.www\.cybernetman\.com//$1p,script
 /^\w+://[\w.\-]+\.www\.logology\.co//$1p,script
 /^\w+://[\w.\-]+\.www\.atlaslane\.com//$1p,script
-/^\w+://[0-9a-z]{12}\.grundbuch\.zentraler-antragsservice\.com//$1p,script
+/^\w+://[0-9a-z]{12}\.adria\.gg//$1p,script
 /^\w+://[0-9a-z]{11}\.taxliencode\.com//$1p,script
 fjlaboratories.com##+js(aost, Math.floor, injectedScript)
 stoic.ai##^script:has-text(\x3c)
@@ -243,8 +238,8 @@ stoic.ai##+js(aost, Math.floor, injectedScript)
 ||ampl.cinotes.com^
 ||data-saver-cindi.herokuapp.com^
 ||cdn.cindicator.com/$script,3p
-botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,filmustage.com,freecodecamp.org,mailfloss.com,marketdata.app,monumentmetals.com,nikita.tk,nookgaming.com,ping.gg,tapmyback.com,revistaferramental.com.br,hawpar.com,accuretawealth.com,resourceya.com,camberlion.com,adaptive.marketing,datree.io,alpacafinance.org##+js(acis, String.fromCharCode, join)
-botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com##^script:has-text(join(''))
+botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,filmustage.com,freecodecamp.org,mailfloss.com,marketdata.app,monumentmetals.com,nikita.tk,nookgaming.com,ping.gg,tapmyback.com,revistaferramental.com.br,hawpar.com,accuretawealth.com,resourceya.com,camberlion.com,adaptive.marketing,datree.io,alpacafinance.org,enkeleksamen.no,adria.gg,kvest.ee##+js(acis, String.fromCharCode, join)
+botcomics.com,cefirates.com,chandlerorchards.com,comicleaks.com,marketdata.app,monumentmetals.com,nikita.tk,tapmyback.com,ping.gg,revistaferramental.com.br,hawpar.com,alpacafinance.org,nookgaming.com,enkeleksamen.no,kvest.ee##^script:has-text(join(''))
 alpacafinance.org##^script:has-text(join(""))
 nikita.tk##+js(aost, document.cookie)
 ||nikita.tk/*-$script,1p
@@ -303,9 +298,6 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 ! https://github.com/uBlockOrigin/uAssets/issues/10361
 ||159.203.84.58^
 
-! https://www.reddit.com/r/uBlockOrigin/comments/qohky0/sfgatecom_images_blocked_when_using_the_ublock/
-||cqrvwq.com^
-
 ! https://github.com/Yuki2718/adblock/issues/40
 ! https://github.com/Yuki2718/adblock/issues/44
 ! https://www.reddit.com/r/uBlockOrigin/comments/udaxzt/block_fingerprinting_javascript_with_completely/i8xaru3/
@@ -313,9 +305,6 @@ reddit.com##+js(no-xhr-if, method:POST url:/^https:\/\/www\.reddit\.com$/)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/r06yju/sur_in_english_website_recognises_ad_blocker/
 ||metrics.surinenglish.com^
-
-! https://github.com/easylist/easylist/pull/9687
-||count.candou.com^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10615#issuecomment-980221624
 @@||natureetdecouvertes.com^*/pixel.png$~third-party,badfilter
@@ -382,6 +371,8 @@ reddit.com##+js(set, Object.prototype.allowClickTracking, false)
 /?p=%2F*&h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,1p
 /?h=https%3A%2F%2F*&r=&sid=*&qs=*&cid=$image,1p
 /?v=eyJoIjoiaHR0cHM6Ly9$image,1p
+/?v=eyI*sImgiOiJodHRwczovL$image,1p
+/^https?:\/\/[-.0-9a-z]+\.(?:com|de)\/script\.js$/$script,1p,strict3p,match-case,domain=com|de
 
 ! https://www.reddit.com//r/uBlockOrigin/comments/u4ef87/webtoons_redirects_to_loginfracom_and_back_to/
 webtoons.com##+js(set, ccsrv, '')
@@ -408,3 +399,31 @@ salsaposten.no,steinkjer-avisa.no,hamar-dagblad.no,lofot-tidende.no,avisa-valdre
 
 ! techpowerup. com ping
 ||techpowerup.com/__botcheck$xhr
+
+! darkreader. org pings
+||shaped-kiwi-hy0hzp6gn0y10xnakq77qpnk.herokudns.com^
+||stats.darkreader.app^
+
+! https://github.com/uBlockOrigin/uAssets/issues/14653
+||hktvmall.com/yuicombo?$script,removeparam=/_ui/shared/common/js/analytics/with-intersection-track.js
+||hktvmall.com/yuicombo?$script,removeparam=/_ui/shared/common/js/InappCommunicationManager.js
+||hktvmall.com/yuicombo?$script,removeparam=/_ui/shared/common/js/util/jquery.analytics-utils.js
+||hktvmall.com/yuicombo?$script,removeparam=/^\/_ui\/desktop\/common\/js\/uiAnalytics\//
+||hktvmall.com/_ui/desktop/common/js/uiAnalytics/
+||hktvmall.com/_ui/shared/common/js/InappCommunicationManager.js
+||hktvmall.com/_ui/shared/common/js/analytics/with-intersection-track.js
+||hktvmall.com/_ui/shared/common/js/util/jquery.analytics-utils.js
+||hktvmall.com/yuicombo|$script,1p
+
+! https://github.com/uBlockOrigin/uAssets/issues/14850#issuecomment-1249571859
+/discourse-fingerprint-
+
+! https://github.com/easylist/easylist/issues/13695
+ericdraken.com##+js(aopr, dataLayer)
+ericdraken.com##^script[async]
+@@||ericdraken.com/plugins/$script,strict1p
+*$script,xhr,domain=ericdraken.com
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/81856
+/s/s/js/m/om.js?v=
+

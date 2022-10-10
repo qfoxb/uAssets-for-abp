@@ -4,7 +4,7 @@
 !              and/or Adguard's "Annoyances" list(s)
 ! Expires: 4 days
 ! Last modified: %timestamp%
-! License: https://creativecommons.org/licenses/by/3.0/
+! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
 ! Homepage: https://github.com/uBlockOrigin/uAssets
 ! Forums: https://github.com/uBlockOrigin/uAssets/issues
 
@@ -1341,7 +1341,7 @@ androidcentral.com##.swal-overlay
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4985
 ! https://github.com/uBlockOrigin/uAssets/issues/5030
-instagram.com##.ZUqME:has(a[href^="/accounts/emailsignup/"])
+instagram.com##.cugdjhsh > div[class*="_"][style="width: 100%;"]
 
 ! https://github.com/uBlockOrigin/uAssets/issues/6481#issuecomment-615294565
 instagram.com##+js(set, _sharedData.is_whitelisted_crawl_bot, true)
@@ -1885,9 +1885,6 @@ elektro-plast.com.pl##+js(ra, oncontextmenu)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5911
 tumblr.com##.posts:style(margin-bottom: 0px !important)
-! https://github.com/uBlockOrigin/uAssets/issues/14606
-tumblr.com###glass-container:has-text(/You need clearance for that|おっと、この先に進むには認証が必要/)
-tumblr.com##body:style(overflow: auto !important;)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/5911
 fm.to##+js(nostif, popup_guest, 30000)
@@ -2827,7 +2824,7 @@ underconsideration.com##+js(nostif, test.remove)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7058
 !#if env_chromium
-newyorker.com##+js(acis, navigator.storage.estimate)
+!newyorker.com##+js(acis, navigator.storage.estimate)
 !#endif
 !#if env_firefox
 newyorker.com##+js(set, webkitRequestFileSystem, noopFunc)
@@ -4484,9 +4481,9 @@ world4.eu##+js(aopw, document.oncontextmenu)
 world4.eu##+js(acis, document.oncopy)
 world4.eu##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 world4.eu##*::selection:style(background-color:#338FFF!important)
-world4.eu##style:has-text(body:after{content:):remove()
 world4.eu##+js(acis, disable_copy)
 world4.eu##+js(acis, disable_hot_keys)
+world4.eu##+js(aopw, disable_ext_code)
 
 ! ggulpass .com anti right click / select
 ggulpass.com##+js(aopw, document.oncontextmenu)
@@ -4560,6 +4557,8 @@ magelang1337.com##*:style(-webkit-touch-callout: default !important; -webkit-use
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72530#issuecomment-762209005
 streamsb.net##+js(acis, check, debugger)
+! https://www.reddit.com/r/uBlockOrigin/comments/x7ogxi/
+sbspeed.com##+js(aopr, console.clear)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72222
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72225
@@ -5650,11 +5649,6 @@ blogpascher.com##html.om-position-popup body:style(overflow:auto !important)
 ! https://github.com/uBlockOrigin/uAssets/issues/10050
 tv-tokyo.co.jp##+js(set, document.oncontextmenu, null)
 
-! https://github.com/uBlockOrigin/uAssets/pull/10062
-myradioonline.ro##+js(rc, _bannerTop1)
-myradioonline.ro##._horizontBanner
-myradioonline.ro##.pls-dis-blck
-
 ! https://forums.lanik.us/viewtopic.php?f=91&t=46783
 developpez.com##+js(acis, document.getElementById, cookie)
 
@@ -5846,7 +5840,7 @@ phimdinhcao.com##+js(aopr, devtoolsDetector)
 cafago.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10951
-zingtvhd.*##+js(acis, onload, contextmenu)
+tvzingvn.*,zingtvhd.*,zingvntv.*##+js(acis, onload, contextmenu)
 
 ! https://github.com/uBlockOrigin/uAssets/pull/10979
 ||4399.com/antijs/Antiindulgence.js
@@ -6188,9 +6182,6 @@ bumigemilang.com##::selection:style(background: Highlight !important; color: Hig
 ! https://github.com/uBlockOrigin/uAssets/issues/12496
 zerohedge.com##+js(aeld, mouseout)
 
-! https://github.com/uBlockOrigin/uAssets/issues/12502
-adanayi.ir,adanayi.blogfa.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-
 ! https://bingotingo.com/what-is-ubersuggest/ anti right click
 bingotingo.com##+js(acis, document.oncontextmenu)
 bingotingo.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
@@ -6373,12 +6364,6 @@ pvstreams.com##+js(acis, document.onselectstart)
 pvstreams.com##+js(acis, jQuery, contextmenu)
 pvstreams.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
-! https://www.reddit.com/r/uBlockOrigin/comments/ud623s/
-@@||chronicle.com/dg/default/rest/$1p,xhr
-chronicle.com##.ArticleFullBleedLeadPage-summary
-chronicle.com##.ArticlePage-summary
-chronicle.com##[data-content-body]:style(height:initial!important;visibility:initial!important;overflow:initial!important;opacity:initial!important)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/12986
 ggwash.org##+js(set, Object.prototype.bgOverlay, noopFunc)
 ggwash.org##+js(set, Object.prototype.fixedContentPos, noopFunc)
@@ -6557,6 +6542,9 @@ anime-drama.jp##style:has-text(@media print):remove()
 
 ! lightnovelpub. com anti select
 lightnovelpub.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+! https://github.com/AdguardTeam/AdguardFilters/issues/130013
+||moatads.com^$image,redirect-rule=1x1.gif,domain=lightnovelpub.com
+lightnovelpub.com##[data-pw-desk]:upward(1)
 
 ! viafarmaciaonline. it anti right click
 viafarmaciaonline.it##+js(aopr, document.oncontextmenu)
@@ -6651,8 +6639,8 @@ disheye.com##+js(aopr, alert)
 deepl.com##+js(aeld, copy)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/13705
-www.google.*##div[data-song-title] > div:style(user-select: auto !important;)
-www.google.*##div[data-song-title] [data-lyricid]:style(user-select: auto !important;)
+! https://github.com/uBlockOrigin/uAssets/issues/15084
+google.*##[data-lyricid]:style(user-select: text !important;)
 
 ! gourmetscans. net right click, copy, keys
 gourmetscans.net##+js(aopw, disableEnterKey)
@@ -6704,10 +6692,6 @@ hemas.pl##+js(aeld, contextmenu)
 ! https://github.com/uBlockOrigin/uAssets/issues/14529
 lover92.net,lover93.net,lover94.net,lover95.net,lover96.net,lover97.net,lover98.net,lover99.net,lover100.net,lover101.net##+js(ra, oncontextmenu|ondragstart|onselectstart, body, complete)
 
-! https://github.com/uBlockOrigin/uAssets/issues/14549
-duellinksmeta.com##.modal
-duellinksmeta.com##html,body:style(overflow:auto !important)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/14551
 sinau-thewe.com##*:style(-webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 
@@ -6731,9 +6715,179 @@ coub.com##body > .force-to-login-popup
 coub.com##body.disable-scroll:style(overflow: auto !important;)
 
 ! https://accgroup.vn/tra-cuu-ma-so-thue-ca-nhan-bang-cmnd/#1-ma-so-thue-ca-nhan-la-gi anti right click
-||accgroup.vn/wp-content/plugins/wp-extra/js/copy.min.js$script,1p
+/wp-content/plugins/wp-extra/js/copy.min.js$script
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/x0b79p/
 artstation.com##signup-modal-prompt-fullscreen
 artstation.com##.modal-backdrop
 artstation.com##.modal-open:style(overflow:initial!important)
+
+! https://github.com/uBlockOrigin/uAssets/issues/14625
+swiggy.com##a[class^="_"][href^="/restaurants"]:has(div[style="background: rgb(58, 60, 65) none repeat scroll 0% 0%; color: rgb(255, 255, 255); border-color: rgb(30, 32, 35) transparent;"])
+!#if env_mobile
+swiggy.com##[class^="styles_row"]:has([class^="styles_imgAd"])
+swiggy.com##a[id^="restaurant-card-"]:has([class^="styles_imgAd"])
+!#endif
+
+! https://gamehub.pw/buffer/dazn1de.php anti right click
+gamehub.pw##+js(aopr, alert)
+gamehub.pw##+js(ra, oncontextmenu, body)
+
+! digi24. ro remove copy crap addings
+digi24.ro##+js(aeld, copy)
+
+! https://github.com/uBlockOrigin/uAssets/issues/14674
+||georgiadogs.com/js/prebid-$xhr,1p,redirect=noop.txt
+
+! https://www.reddit.com/r/uBlockOrigin/comments/x5zwmw/filter_to_enable_right_click_on_website_in_chrome/
+stockpokeronline.com##+js(acs, document.oncontextmenu)
+
+! https://github.com/uBlockOrigin/uAssets/issues/14672
+law.com###reg-modal
+law.com##.show.fade.modal-backdrop
+law.com##body:style(overflow: auto !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/14727
+vimeo.com##+js(set, vimeo.clip_page_config.google_app_id, '')
+vimeo.com##+js(set, vimeo.clip_page_config.banner, {})
+
+! https://github.com/uBlockOrigin/uAssets/issues/14731
+aberdeennews.com,alamogordonews.com,amarillo.com,amestrib.com,app.com,argusleader.com,augustachronicle.com,azcentral.com,battlecreekenquirer.com,beaconjournal.com,blueridgenow.com,buckscountycouriertimes.com,bucyrustelegraphforum.com,burlingtoncountytimes.com,burlingtonfreepress.com,caller.com,cantondailyledger.com,cantonrep.com,capecodtimes.com,cheboygannews.com,chieftain.com,chillicothegazette.com,cincinnati.com,citizen-times.com,cjonline.com,clarionledger.com,coloradoan.com,columbiadailyherald.com,columbiatribune.com,commercialappeal.com,coshoctontribune.com,courier-journal.com,courier-tribune.com,courierpostonline.com,courierpress.com,currentargus.com,daily-jeff.com,daily-times.com,dailyamerican.com,dailycomet.com,dailycommercial.com,dailyrecord.com,dailyworld.com,delawareonline.com,delmarvanow.com,demingheadlight.com,democratandchronicle.com,desertsun.com,desmoinesregister.com,devilslakejournal.com,dispatch.com,dnj.com,ellwoodcityledger.com,elpasotimes.com,enterprisenews.com,eveningsun.com,eveningtribune.com,examiner-enterprise.com,fayobserver.com,fdlreporter.com,floridatoday.com,fosters.com,freep.com,gadsdentimes.com,gainesville.com,galesburg.com,gastongazette.com,goerie.com,gosanangelo.com,goupstate.com,greatfallstribune.com,greenbaypressgazette.com,greenvilleonline.com,hattiesburgamerican.com,heraldmailmedia.com,heraldnews.com,heraldtribune.com,hillsdale.net,hollandsentinel.com,hoosiertimes.com,houmatoday.com,htrnews.com,hutchnews.com,indeonline.com,independentmail.com,indystar.com,ithacajournal.com,jacksonsun.com,jacksonville.com,jconline.com,jdnews.com,journalstandard.com,jsonline.com,kinston.com,kitsapsun.com,knoxnews.com,lancastereaglegazette.com,lansingstatejournal.com,lcsun-news.com,ldnews.com,lenconnect.com,lincolncourier.com,livingstondaily.com,lohud.com,lubbockonline.com,mansfieldnewsjournal.com,marionstar.com,marshfieldnewsherald.com,mcdonoughvoice.com,metrowestdailynews.com,milforddailynews.com,monroenews.com,montgomeryadvertiser.com,mpnnow.com,mycentraljersey.com,naplesnews.com,newarkadvocate.com,newbernsj.com,newportri.com,news-journalonline.com,news-leader.com,news-press.com,newschief.com,newsherald.com,newsleader.com,njherald.com,northjersey.com,norwichbulletin.com,nwfdailynews.com,oakridger.com,ocala.com,oklahoman.com,onlineathens.com,pal-item.com,palmbeachdailynews.com,palmbeachpost.com,patriotledger.com,pekintimes.com,petoskeynews.com,pjstar.com,pnj.com,poconorecord.com,pontiacdailyleader.com,portclintonnewsherald.com,postcrescent.com,poughkeepsiejournal.com,press-citizen.com,pressconnects.com,progress-index.com,providencejournal.com,publicopiniononline.com,record-courier.com,recordnet.com,recordonline.com,redding.com,registerguard.com,reporter-times.com,reporternews.com,rgj.com,rrstar.com,ruidosonews.com,salina.com,savannahnow.com,scsun-news.com,sctimes.com,seacoastonline.com,sheboyganpress.com,shelbystar.com,shreveporttimes.com,sj-r.com,sooeveningnews.com,southbendtribune.com,southcoasttoday.com,starcourier.com,stargazette.com,starnewsonline.com,statesman.com,statesmanjournal.com,staugustine.com,stevenspointjournal.com,sturgisjournal.com,swtimes.com,tallahassee.com,tauntongazette.com,tcpalm.com,telegram.com,tennessean.com,the-daily-record.com,the-dispatch.com,the-leader.com,the-review.com,theadvertiser.com,thecalifornian.com,thedailyjournal.com,thedailyreporter.com,thegardnernews.com,thegleaner.com,thehawkeye.com,theintell.com,theleafchronicle.com,theledger.com,thenews-messenger.com,thenewsstar.com,thenorthwestern.com,thepublicopinion.com,therecordherald.com,thespectrum.com,thestarpress.com,thetimesherald.com,thetimesnews.com,thetowntalk.com,times-gazette.com,timesonline.com,timesrecordnews.com,timesreporter.com,timestelegram.com,tmnews.com,tricountyindependent.com,tuscaloosanews.com,usatoday.com,uticaod.com,vcstar.com,visaliatimesdelta.com,vvdailypress.com,wausaudailyherald.com,wisconsinrapidstribune.com,ydr.com,zanesvilletimesrecorder.com##+js(nostif, gnt_mol_oy)
+
+! http://alexsports.site/101/live34.php anti dev tools and right click
+streamservicehd.click##+js(ra, oncontextmenu, body)
+streamservicehd.click##^script:has-text(document.oncontextmenu)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/129173
+craftpip.github.io##+js(nostif, adsok)
+
+! https://github.com/uBlockOrigin/uAssets/issues/14749
+modrinth.com##.info-wrapper[ethical-ads-big=""]
+modrinth.com##.info-wrapper[data-v-7cd21295]
+
+! https://www.reddit.com/r/uBlockOrigin/comments/x5zwmw/filter_to_enable_right_click_on_website_in_chrome/in5tqih/
+btvnovinite.bg##+js(aeld, contextmenu)
+
+! https://github.com/uBlockOrigin/uAssets/issues/14766
+*/wp-content/plugins/uncopy/
+
+! https://www.iphoneincanada.ca/ anti-adb
+@@||iphoneincanada.ca^$ghide
+
+! https://github.com/uBlockOrigin/uAssets/issues/14807
+!#if env_mobile
+||hkemobility.gov.hk/js/AppDownload.
+hkemobility.gov.hk##+js(rc, smartbanner-show, html)
+!#endif
+
+! ziarulargesul. ro select, right click, drag, print, f-keys
+ziarulargesul.ro##+js(acs, disableSelection, reEnable)
+ziarulargesul.ro##+js(acs, document.ondragstart)
+ziarulargesul.ro##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+ziarulargesul.ro##style:has-text(@media print):remove()
+
+! https://github.com/uBlockOrigin/uAssets/issues/14821
+epitesti.ro##+js(aopw, clickIE4)
+epitesti.ro##+js(aopw, document.oncontextmenu)
+epitesti.ro##+js(ra, oncontextmenu|ondragstart|onselectstart)
+epitesti.ro##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! www.dailyprincetonian.com anti-adb
+||blink.net/iframe.html$domain=dailyprincetonian.com
+
+! https://www.reddit.com/r/uBlockOrigin/comments/xbjszd/ anti right click
+allcryptoz.net,crewbase.net,crewus.net,shinbhu.net,shinchu.net,thumb8.net,thumb9.net,topcryptoz.net,uniqueten.net,ultraten.net##^script:has-text(document.onkeydown)
+
+! https://tonnestreamz.xyz/en/live.cdnz.one-7452.php anti right click and dev tools
+! https://footyhunter3.xyz/papahd/stream-62.php
+eplayer.click,olacast.live##^script:has-text(document.oncontextmenu)
+eplayer.click,olacast.live##+js(acis, document.onkeypress)
+eplayer.click,olacast.live##+js(ra, oncontextmenu, body)
+
+! https://knightnoscanlation.com/ anti right click
+knightnoscanlation.com##+js(acis, document.addEventListener, contextmenu)
+
+! https://okdebrid.com/ anti right click
+cloudcomputingtopics.net##+js(aeld, contextmenu)
+cloudcomputingtopics.net##+js(set, document.onkeydown, trueFunc)
+
+! immobiliaremia. com select, right click, drag, print, f-keys
+immobiliaremia.com##+js(acs, disableSelection, reEnable)
+immobiliaremia.com##+js(acs, document.ondragstart)
+immobiliaremia.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+immobiliaremia.com##style:has-text(@media print):remove()
+
+! sweetslyrics. com clipboard manipulation
+sweetslyrics.com##+js(aeld, copy, preventDefault)
+
+! https://github.com/uBlockOrigin/uAssets/issues/14939
+portalcriatividade.com.br##+js(acis, disable_copy)
+portalcriatividade.com.br##+js(acis, nocontext)
+
+! www.anisearch.com ad reinjection
+||privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$script,redirect-rule=noop.js,domain=anisearch.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/14961
+delicateseliterare.ro##+js(acs, jQuery, contextmenu)
+delicateseliterare.ro##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://github.com/AdguardTeam/AdguardFilters/pull/130309
+uwayapply.com##+js(ra, oncontextmenu|ondragstart|onselectstart)
+
+! https://github.com/uBlockOrigin/uAssets/issues/14864
+bianity.net##+js(aeld, contextmenu)
+bianity.net##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! csid. ro contextmenu drag select
+csid.ro##+js(aopw, document.oncontextmenu)
+csid.ro##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+
+! https://v3.sportsonline.to/channels/pt/sporttv1.php anti dev tools
+smokelearned.net##+js(acis, runPageBugger)
+
+! https://github.com/AdguardTeam/AdguardFilters/pull/129615
+onna.kr##+js(aeld, copy)
+onna.kr##+js(aopw, document.oncontextmenu)
+onna.kr##+js(aopw, document.ondragstart)
+onna.kr##+js(aopw, document.onselectstart)
+
+! anti right click 10000recipe. com
+10000recipe.com##+js(acis, $, contextmenu)
+
+! https://github.com/uBlockOrigin/uAssets/issues/15083
+framu.world##+js(acs, disableSelection, reEnable)
+framu.world##+js(acs, document.ondragstart)
+framu.world##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+framu.world##style:has-text(@media print):remove()
+framu.world##+js(aopw, document.onkeydown)
+
+! frameboxxindore. com clipboard manipulation
+frameboxxindore.com##+js(aeld, copy, pagelink)
+
+! dtdc .in contextmenu
+dtdc.in##+js(aopr, document.oncontextmenu)
+
+! https://github.com/uBlockOrigin/uAssets/issues/15106
+*$script,domain=geotastic.net,redirect-rule=noopjs
+
+! https://github.com/uBlockOrigin/uAssets/issues/15120
+@@||api.adinplay.com/libs/aiptag/pub/CRF/curvefever.pro/tag.min.js$script,domain=curvefever.pro
+
+! https://faptiti.com/0ghuzjkttch4.html anti right click
+faptiti.com##+js(aeld, contextmenu, preventDefault)
+
+! https://www.vercalendario.info/en/how/convert-timestamp-date.html clipboard injection
+vercalendario.info##+js(aeld, copy, Source)
+
+! https://github.com/uBlockOrigin/uAssets/issues/15130
+getlatka.com##.MuiModal-root
+getlatka.com##[style^="filter: blur"]:style(filter: none !important)
+
+! https://github.com/uBlockOrigin/uAssets/issues/15142
+knowyourmeme.com##+js(acis, document.createElement, admiral)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/xy6lh0/
+pixwox.com##+js(nostif, length, 3000)
+
+! https://khohieu.com/ anti right click
+/wp-content/plugins/t42-content-protector/js/protector.min.js$script
