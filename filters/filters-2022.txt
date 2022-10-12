@@ -748,10 +748,6 @@ skypng.com##+js(nano-sib, countdownElement)
 ! https://github.com/uBlockOrigin/uAssets/issues/11687
 manga.hiseku.com##+js(acis, eval, replace)
 
-! eztv.nocensor. biz popups ads
-nocensor.biz##+js(aopw, _pop)
-eztv.nocensor.biz##[id^="cookieConsentVPN"]
-
 ! https://github.com/uBlockOrigin/uAssets/issues/11691
 radiowereld.nl##+js(nosiif, adb)
 
@@ -1998,7 +1994,8 @@ uploader.*,uploadingsite.com,uploadraja.com##+js(acis, onload)
 hdhub4u.*,hblinks.pro##+js(aopr, mm)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115512
-nocensor.sbs##+js(aopw, _pop)
+! ilcorsaronero.nocensor. world popups
+nocensor.*##+js(aopw, _pop)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12744
 sushi-scan.*##+js(nostif, show)
@@ -4744,13 +4741,6 @@ upiapi.in##+js(set, detectAdBlock, noopFunc)
 ! https://github.com/uBlockOrigin/uAssets/issues/15071
 *$script,redirect-rule=noopjs,domain=insurancegold.in
 
-! https://github.com/easylist/easylist/commit/3227ec6965bdfe150770543aede6072f4cdd600a#commitcomment-84403162
-##.m-header-ad
-##.m-in-content-ad-row
-
-! https://github.com/easylist/easylist/commit/5369efd205e3029577373aa0a3f50937bef154f2#commitcomment-84387351
-##.widget_wp_insert_ad_widget
-
 ! https://github.com/uBlockOrigin/uAssets/issues/15080
 ||hbo.yspsvc-na.net/csm/*&caid=$xhr,removeparam=caid,domain=play.hbomax.com
 
@@ -4911,4 +4901,11 @@ movies2watch.*##+js(nowoif)
 gametter.com##+js(acs, document.addEventListener, google_ad_client)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/15220
+short.freeltc.top##+js(set, blurred, false)
+||short.freeltc.top/news.html
+||short.freeltc.top/info.html
 *$script,domain=short.freeltc.top,redirect-rule=noopjs
+
+! https://github.com/uBlockOrigin/uAssets/issues/15202
+||citi.com/cbol-pre-login-static-assets/cbol-core-assets/cedric/cedric.js$script,1p
+citi.com##+js(no-xhr-if, cls_report?)
