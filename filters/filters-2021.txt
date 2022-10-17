@@ -1439,8 +1439,8 @@ videowood.tv##+js(aopw, adcashMacros)
 hideandseek.world##+js(set, canRunAds, true)
 
 ! https://github.com/easylist/easylist/issues/7331#issuecomment-791886559
-speedostream.com##+js(aost, JSON.parse, computed)
-||s.speedostream.com^$script,1p
+speedostream.*##+js(aost, JSON.parse, computed)
+||s.speedostream.*^$script,1p
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76791
 @@||nnaa66.xyz^$ghide
@@ -3614,10 +3614,6 @@ serialeonlinesubtitrate.ro###text-6
 ! https://github.com/uBlockOrigin/uAssets/issues/9443
 @@/wp-content/plugins/dh-new-anti-adblocker$script,1p
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/86335
-||smartmediarep.com^$media,redirect=noop-0.1s.mp3,domain=sbs.co.kr
-sbs.co.kr##.ad_skip_area_w
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/86270
 javhd.icu##+js(acis, decodeURI, decodeURIComponent)
 javhdfree.icu##+js(nowoif)
@@ -5720,7 +5716,9 @@ shorte.anxcinema.com##+js(aopr, open)
 mejoresmodsminecraft.site##+js(acis, decodeURIComponent, ai_adb)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10346
+watchdoctorwhoonline.com##+js(aopr, mm)
 watchdoctorwhoonline.com##.custom-html-widget.textwidget > .close
+watchdoctorwhoonline.com##.sidebar_episodes2
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10344
 synonyms.com##+js(set, canRunAds, true)
@@ -5913,6 +5911,7 @@ m4news.com##.demand-supply
 m4news.com###id-custom_banner
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/qoqiid/
+tv247.us##+js(aopw, _pop)
 @@||tv247.us^$ghide
 tv247.us##.afc_popup
 
@@ -6713,10 +6712,11 @@ dash-free.com,softairbay.com,urlfiles.com##+js(aopr, app_vars.force_disable_adbl
 autofaucet.dutchycorp.space##[href^="https://enicyvys.xyz/"]
 autofaucet.dutchycorp.space##[href*="banner"]
 autofaucet.dutchycorp.space##[src^="blob:https://autofaucet.dutchycorp.space/"]:remove()
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=coin-free.com|kienthucrangmieng.com|techmart4u.in
-*$script,3p,domain=coin-free.com|kienthucrangmieng.com,denyallow=iconify.design
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=coin-free.com|kienthucrangmieng.com|techmart4u.in|chinhnhacoban.com|chamcuuhoc.com|hocchannuoi.com|thuocdangian.net|hoclamdaubep.com|tremamnon.com|tai-mui-hong.com
+*$script,3p,domain=coin-free.com|kienthucrangmieng.com|techmart4u.in|chinhnhacoban.com|chamcuuhoc.com|hocchannuoi.com|thuocdangian.net|hoclamdaubep.com|tai-mui-hong.com,denyallow=iconify.design
 coin-free.com,kienthucrangmieng.com##[id^="wpsafe-wait"]
 coin-free.com,kienthucrangmieng.com###wpsafe-generate, #wpsafe-link:style(display: block !important)
+*$script,redirect-rule=noopjs,domain=coin-free.com|kienthucrangmieng.com|techmart4u.in|chinhnhacoban.com|chamcuuhoc.com|hocchannuoi.com|thuocdangian.net|hoclamdaubep.com|tai-mui-hong.com
 techmart4u.in##+js(nano-sib)
 techmart4u.in##+js(noeval)
 @@||ovlinks.com^$ghide
@@ -6725,6 +6725,7 @@ ovlinks.com##+js(aopr, open)
 ccsl.xyz,techmart4u.in,urlfiles.com##+js(nosiif, visibility, 1000)
 lootlinks.xyz##+js(nobab)
 ccsl.xyz##center > div.row
+||understatedworking.com^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10894
 actresstoday.com##+js(acis, eval, replace)
@@ -6921,8 +6922,9 @@ mangastream.mobi###myModal
 ###sponsored_link:not([style^="position: absolute; left: -5000px"])
 ! https://github.com/orgs/uBlockOrigin/teams/ublock-filters-volunteers/discussions/377/comments/63
 ! https://github.com/AdguardTeam/AdguardFilters/issues/107617
+! https://github.com/uBlockOrigin/uAssets/issues/15283
 #@##ad-banner
-~androidauthority.com#@#.ad-banner
+~androidauthority.com,~soundguys.com#@#.ad-banner
 ###ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"])
 ~ananweb.jp##.ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"]):not(.blocker-tester + .ad-banner):not(:empty)
 ! generic absda fix
