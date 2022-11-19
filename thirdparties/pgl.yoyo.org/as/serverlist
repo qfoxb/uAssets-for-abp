@@ -2,7 +2,7 @@
 #
 # For more information about this list, see: https://pgl.yoyo.org/adservers/
 # ----
-# last updated:   Fri, 14 Oct 2022 16:04:50 GMT
+# last updated:   Thu, 17 Nov 2022 19:59:12 GMT
 # entries:        3675
 # format:         hosts (hosts -- in hosts file format)
 # credits:        Peter Lowe - pgl@yoyo.org - https://pgl.yoyo.org/ - https://twitter.com/pgl
@@ -11,7 +11,7 @@
 # other formats:  https://pgl.yoyo.org/adservers/formats.php
 # policy:         https://pgl.yoyo.org/adservers/policy.php
 #
-# start date:    Tue, 22 Oct 2002 00:00:00
+# start date:    Sat, 23 Nov 2002 00:00:00
 127.0.0.1 1-1ads.com
 127.0.0.1 101com.com
 127.0.0.1 101order.com
@@ -321,7 +321,6 @@
 127.0.0.1 adnet.biz
 127.0.0.1 adnet.de
 127.0.0.1 adnet.ru
-127.0.0.1 adnetinteractive.com
 127.0.0.1 adnetwork.net
 127.0.0.1 adnetworkperformance.com
 127.0.0.1 adnews.maddog2000.de
@@ -562,7 +561,6 @@
 127.0.0.1 ads.newmedia.cz
 127.0.0.1 ads.newsint.co.uk
 127.0.0.1 ads.newsquest.co.uk
-127.0.0.1 ads.ninemsn.com.au
 127.0.0.1 ads.nj.com
 127.0.0.1 ads.nola.com
 127.0.0.1 ads.nordichardware.com
@@ -919,6 +917,7 @@
 127.0.0.1 adzerk.net
 127.0.0.1 adzerk.s3.amazonaws.com
 127.0.0.1 adzestocp.com
+127.0.0.1 adzones.com
 127.0.0.1 adzrevads.com
 127.0.0.1 aerserv.com
 127.0.0.1 af-ad.co.uk
@@ -1369,6 +1368,7 @@
 127.0.0.1 click.cartsguru.io
 127.0.0.1 click.cision.com
 127.0.0.1 click.classmates.com
+127.0.0.1 click.comm.rcibank.co.uk
 127.0.0.1 click.digital.metaquestmail.com
 127.0.0.1 click.e.progressive.com
 127.0.0.1 click.em.blizzard.com
@@ -1379,6 +1379,7 @@
 127.0.0.1 click.hooligapps.com
 127.0.0.1 click.kmindex.ru
 127.0.0.1 click.news.vans.com
+127.0.0.1 click.nl.npr.org
 127.0.0.1 click.redditmail.com
 127.0.0.1 click.twcwigs.com
 127.0.0.1 click2freemoney.com
@@ -1389,6 +1390,7 @@
 127.0.0.1 clickbooth.com
 127.0.0.1 clickboothlnk.com
 127.0.0.1 clickbrokers.com
+127.0.0.1 clickcease.com
 127.0.0.1 clickcompare.co.uk
 127.0.0.1 clickdensity.com
 127.0.0.1 clickedyclick.com
@@ -1400,6 +1402,7 @@
 127.0.0.1 clicks.deliveroo.co.uk
 127.0.0.1 clicks.equantum.com
 127.0.0.1 clicks.mods.de
+127.0.0.1 clicks.monzo.com
 127.0.0.1 clickserve.cc-dt.com
 127.0.0.1 clicktag.de
 127.0.0.1 clickthruserver.com
@@ -1501,7 +1504,6 @@
 127.0.0.1 counting.kmindex.ru
 127.0.0.1 coupling-media.de
 127.0.0.1 coxmt.com
-127.0.0.1 cp.abbp1.pw
 127.0.0.1 cpalead.com
 127.0.0.1 cpays.com
 127.0.0.1 cpmstar.com
@@ -1621,7 +1623,6 @@
 127.0.0.1 dogcollarfavourbluff.com
 127.0.0.1 domaining.in
 127.0.0.1 domainsponsor.com
-127.0.0.1 domainsteam.de
 127.0.0.1 domdex.com
 127.0.0.1 dotmetrics.net
 127.0.0.1 doubleclick.com
@@ -1630,7 +1631,6 @@
 127.0.0.1 doublepimp.com
 127.0.0.1 doubleverify.com
 127.0.0.1 doubtfulrainstorm.com
-127.0.0.1 downloadr.xyz
 127.0.0.1 dpbolvw.net
 127.0.0.1 dpu.samsungelectronics.com
 127.0.0.1 dq95d35.com
@@ -1989,6 +1989,7 @@
 127.0.0.1 hs-analytics.net
 127.0.0.1 hs-banner.com
 127.0.0.1 hsadspixel.net
+127.0.0.1 hsleadflows.net
 127.0.0.1 hsn.uqhv.net
 127.0.0.1 htlbid.com
 127.0.0.1 httpool.com
@@ -2065,7 +2066,6 @@
 127.0.0.1 insightexpress.com
 127.0.0.1 insightexpressai.com
 127.0.0.1 inskinad.com
-127.0.0.1 inslco.bar
 127.0.0.1 inspectlet.com
 127.0.0.1 install.365-stream.com
 127.0.0.1 instantmadness.com
@@ -2094,7 +2094,6 @@
 127.0.0.1 is-tracking-pixel-api-prod.appspot.com
 127.0.0.1 itop.cz
 127.0.0.1 its-that-easy.com
-127.0.0.1 iubzka.online
 127.0.0.1 ivwbox.de
 127.0.0.1 ivykiosk.com
 127.0.0.1 iyfnzgb.com
@@ -2208,6 +2207,7 @@
 127.0.0.1 linkrain.com
 127.0.0.1 linkreferral.com
 127.0.0.1 links-ranking.de
+127.0.0.1 linkshighway.com
 127.0.0.1 linkstorms.com
 127.0.0.1 linkswaper.com
 127.0.0.1 linktarget.com
@@ -2470,6 +2470,7 @@
 127.0.0.1 newnet.qsrch.com
 127.0.0.1 newnudecash.com
 127.0.0.1 newopenx.detik.com
+127.0.0.1 newsadsppush.com
 127.0.0.1 newsletter-link.com
 127.0.0.1 newstarads.com
 127.0.0.1 newt1.adultadworld.com
@@ -2570,6 +2571,7 @@
 127.0.0.1 outbrain.com
 127.0.0.1 overconfidentfood.com
 127.0.0.1 overture.com
+127.0.0.1 owebanalytics.com
 127.0.0.1 owebmoney.ru
 127.0.0.1 owlsr.us
 127.0.0.1 owneriq.net
@@ -2583,7 +2585,6 @@
 127.0.0.1 padsbrown.com
 127.0.0.1 pagead.l.google.com
 127.0.0.1 pagefair.com
-127.0.0.1 pagefair.net
 127.0.0.1 pagerank-ranking.de
 127.0.0.1 pageranktop.com
 127.0.0.1 paleleaf.com
@@ -2636,7 +2637,6 @@
 127.0.0.1 piet2eix3l.com
 127.0.0.1 pietexture.com
 127.0.0.1 pimproll.com
-127.0.0.1 ping.ublock.org
 127.0.0.1 pipedream.wistia.com
 127.0.0.1 pippio.com
 127.0.0.1 piquantpigs.com
@@ -2660,7 +2660,6 @@
 127.0.0.1 pluckypocket.com
 127.0.0.1 pluckytaste.com
 127.0.0.1 plugrush.com
-127.0.0.1 pocketmath.com
 127.0.0.1 pointlesshour.com
 127.0.0.1 pointroll.com
 127.0.0.1 pokkt.com
@@ -2841,7 +2840,6 @@
 127.0.0.1 referralware.com
 127.0.0.1 referrer.disqus.com
 127.0.0.1 reflectivereward.com
-127.0.0.1 reforge.in
 127.0.0.1 regnow.com
 127.0.0.1 regularplants.com
 127.0.0.1 reklam.rfsl.se
@@ -3161,6 +3159,7 @@
 127.0.0.1 storygize.net
 127.0.0.1 stoveseashore.com
 127.0.0.1 straightnest.com
+127.0.0.1 stretchsquirrel.com
 127.0.0.1 stripedburst.com
 127.0.0.1 strivesidewalk.com
 127.0.0.1 structurerod.com
@@ -3223,6 +3222,7 @@
 127.0.0.1 tamgrt.com
 127.0.0.1 tangerinenet.biz
 127.0.0.1 tangibleteam.com
+127.0.0.1 tangyamount.com
 127.0.0.1 tapad.com
 127.0.0.1 tapfiliate.com
 127.0.0.1 tapinfluence.com
@@ -3245,6 +3245,7 @@
 127.0.0.1 tealium.cbsnews.com
 127.0.0.1 tealium.com
 127.0.0.1 tealiumiq.com
+127.0.0.1 tediousticket.com
 127.0.0.1 tedioustooth.com
 127.0.0.1 teenrevenue.com
 127.0.0.1 teenyvolcano.com
@@ -3315,7 +3316,6 @@
 127.0.0.1 toplist.pornhost.com
 127.0.0.1 toplista.mw.hu
 127.0.0.1 toplistcity.com
-127.0.0.1 topping.com.ua
 127.0.0.1 toprebates.com
 127.0.0.1 topsir.com
 127.0.0.1 topsite.lv
@@ -3414,7 +3414,6 @@
 127.0.0.1 tranquilside.com
 127.0.0.1 travis.bosscasinos.com
 127.0.0.1 trck.a8.net
-127.0.0.1 trcked.me
 127.0.0.1 trcklion.com
 127.0.0.1 treasuredata.com
 127.0.0.1 trekdata.com
@@ -3503,6 +3502,7 @@
 127.0.0.1 veille-referencement.com
 127.0.0.1 velismedia.com
 127.0.0.1 venetrigni.com
+127.0.0.1 vengefulgrass.com
 127.0.0.1 ventivmedia.com
 127.0.0.1 venturead.com
 127.0.0.1 verblife-5.co
